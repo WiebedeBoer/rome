@@ -23,24 +23,26 @@ class CreateTownsTable extends Migration
             //animals
             $table->string('horse')->default('none');
             $table->string('cattle')->default('none');
-            $table->string('sheep')->default('none');
+            $table->string('wool')->default('none');
             $table->string('pig')->default('none');
             $table->string('fish')->default('none');
             $table->string('poultry')->default('none');
             $table->string('elephant')->default('none');
             $table->string('camel')->default('none');
+            $table->string('game')->default('none');
             //crops
             $table->string('fruit')->default('none');
             $table->string('grain')->default('none');
             $table->string('vine')->default('none');
             $table->string('honey')->default('none');
+            $table->string('seasoning')->default('none');      
             //metals
             $table->string('tin')->default('none');
             $table->string('copper')->default('none');
             $table->string('iron')->default('none');
             $table->string('gold')->default('none');
             $table->string('silver')->default('none');
-            //resources
+            //resources  
             $table->string('pottery')->default('none');
             $table->string('dye')->default('none');
             $table->string('timber')->default('none');
