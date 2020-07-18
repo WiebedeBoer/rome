@@ -21,36 +21,37 @@ class CreateTownsTable extends Migration
             //climate
             $table->string('climate')->default('mediterranean');
             //animals
-            $table->string('horse')->default('none');
-            $table->string('cattle')->default('none');
-            $table->string('wool')->default('none');
-            $table->string('pig')->default('none');
-            $table->string('fish')->default('none');
-            $table->string('poultry')->default('none');
+            $table->string('horse')->default('none'); //horse
+            $table->string('cattle')->default('none'); //cattle
+            $table->string('wool')->default('none'); //sheep, goat
+            $table->string('pig')->default('none'); //pig
+            $table->string('fish')->default('none'); //fish
+            $table->string('poultry')->default('none'); //chicken
             $table->string('elephant')->default('none');
             $table->string('camel')->default('none');
-            $table->string('game')->default('none');
+            $table->string('game')->default('none'); //boar, deer
             //crops
-            $table->string('fruit')->default('none');
-            $table->string('grain')->default('none');
-            $table->string('vine')->default('none');
-            $table->string('honey')->default('none');
-            $table->string('seasoning')->default('none');      
+            $table->string('fruit')->default('none'); //fruit
+            $table->string('grain')->default('none'); //durum, barley, rye
+            $table->string('vine')->default('none'); //grapes
+            $table->string('honey')->default('none'); //honey
+            $table->string('seasoning')->default('none');  //olives         
             //metals
-            $table->string('tin')->default('none');
-            $table->string('copper')->default('none');
-            $table->string('iron')->default('none');
-            $table->string('gold')->default('none');
-            $table->string('silver')->default('none');
+            $table->string('tin')->default('none'); //
+            $table->string('copper')->default('none'); //copper
+            $table->string('iron')->default('none'); //iron
+            $table->string('gold')->default('none'); //gold
+            $table->string('silver')->default('none'); //silver
             //resources  
-            $table->string('pottery')->default('none');
-            $table->string('dye')->default('none');
-            $table->string('timber')->default('none');
-            $table->string('paper')->default('none');
-            $table->string('scent')->default('none');
-            $table->string('sculpture')->default('none');
-            $table->string('fabric')->default('none');
-            $table->string('glass')->default('none');
+            $table->string('fiber')->default('none'); //flax
+            $table->string('pottery')->default('none'); //clay
+            $table->string('dye')->default('none'); //woad, madder
+            $table->string('timber')->default('none'); //oak, cypress, yew, beech
+            $table->string('paper')->default('none'); //
+            $table->string('scent')->default('none'); //
+            $table->string('sculpture')->default('none'); //marble
+            $table->string('fabric')->default('none'); //
+            $table->string('glass')->default('none'); //glass
 			//stats
 			$table->integer('defenses')->default(10);
 			$table->integer('justice')->default(900);
