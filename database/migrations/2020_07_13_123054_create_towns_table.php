@@ -29,7 +29,7 @@ class CreateTownsTable extends Migration
             $table->string('poultry')->default('none'); //chicken
             $table->string('elephant')->default('none');
             $table->string('camel')->default('none');
-            $table->string('game')->default('none'); //boar, deer
+            $table->string('game')->default('none'); //boar, deer, hare
             //crops
             $table->string('fruit')->default('none'); //fruit
             $table->string('grain')->default('none'); //durum, barley, rye
@@ -46,12 +46,13 @@ class CreateTownsTable extends Migration
             $table->string('fiber')->default('none'); //flax
             $table->string('pottery')->default('none'); //clay
             $table->string('dye')->default('none'); //woad, madder
-            $table->string('timber')->default('none'); //oak, cypress, yew, beech
+            $table->string('timber')->default('none'); //oak, cypress, yew, beech, juniper
             $table->string('paper')->default('none'); //
             $table->string('scent')->default('none'); //
             $table->string('sculpture')->default('none'); //marble
             $table->string('fabric')->default('none'); //
             $table->string('glass')->default('none'); //glass
+            $table->string('chattel')->default('none'); //slave
 			//stats
 			$table->integer('defenses')->default(10);
 			$table->integer('justice')->default(900);
