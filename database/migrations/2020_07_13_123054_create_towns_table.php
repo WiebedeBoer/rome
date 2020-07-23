@@ -27,14 +27,15 @@ class CreateTownsTable extends Migration
             $table->string('pig')->default('none'); //pig
             $table->string('fish')->default('none'); //fish
             $table->string('poultry')->default('none'); //chicken
+            $table->string('rabbit')->default('none'); //rabbit
             $table->string('elephant')->default('none');
             $table->string('camel')->default('none');
             $table->string('game')->default('none'); //boar, deer, hare
             //crops
             $table->string('fruit')->default('none'); //fruit
-            $table->string('grain')->default('none'); //durum, barley, rye
+            $table->string('grain')->default('none'); //durum, barley, rye, oats
             $table->string('vine')->default('none'); //grapes
-            $table->string('honey')->default('none'); //honey
+            $table->string('sweetener')->default('none'); //honey
             $table->string('seasoning')->default('none');  //olives         
             //metals
             $table->string('tin')->default('none'); //
