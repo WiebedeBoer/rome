@@ -1735,6 +1735,7 @@ class TownSeeder extends Seeder
             'pig' => 'pig',
             'poultry' => 'chicken',
             'rabbit' => 'rabbit', 
+            'game' => 'boar', 
             'fruit' => 'fruit',
             'grain' => 'barley',
             'vine' => 'grapes', 
@@ -1742,8 +1743,169 @@ class TownSeeder extends Seeder
             'timber' => 'oak', 
 			'xcoord' => '667',
 			'ycoord' => '1257'
+        ]);      
+		//
+		DB::table('towns')->insert([
+            'town_name' => 'Tolosa',
+            'cattle' => 'cattle',
+            'pig' => 'pig',
+            'poultry' => 'chicken',
+            'rabbit' => 'rabbit',
+            'game' => 'boar',  
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes', 
+            'silver' => 'silver',
+            'pottery' => 'clay',
+            'dye' => 'woad',
+            'timber' => 'oak', 
+			'xcoord' => '619',
+			'ycoord' => '1232'
         ]);
-        /*
+		//
+		DB::table('towns')->insert([
+            'town_name' => 'Albigensium',
+            'cattle' => 'cattle',
+            'pig' => 'pig',
+            'poultry' => 'chicken',
+            'game' => 'boar',  
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes', 
+            'dye' => 'woad',
+            'timber' => 'oak', 
+			'xcoord' => '657',
+			'ycoord' => '1207'
+        ]);  
+		//
+		DB::table('towns')->insert([
+            'town_name' => 'Segodunum',
+            'cattle' => 'cattle',
+            'wool' => 'sheep',
+            'pig' => 'pig',
+            'poultry' => 'chicken',
+            'game' => 'boar',  
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes', 
+            'pottery' => 'clay',
+            'dye' => 'woad',
+            'timber' => 'oak', 
+			'xcoord' => '679',
+			'ycoord' => '1179'
+        ]);
+		//
+		DB::table('towns')->insert([
+            'town_name' => 'Aureliacum',
+            'wool' => 'sheep',
+            'pig' => 'pig',
+            'poultry' => 'chicken',
+            'game' => 'boar', 
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes', 
+            'pottery' => 'clay',
+            'dye' => 'woad',
+            'timber' => 'oak',  
+			'xcoord' => '671',
+			'ycoord' => '1140'
+        ]);  
+		//
+		DB::table('towns')->insert([
+            'town_name' => 'Aginnum',
+            'cattle' => 'cattle',
+            'wool' => 'sheep',
+            'pig' => 'pig',
+            'poultry' => 'chicken',
+            'game' => 'boar',  
+            'fruit' => 'fruit',
+            'grain' => 'oats',
+            'vine' => 'grapes', 
+            'iron' => 'iron',
+            'silver' => 'silver',
+            'dye' => 'woad',
+            'timber' => 'oak', 
+			'xcoord' => '580',
+			'ycoord' => '1191'
+        ]);
+		//
+		DB::table('towns')->insert([
+            'town_name' => 'Burdigala',
+            'cattle' => 'cattle',
+            'wool' => 'sheep',
+            'pig' => 'pig',
+            'fish' => 'fish',
+            'poultry' => 'chicken',
+            'rabbit' => 'rabbit',
+            'game' => 'boar', 
+            'fruit' => 'fruit',
+            'grain' => 'oats',
+            'vine' => 'grapes', 
+            'iron' => 'iron',
+            'gold' => 'gold',
+            'silver' => 'silver',
+            'pottery' => 'clay',
+            'dye' => 'woad',
+            'timber' => 'oak',  
+			'xcoord' => '517',
+			'ycoord' => '1144'
+        ]);
+		//
+		DB::table('towns')->insert([
+            'town_name' => 'Augustoritum',
+            'cattle' => 'cattle',
+            'pig' => 'pig',
+            'poultry' => 'chicken',
+            'game' => 'boar', 
+            'fruit' => 'fruit',
+            'grain' => 'oats',
+            'vine' => 'grapes', 
+            'pottery' => 'clay',
+            'timber' => 'oak',  
+			'xcoord' => '613',
+			'ycoord' => '1073'
+        ]);  
+		//
+		DB::table('towns')->insert([
+            'town_name' => 'Limonum',
+            'cattle' => 'cattle',
+            'wool' => 'goat',
+            'pig' => 'pig',
+            'poultry' => 'chicken',
+            'game' => 'boar', 
+            'fruit' => 'fruit',
+            'grain' => 'oats',
+            'vine' => 'grapes', 
+            'pottery' => 'clay',
+            'timber' => 'oak', 
+			'xcoord' => '565',
+			'ycoord' => '1017'
+        ]);
+		//
+		DB::table('towns')->insert([
+            'town_name' => 'Portus Namnetus',
+            'cattle' => 'cattle',
+            'pig' => 'pig',
+            'fish' => 'fish',
+            'poultry' => 'chicken',
+            'rabbit' => 'rabbit',
+            'game' => 'boar',
+            'fruit' => 'fruit',
+            'grain' => 'oats',
+            'vine' => 'grapes',  
+            'pottery' => 'clay',
+            'dye' => 'woad', 
+            'timber' => 'oak', 
+			'xcoord' => '471',
+			'ycoord' => '971'
+        ]);
+        /*  
+		//
+		DB::table('towns')->insert([
+			'town_name' => '',
+			'xcoord' => '',
+			'ycoord' => ''
+        ]);
 		//
 		DB::table('towns')->insert([
 			'town_name' => '',
@@ -1768,67 +1930,7 @@ class TownSeeder extends Seeder
 			'xcoord' => '',
 			'ycoord' => ''
         ]);  
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);  
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);  
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);  
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);
-		//
-		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-			'ycoord' => ''
-        ]);  
-        */        
+         */       
         
     }
 }
