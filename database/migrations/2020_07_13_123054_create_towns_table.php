@@ -33,7 +33,7 @@ class CreateTownsTable extends Migration
             $table->string('game')->default('none'); //boar, deer, hare
             //crops
             $table->string('fruit')->default('none'); //fruit
-            $table->string('grain')->default('none'); //durum, barley, rye, oats, einkorn
+            $table->string('grain')->default('none'); //durum, barley, rye, oats, einkorn, spelt
             $table->string('vine')->default('none'); //grapes
             $table->string('sweetener')->default('none'); //honey
             $table->string('seasoning')->default('none');  //olives         
@@ -47,7 +47,7 @@ class CreateTownsTable extends Migration
             $table->string('fiber')->default('none'); //flax
             $table->string('pottery')->default('none'); //clay
             $table->string('dye')->default('none'); //woad, madder
-            $table->string('timber')->default('none'); //oak, cypress, yew, beech, juniper
+            $table->string('timber')->default('none'); //oak, cypress, yew, beech, juniper, pine
             $table->string('paper')->default('none'); //
             $table->string('scent')->default('none'); //
             $table->string('sculpture')->default('none'); //marble
