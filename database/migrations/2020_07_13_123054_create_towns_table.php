@@ -43,6 +43,7 @@ class CreateTownsTable extends Migration
             $table->string('iron')->default('none'); //iron
             $table->string('gold')->default('none'); //gold
             $table->string('silver')->default('none'); //silver
+            $table->string('salt')->default('none'); //salt
             //resources  
             $table->string('fiber')->default('none'); //flax
             $table->string('pottery')->default('none'); //clay
