@@ -38,7 +38,7 @@ class CreateTownsTable extends Migration
             $table->string('sweetener')->default('none'); //honey
             $table->string('seasoning')->default('none');  //olives         
             //metals
-            $table->string('tin')->default('none'); //
+            $table->string('tin')->default('none'); //tin
             $table->string('copper')->default('none'); //copper
             $table->string('iron')->default('none'); //iron
             $table->string('gold')->default('none'); //gold
