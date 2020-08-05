@@ -18,7 +18,8 @@ class CreateArmiesTable extends Migration
             //soldiers
             $table->integer('soldiers');
             //fk
-            $table->unsignedBigInteger('praetor');
+            $table->unsignedBigInteger('legatus');
+            $table->unsignedBigInteger('tribunus');
             $table->unsignedBigInteger('quaestor');
             $table->unsignedBigInteger('location');
             //timestamps
