@@ -47,7 +47,7 @@ class CreateTownsTable extends Migration
             //resources  
             $table->string('fiber')->default('none'); //flax
             $table->string('pottery')->default('none'); //clay
-            $table->string('dye')->default('none'); //woad, madder
+            $table->string('dye')->default('none'); //woad, madder, indigo
             $table->string('timber')->default('none'); //oak, cypress, yew, beech, juniper, pine
             $table->string('paper')->default('none'); //
             $table->string('scent')->default('none'); //
