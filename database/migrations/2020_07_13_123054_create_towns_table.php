@@ -17,9 +17,9 @@ class CreateTownsTable extends Migration
             $table->bigIncrements('town_id');
 			$table->string('town_name');
 			//population
-            $table->integer('population')->default(3000);
+            $table->integer('population')->default(10000); //vicus = 2000, castrum = 5000, oppidum = 10000, municipium = 10000, urbis = 50000
             //climate
-            $table->string('climate')->default('mediterranean');
+            $table->string('climate')->default('mediterranean'); //mediterranean, oceanic, pontic, continental, alpine, hot steppe, cold steppe, desert oasis, desert wetland
             //animals
             $table->string('pack')->default('none'); //horse, camel
             $table->string('cattle')->default('none'); //cattle
