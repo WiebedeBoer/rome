@@ -585,341 +585,347 @@ class ProvinceSeeder extends Seeder
             'province_name' => 'Scythia',
             'region' => '29'
         ]);
-        //Asia
+        //chios
         //110
         DB::table('provinces')->insert([
-            'province_name' => 'Ionia',
+            'province_name' => 'Chios',
             'region' => '30'
-        ]);
+        ]);        
+        //Asia
         //111
         DB::table('provinces')->insert([
-            'province_name' => 'Caria',
-            'region' => '30'
+            'province_name' => 'Ionia',
+            'region' => '31'
         ]);
         //112
         DB::table('provinces')->insert([
-            'province_name' => 'Lydia',
-            'region' => '30'
+            'province_name' => 'Caria',
+            'region' => '31'
         ]);
         //113
         DB::table('provinces')->insert([
-            'province_name' => 'Aeolia',
-            'region' => '30'
+            'province_name' => 'Lydia',
+            'region' => '31'
         ]);
         //114
         DB::table('provinces')->insert([
-            'province_name' => 'Lycia',
-            'region' => '30'
+            'province_name' => 'Aeolia',
+            'region' => '31'
         ]);
         //115
         DB::table('provinces')->insert([
-            'province_name' => 'Pamphylia',
-            'region' => '30'
+            'province_name' => 'Lycia',
+            'region' => '31'
         ]);
         //116
         DB::table('provinces')->insert([
-            'province_name' => 'Mysia',
-            'region' => '30'
+            'province_name' => 'Pamphylia',
+            'region' => '31'
         ]);
         //117
         DB::table('provinces')->insert([
-            'province_name' => 'Bithynia',
-            'region' => '30'
+            'province_name' => 'Mysia',
+            'region' => '31'
         ]);
         //118
         DB::table('provinces')->insert([
-            'province_name' => 'Paphlagonia',
-            'region' => '30'
+            'province_name' => 'Bithynia',
+            'region' => '31'
         ]);
         //119
         DB::table('provinces')->insert([
-            'province_name' => 'Pisidia',
-            'region' => '30'
+            'province_name' => 'Paphlagonia',
+            'region' => '31'
         ]);
         //120
         DB::table('provinces')->insert([
-            'province_name' => 'Phrygia Pacatania',
-            'region' => '30'
+            'province_name' => 'Pisidia',
+            'region' => '31'
         ]);
         //121
         DB::table('provinces')->insert([
-            'province_name' => 'Phrygia Salutaris',
-            'region' => '30'
+            'province_name' => 'Phrygia Pacatania',
+            'region' => '31'
         ]);
         //122
         DB::table('provinces')->insert([
-            'province_name' => 'Phrygia Maior',
-            'region' => '30'
+            'province_name' => 'Phrygia Salutaris',
+            'region' => '31'
         ]);
         //123
         DB::table('provinces')->insert([
-            'province_name' => 'Lycaonia',
-            'region' => '30'
+            'province_name' => 'Phrygia Maior',
+            'region' => '31'
         ]);
         //124
         DB::table('provinces')->insert([
-            'province_name' => 'Pontus Honorias',
-            'region' => '30'
+            'province_name' => 'Lycaonia',
+            'region' => '31'
         ]);
         //125
         DB::table('provinces')->insert([
-            'province_name' => 'Pontus Polemoniacus',
-            'region' => '30'
+            'province_name' => 'Pontus Honorias',
+            'region' => '31'
         ]);
         //126
         DB::table('provinces')->insert([
-            'province_name' => 'Pontus Chaldia',
-            'region' => '30'
+            'province_name' => 'Pontus Polemoniacus',
+            'region' => '31'
         ]);
         //127
         DB::table('provinces')->insert([
-            'province_name' => 'Galatia Salutaris',
-            'region' => '30'
+            'province_name' => 'Pontus Chaldia',
+            'region' => '31'
         ]);
         //128
         DB::table('provinces')->insert([
-            'province_name' => 'Gallatia Secunda',
-            'region' => '30'
+            'province_name' => 'Galatia Salutaris',
+            'region' => '31'
         ]);
         //129
         DB::table('provinces')->insert([
-            'province_name' => 'Cappadocia Prima',
-            'region' => '30'
+            'province_name' => 'Gallatia Secunda',
+            'region' => '31'
         ]);
         //130
         DB::table('provinces')->insert([
-            'province_name' => 'Cappadocia Secunda',
-            'region' => '30'
+            'province_name' => 'Cappadocia Prima',
+            'region' => '31'
         ]);
         //131
         DB::table('provinces')->insert([
-            'province_name' => 'Cappadocia Chamanene',
-            'region' => '30'
+            'province_name' => 'Cappadocia Secunda',
+            'region' => '31'
         ]);
         //132
         DB::table('provinces')->insert([
-            'province_name' => 'Cappadocia Cataonia',
-            'region' => '30'
+            'province_name' => 'Cappadocia Chamanene',
+            'region' => '31'
         ]);
         //133
         DB::table('provinces')->insert([
-            'province_name' => 'Cappadocia Melitene',
-            'region' => '30'
+            'province_name' => 'Cappadocia Cataonia',
+            'region' => '31'
         ]);
         //134
         DB::table('provinces')->insert([
-            'province_name' => 'Cilicia Trachea',
-            'region' => '30'
+            'province_name' => 'Cappadocia Melitene',
+            'region' => '31'
         ]);
         //135
         DB::table('provinces')->insert([
-            'province_name' => 'Cilicia Aspera',
-            'region' => '30'
+            'province_name' => 'Cilicia Trachea',
+            'region' => '31'
         ]);
         //136
         DB::table('provinces')->insert([
-            'province_name' => 'Cilicia Pedias',
-            'region' => '30'
+            'province_name' => 'Cilicia Aspera',
+            'region' => '31'
         ]);
-        //Armenia
         //137
         DB::table('provinces')->insert([
-            'province_name' => 'Armenia Minor',
+            'province_name' => 'Cilicia Pedias',
             'region' => '31'
         ]);
+        //Armenia
         //138
         DB::table('provinces')->insert([
-            'province_name' => 'Armenia Maior',
-            'region' => '31'
+            'province_name' => 'Armenia Minor',
+            'region' => '32'
         ]);
         //139
         DB::table('provinces')->insert([
-            'province_name' => 'Armenia Superior',
-            'region' => '31'
+            'province_name' => 'Armenia Maior',
+            'region' => '32'
         ]);
         //140
         DB::table('provinces')->insert([
-            'province_name' => 'Armenia Ararat',
-            'region' => '31'
+            'province_name' => 'Armenia Superior',
+            'region' => '32'
         ]);
         //141
         DB::table('provinces')->insert([
-            'province_name' => 'Armenia Tertia',
-            'region' => '31'
+            'province_name' => 'Armenia Ararat',
+            'region' => '32'
         ]);
         //142
         DB::table('provinces')->insert([
-            'province_name' => 'Arzanene',
-            'region' => '31'
+            'province_name' => 'Armenia Tertia',
+            'region' => '32'
         ]);
         //143
         DB::table('provinces')->insert([
-            'province_name' => 'Acilisene',
-            'region' => '31'
+            'province_name' => 'Arzanene',
+            'region' => '32'
         ]);
         //144
         DB::table('provinces')->insert([
-            'province_name' => 'Corduene',
-            'region' => '31'
+            'province_name' => 'Acilisene',
+            'region' => '32'
         ]);
         //145
         DB::table('provinces')->insert([
-            'province_name' => 'Colchis',
-            'region' => '31'
+            'province_name' => 'Corduene',
+            'region' => '32'
         ]);
         //146
         DB::table('provinces')->insert([
-            'province_name' => 'Iberia',
-            'region' => '31'
+            'province_name' => 'Colchis',
+            'region' => '32'
         ]);
         //147
         DB::table('provinces')->insert([
-            'province_name' => 'Albania',
-            'region' => '31'
+            'province_name' => 'Iberia',
+            'region' => '32'
         ]);
-        //Persia
         //148
         DB::table('provinces')->insert([
-            'province_name' => 'Media Atropatene',
+            'province_name' => 'Albania',
             'region' => '32'
         ]);
+        //Persia
         //149
         DB::table('provinces')->insert([
-            'province_name' => 'Hyrcania',
-            'region' => '32'
+            'province_name' => 'Media Atropatene',
+            'region' => '33'
         ]);
         //150
         DB::table('provinces')->insert([
-            'province_name' => 'Arsacia',
-            'region' => '32'
+            'province_name' => 'Hyrcania',
+            'region' => '33'
         ]);
         //151
         DB::table('provinces')->insert([
-            'province_name' => 'Susiana',
-            'region' => '32'
+            'province_name' => 'Arsacia',
+            'region' => '33'
         ]);
         //152
         DB::table('provinces')->insert([
-            'province_name' => 'Persia',
-            'region' => '32'
+            'province_name' => 'Susiana',
+            'region' => '33'
         ]);
         //153
         DB::table('provinces')->insert([
-            'province_name' => 'Carmania',
-            'region' => '32'
+            'province_name' => 'Persia',
+            'region' => '33'
         ]);
-        //Mesopotamia
         //154
         DB::table('provinces')->insert([
-            'province_name' => 'Characene',
+            'province_name' => 'Carmania',
             'region' => '33'
         ]);
+        //Mesopotamia
         //155
         DB::table('provinces')->insert([
-            'province_name' => 'Babylonia',
-            'region' => '33'
+            'province_name' => 'Characene',
+            'region' => '34'
         ]);
         //156
         DB::table('provinces')->insert([
-            'province_name' => 'Assyria',
-            'region' => '33'
+            'province_name' => 'Babylonia',
+            'region' => '34'
         ]);
         //157
         DB::table('provinces')->insert([
-            'province_name' => 'Osrhoene',
-            'region' => '33'
+            'province_name' => 'Assyria',
+            'region' => '34'
         ]);
         //158
         DB::table('provinces')->insert([
-            'province_name' => 'Adiabene',
-            'region' => '33'
+            'province_name' => 'Osrhoene',
+            'region' => '34'
         ]);
         //159
         DB::table('provinces')->insert([
-            'province_name' => 'Commagene',
-            'region' => '33'
+            'province_name' => 'Adiabene',
+            'region' => '34'
         ]);
         //160
         DB::table('provinces')->insert([
-            'province_name' => 'Sophene',
-            'region' => '33'
+            'province_name' => 'Commagene',
+            'region' => '34'
         ]);
         //161
         DB::table('provinces')->insert([
-            'province_name' => 'Mesopotamia Prima',
-            'region' => '33'
+            'province_name' => 'Sophene',
+            'region' => '34'
         ]);
         //162
         DB::table('provinces')->insert([
-            'province_name' => 'Mesopotamia Secunda',
-            'region' => '33'
+            'province_name' => 'Mesopotamia Prima',
+            'region' => '34'
         ]);
-        //syria
         //163
         DB::table('provinces')->insert([
-            'province_name' => 'Syria Euphratensis',
+            'province_name' => 'Mesopotamia Secunda',
             'region' => '34'
         ]);
+        //syria
         //164
         DB::table('provinces')->insert([
-            'province_name' => 'Syria Tetrapolis',
-            'region' => '34'
+            'province_name' => 'Syria Euphratensis',
+            'region' => '35'
         ]);
         //165
         DB::table('provinces')->insert([
-            'province_name' => 'Syria Coele',
-            'region' => '34'
+            'province_name' => 'Syria Tetrapolis',
+            'region' => '35'
         ]);
         //166
         DB::table('provinces')->insert([
-            'province_name' => 'Phoenicia',
-            'region' => '34'
+            'province_name' => 'Syria Coele',
+            'region' => '35'
         ]);
         //167
         DB::table('provinces')->insert([
-            'province_name' => 'Peraea',
-            'region' => '34'
+            'province_name' => 'Phoenicia',
+            'region' => '35'
         ]);
         //168
         DB::table('provinces')->insert([
-            'province_name' => 'Judea',
-            'region' => '34'
+            'province_name' => 'Peraea',
+            'region' => '35'
         ]);
         //169
         DB::table('provinces')->insert([
-            'province_name' => 'Samaria',
-            'region' => '34'
+            'province_name' => 'Judea',
+            'region' => '35'
         ]);
         //170
         DB::table('provinces')->insert([
-            'province_name' => 'Galilee',
-            'region' => '34'
+            'province_name' => 'Samaria',
+            'region' => '35'
         ]);
-        //arabia
         //171
         DB::table('provinces')->insert([
-            'province_name' => 'Arabia Nabatene',
+            'province_name' => 'Galilee',
             'region' => '35'
         ]);
+        //arabia
         //172
         DB::table('provinces')->insert([
-            'province_name' => 'Arabia Petraea',
-            'region' => '35'
+            'province_name' => 'Arabia Nabatene',
+            'region' => '36'
         ]);
         //173
         DB::table('provinces')->insert([
-            'province_name' => 'Arabia Lihyan',
-            'region' => '35'
+            'province_name' => 'Arabia Petraea',
+            'region' => '36'
         ]);
         //174
         DB::table('provinces')->insert([
-            'province_name' => 'Arabia Kindah',
-            'region' => '35'
+            'province_name' => 'Arabia Lihyan',
+            'region' => '36'
         ]);
         //175
         DB::table('provinces')->insert([
+            'province_name' => 'Arabia Kindah',
+            'region' => '36'
+        ]);
+        //176
+        DB::table('provinces')->insert([
             'province_name' => 'Arabia Gerrha',
-            'region' => '35'
+            'region' => '36'
         ]);
     }
 }

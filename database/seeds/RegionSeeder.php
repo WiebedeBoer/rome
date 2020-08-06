@@ -129,25 +129,29 @@ class RegionSeeder extends Seeder
         ]);
         //30
         DB::table('regions')->insert([
-			'region_name' => 'Asia'
+            'region_name' => 'Chios'
         ]);
         //31
         DB::table('regions')->insert([
-			'region_name' => 'Armenia'
+			'region_name' => 'Asia'
         ]);
         //32
         DB::table('regions')->insert([
-			'region_name' => 'Persia'
+			'region_name' => 'Armenia'
         ]);
         //33
         DB::table('regions')->insert([
-			'region_name' => 'Mesopotamia'
+			'region_name' => 'Persia'
         ]);
         //34
         DB::table('regions')->insert([
-			'region_name' => 'Syria'
+			'region_name' => 'Mesopotamia'
         ]);
         //35
+        DB::table('regions')->insert([
+			'region_name' => 'Syria'
+        ]);
+        //36
         DB::table('regions')->insert([
 			'region_name' => 'Arabia'
         ]);
