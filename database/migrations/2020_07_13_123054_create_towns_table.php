@@ -19,7 +19,7 @@ class CreateTownsTable extends Migration
 			//population
             $table->integer('population')->default(10000); //vicus = 2000, castrum = 5000, oppidum = 10000, municipium = 10000, = 20000, urbis = 50000, = 100000
             //climate
-            $table->string('climate')->default('mediterranean'); //mediterranean, oceanic, pontic, continental, alpine, hot steppe, cold steppe, desert oasis, desert wetland
+            $table->string('climate')->default('mediterranean'); //224 mediterranean, 74 oceanic, 42 pontic, 80 continental, 25 alpine, 14 hot steppe, 29 cold steppe, 51 desert oasis, 34 desert wetland
             //animals
             $table->string('pack')->default('none'); //horse, camel
             $table->string('cattle')->default('none'); //cattle
@@ -27,7 +27,7 @@ class CreateTownsTable extends Migration
             $table->string('pig')->default('none'); //pig
             $table->string('fish')->default('none'); //fish
             $table->string('poultry')->default('none'); //chicken, duck
-            $table->string('rabbit')->default('none'); //rabbit
+            $table->string('rabbit')->default('none'); //55 rabbit
             $table->string('game')->default('none'); //boar, deer, hare, pheasant, elephant
             //crops
             $table->string('fruit')->default('none'); //fruit
@@ -45,10 +45,10 @@ class CreateTownsTable extends Migration
             //resources  
             $table->string('fiber')->default('none'); //flax
             $table->string('pottery')->default('none'); //clay
-            $table->string('dye')->default('none'); //woad, madder, indigo
+            $table->string('dye')->default('none'); //woad, madder, 20 indigo
             $table->string('timber')->default('none'); //oak, cypress, yew, beech, juniper, cedar, pine, palm
-            $table->string('paper')->default('none'); //papyrus
-            $table->string('sculpture')->default('none'); //marble, ivory   
+            $table->string('paper')->default('none'); //13 papyrus
+            $table->string('sculpture')->default('none'); //marble, 13 ivory   
             $table->string('glass')->default('none'); //glass
             $table->string('caravan')->default('none'); //spice, silk, incense
             $table->string('chattel')->default('none'); //slave
