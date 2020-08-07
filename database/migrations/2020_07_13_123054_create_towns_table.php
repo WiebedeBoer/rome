@@ -17,7 +17,7 @@ class CreateTownsTable extends Migration
             $table->bigIncrements('town_id');
 			$table->string('town_name');
 			//population
-            $table->integer('population')->default(10000); //vicus = 2000, castrum = 5000, oppidum = 10000, municipium = 10000, urbis = 50000
+            $table->integer('population')->default(10000); //vicus = 2000, castrum = 5000, oppidum = 10000, municipium = 10000, = 20000, urbis = 50000, = 100000
             //climate
             $table->string('climate')->default('mediterranean'); //mediterranean, oceanic, pontic, continental, alpine, hot steppe, cold steppe, desert oasis, desert wetland
             //animals
@@ -46,12 +46,11 @@ class CreateTownsTable extends Migration
             $table->string('fiber')->default('none'); //flax
             $table->string('pottery')->default('none'); //clay
             $table->string('dye')->default('none'); //woad, madder, indigo
-            $table->string('timber')->default('none'); //oak, cypress, yew, beech, juniper, pine, palm
+            $table->string('timber')->default('none'); //oak, cypress, yew, beech, juniper, cedar, pine, palm
             $table->string('paper')->default('none'); //papyrus
-            $table->string('scent')->default('none'); //
             $table->string('sculpture')->default('none'); //marble, ivory   
             $table->string('glass')->default('none'); //glass
-            $table->string('caravan')->default('none'); //spice, silk
+            $table->string('caravan')->default('none'); //spice, silk, incense
             $table->string('chattel')->default('none'); //slave
 			//stats
 			$table->integer('defenses')->default(10);

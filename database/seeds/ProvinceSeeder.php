@@ -886,68 +886,68 @@ class ProvinceSeeder extends Seeder
             'region' => '34'
         ]);
         //syria
-        //1
+        //169
         DB::table('provinces')->insert([
             'province_name' => 'Syria Euphratensis',
             'region' => '35'
         ]);
-        //1
+        //170
         DB::table('provinces')->insert([
             'province_name' => 'Syria Tetrapolis',
             'region' => '35'
         ]);
-        //1
+        //171
         DB::table('provinces')->insert([
             'province_name' => 'Syria Coele',
             'region' => '35'
         ]);
-        //1
+        //172
         DB::table('provinces')->insert([
             'province_name' => 'Phoenicia',
             'region' => '35'
         ]);
-        //1
+        //173
         DB::table('provinces')->insert([
             'province_name' => 'Peraea',
             'region' => '35'
         ]);
-        //1
+        //174
         DB::table('provinces')->insert([
             'province_name' => 'Judea',
             'region' => '35'
         ]);
-        //1
+        //175
         DB::table('provinces')->insert([
             'province_name' => 'Samaria',
             'region' => '35'
         ]);
-        //1
+        //176
         DB::table('provinces')->insert([
-            'province_name' => 'Galilee',
+            'province_name' => 'Galilea',
             'region' => '35'
         ]);
         //arabia
-        //1
+        //177
         DB::table('provinces')->insert([
             'province_name' => 'Arabia Nabatene',
             'region' => '36'
         ]);
-        //1
+        //178
         DB::table('provinces')->insert([
             'province_name' => 'Arabia Petraea',
             'region' => '36'
         ]);
-        //1
+        //179
         DB::table('provinces')->insert([
             'province_name' => 'Arabia Lihyan',
             'region' => '36'
         ]);
-        //1
+        //180
         DB::table('provinces')->insert([
             'province_name' => 'Arabia Kindah',
             'region' => '36'
         ]);
-        //1
+        //181
         DB::table('provinces')->insert([
             'province_name' => 'Arabia Gerrha',
             'region' => '36'
