@@ -799,32 +799,42 @@ class ProvinceSeeder extends Seeder
             'region' => '32'
         ]);
         //Persia
-        //1
+        //152
         DB::table('provinces')->insert([
             'province_name' => 'Media Atropatene',
             'region' => '33'
         ]);
-        //1
+        //153
+        DB::table('provinces')->insert([
+            'province_name' => 'Media Minor',
+            'region' => '33'
+        ]);
+        //154
         DB::table('provinces')->insert([
             'province_name' => 'Hyrcania',
             'region' => '33'
         ]);
-        //1
+        //155
         DB::table('provinces')->insert([
             'province_name' => 'Arsacia',
             'region' => '33'
         ]);
-        //1
+        //156
         DB::table('provinces')->insert([
             'province_name' => 'Susiana',
             'region' => '33'
         ]);
-        //1
+        //157
         DB::table('provinces')->insert([
             'province_name' => 'Persia',
             'region' => '33'
         ]);
-        //1
+        //158
+        DB::table('provinces')->insert([
+            'province_name' => 'Parthia',
+            'region' => '33'
+        ]);
+        //159
         DB::table('provinces')->insert([
             'province_name' => 'Carmania',
             'region' => '33'

@@ -8958,62 +8958,432 @@ class TownsSeeder extends Seeder
             'region' => '32',
             'province' => '151'
         ]); 
-        /*
         //Persia
         //Media Atropatene
-        //
+        //481
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Ardabil',
+            'climate' => 'cold steppe',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'pottery' => 'clay',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2993',
+            'ycoord' => '1590',
             'region' => '33',
-            'province' => '1'
+            'province' => '152'
+        ]); 
+        //482
+		DB::table('towns')->insert([
+            'town_name' => 'Tauris',
+            'climate' => 'cold steppe',
+            'wool' => 'goat',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'pottery' => 'clay',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2892',
+            'ycoord' => '1599',
+            'region' => '33',
+            'province' => '152'
+        ]); 
+        //483
+		DB::table('towns')->insert([
+            'town_name' => 'Gilzan',
+            'climate' => 'cold steppe',
+            'wool' => 'goat',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2829',
+            'ycoord' => '1634',
+            'region' => '33',
+            'province' => '152'
+        ]); 
+        //484
+		DB::table('towns')->insert([
+            'town_name' => 'Ganzak',
+            'climate' => 'cold steppe',
+            'wool' => 'goat',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'iron' => 'iron',
+            'pottery' => 'clay',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2882',
+            'ycoord' => '1672',
+            'region' => '33',
+            'province' => '152'
+        ]); 
+        //Media Minor
+        //485
+		DB::table('towns')->insert([
+            'town_name' => 'Ecbatana',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'goat',
+            'pig' => 'pig',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'copper' => 'copper',
+            'iron' => 'iron',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+			'xcoord' => '3004',
+            'ycoord' => '1806',            
+            'region' => '33',
+            'province' => '153'
         ]); 
         //Hyrcania
-        //
+        //486
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Amol',
+            'wool' => 'sheep',
+            'game' => 'pheasant',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'pottery' => 'clay',      
+            'timber' => 'oak',
+            'caravan' => 'silk',
+			'xcoord' => '3198',
+            'ycoord' => '1703',
             'region' => '33',
-            'province' => '1'
+            'province' => '154'
+        ]); 
+        //487
+		DB::table('towns')->insert([
+            'town_name' => 'Gorgan',
+            'wool' => 'sheep',
+            'game' => 'pheasant',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'pottery' => 'clay',      
+            'timber' => 'oak',
+            'caravan' => 'silk',
+			'xcoord' => '3303',
+            'ycoord' => '1680',
+            'region' => '33',
+            'province' => '154'
         ]); 
         //Arsacia
-        //
+        //488
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Karaj',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+			'xcoord' => '3127',
+            'ycoord' => '1742',
+            'timber' => 'palm',
+            'caravan' => 'silk',
             'region' => '33',
-            'province' => '1'
+            'province' => '155'
+        ]); 
+        //489
+		DB::table('towns')->insert([
+            'town_name' => 'Rhages',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+			'xcoord' => '3150',
+            'ycoord' => '1754',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+            'region' => '33',
+            'province' => '155'
+        ]); 
+        //490
+		DB::table('towns')->insert([
+            'town_name' => 'Varena',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+			'xcoord' => '3160',
+            'ycoord' => '1772',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+            'region' => '33',
+            'province' => '155'
+        ]); 
+        //491
+		DB::table('towns')->insert([
+            'town_name' => 'Ghom',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+			'xcoord' => '3123',
+            'ycoord' => '1816',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+            'region' => '33',
+            'province' => '155'
+        ]); 
+        //492
+		DB::table('towns')->insert([
+            'town_name' => 'Sialk',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+			'xcoord' => '3151',
+            'ycoord' => '1854',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+            'region' => '33',
+            'province' => '155'
         ]); 
         //Susiana
-        //
+        //493
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Susa',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'copper' => 'copper',
+            'iron' => 'iron',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+			'xcoord' => '2998',
+            'ycoord' => '1955',
             'region' => '33',
-            'province' => '1'
+            'province' => '156'
+        ]); 
+        //494
+		DB::table('towns')->insert([
+            'town_name' => 'Taryana',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'pottery' => 'clay',
+            'timber' => 'palm',
+            'caravan' => 'spice',
+			'xcoord' => '3012',
+            'ycoord' => '2016',
+            'region' => '33',
+            'province' => '156'
+        ]); 
+        //495
+		DB::table('towns')->insert([
+            'town_name' => 'Isfahanum',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+			'xcoord' => '3162',
+            'ycoord' => '1938',
+            'region' => '33',
+            'province' => '156'
         ]); 
         //Persia
-        //
+        //496
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Issatis',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+			'xcoord' => '3299',
+            'ycoord' => '1982',
             'region' => '33',
-            'province' => '1'
+            'province' => '157'
         ]); 
+        //497
+		DB::table('towns')->insert([
+            'town_name' => 'Sedeh',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'poultry' => 'chicken',
+            'game' => 'elephant',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'vine' => 'grapes',
+            'timber' => 'palm',
+            'caravan' => 'spice',
+			'xcoord' => '3243',
+            'ycoord' => '2029',
+            'region' => '33',
+            'province' => '157'
+        ]); 
+        //498
+		DB::table('towns')->insert([
+            'town_name' => 'Yasuj',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'poultry' => 'chicken',
+            'game' => 'elephant',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'vine' => 'grapes',
+            'timber' => 'palm',
+            'caravan' => 'spice',
+			'xcoord' => '3215',
+            'ycoord' => '2044',
+            'region' => '33',
+            'province' => '157'
+        ]); 
+        //499
+		DB::table('towns')->insert([
+            'town_name' => 'Pasargadae',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'elephant',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'vine' => 'grapes',
+            'timber' => 'palm',
+            'caravan' => 'spice',
+			'xcoord' => '3316',
+            'ycoord' => '2073',
+            'region' => '33',
+            'province' => '157'
+        ]); 
+        //500
+		DB::table('towns')->insert([
+            'town_name' => 'Persepolis',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'elephant',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'vine' => 'grapes',
+            'tin' => 'tin',
+            'iron' => 'iron',
+            'timber' => 'palm',
+            'caravan' => 'spice',
+			'xcoord' => '3267',
+            'ycoord' => '2108',
+            'region' => '33',
+            'province' => '157'
+        ]); 
+        //501
+		DB::table('towns')->insert([
+            'town_name' => 'Darab',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'elephant',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
+            'caravan' => 'spice',
+			'xcoord' => '3347',
+            'ycoord' => '2150',
+            'region' => '33',
+            'province' => '157'
+        ]); 
+        //Parthia
+        //502
+		DB::table('towns')->insert([
+            'town_name' => 'Komesh',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+			'xcoord' => '3250',
+            'ycoord' => '1758',
+            'region' => '33',
+            'province' => '158'
+        ]);
+        //503
+		DB::table('towns')->insert([
+            'town_name' => 'Hecatompylos',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
+            'caravan' => 'silk',
+			'xcoord' => '3290',
+            'ycoord' => '1746',
+            'region' => '33',
+            'province' => '158'
+        ]);
         //Carmania
-        //
+        //504
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Karaman',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'poultry' => 'chicken',
+            'game' => 'elephant',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
+            'tin' => 'tin',
+            'iron' => 'iron',
+            'gold' => 'gold',
+            'silver' => 'silver',
+            'caravan' => 'spice',
+			'xcoord' => '3435',
+            'ycoord' => '2079',
             'region' => '33',
-            'province' => '1'
+            'province' => '159'
         ]); 
+        /*
         //Mesopotamia
         //Characene
         //
@@ -9173,7 +9543,13 @@ class TownsSeeder extends Seeder
         //Arabia Nabatene
         //
 		DB::table('towns')->insert([
-			'town_name' => '',
+            'town_name' => '',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
 			'xcoord' => '',
             'ycoord' => '',
             'region' => '36',
@@ -9182,7 +9558,13 @@ class TownsSeeder extends Seeder
         //Arabia Petraea
         //
 		DB::table('towns')->insert([
-			'town_name' => '',
+            'town_name' => '',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
 			'xcoord' => '',
             'ycoord' => '',
             'region' => '36',
@@ -9191,7 +9573,13 @@ class TownsSeeder extends Seeder
         //Arabia Lihyan
         //
 		DB::table('towns')->insert([
-			'town_name' => '',
+            'town_name' => '',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
 			'xcoord' => '',
             'ycoord' => '',
             'region' => '36',
@@ -9200,7 +9588,13 @@ class TownsSeeder extends Seeder
         //Arabia Kindah
         //
 		DB::table('towns')->insert([
-			'town_name' => '',
+            'town_name' => '',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
 			'xcoord' => '',
             'ycoord' => '',
             'region' => '36',
@@ -9209,7 +9603,13 @@ class TownsSeeder extends Seeder
         //Arabia Gerrha
         //
 		DB::table('towns')->insert([
-			'town_name' => '',
+            'town_name' => '',
+            'climate' => 'desert oasis',
+            'pack' => 'camel',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'timber' => 'palm',
 			'xcoord' => '',
             'ycoord' => '',
             'region' => '36',

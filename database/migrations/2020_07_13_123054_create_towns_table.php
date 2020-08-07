@@ -28,8 +28,7 @@ class CreateTownsTable extends Migration
             $table->string('fish')->default('none'); //fish
             $table->string('poultry')->default('none'); //chicken, duck
             $table->string('rabbit')->default('none'); //rabbit
-            $table->string('elephant')->default('none');
-            $table->string('game')->default('none'); //boar, deer, hare, pheasant
+            $table->string('game')->default('none'); //boar, deer, hare, pheasant, elephant
             //crops
             $table->string('fruit')->default('none'); //fruit
             $table->string('grain')->default('none'); //durum, barley, rye, oats, einkorn, spelt, emmer
@@ -52,7 +51,7 @@ class CreateTownsTable extends Migration
             $table->string('scent')->default('none'); //
             $table->string('sculpture')->default('none'); //marble, ivory   
             $table->string('glass')->default('none'); //glass
-            $table->string('caravan')->default('none'); //spice
+            $table->string('caravan')->default('none'); //spice, silk
             $table->string('chattel')->default('none'); //slave
 			//stats
 			$table->integer('defenses')->default(10);
