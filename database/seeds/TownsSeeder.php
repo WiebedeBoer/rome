@@ -8006,6 +8006,23 @@ class TownsSeeder extends Seeder
         //Phrygia Salutaris
         //427
 		DB::table('towns')->insert([
+            'town_name' => 'Dorylaeum',
+            'climate' => 'cold steppe',
+            'pack' => 'horse',
+            'pig' => 'pig',
+            'poultry' => 'chicken',
+            'game' => 'hare',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'timber' => 'juniper',
+            'sculpture' => 'marble',
+			'xcoord' => '2091',
+            'ycoord' => '1499',
+            'region' => '31',
+            'province' => '123'
+        ]); 
+        //428
+		DB::table('towns')->insert([
             'town_name' => 'Gordium',
             'climate' => 'cold steppe',
             'wool' => 'sheep',
@@ -8021,39 +8038,7 @@ class TownsSeeder extends Seeder
             'province' => '123'
         ]);  
         //Phrygia Maior
-        //428
-		DB::table('towns')->insert([
-            'town_name' => 'Pessinus',
-            'climate' => 'cold steppe',
-            'wool' => 'sheep',
-            'poultry' => 'chicken',
-            'game' => 'hare',
-            'fruit' => 'fruit',
-            'grain' => 'barley',
-            'timber' => 'juniper',
-			'xcoord' => '2153',
-            'ycoord' => '1528',
-            'region' => '31',
-            'province' => '124'
-        ]);  
         //429
-		DB::table('towns')->insert([
-            'town_name' => 'Dorylaeum',
-            'climate' => 'cold steppe',
-            'pack' => 'horse',
-            'pig' => 'pig',
-            'poultry' => 'chicken',
-            'game' => 'hare',
-            'fruit' => 'fruit',
-            'grain' => 'barley',
-            'timber' => 'juniper',
-            'sculpture' => 'marble',
-			'xcoord' => '2091',
-            'ycoord' => '1499',
-            'region' => '31',
-            'province' => '124'
-        ]); 
-        //430
 		DB::table('towns')->insert([
             'town_name' => 'Cotyaeum',
             'climate' => 'cold steppe',
@@ -8071,7 +8056,7 @@ class TownsSeeder extends Seeder
             'province' => '124'
         ]); 
         //Phrygia Minor
-        //431
+        //430
 		DB::table('towns')->insert([
             'town_name' => 'Prusa',
             'pack' => 'horse',
@@ -8089,7 +8074,7 @@ class TownsSeeder extends Seeder
             'region' => '31',
             'province' => '125'
         ]); 
-        //432
+        //431
 		DB::table('towns')->insert([
             'town_name' => 'Dascylium',
             'pack' => 'horse',
@@ -8108,234 +8093,872 @@ class TownsSeeder extends Seeder
             'ycoord' => '1477',
             'region' => '31',
             'province' => '125'
-        ]); 
-        /*
+        ]);   
         //Lycaonia
-        //
+        //432
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Iconium',
+            'climate' => 'cold steppe',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'timber' => 'juniper',
+			'xcoord' => '2193',
+            'ycoord' => '1616',
             'region' => '31',
             'province' => '126'
-        ]);  
-        //Pontus Honorias
-        //
+        ]); 
+        //433
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Laranda',          
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'sweetener' => 'olives',
+            'timber' => 'cypress', 
+			'xcoord' => '2224',
+            'ycoord' => '1649',
             'region' => '31',
-            'province' => '1'
+            'province' => '126'
+        ]);   
+        //Pontus Honorias
+        //434
+		DB::table('towns')->insert([
+            'town_name' => 'Amisus',
+            'climate' => 'pontic',
+            'wool' => 'sheep',
+            'fish' => 'fish',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'timber' => 'pine',
+			'xcoord' => '2386',
+            'ycoord' => '1389',
+            'region' => '31',
+            'province' => '127'
+        ]); 
+        //435
+		DB::table('towns')->insert([
+            'town_name' => 'Amasea',
+            'climate' => 'pontic',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'timber' => 'pine',
+			'xcoord' => '2362',
+            'ycoord' => '1431',
+            'region' => '31',
+            'province' => '127'
         ]);  
         //Pontus Polemoniacus
-        //
+        //436
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Polemonium',
+            'climate' => 'pontic',
+            'wool' => 'sheep',
+            'fish' => 'fish',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'seasoning' => 'olives',
+            'timber' => 'pine',
+			'xcoord' => '2446',
+            'ycoord' => '1408',
             'region' => '31',
-            'province' => '1'
+            'province' => '128'
         ]);  
+        //437
+		DB::table('towns')->insert([
+            'town_name' => 'Cerasus',
+            'climate' => 'pontic',
+            'wool' => 'sheep',
+            'fish' => 'fish',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'seasoning' => 'olives',
+            'timber' => 'pine',
+			'xcoord' => '2492',
+            'ycoord' => '1416',
+            'region' => '31',
+            'province' => '128'
+        ]); 
         //Pontus Chaldia
-        //
+        //438
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Trapezus',
+            'climate' => 'pontic',
+            'wool' => 'sheep',
+            'fish' => 'fish',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'seasoning' => 'olives',
+            'timber' => 'pine',
+			'xcoord' => '2554',
+            'ycoord' => '1411',
             'region' => '31',
-            'province' => '1'
+            'province' => '129'
+        ]); 
+        //440
+		DB::table('towns')->insert([
+            'town_name' => 'Rhizus',
+            'climate' => 'pontic',
+            'wool' => 'sheep',
+            'fish' => 'fish',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'seasoning' => 'olives',
+            'timber' => 'pine',
+			'xcoord' => '2599',
+            'ycoord' => '1409',
+            'region' => '31',
+            'province' => '129'
+        ]); 
+        //Gallatia Prima
+        //441
+		DB::table('towns')->insert([
+            'town_name' => 'Tavium',
+            'climate' => 'cold steppe',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'hare',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'tin' => 'tin',
+            'iron' => 'iron',
+            'timber' => 'juniper',
+			'xcoord' => '2311',
+            'ycoord' => '1467',
+            'region' => '31',
+            'province' => '130'
         ]);  
+        //442
+		DB::table('towns')->insert([
+            'town_name' => 'Ancyra',
+            'climate' => 'cold steppe',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'hare',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'pottery' => 'clay',
+            'timber' => 'juniper',
+			'xcoord' => '2213',
+            'ycoord' => '1474',
+            'region' => '31',
+            'province' => '130'
+        ]);
         //Galatia Salutaris
-        //
+        //443
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Pessinus',
+            'climate' => 'cold steppe',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'hare',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'timber' => 'juniper',
+			'xcoord' => '2153',
+            'ycoord' => '1528',
             'region' => '31',
-            'province' => '1'
+            'province' => '131'
         ]);  
-        //Gallatia Secunda
-        //
+        //444
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Amorium',
+            'climate' => 'cold steppe',
+            'wool' => 'sheep',
+            'poultry' => 'chicken',
+            'game' => 'hare',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'timber' => 'juniper',
+			'xcoord' => '2130',
+            'ycoord' => '1570',
             'region' => '31',
-            'province' => '1'
-        ]);  
+            'province' => '131'
+        ]);
         //Cappadocia Prima
-        //
+        //445
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Mazaca',
+            'climate' => 'continental',
+            'pack' => 'horse',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'copper' => 'copper',
+            'timber' => 'juniper',
+			'xcoord' => '2344',
+            'ycoord' => '1560',
             'region' => '31',
-            'province' => '1'
+            'province' => '132'
+        ]); 
+        //446
+		DB::table('towns')->insert([
+            'town_name' => 'Nyssa',
+            'climate' => 'continental',
+            'pack' => 'horse',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'copper' => 'copper',
+            'timber' => 'juniper',
+			'xcoord' => '2307',
+            'ycoord' => '1569',
+            'region' => '31',
+            'province' => '132'
         ]);  
         //Cappadocia Secunda
-        //
+        //447
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Tyana',
+            'climate' => 'continental',
+            'pack' => 'horse',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'copper' => 'copper',
+            'timber' => 'juniper',
+			'xcoord' => '2305',
+            'ycoord' => '1609',
             'region' => '31',
-            'province' => '1'
+            'province' => '133'
         ]);  
         //Cappadocia Chamanene
-        //
+        //448
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Garsaura',
+            'climate' => 'continental',
+            'pack' => 'horse',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'salt' => 'salt',
+            'timber' => 'juniper',
+			'xcoord' => '2273',
+            'ycoord' => '1584',
             'region' => '31',
-            'province' => '1'
+            'province' => '134'
         ]);  
-        //Cappadocia Cataonia
-        //
+        //449
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Doara',
+            'climate' => 'continental',
+            'pack' => 'horse',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'copper' => 'copper',
+            'timber' => 'juniper',
+			'xcoord' => '2301',
+            'ycoord' => '1545',
             'region' => '31',
-            'province' => '1'
+            'province' => '134'
+        ]); 
+        //Cappadocia Cataonia
+        //450
+		DB::table('towns')->insert([
+            'town_name' => 'Comana',
+            'climate' => 'continental',
+            'pack' => 'horse',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'copper' => 'copper',
+            'timber' => 'juniper',
+			'xcoord' => '2414',
+            'ycoord' => '1591',
+            'region' => '31',
+            'province' => '135'
         ]);  
         //Cappadocia Melitene
-        //
+        //451
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Melitene',
+            'climate' => 'continental',
+            'pack' => 'horse',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'pottery' => 'clay',
+            'timber' => 'juniper',
+			'xcoord' => '2490',
+            'ycoord' => '1586',
             'region' => '31',
-            'province' => '1'
+            'province' => '136'
         ]);  
         //Cilicia Trachea
-        //
+        //452
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Coracesium',
+            'pack' => 'horse',
+            'fish' => 'fish',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'seasoning' => 'olives',
+            'timber' => 'cypress',
+			'xcoord' => '2169',
+            'ycoord' => '1701',
             'region' => '31',
-            'province' => '1'
+            'province' => '137'
+        ]);  
+        //453
+		DB::table('towns')->insert([
+            'town_name' => 'Anemurium',
+            'pack' => 'horse',
+            'fish' => 'fish',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'seasoning' => 'olives',
+            'timber' => 'cypress',
+			'xcoord' => '2213',
+            'ycoord' => '1729',
+            'region' => '31',
+            'province' => '137'
         ]);  
         //Cilicia Aspera
-        //
+        //454
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Ourbanopolis',
+            'cattle' => 'cattle',
+            'wool' => 'goat',
+            'fish' => 'fish',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'seasoning' => 'olives',
+            'pottery' => 'clay',
+            'timber' => 'cypress',
+            'glass' => 'glass',
+			'xcoord' => '2263',
+            'ycoord' => '1715',
             'region' => '31',
-            'province' => '1'
+            'province' => '138'
         ]);  
         //Cilicia Pedias
-        //
+        //455
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Caesarea Germanicia',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'seasoning' => 'olives',
+            'copper' => 'copper',
+            'iron' => 'iron',
+            'timber' => 'cypress',
+			'xcoord' => '2419',
+            'ycoord' => '1636',
             'region' => '31',
-            'province' => '1'
+            'province' => '139'
+        ]); 
+        //456
+		DB::table('towns')->insert([
+            'town_name' => 'Tarsus',
+            'pack' => 'horse',
+            'pig' => 'pig',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'seasoning' => 'olives',
+            'silver' => 'silver',
+            'pottery' => 'clay',
+            'timber' => 'cypress',
+			'xcoord' => '2319',
+            'ycoord' => '1675',
+            'region' => '31',
+            'province' => '139'
         ]);  
+        //456
+		DB::table('towns')->insert([
+            'town_name' => 'Adana',
+            'pack' => 'horse',
+            'pig' => 'pig',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'seasoning' => 'olives',
+            'silver' => 'silver',
+            'pottery' => 'clay',
+            'timber' => 'cypress',
+			'xcoord' => '2338',
+            'ycoord' => '1673',
+            'region' => '31',
+            'province' => '139'
+        ]); 
+        //457
+		DB::table('towns')->insert([
+            'town_name' => 'Zephyrium',
+            'fish' => 'fish',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'emmer',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'seasoning' => 'olives',
+            'pottery' => 'clay',
+            'timber' => 'cypress',
+			'xcoord' => '2307',
+            'ycoord' => '1683',
+            'region' => '31',
+            'province' => '139'
+        ]); 
         //Armenia
         //Armenia Minor
-        //
+        //458
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Sebasteia',
+            'climate' => 'continental',
+            'pack' => 'horse',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'timber' => 'juniper',
+			'xcoord' => '2424',
+            'ycoord' => '1497',
             'region' => '32',
-            'province' => '1'
+            'province' => '140'
         ]);  
+        //459
+		DB::table('towns')->insert([
+            'town_name' => 'Nicopolis',
+            'climate' => 'continental',
+            'pack' => 'horse',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'gold' => 'gold',
+            'silver' => 'silver',
+            'timber' => 'juniper',
+			'xcoord' => '2474',
+            'ycoord' => '1464',
+            'region' => '32',
+            'province' => '140'
+        ]); 
         //Armenia Maior
-        //
+        //460
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Her',
+            'climate' => 'continental',
+            'wool' => 'goat',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'salt' => 'salt',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2822',
+            'ycoord' => '1570',
             'region' => '32',
-            'province' => '1'
+            'province' => '141'
         ]); 
+        //461
+		DB::table('towns')->insert([
+            'town_name' => 'Thospia',
+            'climate' => 'continental',
+            'wool' => 'goat',
+            'game' => 'hare',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2741',
+            'ycoord' => '1575',
+            'region' => '32',
+            'province' => '141'
+        ]);
+        //462
+		DB::table('towns')->insert([
+            'town_name' => 'Bitlis',
+            'population' => '5000',
+            'climate' => 'continental',
+            'wool' => 'goat',
+            'game' => 'hare',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2679',
+            'ycoord' => '1581',
+            'region' => '32',
+            'province' => '141'
+        ]);
         //Armenia Superior
-        //
+        //463
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Ardahan',
+            'climate' => 'continental',
+            'wool' => 'goat',
+            'game' => 'pheasant',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'pottery' => 'clay',
+            'timber' => 'juniper',
+			'xcoord' => '2727',
+            'ycoord' => '1411',
             'region' => '32',
-            'province' => '1'
-        ]); 
+            'province' => '142'
+        ]);  
         //Armenia Ararat
-        //
+        //464
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Armavir',
+            'climate' => 'continental',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'pottery' => 'clay',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2777',
+            'ycoord' => '1466',
             'region' => '32',
-            'province' => '1'
+            'province' => '143'
+        ]); 
+        //465
+		DB::table('towns')->insert([
+            'town_name' => 'Artaxata',
+            'climate' => 'continental',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'iron' => 'iron',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2802',
+            'ycoord' => '1479',
+            'region' => '32',
+            'province' => '143'
+        ]); 
+        //466
+		DB::table('towns')->insert([
+            'town_name' => 'Naxuana',
+            'climate' => 'continental',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2845',
+            'ycoord' => '1530',
+            'region' => '32',
+            'province' => '143'
         ]); 
         //Armenia Tertia
-        //
+        //467
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Manzikert',
+            'climate' => 'continental',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2705',
+            'ycoord' => '1537',
             'region' => '32',
-            'province' => '1'
+            'province' => '144'
+        ]); 
+        //468
+		DB::table('towns')->insert([
+            'town_name' => 'Karin',
+            'climate' => 'continental',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2638',
+            'ycoord' => '1486',
+            'region' => '32',
+            'province' => '144'
         ]); 
         //Arzanene
-        //
+        //469
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Amida',
+            'climate' => 'continental',
+            'wool' => 'goat',
+            'game' => 'hare',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2584',
+            'ycoord' => '1610',
             'region' => '32',
-            'province' => '1'
+            'province' => '145'
+        ]); 
+        //470
+		DB::table('towns')->insert([
+            'town_name' => 'Tigranocerta',
+            'climate' => 'continental',
+            'wool' => 'goat',
+            'game' => 'hare',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2631',
+            'ycoord' => '1593',
+            'region' => '32',
+            'province' => '145'
         ]); 
         //Acilisene
-        //
+        //471
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Acilisene',
+            'climate' => 'continental',
+            'cattle' => 'cattle',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'silver' => 'silver',
+            'pottery' => 'clay',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2548',
+            'ycoord' => '1492',
             'region' => '32',
-            'province' => '1'
+            'province' => '146'
         ]); 
-        //Corduene
-        //
+        //472
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Satala',
+            'population' => '5000',
+            'climate' => 'continental',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2554',
+            'ycoord' => '1468',
             'region' => '32',
-            'province' => '1'
+            'province' => '146'
+        ]);
+        //473
+		DB::table('towns')->insert([
+            'town_name' => 'Baiburt',
+            'population' => '5000',
+            'climate' => 'continental',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2584',
+            'ycoord' => '1460',
+            'region' => '32',
+            'province' => '146'
+        ]);
+        //Corduene
+        //474
+		DB::table('towns')->insert([
+            'town_name' => 'Sareisa',
+            'climate' => 'continental',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'sweetener' => 'honey',
+            'copper' => 'copper',
+            'dye' => 'woad',
+            'timber' => 'juniper',
+			'xcoord' => '2697',
+            'ycoord' => '1633',
+            'region' => '32',
+            'province' => '147'
+        ]); 
+        //Lazica
+        //475
+		DB::table('towns')->insert([
+            'town_name' => 'Pityus',
+            'climate' => 'pontic',
+            'wool' => 'sheep',
+            'fish' => 'fish',
+            'game' => 'pheasant',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'gold' => 'gold',
+            'fiber' => 'flax',
+            'timber' => 'pine',
+			'xcoord' => '2567',
+            'ycoord' => '1245',
+            'region' => '32',
+            'province' => '148'
+        ]); 
+        //476
+		DB::table('towns')->insert([
+            'town_name' => 'Dioscurias',
+            'climate' => 'pontic',
+            'wool' => 'sheep',
+            'fish' => 'fish',
+            'game' => 'pheasant',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'gold' => 'gold',
+            'fiber' => 'flax',
+            'timber' => 'pine',
+			'xcoord' => '2627',
+            'ycoord' => '1280',
+            'region' => '32',
+            'province' => '148'
         ]); 
         //Colchis
-        //
+        //477
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Phasis',
+            'climate' => 'pontic',
+            'wool' => 'sheep',
+            'fish' => 'fish',
+            'game' => 'pheasant',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'gold' => 'gold',
+            'fiber' => 'flax',
+            'timber' => 'pine',
+			'xcoord' => '2651',
+            'ycoord' => '1314',
             'region' => '32',
-            'province' => '1'
+            'province' => '149'
         ]); 
         //Iberia
-        //
+        //478
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Armazi',
+            'climate' => 'continental',
+            'wool' => 'sheep',
+            'game' => 'pheasant',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'sweetener' => 'honey',
+            'gold' => 'gold',
+            'silver' => 'silver',
+            'fiber' => 'flax',
+            'timber' => 'pine',
+			'xcoord' => '2817',
+            'ycoord' => '1362',
             'region' => '32',
-            'province' => '1'
+            'province' => '150'
         ]); 
         //Albania
-        //
+        //479
 		DB::table('towns')->insert([
-			'town_name' => '',
-			'xcoord' => '',
-            'ycoord' => '',
+            'town_name' => 'Gardman',
+            'climate' => 'cold steppe',
+            'wool' => 'sheep',
+            'game' => 'deer',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'copper' => 'copper',
+            'dye' => 'woad',
+            'timber' => 'pine',
+			'xcoord' => '2896',
+            'ycoord' => '1436',
             'region' => '32',
-            'province' => '1'
+            'province' => '151'
         ]); 
+        //480
+		DB::table('towns')->insert([
+            'town_name' => 'Gabala',
+            'climate' => 'cold steppe',
+            'wool' => 'sheep',
+            'game' => 'pheasant',
+            'fruit' => 'fruit',
+            'grain' => 'barley',
+            'vine' => 'grapes',
+            'tin' => 'tin',
+            'timber' => 'pine',
+			'xcoord' => '2969',
+            'ycoord' => '1412',
+            'region' => '32',
+            'province' => '151'
+        ]); 
+        /*
         //Persia
         //Media Atropatene
         //

@@ -672,123 +672,128 @@ class ProvinceSeeder extends Seeder
             'province_name' => 'Lycaonia',
             'region' => '31'
         ]);
-        //1
+        //127
         DB::table('provinces')->insert([
             'province_name' => 'Pontus Honorias',
             'region' => '31'
         ]);
-        //1
+        //128
         DB::table('provinces')->insert([
             'province_name' => 'Pontus Polemoniacus',
             'region' => '31'
         ]);
-        //1
+        //129
         DB::table('provinces')->insert([
             'province_name' => 'Pontus Chaldia',
             'region' => '31'
         ]);
-        //1
+        //130
         DB::table('provinces')->insert([
-            'province_name' => 'Galatia Salutaris',
+            'province_name' => 'Galatia Prima',
             'region' => '31'
         ]);
-        //1
+        //131
         DB::table('provinces')->insert([
-            'province_name' => 'Gallatia Secunda',
+            'province_name' => 'Gallatia Salutaris',
             'region' => '31'
         ]);
-        //1
+        //132
         DB::table('provinces')->insert([
             'province_name' => 'Cappadocia Prima',
             'region' => '31'
         ]);
-        //1
+        //133
         DB::table('provinces')->insert([
             'province_name' => 'Cappadocia Secunda',
             'region' => '31'
         ]);
-        //1
+        //134
         DB::table('provinces')->insert([
             'province_name' => 'Cappadocia Chamanene',
             'region' => '31'
         ]);
-        //1
+        //135
         DB::table('provinces')->insert([
             'province_name' => 'Cappadocia Cataonia',
             'region' => '31'
         ]);
-        //1
+        //136
         DB::table('provinces')->insert([
             'province_name' => 'Cappadocia Melitene',
             'region' => '31'
         ]);
-        //1
+        //137
         DB::table('provinces')->insert([
             'province_name' => 'Cilicia Trachea',
             'region' => '31'
         ]);
-        //1
+        //138
         DB::table('provinces')->insert([
             'province_name' => 'Cilicia Aspera',
             'region' => '31'
         ]);
-        //1
+        //139
         DB::table('provinces')->insert([
             'province_name' => 'Cilicia Pedias',
             'region' => '31'
         ]);
         //Armenia
-        //1
+        //140
         DB::table('provinces')->insert([
             'province_name' => 'Armenia Minor',
             'region' => '32'
         ]);
-        //1
+        //141
         DB::table('provinces')->insert([
             'province_name' => 'Armenia Maior',
             'region' => '32'
         ]);
-        //1
+        //142
         DB::table('provinces')->insert([
             'province_name' => 'Armenia Superior',
             'region' => '32'
         ]);
-        //1
+        //143
         DB::table('provinces')->insert([
             'province_name' => 'Armenia Ararat',
             'region' => '32'
         ]);
-        //1
+        //144
         DB::table('provinces')->insert([
             'province_name' => 'Armenia Tertia',
             'region' => '32'
         ]);
-        //1
+        //145
         DB::table('provinces')->insert([
             'province_name' => 'Arzanene',
             'region' => '32'
         ]);
-        //1
+        //146
         DB::table('provinces')->insert([
             'province_name' => 'Acilisene',
             'region' => '32'
         ]);
-        //1
+        //147
         DB::table('provinces')->insert([
             'province_name' => 'Corduene',
             'region' => '32'
         ]);
-        //1
+        //148
+        DB::table('provinces')->insert([
+            'province_name' => 'Lazica',
+            'region' => '32'
+        ]);
+        //149
         DB::table('provinces')->insert([
             'province_name' => 'Colchis',
             'region' => '32'
         ]);
-        //1
+        //150
         DB::table('provinces')->insert([
             'province_name' => 'Iberia',
             'region' => '32'
         ]);
-        //1
+        //151
         DB::table('provinces')->insert([
             'province_name' => 'Albania',
             'region' => '32'
