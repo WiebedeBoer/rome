@@ -50,7 +50,9 @@ class CreateTownsTable extends Migration
             $table->string('paper')->default('none'); //13 papyrus
             $table->string('sculpture')->default('none'); //marble, 13 ivory   
             $table->string('glass')->default('none'); //glass
-            $table->string('caravan')->default('none'); //spice, silk, incense
+            $table->string('spice')->default('none'); //spice
+            $table->string('fabric')->default('none'); //silk
+            $table->string('scent')->default('none'); //incense
             $table->string('chattel')->default('none'); //slave
 			//stats
 			$table->integer('defenses')->default(10);
