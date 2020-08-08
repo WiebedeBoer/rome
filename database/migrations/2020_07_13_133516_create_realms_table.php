@@ -16,10 +16,9 @@ class CreateRealmsTable extends Migration
         Schema::create('realms', function (Blueprint $table) {
             $table->bigIncrements('realm_id');
             $table->string('realm_name');
-            //culture
-            $table->string('culture')->default('latin');
             //fk
             $table->unsignedBigInteger('capital')->nullable();
+            $table->unsignedBigInteger('culture')->nullable();
             //timestamps
             $table->timestamps();
         });

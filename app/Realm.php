@@ -21,4 +21,10 @@ class Realm extends Model
     {
         return $this->hasMany('App\Citizen','citizen_id');
     }
+
+    //rulers
+    public function rulers()
+    {
+        return $this->hasMany('App\Ruler','ruler_id');
+    }
 }

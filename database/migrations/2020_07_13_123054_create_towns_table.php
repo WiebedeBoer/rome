@@ -17,48 +17,48 @@ class CreateTownsTable extends Migration
             $table->bigIncrements('town_id');
 			$table->string('town_name');
 			//population
-            $table->integer('population')->default(10000); //vicus = 2000, castrum = 5000, oppidum = 10000, municipium = 10000, = 20000, urbis = 50000, = 100000
+            $table->integer('population')->default(10000); //vicus (39) 2000, castrum (58) 5000, municipium (466) 10000, (29) 20000, (7) 50000, (3) 100000
             //climate
-            $table->string('climate')->default('mediterranean'); //224 mediterranean, 74 oceanic, 42 pontic, 80 continental, 25 alpine, 14 hot steppe, 29 cold steppe, 51 desert oasis, 34 desert wetland
+            $table->string('climate')->default('mediterranean'); //223 mediterranean, 74 oceanic, 42 pontic, 81 continental, 25 alpine, 14 hot steppe,  37 cold steppe,  72 desert oasis,  36 desert wetland
             //animals
-            $table->string('pack')->default('none'); //horse, camel
-            $table->string('cattle')->default('none'); //cattle
-            $table->string('wool')->default('none'); //sheep, goat
-            $table->string('pig')->default('none'); //pig
-            $table->string('fish')->default('none'); //fish
-            $table->string('poultry')->default('none'); //chicken, duck
+            $table->string('pack')->default('none'); //105 horse, 114 camel
+            $table->string('cattle')->default('none'); //162 cattle
+            $table->string('wool')->default('none'); //238 sheep, 118 goat
+            $table->string('pig')->default('none'); //307 pig
+            $table->string('fish')->default('none'); //174 fish
+            $table->string('poultry')->default('none'); //275 chicken, 13 duck
             $table->string('rabbit')->default('none'); //55 rabbit
-            $table->string('game')->default('none'); //boar, deer, hare, pheasant, elephant
+            $table->string('game')->default('none'); //245 boar, 259 deer, 82 hare, 8 pheasant, 8 elephant
             //crops
             $table->string('fruit')->default('none'); //fruit
-            $table->string('grain')->default('none'); //durum, barley, rye, oats, einkorn, spelt, emmer
-            $table->string('vine')->default('none'); //grapes
-            $table->string('sweetener')->default('none'); //honey
-            $table->string('seasoning')->default('none');  //olives         
+            $table->string('grain')->default('none'); //53 durum, 224 barley, 38 rye, 85 oats, 29 einkorn, 13 spelt, 160 emmer
+            $table->string('vine')->default('none'); //389 grapes
+            $table->string('sweetener')->default('none'); //86 honey
+            $table->string('seasoning')->default('none');  //212 olives         
             //metals
-            $table->string('tin')->default('none'); //tin
-            $table->string('copper')->default('none'); //copper
-            $table->string('iron')->default('none'); //iron
-            $table->string('gold')->default('none'); //gold
-            $table->string('silver')->default('none'); //silver
-            $table->string('salt')->default('none'); //salt
+            $table->string('tin')->default('none'); //11 tin
+            $table->string('copper')->default('none'); //74 copper
+            $table->string('iron')->default('none'); //66 iron
+            $table->string('gold')->default('none'); //68 gold
+            $table->string('silver')->default('none'); //55 silver
+            $table->string('salt')->default('none'); //28 salt
             //resources  
-            $table->string('fiber')->default('none'); //flax
-            $table->string('pottery')->default('none'); //clay
-            $table->string('dye')->default('none'); //woad, madder, 20 indigo
-            $table->string('timber')->default('none'); //oak, cypress, yew, beech, juniper, cedar, pine, palm
-            $table->string('paper')->default('none'); //13 papyrus
-            $table->string('sculpture')->default('none'); //marble, 13 ivory   
-            $table->string('glass')->default('none'); //glass
-            $table->string('spice')->default('none'); //spice
-            $table->string('fabric')->default('none'); //silk
-            $table->string('scent')->default('none'); //incense
-            $table->string('chattel')->default('none'); //slave
+            $table->string('fiber')->default('none'); //29 flax
+            $table->string('pottery')->default('none'); //313 clay
+            $table->string('dye')->default('none'); //81 woad, 18 madder, 21 indigo
+            $table->string('timber')->default('none'); //168 oak, 70 cypress, 43 yew, 39 beech, 110 juniper, 8 cedar, 33 pine, 118 palm
+            $table->string('paper')->default('none'); // 13 papyrus
+            $table->string('sculpture')->default('none'); //26 marble, 15 ivory   
+            $table->string('glass')->default('none'); //22 glass
+            $table->string('spice')->default('none'); //28 spice
+            $table->string('fabric')->default('none'); //36 silk
+            $table->string('scent')->default('none'); //30 incense
+            $table->string('chattel')->default('none'); //3 slave
 			//stats
-			$table->integer('defenses')->default(10);
-			$table->integer('justice')->default(900);
-			$table->integer('commerce')->default(10);
-			$table->integer('agriculture')->default(10);
+			$table->integer('defenses')->default(10); //1 - 999, ruin 1, oppida 100, castra 300, city wall 600
+			$table->integer('justice')->default(900); //1 - 999
+			$table->integer('commerce')->default(10); //1 - 999
+			$table->integer('agriculture')->default(10); //1 - 999
 			//army stats
 			$table->integer('morale')->default(100);
 			$table->integer('training')->default(100);
@@ -72,7 +72,7 @@ class CreateTownsTable extends Migration
             //fk
             $table->unsignedBigInteger('region')->nullable();
             $table->unsignedBigInteger('province')->nullable();
-            $table->unsignedBigInteger('ruler')->nullable();
+            $table->unsignedBigInteger('realm')->nullable();
             //timestamps
             $table->timestamps();
         });

@@ -25,4 +25,10 @@ class Town extends Model
     {
         return $this->belongsTo('App\Person','ruler');
     } 
+
+    //mayors
+    public function mayors()
+    {
+        return $this->hasMany('App\Mayor','mayor_id');
+    }
 }

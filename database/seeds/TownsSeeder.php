@@ -13,6 +13,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Roma',
             'population' => '100000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -24,6 +25,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'oak',
             'glass' => 'glass',
+            'defenses' => '800',
 			'xcoord' => '1187',
             'ycoord' => '1353',
 			'region' => '1',
@@ -32,6 +34,7 @@ class TownsSeeder extends Seeder
 		//2
 		DB::table('towns')->insert([
             'town_name' => 'Ostia',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'game' => 'boar',
@@ -40,6 +43,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '1166',
             'ycoord' => '1361',
 			'region' => '1',
@@ -48,6 +52,7 @@ class TownsSeeder extends Seeder
 		//3
 		DB::table('towns')->insert([
             'town_name' => 'Lanuvium',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -66,6 +71,7 @@ class TownsSeeder extends Seeder
 		//4
 		DB::table('towns')->insert([
             'town_name' => 'Tarracina',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -82,6 +88,7 @@ class TownsSeeder extends Seeder
 		//5
 		DB::table('towns')->insert([
             'town_name' => 'Casinum',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -89,6 +96,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'seasoning' => 'olives',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '1246',
             'ycoord' => '1377',
             'region' => '1',
@@ -99,6 +107,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Capua',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -108,6 +117,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '1268',
             'ycoord' => '1404',
             'region' => '1',
@@ -117,6 +127,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Neapolis',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -128,6 +139,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'madder',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '1270',
             'ycoord' => '1422',
             'region' => '1',
@@ -136,6 +148,7 @@ class TownsSeeder extends Seeder
 		//8
 		DB::table('towns')->insert([
             'town_name' => 'Pompei',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -148,6 +161,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'madder',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '1280',
             'ycoord' => '1430',
             'region' => '1',
@@ -157,6 +171,7 @@ class TownsSeeder extends Seeder
 		//9
 		DB::table('towns')->insert([
             'town_name' => 'Paestum',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -177,6 +192,7 @@ class TownsSeeder extends Seeder
 		//10
 		DB::table('towns')->insert([
             'town_name' => 'Grumentum',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'game' => 'boar',
             'fruit' => 'fruit',
@@ -194,6 +210,7 @@ class TownsSeeder extends Seeder
 		//11
 		DB::table('towns')->insert([
             'town_name' => 'Potentia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -212,6 +229,7 @@ class TownsSeeder extends Seeder
 		//12
 		DB::table('towns')->insert([
             'town_name' => 'Consentia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -221,6 +239,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'silver' => 'silver',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '1374',
             'ycoord' => '1528',
             'region' => '1',
@@ -229,6 +248,7 @@ class TownsSeeder extends Seeder
 		//13
 		DB::table('towns')->insert([
             'town_name' => 'Crotona',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -247,6 +267,7 @@ class TownsSeeder extends Seeder
 		//14
 		DB::table('towns')->insert([
             'town_name' => 'Rhegium',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -266,6 +287,7 @@ class TownsSeeder extends Seeder
 		//15
 		DB::table('towns')->insert([
             'town_name' => 'Tarentum',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'fish' => 'fish',
@@ -277,6 +299,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '1422',
             'ycoord' => '1452',
             'region' => '1',
@@ -285,6 +308,7 @@ class TownsSeeder extends Seeder
 		//16
 		DB::table('towns')->insert([
             'town_name' => 'Brundisium',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -295,6 +319,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '1457',
             'ycoord' => '1434',
             'region' => '1',
@@ -373,6 +398,7 @@ class TownsSeeder extends Seeder
 		//21
 		DB::table('towns')->insert([
             'town_name' => 'Beneventum',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'game' => 'boar',
@@ -380,6 +406,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '1296',
             'ycoord' => '1401',
             'region' => '1',
@@ -389,6 +416,7 @@ class TownsSeeder extends Seeder
 		//22
 		DB::table('towns')->insert([
             'town_name' => 'Marruvium',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -406,6 +434,7 @@ class TownsSeeder extends Seeder
 		//23
 		DB::table('towns')->insert([
             'town_name' => 'Reate',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -424,6 +453,7 @@ class TownsSeeder extends Seeder
 		//24
 		DB::table('towns')->insert([
             'town_name' => 'Spoletum',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -433,6 +463,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'yew',
+            'defenses' => '800',
 			'xcoord' => '1200',
             'ycoord' => '1313',
             'region' => '1',
@@ -441,6 +472,7 @@ class TownsSeeder extends Seeder
 		//25
 		DB::table('towns')->insert([
             'town_name' => 'Perusia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -449,6 +481,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'yew',
+            'defenses' => '800',
 			'xcoord' => '1177',
             'ycoord' => '1266',
             'region' => '1',
@@ -458,6 +491,7 @@ class TownsSeeder extends Seeder
 		//26
 		DB::table('towns')->insert([
             'town_name' => 'Ancona',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -466,6 +500,7 @@ class TownsSeeder extends Seeder
             'grain' => 'durum',
             'vine' => 'grapes',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '1234',
             'ycoord' => '1234',
             'region' => '1',
@@ -474,6 +509,7 @@ class TownsSeeder extends Seeder
 		//27
 		DB::table('towns')->insert([
             'town_name' => 'Asculum',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'fruit',
@@ -490,6 +526,7 @@ class TownsSeeder extends Seeder
 		//28
 		DB::table('towns')->insert([
             'town_name' => 'Gravisca',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -509,6 +546,7 @@ class TownsSeeder extends Seeder
 		//29
 		DB::table('towns')->insert([
             'town_name' => 'Rusellae',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -527,6 +565,7 @@ class TownsSeeder extends Seeder
 		//30
 		DB::table('towns')->insert([
             'town_name' => 'Arretium',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -540,6 +579,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad',
             'timber' => 'cypress',
             'sculpture' => 'marble',
+            'defenses' => '800',
 			'xcoord' => '1150',
             'ycoord' => '1241',
             'region' => '1',
@@ -548,6 +588,7 @@ class TownsSeeder extends Seeder
 		//31
 		DB::table('towns')->insert([
             'town_name' => 'Saena',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -560,6 +601,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad',
             'timber' => 'cypress',
             'sculpture' => 'marble',
+            'defenses' => '800',
 			'xcoord' => '1121',
             'ycoord' => '1250',
             'region' => '1',
@@ -569,6 +611,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Pisa',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -580,6 +623,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad',
             'timber' => 'cypress',
             'sculpture' => 'marble',
+            'defenses' => '800',
 			'xcoord' => '1069',
             'ycoord' => '1231',
             'region' => '1',
@@ -588,6 +632,7 @@ class TownsSeeder extends Seeder
 		//33
 		DB::table('towns')->insert([
             'town_name' => 'Florentia',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -600,6 +645,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1115',
             'ycoord' => '1218',
             'region' => '1',
@@ -608,6 +654,7 @@ class TownsSeeder extends Seeder
 		//34
 		DB::table('towns')->insert([
             'town_name' => 'Luna',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -629,6 +676,7 @@ class TownsSeeder extends Seeder
 		//35
 		DB::table('towns')->insert([
             'town_name' => 'Panormus',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',           
             'pig' => 'pig',
             'fish' => 'fish',
@@ -640,6 +688,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1224',
             'ycoord' => '1599',
             'region' => '2',
@@ -648,6 +697,7 @@ class TownsSeeder extends Seeder
 		//36
 		DB::table('towns')->insert([
             'town_name' => 'Lilybaeum',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',            
             'pig' => 'pig',
             'fish' => 'fish',
@@ -658,6 +708,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1177',
             'ycoord' => '1621',
             'region' => '2',
@@ -666,6 +717,7 @@ class TownsSeeder extends Seeder
 		//37
 		DB::table('towns')->insert([
             'town_name' => 'Agrigentum',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',           
             'pig' => 'pig',
             'fish' => 'fish',
@@ -677,6 +729,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1234',
             'ycoord' => '1654',
             'region' => '2',
@@ -685,6 +738,7 @@ class TownsSeeder extends Seeder
 		//38
 		DB::table('towns')->insert([
             'town_name' => 'Gela',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',       
             'pig' => 'pig',
             'fish' => 'fish',
@@ -704,6 +758,7 @@ class TownsSeeder extends Seeder
 		//39
 		DB::table('towns')->insert([
             'town_name' => 'Syracusae',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',           
             'pig' => 'pig',
             'fish' => 'fish',
@@ -715,6 +770,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1318',
             'ycoord' => '1663',
             'region' => '2',
@@ -724,6 +780,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Catania',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',           
             'pig' => 'pig',
             'fish' => 'fish',
@@ -735,6 +792,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1313',
             'ycoord' => '1637',
             'region' => '2',
@@ -743,6 +801,7 @@ class TownsSeeder extends Seeder
 		//41
 		DB::table('towns')->insert([
             'town_name' => 'Messana',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',       
             'pig' => 'pig',
             'fish' => 'fish',
@@ -754,6 +813,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1335',
             'ycoord' => '1596',
             'region' => '2',
@@ -764,6 +824,7 @@ class TownsSeeder extends Seeder
 		//42
 		DB::table('towns')->insert([
             'town_name' => 'Turris Libyssonis',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -781,6 +842,7 @@ class TownsSeeder extends Seeder
 		//43
 		DB::table('towns')->insert([
             'town_name' => 'Caralis',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',           
             'pig' => 'pig',
             'fish' => 'fish',
@@ -804,6 +866,7 @@ class TownsSeeder extends Seeder
 		//44
 		DB::table('towns')->insert([
             'town_name' => 'Aleria',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -850,6 +913,7 @@ class TownsSeeder extends Seeder
             'grain' => 'durum',
             'vine' => 'grapes',
             'timber' => 'beech',
+            'defenses' => '400',
 			'xcoord' => '1168',
             'ycoord' => '1172',
             'region' => '5',
@@ -869,6 +933,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech',
+            'defenses' => '400',
 			'xcoord' => '1124',
             'ycoord' => '1168',
             'region' => '5',
@@ -887,6 +952,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech',
+            'defenses' => '400',
 			'xcoord' => '1099',
             'ycoord' => '1158',
             'region' => '5',
@@ -896,6 +962,7 @@ class TownsSeeder extends Seeder
 		//49
 		DB::table('towns')->insert([
             'town_name' => 'Genua',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'game' => 'deer',
@@ -912,6 +979,7 @@ class TownsSeeder extends Seeder
 		//50
 		DB::table('towns')->insert([
             'town_name' => 'Savona',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'game' => 'boar',
@@ -938,6 +1006,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech',
+            'defenses' => '400',
 			'xcoord' => '1071',
             'ycoord' => '1146',
             'region' => '5',
@@ -996,6 +1065,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'timber' => 'yew',
             'sculpture' => 'marble',
+            'defenses' => '400',
 			'xcoord' => '934',
             'ycoord' => '1126',
             'region' => '5',
@@ -1038,6 +1108,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad',
             'timber' => 'yew',
             'sculpture' => 'marble',
+            'defenses' => '400',
 			'xcoord' => '1015',
             'ycoord' => '1088',
             'region' => '5',
@@ -1139,6 +1210,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'yew',  
+            'defenses' => '800',
 			'xcoord' => '993',
             'ycoord' => '967',
             'region' => '5',
@@ -1159,6 +1231,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'pottery' => 'clay',
             'timber' => 'yew',
+            'defenses' => '400',
 			'xcoord' => '1121',
             'ycoord' => '1026',
             'region' => '5',
@@ -1179,6 +1252,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'pottery' => 'clay',
             'timber' => 'yew',
+            'defenses' => '400',
 			'xcoord' => '1111',
             'ycoord' => '1054',
             'region' => '5',
@@ -1199,6 +1273,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'yew',
             'glass' => 'glass',
+            'defenses' => '400',
 			'xcoord' => '1126',
             'ycoord' => '967',
             'region' => '5',
@@ -1220,6 +1295,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad', 
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1099',
             'ycoord' => '884',
             'region' => '5',
@@ -1281,6 +1357,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad', 
             'timber' => 'yew',  
             'sculpture' => 'marble', 
+            'defenses' => '400',
 			'xcoord' => '1162',
             'ycoord' => '811',
             'region' => '5',
@@ -1301,6 +1378,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'salt' => 'salt',
             'timber' => 'yew', 
+            'defenses' => '400',
 			'xcoord' => '1197',
             'ycoord' => '899',
             'region' => '5',
@@ -1309,8 +1387,8 @@ class TownsSeeder extends Seeder
 		//70
 		DB::table('towns')->insert([
             'town_name' => 'Lauriacum',
-            'climate' => 'alpine',
             'population' => '5000',
+            'climate' => 'alpine',            
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'fruit',
@@ -1318,7 +1396,8 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'beech',  
+            'timber' => 'beech', 
+            'defenses' => '400',
 			'xcoord' => '1258',
             'ycoord' => '900',
             'region' => '5',
@@ -1375,6 +1454,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'iron' => 'iron',
             'timber' => 'beech', 
+            'defenses' => '400',
 			'xcoord' => '1313',
             'ycoord' => '1035',
             'region' => '5',
@@ -1428,6 +1508,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech',
+            'defenses' => '400',
 			'xcoord' => '1095',
             'ycoord' => '1122',
             'region' => '5',
@@ -1447,6 +1528,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'pottery' => 'clay',
             'timber' => 'beech',
+            'defenses' => '400',
 			'xcoord' => '1101',
             'ycoord' => '1098',
             'region' => '5',
@@ -1465,6 +1547,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'timber' => 'beech',
             'glass' => 'glass',
+            'defenses' => '400',
 			'xcoord' => '1150',
             'ycoord' => '1105',
             'region' => '5',
@@ -1529,6 +1612,7 @@ class TownsSeeder extends Seeder
 		//82
 		DB::table('towns')->insert([
             'town_name' => 'Cemelenum',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'game' => 'deer',
             'fruit' => 'fruit',
@@ -1668,6 +1752,7 @@ class TownsSeeder extends Seeder
 		//89
 		DB::table('towns')->insert([
             'town_name' => 'Telo Martius',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -1685,6 +1770,7 @@ class TownsSeeder extends Seeder
 		//90
 		DB::table('towns')->insert([
             'town_name' => 'Massilia',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -1693,6 +1779,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '818',
             'ycoord' => '1254',
             'region' => '6',
@@ -1701,6 +1788,7 @@ class TownsSeeder extends Seeder
 		//91
 		DB::table('towns')->insert([
             'town_name' => 'Arelate',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -1719,6 +1807,7 @@ class TownsSeeder extends Seeder
 		//92
 		DB::table('towns')->insert([
             'town_name' => 'Arausio',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'poultry' => 'chicken',
             'game' => 'boar', 
@@ -1735,6 +1824,7 @@ class TownsSeeder extends Seeder
 		//93
 		DB::table('towns')->insert([
             'town_name' => 'Valentia',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'cattle' => 'cattle',
             'pig' => 'pig',
@@ -1745,6 +1835,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes', 
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '795',
             'ycoord' => '1134',
             'region' => '6',
@@ -1825,6 +1916,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'yew', 
+            'defenses' => '400',
 			'xcoord' => '859',
             'ycoord' => '1047',
             'region' => '6',
@@ -1833,6 +1925,7 @@ class TownsSeeder extends Seeder
 		//98
 		DB::table('towns')->insert([
             'town_name' => 'Nemausus',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -1864,6 +1957,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'yew', 
+            'defenses' => '400',
 			'xcoord' => '792',
             'ycoord' => '1079',
             'region' => '6',
@@ -1934,6 +2028,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '801',
             'ycoord' => '965',
             'region' => '6',
@@ -1963,6 +2058,7 @@ class TownsSeeder extends Seeder
 		//105
 		DB::table('towns')->insert([
             'town_name' => 'Narbo Martius',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -1975,6 +2071,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'dye' => 'woad',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '699',
             'ycoord' => '1261',
             'region' => '6',
@@ -1983,6 +2080,7 @@ class TownsSeeder extends Seeder
 		//106
 		DB::table('towns')->insert([
             'town_name' => 'Carcasum',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -1993,6 +2091,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes', 
             'dye' => 'woad',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '667',
             'ycoord' => '1257',
             'region' => '6',
@@ -2001,6 +2100,7 @@ class TownsSeeder extends Seeder
 		//107
 		DB::table('towns')->insert([
             'town_name' => 'Tolosa',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2013,6 +2113,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '619',
             'ycoord' => '1232',
             'region' => '6',
@@ -2022,6 +2123,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Albigensium',
             'population' => '2000',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2039,6 +2141,7 @@ class TownsSeeder extends Seeder
 		//109
 		DB::table('towns')->insert([
             'town_name' => 'Segodunum',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2059,6 +2162,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aureliacum',
             'population' => '2000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2077,6 +2181,7 @@ class TownsSeeder extends Seeder
 		//111
 		DB::table('towns')->insert([
             'town_name' => 'Agathe',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -2087,6 +2192,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes', 
             'dye' => 'woad',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '727',
             'ycoord' => '1252',
             'region' => '6',
@@ -2133,7 +2239,8 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'pottery' => 'clay',
             'dye' => 'woad',
-            'timber' => 'oak',  
+            'timber' => 'oak',
+            'defenses' => '400',  
 			'xcoord' => '517',
             'ycoord' => '1144',
             'region' => '6',
@@ -2169,6 +2276,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'vine' => 'grapes',
             'timber' => 'yew', 
+            'defenses' => '400',
 			'xcoord' => '708',
             'ycoord' => '1075',
             'region' => '6',
@@ -2395,6 +2503,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron', 
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '667',
             'ycoord' => '848',
             'region' => '6',
@@ -2494,6 +2603,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad',
             'timber' => 'oak', 
             'glass' => 'glass', 
+            'defenses' => '400',
 			'xcoord' => '918',
             'ycoord' => '786',
             'region' => '6',
@@ -2604,6 +2714,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '837',
             'ycoord' => '688',
             'region' => '7',
@@ -2624,6 +2735,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '840',
             'ycoord' => '613',
             'region' => '7',
@@ -2643,6 +2755,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '883',
             'ycoord' => '625',
             'region' => '7',
@@ -2680,6 +2793,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '783',
             'ycoord' => '556',
             'region' => '7',
@@ -2701,6 +2815,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad',
             'timber' => 'oak', 
             'glass' => 'glass', 
+            'defenses' => '400',
 			'xcoord' => '902',
             'ycoord' => '682',
             'region' => '7',
@@ -2718,6 +2833,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '919',
             'ycoord' => '623',
             'region' => '7',
@@ -2739,6 +2855,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '955',
             'ycoord' => '727',
             'region' => '7',
@@ -2759,6 +2876,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '941',
             'ycoord' => '862',
             'region' => '7',
@@ -2780,6 +2898,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '979',
             'ycoord' => '771',
             'region' => '7',
@@ -2797,6 +2916,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '1013',
             'ycoord' => '825',
             'region' => '7',
@@ -2813,6 +2933,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '1023',
             'ycoord' => '861',
             'region' => '7',
@@ -2831,6 +2952,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '1107',
             'ycoord' => '802',
             'region' => '7',
@@ -2850,6 +2972,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '989',
             'ycoord' => '618',
             'region' => '7',
@@ -2868,6 +2991,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '1028',
             'ycoord' => '653',
             'region' => '7',
@@ -3052,6 +3176,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '435',
             'ycoord' => '609',
             'region' => '8',
@@ -3072,6 +3197,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '397',
             'ycoord' => '631',
             'region' => '8',
@@ -3090,6 +3216,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '330',
             'ycoord' => '611',
             'region' => '8',
@@ -3109,6 +3236,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'dye' => 'woad', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '331',
             'ycoord' => '503',
             'region' => '8',
@@ -3131,6 +3259,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '401',
             'ycoord' => '499',
             'region' => '8',
@@ -3150,6 +3279,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '422',
             'ycoord' => '539',
             'region' => '8',
@@ -3191,6 +3321,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'beech', 
+            'defenses' => '400',
 			'xcoord' => '540',
             'ycoord' => '640',
             'region' => '8',
@@ -3228,6 +3359,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'dye' => 'woad', 
             'timber' => 'beech', 
+            'defenses' => '400',
 			'xcoord' => '594',
             'ycoord' => '605',
             'region' => '8',
@@ -3246,6 +3378,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '612',
             'ycoord' => '544',
             'region' => '8',
@@ -3285,6 +3418,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '519',
             'ycoord' => '495',
             'region' => '8',
@@ -3304,6 +3438,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay', 
             'timber' => 'yew', 
+            'defenses' => '400',
 			'xcoord' => '495',
             'ycoord' => '432',
             'region' => '8',
@@ -3321,6 +3456,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'pottery' => 'clay', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '425',
             'ycoord' => '451',
             'region' => '8',
@@ -3339,6 +3475,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '400',
             'ycoord' => '352',
             'region' => '8',
@@ -3359,6 +3496,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'pottery' => 'clay', 
             'dye' => 'woad', 
+            'defenses' => '400',
 			'xcoord' => '438',
             'ycoord' => '327',
             'region' => '8',
@@ -3379,6 +3517,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay', 
             'dye' => 'woad', 
+            'defenses' => '400',
 			'xcoord' => '416',
             'ycoord' => '301',
             'region' => '8',
@@ -3394,6 +3533,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '414',
             'ycoord' => '258',
             'region' => '8',
@@ -3423,6 +3563,7 @@ class TownsSeeder extends Seeder
 		//182
 		DB::table('towns')->insert([
             'town_name' => 'Emporiae',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -3434,6 +3575,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'silver' => 'silver', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '706',
             'ycoord' => '1331',
             'region' => '10',
@@ -3443,6 +3585,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aquae Calidae',
             'population' => '2000',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -3464,6 +3607,7 @@ class TownsSeeder extends Seeder
 		//184
 		DB::table('towns')->insert([
             'town_name' => 'Barcino',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -3475,6 +3619,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'silver' => 'silver', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '659',
             'ycoord' => '1385',
             'region' => '10',
@@ -3484,6 +3629,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tarraco',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -3498,6 +3644,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver', 
             'pottery' => 'clay', 
             'timber' => 'juniper', 
+            'defenses' => '800',
 			'xcoord' => '612',
             'ycoord' => '1403',
             'region' => '10',
@@ -3506,6 +3653,7 @@ class TownsSeeder extends Seeder
 		//186
 		DB::table('towns')->insert([
             'town_name' => 'Ilerda',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'rabbit' => 'rabbit',
@@ -3524,6 +3672,7 @@ class TownsSeeder extends Seeder
 		//187
 		DB::table('towns')->insert([
             'town_name' => 'Salduie',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'cattle' => 'cattle',
             'pig' => 'pig',
@@ -3601,6 +3750,7 @@ class TownsSeeder extends Seeder
 		//191
 		DB::table('towns')->insert([
             'town_name' => 'Saguntum',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -3613,7 +3763,8 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'copper' => 'copper', 
             'pottery' => 'clay', 
-            'timber' => 'juniper', 
+            'timber' => 'juniper',
+            'defenses' => '400', 
 			'xcoord' => '550',
             'ycoord' => '1475',
             'region' => '10',
@@ -3660,6 +3811,7 @@ class TownsSeeder extends Seeder
 		//194
 		DB::table('towns')->insert([
             'town_name' => 'Valentia Edatonorum',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -3676,6 +3828,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'timber' => 'juniper', 
             'glass' => 'glass', 
+            'defenses' => '800',
 			'xcoord' => '529',
             'ycoord' => '1513',
             'region' => '10',
@@ -3684,6 +3837,7 @@ class TownsSeeder extends Seeder
 		//195
 		DB::table('towns')->insert([
             'town_name' => 'Lucentum',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'fish' => 'fish',
@@ -3707,6 +3861,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Carthago Nova',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -3719,6 +3874,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'silver' => 'silver', 
             'timber' => 'juniper', 
+            'defenses' => '800',
 			'xcoord' => '497',
             'ycoord' => '1634',
             'region' => '10',
@@ -3823,6 +3979,7 @@ class TownsSeeder extends Seeder
 		//202
 		DB::table('towns')->insert([
             'town_name' => 'Abdera',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -3844,6 +4001,7 @@ class TownsSeeder extends Seeder
 		//203
 		DB::table('towns')->insert([
             'town_name' => 'Malaca',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -3854,6 +4012,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '323',
             'ycoord' => '1689',
             'region' => '10',
@@ -3863,6 +4022,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Gadeira',
             'population' => '50000',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -3874,6 +4034,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '228',
             'ycoord' => '1701',
             'region' => '10',
@@ -3882,6 +4043,7 @@ class TownsSeeder extends Seeder
 		//205
 		DB::table('towns')->insert([
             'town_name' => 'Tartessus',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -3895,6 +4057,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',
             'silver' => 'silver', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '197',
             'ycoord' => '1655',
             'region' => '10',
@@ -3903,6 +4066,7 @@ class TownsSeeder extends Seeder
 		//206
 		DB::table('towns')->insert([
             'town_name' => 'Hispalis',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -3914,6 +4078,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '244',
             'ycoord' => '1646',
             'region' => '10',
@@ -3922,6 +4087,7 @@ class TownsSeeder extends Seeder
 		//207
 		DB::table('towns')->insert([
             'town_name' => 'Carmona',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'poultry' => 'chicken',
@@ -3941,6 +4107,7 @@ class TownsSeeder extends Seeder
 		//208
 		DB::table('towns')->insert([
             'town_name' => 'Astigi',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -3961,6 +4128,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Corduba',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -3976,6 +4144,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'pottery' => 'clay', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '305',
             'ycoord' => '1614',
             'region' => '10',
@@ -3984,6 +4153,7 @@ class TownsSeeder extends Seeder
 		//210
 		DB::table('towns')->insert([
             'town_name' => 'Castulo',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -3995,6 +4165,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'silver' => 'silver',
             'timber' => 'juniper', 
+            'defenses' => '800',
 			'xcoord' => '356',
             'ycoord' => '1600',
             'region' => '10',
@@ -4003,6 +4174,7 @@ class TownsSeeder extends Seeder
 		//211
 		DB::table('towns')->insert([
             'town_name' => 'Sisapo',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -4038,6 +4210,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'pottery' => 'clay', 
             'timber' => 'juniper', 
+            'defenses' => '400',
 			'xcoord' => '346',
             'ycoord' => '1462',
             'region' => '10',
@@ -4057,6 +4230,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',
             'gold' => 'gold',
             'timber' => 'juniper', 
+            'defenses' => '400',
 			'xcoord' => '341',
             'ycoord' => '1411',
             'region' => '10',
@@ -4094,6 +4268,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'silver' => 'silver',
             'timber' => 'juniper', 
+            'defenses' => '400',
 			'xcoord' => '263',
             'ycoord' => '1412',
             'region' => '10',
@@ -4114,6 +4289,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'silver' => 'silver',
             'timber' => 'yew', 
+            'defenses' => '400',
 			'xcoord' => '266',
             'ycoord' => '1300',
             'region' => '10',
@@ -4133,6 +4309,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'silver' => 'silver',
             'timber' => 'yew', 
+            'defenses' => '400',
 			'xcoord' => '246',
             'ycoord' => '1313',
             'region' => '10',
@@ -4159,6 +4336,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aquae Flaviae',
             'population' => '2000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'rabbit' => 'rabbit',
@@ -4179,6 +4357,7 @@ class TownsSeeder extends Seeder
 		//220
 		DB::table('towns')->insert([
             'town_name' => 'Bracara',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'poultry' => 'chicken',
             'rabbit' => 'rabbit',
@@ -4200,6 +4379,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Portus Cale',
             'population' => '2000',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'rabbit' => 'rabbit',
@@ -4217,6 +4397,7 @@ class TownsSeeder extends Seeder
 		//222
 		DB::table('towns')->insert([
             'town_name' => 'Aeminium',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -4235,6 +4416,7 @@ class TownsSeeder extends Seeder
 		//223
 		DB::table('towns')->insert([
             'town_name' => 'Eburobrittium',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -4254,6 +4436,7 @@ class TownsSeeder extends Seeder
 		//224
 		DB::table('towns')->insert([
             'town_name' => 'Olisipo',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -4272,6 +4455,7 @@ class TownsSeeder extends Seeder
         //225
 		DB::table('towns')->insert([
             'town_name' => 'Caparra',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'rabbit' => 'rabbit',
@@ -4289,6 +4473,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Emerita',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'rabbit' => 'rabbit',
@@ -4299,6 +4484,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'silver' => 'silver', 
             'timber' => 'oak', 
+            'defenses' => '400',
 			'xcoord' => '226',
             'ycoord' => '1546',
             'region' => '10',
@@ -4307,6 +4493,7 @@ class TownsSeeder extends Seeder
 		//227
 		DB::table('towns')->insert([
             'town_name' => 'Segida',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'rabbit' => 'rabbit',
@@ -4324,6 +4511,7 @@ class TownsSeeder extends Seeder
 		//228
 		DB::table('towns')->insert([
             'town_name' => 'Ebora',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -4343,6 +4531,7 @@ class TownsSeeder extends Seeder
 		//229
 		DB::table('towns')->insert([
             'town_name' => 'Mirobriga',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'rabbit' => 'rabbit',
@@ -4361,6 +4550,7 @@ class TownsSeeder extends Seeder
         //230
 		DB::table('towns')->insert([
             'town_name' => 'Balsa',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -4382,6 +4572,7 @@ class TownsSeeder extends Seeder
         //231
 		DB::table('towns')->insert([
             'town_name' => 'Palma',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -4402,6 +4593,7 @@ class TownsSeeder extends Seeder
 		//232
 		DB::table('towns')->insert([
             'town_name' => 'Caleta',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -4422,6 +4614,7 @@ class TownsSeeder extends Seeder
 		//233
 		DB::table('towns')->insert([
             'town_name' => 'Septem',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -4440,6 +4633,7 @@ class TownsSeeder extends Seeder
 		//234
 		DB::table('towns')->insert([
             'town_name' => 'Tingis',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -4451,6 +4645,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'dye' => 'indigo', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '252',
             'ycoord' => '1747',
             'region' => '13',
@@ -4459,6 +4654,7 @@ class TownsSeeder extends Seeder
 		//235
 		DB::table('towns')->insert([
             'town_name' => 'Lixus',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -4470,6 +4666,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'dye' => 'indigo', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '242',
             'ycoord' => '1766',
             'region' => '13',
@@ -4478,6 +4675,7 @@ class TownsSeeder extends Seeder
 		//236
 		DB::table('towns')->insert([
             'town_name' => 'Sala',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -4488,6 +4686,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'salt' => 'salt', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '211',
             'ycoord' => '1839',
             'region' => '13',
@@ -4496,6 +4695,7 @@ class TownsSeeder extends Seeder
         //237
 		DB::table('towns')->insert([
             'town_name' => 'Volubilis',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -4508,6 +4708,7 @@ class TownsSeeder extends Seeder
             'salt' => 'salt',
             'timber' => 'oak', 
             'sculpture' => 'ivory', 
+            'defenses' => '800',
 			'xcoord' => '259',
             'ycoord' => '1842',
             'region' => '13',
@@ -4516,6 +4717,7 @@ class TownsSeeder extends Seeder
 		//238
 		DB::table('towns')->insert([
             'town_name' => 'Rusadir',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -4543,7 +4745,8 @@ class TownsSeeder extends Seeder
             'fruit' => 'fruit',
             'grain' => 'emmer',
             'salt' => 'salt',
-            'timber' => 'juniper', 
+            'timber' => 'juniper',
+            'defenses' => '800', 
 			'xcoord' => '482',
             'ycoord' => '1819',
             'region' => '13',
@@ -4552,6 +4755,7 @@ class TownsSeeder extends Seeder
 		//240
 		DB::table('towns')->insert([
             'town_name' => 'Murustaga',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -4567,6 +4771,7 @@ class TownsSeeder extends Seeder
 		//241
 		DB::table('towns')->insert([
             'town_name' => 'Cartenna',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -4575,6 +4780,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '618',
             'ycoord' => '1701',
             'region' => '13',
@@ -4592,6 +4798,7 @@ class TownsSeeder extends Seeder
             'grain' => 'emmer',
             'salt' => 'salt',
             'timber' => 'juniper', 
+            'defenses' => '800',
 			'xcoord' => '616',
             'ycoord' => '1775',
             'region' => '13',
@@ -4617,6 +4824,7 @@ class TownsSeeder extends Seeder
 		//244
 		DB::table('towns')->insert([
             'town_name' => 'Caesarea Mauretaniae',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -4630,6 +4838,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',
             'iron' => 'iron',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '660',
             'ycoord' => '1697',
             'region' => '13',
@@ -4638,6 +4847,7 @@ class TownsSeeder extends Seeder
 		//245
 		DB::table('towns')->insert([
             'town_name' => 'Icosium',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -4648,6 +4858,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '704',
             'ycoord' => '1687',
             'region' => '13',
@@ -4657,6 +4868,7 @@ class TownsSeeder extends Seeder
 		//246
 		DB::table('towns')->insert([
             'town_name' => 'Saldae',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -4673,6 +4885,7 @@ class TownsSeeder extends Seeder
         //247
 		DB::table('towns')->insert([
             'town_name' => 'Sitifis',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -4686,6 +4899,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'pottery' => 'clay', 
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '822',
             'ycoord' => '1723',
             'region' => '13',
@@ -4696,6 +4910,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Russicada',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -4713,6 +4928,7 @@ class TownsSeeder extends Seeder
 		//249
 		DB::table('towns')->insert([
             'town_name' => 'Hippo Regius',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -4729,6 +4945,7 @@ class TownsSeeder extends Seeder
 		//250
 		DB::table('towns')->insert([
             'town_name' => 'Calama',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -4747,6 +4964,7 @@ class TownsSeeder extends Seeder
 		//251
 		DB::table('towns')->insert([
             'town_name' => 'Thagaste',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',            
             'game' => 'deer',
@@ -4765,6 +4983,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Cirta',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -4775,6 +4994,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'copper' => 'copper',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '883',
             'ycoord' => '1713',
             'region' => '14',
@@ -4783,6 +5003,7 @@ class TownsSeeder extends Seeder
 		//253
 		DB::table('towns')->insert([
             'town_name' => 'Theveste',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -4794,6 +5015,7 @@ class TownsSeeder extends Seeder
             'salt' => 'salt',
             'timber' => 'juniper', 
             'sculpture' => 'ivory',
+            'defenses' => '800',
 			'xcoord' => '958',
             'ycoord' => '1772',
             'region' => '14',
@@ -4803,6 +5025,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Mactaris',
             'population' => '5000',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'goat',            
             'poultry' => 'chicken',
@@ -4813,6 +5036,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress', 
+            'defenses' => '800',
 			'xcoord' => '1020',
             'ycoord' => '1746',
             'region' => '14',
@@ -4822,6 +5046,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Sicca Veneria',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'goat',            
             'poultry' => 'chicken',
@@ -4840,6 +5065,7 @@ class TownsSeeder extends Seeder
 		//256
 		DB::table('towns')->insert([
             'town_name' => 'Zama Regia',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'goat',            
             'poultry' => 'chicken',
@@ -4860,6 +5086,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aquae Flavianae',
             'population' => '2000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'game' => 'hare',
@@ -4876,6 +5103,7 @@ class TownsSeeder extends Seeder
 		//258
 		DB::table('towns')->insert([
             'town_name' => 'Thamugadi',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'game' => 'hare',
@@ -4893,6 +5121,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lambaesis',
             'population' => '5000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'game' => 'hare',
@@ -4901,6 +5130,7 @@ class TownsSeeder extends Seeder
             'salt' => 'salt',
             'timber' => 'juniper', 
             'sculpture' => 'ivory',
+            'defenses' => '800',
 			'xcoord' => '862',
             'ycoord' => '1764',
             'region' => '14',
@@ -4928,6 +5158,7 @@ class TownsSeeder extends Seeder
 		//261
 		DB::table('towns')->insert([
             'town_name' => 'Bulla Regia',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -4947,6 +5178,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Thugga',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -4966,6 +5198,7 @@ class TownsSeeder extends Seeder
 		//263
 		DB::table('towns')->insert([
             'town_name' => 'Hippo Zarytus',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -4986,6 +5219,7 @@ class TownsSeeder extends Seeder
 		//264
 		DB::table('towns')->insert([
             'town_name' => 'Utica',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'boar',
@@ -4996,6 +5230,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'indigo',
             'timber' => 'cypress', 
+            'defenses' => '800',
 			'xcoord' => '1057',
             'ycoord' => '1670',
             'region' => '15',
@@ -5005,6 +5240,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Carthago',
             'population' => '50000',
+            'climate' => 'mediterranean',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -5019,6 +5255,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'indigo',
             'timber' => 'cypress', 
+            'defenses' => '800',
 			'xcoord' => '1070',
             'ycoord' => '1680',
             'region' => '15',
@@ -5029,6 +5266,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Hadrumetum',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -5043,6 +5281,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'dye' => 'indigo',
             'timber' => 'cypress', 
+            'defenses' => '800',
 			'xcoord' => '1085',
             'ycoord' => '1745',
             'region' => '15',
@@ -5051,6 +5290,7 @@ class TownsSeeder extends Seeder
 		//267
 		DB::table('towns')->insert([
             'town_name' => 'Thaenae',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'boar',
@@ -5099,6 +5339,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'palm', 
+            'defenses' => '800',
 			'xcoord' => '993',
             'ycoord' => '1804',
             'region' => '15',
@@ -5120,6 +5361,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper', 
             'iron' => 'iron', 
             'timber' => 'palm', 
+            'defenses' => '800',
 			'xcoord' => '996',
             'ycoord' => '1835',
             'region' => '15',
@@ -5141,6 +5383,7 @@ class TownsSeeder extends Seeder
             'dye' => 'indigo',
             'timber' => 'palm', 
             'sculpture' => 'marble', 
+            'defenses' => '800',
 			'xcoord' => '1059',
             'ycoord' => '1864',
             'region' => '15',
@@ -5278,6 +5521,7 @@ class TownsSeeder extends Seeder
 		//279
 		DB::table('towns')->insert([
             'town_name' => 'Berenice',
+            'climate' => 'mediterranean',
             'pack' => 'camel',
             'wool' => 'goat',
             'fish' => 'fish',
@@ -5295,6 +5539,7 @@ class TownsSeeder extends Seeder
 		//280
 		DB::table('towns')->insert([
             'town_name' => 'Cyrene',
+            'climate' => 'mediterranean',
             'pack' => 'camel',
             'wool' => 'goat',
             'fish' => 'fish',
@@ -5383,6 +5628,7 @@ class TownsSeeder extends Seeder
             'timber' => 'palm', 
             'paper' => 'papyrus',             
             'glass' => 'glass', 
+            'defenses' => '800',
 			'xcoord' => '2060',
             'ycoord' => '2026',
             'region' => '16',
@@ -5671,6 +5917,7 @@ class TownsSeeder extends Seeder
             'sculpture' => 'ivory',
             'glass' => 'glass', 
             'spice' => 'spice', 
+            'defenses' => '800',
 			'xcoord' => '2201',
             'ycoord' => '2343',
             'region' => '16',
@@ -5776,6 +6023,7 @@ class TownsSeeder extends Seeder
         //302
 		DB::table('towns')->insert([
             'town_name' => 'Salamus',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'boar',
@@ -5796,6 +6044,7 @@ class TownsSeeder extends Seeder
         //303
 		DB::table('towns')->insert([
             'town_name' => 'Paphus',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -5816,6 +6065,7 @@ class TownsSeeder extends Seeder
 		//304
 		DB::table('towns')->insert([
             'town_name' => 'Kydonia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -5835,6 +6085,7 @@ class TownsSeeder extends Seeder
 		//305
 		DB::table('towns')->insert([
             'town_name' => 'Heracleum',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -5856,6 +6107,7 @@ class TownsSeeder extends Seeder
 		//306
 		DB::table('towns')->insert([
             'town_name' => 'Delos',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -5872,6 +6124,7 @@ class TownsSeeder extends Seeder
 		//307
 		DB::table('towns')->insert([
             'town_name' => 'Rhodus',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'game' => 'deer',
             'fruit' => 'fruit',
@@ -5890,6 +6143,7 @@ class TownsSeeder extends Seeder
 		//308
 		DB::table('towns')->insert([
             'town_name' => 'Sparta',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -5908,6 +6162,7 @@ class TownsSeeder extends Seeder
 		//309
 		DB::table('towns')->insert([
             'town_name' => 'Gythium',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -5927,6 +6182,7 @@ class TownsSeeder extends Seeder
 		//310
 		DB::table('towns')->insert([
             'town_name' => 'Messenia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -5945,6 +6201,7 @@ class TownsSeeder extends Seeder
 		//311
 		DB::table('towns')->insert([
             'town_name' => 'Megalopolis',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -5963,6 +6220,7 @@ class TownsSeeder extends Seeder
 		//312
 		DB::table('towns')->insert([
             'town_name' => 'Olympia',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'game' => 'deer',
@@ -5981,6 +6239,7 @@ class TownsSeeder extends Seeder
 		//313
 		DB::table('towns')->insert([
             'town_name' => 'Patrae',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'fish' => 'fish',
             'game' => 'deer',
@@ -5999,6 +6258,7 @@ class TownsSeeder extends Seeder
 		//314
 		DB::table('towns')->insert([
             'town_name' => 'Argos',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'fish' => 'fish',
             'game' => 'deer',
@@ -6008,6 +6268,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1699',
             'ycoord' => '1633',
             'region' => '21',
@@ -6018,6 +6279,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Corinthus',
             'population' => '50000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',          
             'pig' => 'pig',
@@ -6032,6 +6294,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'madder',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1708',
             'ycoord' => '1611',
             'region' => '21',
@@ -6043,6 +6306,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Athenae',
             'population' => '50000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6056,6 +6320,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'juniper',
             'sculpture' => 'marble',
+            'defenses' => '800',
 			'xcoord' => '1749',
             'ycoord' => '1606',
             'region' => '22',
@@ -6064,6 +6329,7 @@ class TownsSeeder extends Seeder
 		//317
 		DB::table('towns')->insert([
             'town_name' => 'Piraeus',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',           
             'poultry' => 'chicken',
@@ -6075,6 +6341,7 @@ class TownsSeeder extends Seeder
             'fiber' => 'flax', 
             'pottery' => 'clay',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '1744',
             'ycoord' => '1612',
             'region' => '22',
@@ -6084,6 +6351,7 @@ class TownsSeeder extends Seeder
 		//318
 		DB::table('towns')->insert([
             'town_name' => 'Thebes',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6094,6 +6362,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'pottery' => 'clay',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '1728',
             'ycoord' => '1585',
             'region' => '22',
@@ -6102,6 +6371,7 @@ class TownsSeeder extends Seeder
 		//319
 		DB::table('towns')->insert([
             'town_name' => 'Mideia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6120,6 +6390,7 @@ class TownsSeeder extends Seeder
 		//320
 		DB::table('towns')->insert([
             'town_name' => 'Delphi',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6138,6 +6409,7 @@ class TownsSeeder extends Seeder
 		//321
 		DB::table('towns')->insert([
             'town_name' => 'Lamia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -6158,6 +6430,7 @@ class TownsSeeder extends Seeder
 		//322
 		DB::table('towns')->insert([
             'town_name' => 'Thermum',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -6176,6 +6449,7 @@ class TownsSeeder extends Seeder
 		//323
 		DB::table('towns')->insert([
             'town_name' => 'Ambracia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'fish' => 'fish',
             'game' => 'boar',
@@ -6194,6 +6468,7 @@ class TownsSeeder extends Seeder
 		//324
 		DB::table('towns')->insert([
             'town_name' => 'Demetrias',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'game' => 'deer',
             'fruit' => 'fruit',
@@ -6211,6 +6486,7 @@ class TownsSeeder extends Seeder
 		//325
 		DB::table('towns')->insert([
             'town_name' => 'Larissa',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6229,6 +6505,7 @@ class TownsSeeder extends Seeder
 		//326
 		DB::table('towns')->insert([
             'town_name' => 'Pharsalus',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -6249,6 +6526,7 @@ class TownsSeeder extends Seeder
 		//327
 		DB::table('towns')->insert([
             'town_name' => 'Buthrotum',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'game' => 'boar',
             'fruit' => 'fruit',
@@ -6264,6 +6542,7 @@ class TownsSeeder extends Seeder
 		//328
 		DB::table('towns')->insert([
             'town_name' => 'Epidaurus',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'fish' => 'fish',
             'game' => 'hare',
@@ -6281,6 +6560,7 @@ class TownsSeeder extends Seeder
         //329
 		DB::table('towns')->insert([
             'town_name' => 'Pella',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -6301,6 +6581,7 @@ class TownsSeeder extends Seeder
 		//330
 		DB::table('towns')->insert([
             'town_name' => 'Thessalonica',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -6313,6 +6594,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'gold' => 'gold',
             'timber' => 'oak',
+            'defenses' => '800',
 			'xcoord' => '1709',
             'ycoord' => '1437',
             'region' => '23',
@@ -6321,6 +6603,7 @@ class TownsSeeder extends Seeder
 		//331
 		DB::table('towns')->insert([
             'town_name' => 'Amphipolis',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'game' => 'deer',
@@ -6339,6 +6622,7 @@ class TownsSeeder extends Seeder
 		//332
 		DB::table('towns')->insert([
             'town_name' => 'Tiveriopolis',
+            'climate' => 'cold steppe',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -6356,6 +6640,7 @@ class TownsSeeder extends Seeder
 		//333
 		DB::table('towns')->insert([
             'town_name' => 'Stobi',
+            'climate' => 'cold steppe',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -6373,6 +6658,7 @@ class TownsSeeder extends Seeder
 		//334
 		DB::table('towns')->insert([
             'town_name' => 'Serdica',
+            'climate' => 'cold steppe',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -6391,6 +6677,7 @@ class TownsSeeder extends Seeder
 		//335
 		DB::table('towns')->insert([
             'town_name' => 'Maroneia',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'fish' => 'fish',
@@ -6410,6 +6697,7 @@ class TownsSeeder extends Seeder
 		//336
 		DB::table('towns')->insert([
             'town_name' => 'Perinthus',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'game' => 'hare',
@@ -6426,6 +6714,7 @@ class TownsSeeder extends Seeder
 		//337
 		DB::table('towns')->insert([
             'town_name' => 'Byzantium',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'game' => 'hare',
@@ -6434,6 +6723,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '2014',
             'ycoord' => '1409',
             'region' => '24',
@@ -6443,6 +6733,7 @@ class TownsSeeder extends Seeder
 		//338
 		DB::table('towns')->insert([
             'town_name' => 'Philippopolis',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'game' => 'hare',
@@ -6450,6 +6741,7 @@ class TownsSeeder extends Seeder
             'grain' => 'rye',
             'vine' => 'grapes',
             'gold' => 'gold',
+            'defenses' => '800',
 			'xcoord' => '1802',
             'ycoord' => '1332',
             'region' => '24',
@@ -6459,6 +6751,7 @@ class TownsSeeder extends Seeder
 		//339
 		DB::table('towns')->insert([
             'town_name' => 'Hadrianopolis',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'game' => 'hare',
@@ -6469,6 +6762,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'pottery' => 'clay',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '1891',
             'ycoord' => '1377',
             'region' => '24',
@@ -6501,6 +6795,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'pottery' => 'clay',
+            'defenses' => '800',
 			'xcoord' => '1962',
             'ycoord' => '1260',
             'region' => '24',
@@ -6517,6 +6812,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'pottery' => 'clay',
+            'defenses' => '800',
 			'xcoord' => '1946',
             'ycoord' => '1314',
             'region' => '24',
@@ -6532,6 +6828,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'pottery' => 'clay',
+            'defenses' => '800',
 			'xcoord' => '1998',
             'ycoord' => '1191',
             'region' => '24',
@@ -6548,6 +6845,7 @@ class TownsSeeder extends Seeder
             'grain' => 'rye',
             'vine' => 'grapes',
             'pottery' => 'clay',
+            'defenses' => '800',
 			'xcoord' => '1930',
             'ycoord' => '1191',
             'region' => '24',
@@ -6564,6 +6862,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'pottery' => 'clay',
+            'defenses' => '800',
 			'xcoord' => '2003',
             'ycoord' => '1120',
             'region' => '24',
@@ -6584,6 +6883,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'gold' => 'gold',
             'timber' => 'yew',
+            'defenses' => '800',
 			'xcoord' => '1634',
             'ycoord' => '1343',
             'region' => '25',
@@ -6602,6 +6902,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'silver' => 'silver',
             'timber' => 'pine', 
+            'defenses' => '800',
 			'xcoord' => '1659',
             'ycoord' => '1250',
             'region' => '25',
@@ -6630,6 +6931,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Salonia',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'game' => 'boar',
@@ -6639,6 +6941,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron', 
             'gold' => 'gold', 
             'timber' => 'cypress', 
+            'defenses' => '800',
 			'xcoord' => '1381',
             'ycoord' => '1239',
             'region' => '25',
@@ -6647,6 +6950,7 @@ class TownsSeeder extends Seeder
 		//350
 		DB::table('towns')->insert([
             'town_name' => 'Narona',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'game' => 'boar',
@@ -6655,6 +6959,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'gold' => 'gold', 
             'timber' => 'cypress', 
+            'defenses' => '800',
 			'xcoord' => '1429',
             'ycoord' => '1272',
             'region' => '25',
@@ -6663,6 +6968,7 @@ class TownsSeeder extends Seeder
 		//351
 		DB::table('towns')->insert([
             'town_name' => 'Delminium',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'fruit',
@@ -6679,6 +6985,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Capedunum',
             'population' => '2000',
+            'climate' => 'continental',
             'wool' => 'goat',
             'pig' => 'pig',
             'game' => 'boar',
@@ -6696,6 +7003,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aquae Sulphurae',
             'population' => '2000',
+            'climate' => 'continental',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'fruit',
@@ -6712,6 +7020,7 @@ class TownsSeeder extends Seeder
 		//354
 		DB::table('towns')->insert([
             'town_name' => 'Iadera',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'game' => 'boar',
@@ -6728,6 +7037,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Burnum',
             'population' => '5000',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'fruit',
@@ -6736,6 +7046,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron', 
             'gold' => 'gold', 
             'timber' => 'cypress', 
+            'defenses' => '800',
 			'xcoord' => '1366',
             'ycoord' => '1202',
             'region' => '25',
@@ -6757,6 +7068,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'gold' => 'gold',
             'timber' => 'beech',
+            'defenses' => '800',
 			'xcoord' => '1243',
             'ycoord' => '1086',
             'region' => '25',
@@ -6775,6 +7087,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'timber' => 'beech', 
             'sculpture' => 'marble', 
+            'defenses' => '800',
 			'xcoord' => '1273',
             'ycoord' => '1109',
             'region' => '25',
@@ -6790,7 +7103,8 @@ class TownsSeeder extends Seeder
             'fruit' => 'fruit',
             'grain' => 'durum',
             'vine' => 'grapes',
-            'timber' => 'beech', 
+            'timber' => 'beech',
+            'defenses' => '800', 
 			'xcoord' => '1248',
             'ycoord' => '1146',
             'region' => '25',
@@ -6810,6 +7124,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'beech', 
+            'defenses' => '400',
 			'xcoord' => '1408',
             'ycoord' => '902',
             'region' => '25',
@@ -6846,6 +7161,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay', 
             'timber' => 'beech', 
+            'defenses' => '400',
 			'xcoord' => '1541',
             'ycoord' => '1135',
             'region' => '25',
@@ -6863,6 +7179,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay', 
             'timber' => 'beech', 
+            'defenses' => '400',
 			'xcoord' => '1582',
             'ycoord' => '1148',
             'region' => '25',
@@ -6891,7 +7208,6 @@ class TownsSeeder extends Seeder
             'town_name' => 'Poetovio',
             'population' => '5000',
             'climate' => 'continental',
-            'climate' => 'continental',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'fruit',
@@ -6899,6 +7215,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech', 
+            'defenses' => '400',
 			'xcoord' => '1343',
             'ycoord' => '1023',
             'region' => '25',
@@ -7007,6 +7324,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'iron' => 'iron',
             'pottery' => 'clay',
+            'defenses' => '400',
 			'xcoord' => '1517',
             'ycoord' => '951',
             'region' => '25',
@@ -7040,6 +7358,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
+            'defenses' => '400',
 			'xcoord' => '1472',
             'ycoord' => '1055',
             'region' => '25',
@@ -7059,6 +7378,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'juniper', 
+            'defenses' => '400',
 			'xcoord' => '1625',
             'ycoord' => '1012',
             'region' => '26',
@@ -7078,6 +7398,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'pottery' => 'clay',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1742',
             'ycoord' => '1045',
             'region' => '26',
@@ -7095,6 +7416,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1710',
             'ycoord' => '1065',
             'region' => '26',
@@ -7112,6 +7434,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'silver' => 'silver',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1706',
             'ycoord' => '1081',
             'region' => '26',
@@ -7130,6 +7453,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'pine', 
             'sculpture' => 'marble', 
+            'defenses' => '400',
 			'xcoord' => '1679',
             'ycoord' => '1086',
             'region' => '26',
@@ -7181,6 +7505,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1883',
             'ycoord' => '991',
             'region' => '26',
@@ -7199,6 +7524,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1900',
             'ycoord' => '969',
             'region' => '26',
@@ -7232,6 +7558,7 @@ class TownsSeeder extends Seeder
             'grain' => 'rye',
             'vine' => 'grapes',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1781',
             'ycoord' => '1125',
             'region' => '26',
@@ -7248,6 +7575,7 @@ class TownsSeeder extends Seeder
             'grain' => 'rye',
             'gold' => 'gold',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1846',
             'ycoord' => '1091',
             'region' => '26',
@@ -7265,6 +7593,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold', 
             'pottery' => 'clay',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1781',
             'ycoord' => '1176',
             'region' => '26',
@@ -7302,6 +7631,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'pottery' => 'clay',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1715',
             'ycoord' => '973',
             'region' => '26',
@@ -7321,6 +7651,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'pottery' => 'clay',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1743',
             'ycoord' => '1004',
             'region' => '26',
@@ -7340,6 +7671,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'pine', 
+            'defenses' => '400',
 			'xcoord' => '1666',
             'ycoord' => '1199',
             'region' => '26',
@@ -7350,6 +7682,7 @@ class TownsSeeder extends Seeder
 		//390
 		DB::table('towns')->insert([
             'town_name' => 'Chersonesus',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'game' => 'boar',
@@ -7357,6 +7690,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'timber' => 'juniper', 
+            'defenses' => '800',
 			'xcoord' => '2243',
             'ycoord' => '1161',
             'region' => '27',
@@ -7365,6 +7699,7 @@ class TownsSeeder extends Seeder
         //391
 		DB::table('towns')->insert([
             'town_name' => 'Theodosia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -7374,6 +7709,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'gold' => 'gold',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2340',
             'ycoord' => '1129',
             'region' => '27',
@@ -7382,6 +7718,7 @@ class TownsSeeder extends Seeder
         //392
 		DB::table('towns')->insert([
             'town_name' => 'Panticapaeum',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'fish' => 'fish',
@@ -7410,6 +7747,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'beech',
+            'defenses' => '800',
 			'xcoord' => '2083',
             'ycoord' => '1047',
             'region' => '28',
@@ -7427,6 +7765,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'beech',
+            'defenses' => '800',
 			'xcoord' => '2105',
             'ycoord' => '1026',
             'region' => '28',
@@ -7444,6 +7783,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'beech',
+            'defenses' => '800',
 			'xcoord' => '2161',
             'ycoord' => '1011',
             'region' => '28',
@@ -7465,6 +7805,7 @@ class TownsSeeder extends Seeder
             'salt' => 'salt',
             'pottery' => 'clay',
             'timber' => 'beech',
+            'defenses' => '800',
 			'xcoord' => '2537',
             'ycoord' => '982',
             'region' => '29',
@@ -7475,6 +7816,7 @@ class TownsSeeder extends Seeder
         //397
 		DB::table('towns')->insert([
             'town_name' => 'Chios',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -7495,6 +7837,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Smyrna',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -7506,6 +7849,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1920',
             'ycoord' => '1580',
             'region' => '31',
@@ -7515,6 +7859,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ephesus',
             'population' => '50000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -7527,6 +7872,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'cypress',
             'sculpture' => 'marble',
+            'defenses' => '800',
 			'xcoord' => '1927',
             'ycoord' => '1615',
             'region' => '31',
@@ -7536,6 +7882,7 @@ class TownsSeeder extends Seeder
 		//400
 		DB::table('towns')->insert([
             'town_name' => 'Tralles',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -7553,6 +7900,7 @@ class TownsSeeder extends Seeder
 		//401
 		DB::table('towns')->insert([
             'town_name' => 'Miletus',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -7563,6 +7911,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1952',
             'ycoord' => '1651',
             'region' => '31',
@@ -7571,6 +7920,7 @@ class TownsSeeder extends Seeder
 		//402
 		DB::table('towns')->insert([
             'town_name' => 'Aphrodisias',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -7590,6 +7940,7 @@ class TownsSeeder extends Seeder
 		//403
 		DB::table('towns')->insert([
             'town_name' => 'Laodicea Lycum',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -7608,6 +7959,7 @@ class TownsSeeder extends Seeder
 		//404
 		DB::table('towns')->insert([
             'town_name' => 'Halicarnassus',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -7619,6 +7971,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '1935',
             'ycoord' => '1670',
             'region' => '31',
@@ -7629,6 +7982,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Sardes',
             'population' => '50000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -7640,6 +7994,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'pottery' => 'clay',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '1973',
             'ycoord' => '1576',
             'region' => '31',
@@ -7648,6 +8003,7 @@ class TownsSeeder extends Seeder
         //406
 		DB::table('towns')->insert([
             'town_name' => 'Magnesia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -7666,6 +8022,7 @@ class TownsSeeder extends Seeder
 		//407
 		DB::table('towns')->insert([
             'town_name' => 'Thyatira',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -7685,6 +8042,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Pergamum',
             'population' => '50000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -7699,6 +8057,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'juniper',
             'sculpture' => 'marble',
+            'defenses' => '800',
 			'xcoord' => '1923',
             'ycoord' => '1534',
             'region' => '31',
@@ -7707,6 +8066,7 @@ class TownsSeeder extends Seeder
 		//409
 		DB::table('towns')->insert([
             'town_name' => 'Troas',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -7726,6 +8086,7 @@ class TownsSeeder extends Seeder
         //410
 		DB::table('towns')->insert([
             'town_name' => 'Xanthus',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -7744,6 +8105,7 @@ class TownsSeeder extends Seeder
         //411
 		DB::table('towns')->insert([
             'town_name' => 'Attalia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -7762,6 +8124,7 @@ class TownsSeeder extends Seeder
 		//412
 		DB::table('towns')->insert([
             'town_name' => 'Side',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -7774,6 +8137,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',
             'timber' => 'cypress',  
             'chattel' => 'slave',
+            'defenses' => '800',
 			'xcoord' => '2139',
             'ycoord' => '1687',
             'region' => '31',
@@ -7784,6 +8148,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Cyzicus',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -7795,6 +8160,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',
             'timber' => 'oak', 
             'sculpture' => 'marble', 
+            'defenses' => '800',
 			'xcoord' => '1962',
             'ycoord' => '1453',
             'region' => '31',
@@ -7804,6 +8170,7 @@ class TownsSeeder extends Seeder
         //414
 		DB::table('towns')->insert([
             'town_name' => 'Nicaea',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -7814,6 +8181,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'timber' => 'oak', 
             'sculpture' => 'marble', 
+            'defenses' => '800',
 			'xcoord' => '2052',
             'ycoord' => '1447',
             'region' => '31',
@@ -7823,6 +8191,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Nicomedia',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'fish' => 'fish',
@@ -7835,6 +8204,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'silver' => 'silver',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '2062',
             'ycoord' => '1428',
             'region' => '31',
@@ -7843,6 +8213,7 @@ class TownsSeeder extends Seeder
         //416
 		DB::table('towns')->insert([
             'town_name' => 'Heraclea Pontica',
+            'climate' => 'mediterranean',
             'climate' => 'pontic',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -7859,6 +8230,7 @@ class TownsSeeder extends Seeder
         //417
 		DB::table('towns')->insert([
             'town_name' => 'Agrilium',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -7876,6 +8248,7 @@ class TownsSeeder extends Seeder
         //418
 		DB::table('towns')->insert([
             'town_name' => 'Prusias',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -7894,6 +8267,7 @@ class TownsSeeder extends Seeder
         //419
 		DB::table('towns')->insert([
             'town_name' => 'Sesamus',
+            'climate' => 'mediterranean',
             'climate' => 'pontic',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -7902,6 +8276,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '2187',
             'ycoord' => '1361',
             'region' => '31',
@@ -7919,6 +8294,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'timber' => 'oak', 
+            'defenses' => '800',
 			'xcoord' => '2325',
             'ycoord' => '1342',
             'region' => '31',
@@ -8030,6 +8406,7 @@ class TownsSeeder extends Seeder
         //427
 		DB::table('towns')->insert([
             'town_name' => 'Synnada',
+            'climate' => 'mediterranean',
             'pig' => 'pig',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -8047,6 +8424,7 @@ class TownsSeeder extends Seeder
         //428
 		DB::table('towns')->insert([
             'town_name' => 'Ousakeium',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -8092,6 +8470,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'pottery' => 'clay', 
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2172',
             'ycoord' => '1506',
             'region' => '31',
@@ -8119,6 +8498,7 @@ class TownsSeeder extends Seeder
         //432
 		DB::table('towns')->insert([
             'town_name' => 'Prusa',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -8137,6 +8517,7 @@ class TownsSeeder extends Seeder
         //433
 		DB::table('towns')->insert([
             'town_name' => 'Dascylium',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -8165,6 +8546,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2193',
             'ycoord' => '1616',
             'region' => '31',
@@ -8172,7 +8554,8 @@ class TownsSeeder extends Seeder
         ]); 
         //435
 		DB::table('towns')->insert([
-            'town_name' => 'Laranda',          
+            'town_name' => 'Laranda', 
+            'climate' => 'mediterranean',         
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'fruit',
@@ -8233,6 +8616,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'pine',
+            'defenses' => '800',
 			'xcoord' => '2446',
             'ycoord' => '1408',
             'region' => '31',
@@ -8269,6 +8653,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'pine',
+            'defenses' => '800',
 			'xcoord' => '2554',
             'ycoord' => '1411',
             'region' => '31',
@@ -8461,7 +8846,6 @@ class TownsSeeder extends Seeder
         //452
 		DB::table('towns')->insert([
             'town_name' => 'Melitene',
-            'population' => '20000',
             'climate' => 'continental',
             'pack' => 'horse',
             'wool' => 'sheep',
@@ -8481,6 +8865,7 @@ class TownsSeeder extends Seeder
         //453
 		DB::table('towns')->insert([
             'town_name' => 'Coracesium',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'game' => 'deer',
@@ -8498,6 +8883,7 @@ class TownsSeeder extends Seeder
         //454
 		DB::table('towns')->insert([
             'town_name' => 'Anemurium',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'game' => 'deer',
@@ -8516,6 +8902,7 @@ class TownsSeeder extends Seeder
         //455
 		DB::table('towns')->insert([
             'town_name' => 'Ourbanopolis',
+            'climate' => 'mediterranean',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'fish' => 'fish',
@@ -8537,6 +8924,7 @@ class TownsSeeder extends Seeder
         //456
 		DB::table('towns')->insert([
             'town_name' => 'Caesarea Germanicia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'fruit',
@@ -8554,6 +8942,7 @@ class TownsSeeder extends Seeder
         //457
 		DB::table('towns')->insert([
             'town_name' => 'Tarsus',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'game' => 'deer',
@@ -8565,6 +8954,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '2319',
             'ycoord' => '1675',
             'region' => '31',
@@ -8573,6 +8963,7 @@ class TownsSeeder extends Seeder
         //458
 		DB::table('towns')->insert([
             'town_name' => 'Adana',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'pig' => 'pig',
             'game' => 'deer',
@@ -8592,6 +8983,7 @@ class TownsSeeder extends Seeder
         //459
 		DB::table('towns')->insert([
             'town_name' => 'Zephyrium',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'game' => 'deer',
             'fruit' => 'fruit',
@@ -8693,6 +9085,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'dye' => 'woad',
             'timber' => 'juniper',
+            'defenses' => '400',
 			'xcoord' => '2679',
             'ycoord' => '1581',
             'region' => '32',
@@ -8746,6 +9139,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'dye' => 'woad',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2802',
             'ycoord' => '1479',
             'region' => '32',
@@ -8830,6 +9224,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',
             'dye' => 'woad',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2631',
             'ycoord' => '1593',
             'region' => '32',
@@ -8851,6 +9246,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2548',
             'ycoord' => '1492',
             'region' => '32',
@@ -8869,6 +9265,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',
             'dye' => 'woad',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2554',
             'ycoord' => '1468',
             'region' => '32',
@@ -8887,6 +9284,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',
             'dye' => 'woad',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2584',
             'ycoord' => '1460',
             'region' => '32',
@@ -9115,6 +9513,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'timber' => 'palm',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3004',
             'ycoord' => '1806',            
             'region' => '33',
@@ -9124,6 +9523,7 @@ class TownsSeeder extends Seeder
         //488
 		DB::table('towns')->insert([
             'town_name' => 'Amol',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'game' => 'pheasant',
             'fruit' => 'fruit',
@@ -9132,6 +9532,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',      
             'timber' => 'oak',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3198',
             'ycoord' => '1703',
             'region' => '33',
@@ -9140,6 +9541,7 @@ class TownsSeeder extends Seeder
         //489
 		DB::table('towns')->insert([
             'town_name' => 'Gorgan',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'game' => 'pheasant',
             'fruit' => 'fruit',
@@ -9148,6 +9550,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',      
             'timber' => 'oak',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3303',
             'ycoord' => '1680',
             'region' => '33',
@@ -9163,10 +9566,10 @@ class TownsSeeder extends Seeder
             'game' => 'deer',
             'fruit' => 'fruit',
             'grain' => 'emmer',
-			'xcoord' => '3127',
-            'ycoord' => '1742',
             'timber' => 'palm',
             'fabric' => 'silk',
+            'xcoord' => '3127',
+            'ycoord' => '1742',
             'region' => '33',
             'province' => '155'
         ]); 
@@ -9179,10 +9582,11 @@ class TownsSeeder extends Seeder
             'game' => 'deer',
             'fruit' => 'fruit',
             'grain' => 'emmer',
-			'xcoord' => '3150',
-            'ycoord' => '1754',
             'timber' => 'palm',
             'fabric' => 'silk',
+            'defenses' => '800',
+            'xcoord' => '3150',
+            'ycoord' => '1754',
             'region' => '33',
             'province' => '155'
         ]); 
@@ -9195,10 +9599,10 @@ class TownsSeeder extends Seeder
             'game' => 'deer',
             'fruit' => 'fruit',
             'grain' => 'emmer',
-			'xcoord' => '3160',
-            'ycoord' => '1772',
             'timber' => 'palm',
             'fabric' => 'silk',
+            'xcoord' => '3160',
+            'ycoord' => '1772',
             'region' => '33',
             'province' => '155'
         ]); 
@@ -9211,10 +9615,10 @@ class TownsSeeder extends Seeder
             'game' => 'deer',
             'fruit' => 'fruit',
             'grain' => 'emmer',
-			'xcoord' => '3123',
-            'ycoord' => '1816',
             'timber' => 'palm',
             'fabric' => 'silk',
+            'xcoord' => '3123',
+            'ycoord' => '1816',
             'region' => '33',
             'province' => '155'
         ]); 
@@ -9227,10 +9631,10 @@ class TownsSeeder extends Seeder
             'game' => 'deer',
             'fruit' => 'fruit',
             'grain' => 'emmer',
-			'xcoord' => '3151',
-            'ycoord' => '1854',
             'timber' => 'palm',
             'fabric' => 'silk',
+            'xcoord' => '3151',
+            'ycoord' => '1854',
             'region' => '33',
             'province' => '155'
         ]); 
@@ -9519,6 +9923,7 @@ class TownsSeeder extends Seeder
             'timber' => 'palm',
             'spice' => 'spice',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3519',
             'ycoord' => '1834',
             'region' => '33',
@@ -9563,6 +9968,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'spice' => 'spice',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3629',
             'ycoord' => '2124',
             'region' => '33',
@@ -9581,6 +9987,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'palm',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3616',
             'ycoord' => '1373',
             'region' => '33',
@@ -9599,6 +10006,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'juniper',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3953',
             'ycoord' => '1656',
             'region' => '33',
@@ -9617,6 +10025,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',
             'timber' => 'juniper',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3941',
             'ycoord' => '1501',
             'region' => '33',
@@ -9634,6 +10043,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'timber' => 'juniper',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3809',
             'ycoord' => '1490',
             'region' => '33',
@@ -9650,6 +10060,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'timber' => 'juniper',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3932',
             'ycoord' => '1536',
             'region' => '33',
@@ -9666,6 +10077,7 @@ class TownsSeeder extends Seeder
             'grain' => 'emmer',
             'timber' => 'palm',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3940',
             'ycoord' => '2086',
             'region' => '33',
@@ -9682,6 +10094,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'timber' => 'juniper',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3947',
             'ycoord' => '1959',
             'region' => '33',
@@ -9699,6 +10112,7 @@ class TownsSeeder extends Seeder
             'timber' => 'palm',
             'spice' => 'spice',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '3699',
             'ycoord' => '2248',
             'region' => '33',
@@ -9758,6 +10172,7 @@ class TownsSeeder extends Seeder
             'fiber' => 'flax',
             'pottery' => 'clay',
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2840',
             'ycoord' => '2019',
             'region' => '34',
@@ -9777,6 +10192,7 @@ class TownsSeeder extends Seeder
             'fiber' => 'flax',
             'pottery' => 'clay',
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2821',
             'ycoord' => '1978',
             'region' => '34',
@@ -9816,6 +10232,7 @@ class TownsSeeder extends Seeder
             'fiber' => 'flax',
             'pottery' => 'clay',
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2805',
             'ycoord' => '1910',
             'region' => '34',
@@ -9850,6 +10267,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',            
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2758',
             'ycoord' => '1819',
             'region' => '34',
@@ -9866,6 +10284,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',            
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2743',
             'ycoord' => '1774',
             'region' => '34',
@@ -9884,6 +10303,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron', 
             'pottery' => 'clay',            
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2733',
             'ycoord' => '1713',
             'region' => '34',
@@ -10018,6 +10438,7 @@ class TownsSeeder extends Seeder
         //538
 		DB::table('towns')->insert([
             'town_name' => 'Edessa',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'game' => 'deer',
@@ -10028,6 +10449,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',  
             'pottery' => 'clay',            
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2512',
             'ycoord' => '1662',
             'region' => '34',
@@ -10036,6 +10458,7 @@ class TownsSeeder extends Seeder
         //539
 		DB::table('towns')->insert([
             'town_name' => 'Batnae',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'game' => 'deer',
@@ -10080,6 +10503,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper',  
             'pottery' => 'clay',            
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2776',
             'ycoord' => '1722',
             'region' => '34',
@@ -10099,6 +10523,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'pottery' => 'clay',            
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2496',
             'ycoord' => '1634',
             'region' => '34',
@@ -10116,6 +10541,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',            
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2482',
             'ycoord' => '1669',
             'region' => '34',
@@ -10135,6 +10561,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2555',
             'ycoord' => '1580',
             'region' => '34',
@@ -10153,6 +10580,7 @@ class TownsSeeder extends Seeder
             'grain' => 'emmer',
             'seasoning' => 'olives',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2649',
             'ycoord' => '1719',
             'region' => '34',
@@ -10169,6 +10597,7 @@ class TownsSeeder extends Seeder
             'grain' => 'emmer',
             'seasoning' => 'olives',
             'timber' => 'juniper',
+            'defenses' => '800',
 			'xcoord' => '2635',
             'ycoord' => '1669',
             'region' => '34',
@@ -10186,6 +10615,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2583',
             'ycoord' => '1679',
             'region' => '34',
@@ -10212,6 +10642,7 @@ class TownsSeeder extends Seeder
         //549
 		DB::table('towns')->insert([
             'town_name' => 'Hierapolis',
+            'climate' => 'mediterranean',
             'pack' => 'camel',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10229,6 +10660,7 @@ class TownsSeeder extends Seeder
         //550
 		DB::table('towns')->insert([
             'town_name' => 'Beroea',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10246,6 +10678,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Antiochia',
             'population' => '100000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'wool' => 'sheep',
             'poultry' => 'chicken',
@@ -10257,6 +10690,7 @@ class TownsSeeder extends Seeder
             'timber' => 'juniper',
             'glass' => 'glass',
             'fabric' => 'silk',
+            'defenses' => '800',
 			'xcoord' => '2378',
             'ycoord' => '1721',
             'region' => '35',
@@ -10265,6 +10699,7 @@ class TownsSeeder extends Seeder
         //552
 		DB::table('towns')->insert([
             'town_name' => 'Laodicea',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10280,6 +10715,7 @@ class TownsSeeder extends Seeder
         //553
 		DB::table('towns')->insert([
             'town_name' => 'Epiphaneia',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10296,6 +10732,7 @@ class TownsSeeder extends Seeder
         //554
 		DB::table('towns')->insert([
             'town_name' => 'Emesa',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10343,6 +10780,7 @@ class TownsSeeder extends Seeder
             'fiber' => 'flax',
             'timber' => 'palm',
             'glass' => 'glass',
+            'defenses' => '800',
 			'xcoord' => '2384',
             'ycoord' => '1890',
             'region' => '35',
@@ -10352,6 +10790,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Heliopolis',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'poultry' => 'chicken',
             'game' => 'deer',
             'fruit' => 'fruit',
@@ -10370,6 +10809,7 @@ class TownsSeeder extends Seeder
         //558
 		DB::table('towns')->insert([
             'town_name' => 'Tripolis Phoenicia',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10386,6 +10826,7 @@ class TownsSeeder extends Seeder
         //559
 		DB::table('towns')->insert([
             'town_name' => 'Laodicea Phoenicia',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -10404,6 +10845,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tyrus',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -10414,6 +10856,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'dye' => 'indigo',
             'timber' => 'cedar',
+            'defenses' => '800',
 			'xcoord' => '2328',
             'ycoord' => '1902',
             'region' => '35',
@@ -10422,6 +10865,7 @@ class TownsSeeder extends Seeder
         //561
 		DB::table('towns')->insert([
             'town_name' => 'Hepha',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10440,6 +10884,7 @@ class TownsSeeder extends Seeder
         //562
 		DB::table('towns')->insert([
             'town_name' => 'Sidon',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10450,6 +10895,7 @@ class TownsSeeder extends Seeder
             'dye' => 'indigo',
             'timber' => 'cedar',
             'glass' => 'glass',
+            'defenses' => '800',
 			'xcoord' => '2339',
             'ycoord' => '1879',
             'region' => '35',
@@ -10467,6 +10913,7 @@ class TownsSeeder extends Seeder
             'fruit' => 'fruit',
             'grain' => 'emmer',
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2377',
             'ycoord' => '1929',
             'region' => '35',
@@ -10526,6 +10973,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Hierosolyma',
             'population' => '20000',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10535,6 +10983,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'defenses' => '800',
 			'xcoord' => '2327',
             'ycoord' => '1993',
             'region' => '35',
@@ -10543,6 +10992,7 @@ class TownsSeeder extends Seeder
         //568
 		DB::table('towns')->insert([
             'town_name' => 'Hebron',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10568,6 +11018,7 @@ class TownsSeeder extends Seeder
             'fruit' => 'fruit',
             'grain' => 'emmer',
             'timber' => 'palm',
+            'defenses' => '800',
 			'xcoord' => '2336',
             'ycoord' => '2020',
             'region' => '35',
@@ -10576,6 +11027,7 @@ class TownsSeeder extends Seeder
         //570
 		DB::table('towns')->insert([
             'town_name' => 'Ascolon',
+            'climate' => 'mediterranean',
             'fish' => 'fish',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10607,6 +11059,7 @@ class TownsSeeder extends Seeder
         //572
 		DB::table('towns')->insert([
             'town_name' => 'Caesarea Maritima',
+            'climate' => 'mediterranean',
             'pack' => 'horse',
             'fish' => 'fish',
             'poultry' => 'chicken',
@@ -10617,6 +11070,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'timber' => 'juniper',
             'glass' => 'glass',
+            'defenses' => '800',
 			'xcoord' => '2313',
             'ycoord' => '1951',
             'region' => '35',
@@ -10625,6 +11079,7 @@ class TownsSeeder extends Seeder
         //573
 		DB::table('towns')->insert([
             'town_name' => 'Samaria',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10642,6 +11097,7 @@ class TownsSeeder extends Seeder
         //574
 		DB::table('towns')->insert([
             'town_name' => 'Nazareth',
+            'climate' => 'mediterranean',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',

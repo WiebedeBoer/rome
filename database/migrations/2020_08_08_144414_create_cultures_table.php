@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRegionsTable extends Migration
+class CreateCulturesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,9 @@ class CreateRegionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('regions', function (Blueprint $table) {
-            $table->bigIncrements('region_id');
-            $table->string('region_name');
-            //fk
-			$table->unsignedBigInteger('architecture')->nullable();
+        Schema::create('cultures', function (Blueprint $table) {
+            $table->bigIncrements('culture_id');
+            $table->string('culture_name');
             //timestamps
             $table->timestamps();
         });
@@ -30,6 +28,6 @@ class CreateRegionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('regions');
+        Schema::dropIfExists('cultures');
     }
 }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRegionsTable extends Migration
+class CreateMayorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateRegionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('regions', function (Blueprint $table) {
-            $table->bigIncrements('region_id');
-            $table->string('region_name');
+        Schema::create('mayors', function (Blueprint $table) {
+            $table->bigIncrements('mayor_id');
             //fk
-			$table->unsignedBigInteger('architecture')->nullable();
+            $table->unsignedBigInteger('person');
+            $table->unsignedBigInteger('town');
             //timestamps
             $table->timestamps();
         });
@@ -30,6 +30,6 @@ class CreateRegionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('regions');
+        Schema::dropIfExists('mayors');
     }
 }

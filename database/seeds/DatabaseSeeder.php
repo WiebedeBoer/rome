@@ -15,6 +15,12 @@ class DatabaseSeeder extends Seeder
     {
         //foreign keys
         $this->call('ForeignKeySeeder');
+        //architectures
+        $this->call('ArchitectureSeeder');
+        //cultures
+        $this->call('CultureSeeder');
+        //realms
+        $this->call('RealmSeeder');
         //regions
         $this->call('RegionSeeder');
         //provinces
@@ -30,6 +36,9 @@ class ForeignKeySeeder extends Seeder
     public function run()
     {
         //geography
+        Schema::table('regions', function (Blueprint $table) {
+            $table->foreign('architecture')->references('architecture_id')->on('architectures');
+        });	
         Schema::table('provinces', function (Blueprint $table) {
             $table->foreign('region')->references('region_id')->on('regions');
             $table->foreign('capital')->references('town_id')->on('towns');
@@ -38,7 +47,7 @@ class ForeignKeySeeder extends Seeder
 		Schema::table('towns', function (Blueprint $table) {
 			$table->foreign('region')->references('region_id')->on('regions');
             $table->foreign('province')->references('province_id')->on('provinces');
-            $table->foreign('ruler')->references('person_id')->on('people');
+            $table->foreign('realm')->references('realm_id')->on('realms');
         });
         //people
 		Schema::table('people', function (Blueprint $table) {
@@ -47,12 +56,35 @@ class ForeignKeySeeder extends Seeder
         Schema::table('spouses', function (Blueprint $table) {
             $table->foreign('husband')->references('person_id')->on('people');
             $table->foreign('wife')->references('person_id')->on('people');
+        });
+        Schema::table('statistics', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
         });	
+        Schema::table('skills', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
+        });		
         //politics
         Schema::table('realms', function (Blueprint $table) {
             $table->foreign('capital')->references('town_id')->on('towns');
+            $table->foreign('culture')->references('culture_id')->on('cultures');
+        });	
+		Schema::table('governors', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
+            $table->foreign('capital')->references('town_id')->on('towns');
+        });	
+		Schema::table('prefectures', function (Blueprint $table) {
+            $table->foreign('governor')->references('governor_id')->on('governors');
+            $table->foreign('town')->references('town_id')->on('towns');
+        });	
+		Schema::table('mayors', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
+            $table->foreign('town')->references('town_id')->on('towns');
         });	
 		Schema::table('citizens', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
+            $table->foreign('realm')->references('realm_id')->on('realms');
+        });	
+		Schema::table('rulers', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');
             $table->foreign('realm')->references('realm_id')->on('realms');
         });	
