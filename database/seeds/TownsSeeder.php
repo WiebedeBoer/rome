@@ -29,7 +29,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1187',
             'ycoord' => '1353',
 			'region' => '1',
-            'province' => '1'        
+            'province' => '1',
+            'realm' => '1'       
         ]);
 		//2
 		DB::table('towns')->insert([
@@ -47,7 +48,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1166',
             'ycoord' => '1361',
 			'region' => '1',
-            'province' => '1' 
+            'province' => '1',
+            'realm' => '1' 
         ]);
 		//3
 		DB::table('towns')->insert([
@@ -66,7 +68,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1204',
             'ycoord' => '1373',
             'region' => '1',
-            'province' => '1'   
+            'province' => '1',
+            'realm' => '1'   
         ]);
 		//4
 		DB::table('towns')->insert([
@@ -83,7 +86,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1221',
             'ycoord' => '1391',
             'region' => '1',
-            'province' => '1'   
+            'province' => '1',
+            'realm' => '1'   
         ]);
 		//5
 		DB::table('towns')->insert([
@@ -100,7 +104,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1246',
             'ycoord' => '1377',
             'region' => '1',
-            'province' => '1'   
+            'province' => '1',
+            'realm' => '1'   
         ]);
         //campania
 		//6
@@ -165,7 +170,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1280',
             'ycoord' => '1430',
             'region' => '1',
-            'province' => '2' 
+            'province' => '2',
+            'realm' => '1' 
         ]);
         //lucania     
 		//9
@@ -205,7 +211,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1353',
             'ycoord' => '1455',
             'region' => '1',
-            'province' => '3' 
+            'province' => '3',
+            'realm' => '2' 
         ]);
 		//11
 		DB::table('towns')->insert([
@@ -223,7 +230,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1348',
             'ycoord' => '1434',
             'region' => '1',
-            'province' => '3'
+            'province' => '3',
+            'realm' => '2' 
         ]);
         //bruttium
 		//12
@@ -243,7 +251,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1374',
             'ycoord' => '1528',
             'region' => '1',
-            'province' => '4'
+            'province' => '4',
+            'realm' => '2' 
         ]);       
 		//13
 		DB::table('towns')->insert([
@@ -342,7 +351,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1407',
             'ycoord' => '1404',
             'region' => '1',
-            'province' => '6'
+            'province' => '6',
+            'realm' => '2' 
         ]);
 		//18
 		DB::table('towns')->insert([
@@ -359,7 +369,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1362',
             'ycoord' => '1394',
             'region' => '1',
-            'province' => '6'
+            'province' => '6',
+            'realm' => '2' 
         ]);
         //samnium
 		//19
@@ -377,7 +388,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1308',
             'ycoord' => '1359',
             'region' => '1',
-            'province' => '7'
+            'province' => '7',
+            'realm' => '2' 
         ]);
 		//20
 		DB::table('towns')->insert([
@@ -393,7 +405,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1292',
             'ycoord' => '1335',
             'region' => '1',
-            'province' => '7'
+            'province' => '7',
+            'realm' => '2' 
         ]);
 		//21
 		DB::table('towns')->insert([
@@ -410,7 +423,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1296',
             'ycoord' => '1401',
             'region' => '1',
-            'province' => '7' 
+            'province' => '7',
+            'realm' => '2'  
         ]); 
         //umbria
 		//22
@@ -429,7 +443,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1228',
             'ycoord' => '1340',
             'region' => '1',
-            'province' => '8'
+            'province' => '8',
+            'realm' => '4' 
         ]);
 		//23
 		DB::table('towns')->insert([
@@ -448,7 +463,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1199',
             'ycoord' => '1328',
             'region' => '1',
-            'province' => '8'
+            'province' => '8',
+            'realm' => '4' 
         ]);
 		//24
 		DB::table('towns')->insert([
@@ -467,7 +483,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1200',
             'ycoord' => '1313',
             'region' => '1',
-            'province' => '8'
+            'province' => '8',
+            'realm' => '4' 
         ]);
 		//25
 		DB::table('towns')->insert([
@@ -485,7 +502,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1177',
             'ycoord' => '1266',
             'region' => '1',
-            'province' => '8'
+            'province' => '8',
+            'realm' => '4' 
         ]);
         //picenum
 		//26
@@ -504,7 +522,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1234',
             'ycoord' => '1234',
             'region' => '1',
-            'province' => '9'
+            'province' => '9',
+            'realm' => '4' 
         ]);
 		//27
 		DB::table('towns')->insert([
@@ -520,7 +539,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1227',
             'ycoord' => '1276',
             'region' => '1',
-            'province' => '9'
+            'province' => '9',
+            'realm' => '4' 
         ]);
         //etruria
 		//28
@@ -541,7 +561,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1145',
             'ycoord' => '1340',
             'region' => '1',
-            'province' => '10'
+            'province' => '10',
+            'realm' => '3' 
         ]);
 		//29
 		DB::table('towns')->insert([
@@ -560,7 +581,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1110',
             'ycoord' => '1289',
             'region' => '1',
-            'province' => '10'
+            'province' => '10',
+            'realm' => '3'
         ]);
 		//30
 		DB::table('towns')->insert([
@@ -583,7 +605,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1150',
             'ycoord' => '1241',
             'region' => '1',
-            'province' => '10'
+            'province' => '10',
+            'realm' => '3'
         ]);
 		//31
 		DB::table('towns')->insert([
@@ -605,7 +628,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1121',
             'ycoord' => '1250',
             'region' => '1',
-            'province' => '10'
+            'province' => '10',
+            'realm' => '3'
         ]);
 		//32
 		DB::table('towns')->insert([
@@ -627,7 +651,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1069',
             'ycoord' => '1231',
             'region' => '1',
-            'province' => '10'
+            'province' => '10',
+            'realm' => '3'
         ]);
 		//33
 		DB::table('towns')->insert([
@@ -649,7 +674,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1115',
             'ycoord' => '1218',
             'region' => '1',
-            'province' => '10'
+            'province' => '10',
+            'realm' => '3'
         ]);
 		//34
 		DB::table('towns')->insert([
@@ -669,7 +695,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1057',
             'ycoord' => '1203',
             'region' => '1',
-            'province' => '10'
+            'province' => '10',
+            'realm' => '3'
         ]);
         //sicilia
         //sicilia
@@ -880,7 +907,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1025',
             'ycoord' => '1340',
             'region' => '4',
-            'province' => '13'
+            'province' => '13',
+            'realm' => '3'
         ]);
         //annonaria
         //aemilia
@@ -899,7 +927,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1199',
             'ycoord' => '1210',
             'region' => '5',
-            'province' => '14'
+            'province' => '14',
+            'realm' => '9'
         ]);
 		//46
 		DB::table('towns')->insert([
@@ -917,7 +946,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1168',
             'ycoord' => '1172',
             'region' => '5',
-            'province' => '14'
+            'province' => '14',
+            'realm' => '9'
         ]);
 		//47
 		DB::table('towns')->insert([
@@ -937,7 +967,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1124',
             'ycoord' => '1168',
             'region' => '5',
-            'province' => '14'
+            'province' => '14',
+            'realm' => '9'
         ]);
 		//48
 		DB::table('towns')->insert([
@@ -956,7 +987,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1099',
             'ycoord' => '1158',
             'region' => '5',
-            'province' => '14'
+            'province' => '14',
+            'realm' => '9'
         ]);
         //liguria
 		//49
@@ -974,7 +1006,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1000',
             'ycoord' => '1176',
             'region' => '5',
-            'province' => '15'
+            'province' => '15',
+            'realm' => '5'
         ]);
 		//50
 		DB::table('towns')->insert([
@@ -990,7 +1023,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '974',
             'ycoord' => '1185',
             'region' => '5',
-            'province' => '15'
+            'province' => '15',
+            'realm' => '5'
         ]);
         //gallia cisalpina
 		//51
@@ -1010,7 +1044,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1071',
             'ycoord' => '1146',
             'region' => '5',
-            'province' => '16'
+            'province' => '16',
+            'realm' => '10'
         ]);
 		//52
 		DB::table('towns')->insert([
@@ -1028,7 +1063,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1041',
             'ycoord' => '1128',
             'region' => '5',
-            'province' => '16'
+            'province' => '16',
+            'realm' => '10'
         ]);
 		//53
 		DB::table('towns')->insert([
@@ -1048,7 +1084,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '996',
             'ycoord' => '1140',
             'region' => '5',
-            'province' => '16'
+            'province' => '16',
+            'realm' => '10'
         ]);
 		//54
 		DB::table('towns')->insert([
@@ -1069,7 +1106,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '934',
             'ycoord' => '1126',
             'region' => '5',
-            'province' => '16'
+            'province' => '16',
+            'realm' => '11'
         ]);
 		//55
 		DB::table('towns')->insert([
@@ -1088,7 +1126,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1012',
             'ycoord' => '1119',
             'region' => '5',
-            'province' => '16'
+            'province' => '16',
+            'realm' => '10'
         ]);
 		//56
 		DB::table('towns')->insert([
@@ -1112,7 +1151,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1015',
             'ycoord' => '1088',
             'region' => '5',
-            'province' => '16'
+            'province' => '16',
+            'realm' => '10'
         ]);
 		//57
 		DB::table('towns')->insert([
@@ -1133,7 +1173,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '974',
             'ycoord' => '1108',
             'region' => '5',
-            'province' => '16'
+            'province' => '16',
+            'realm' => '10'
         ]);
 		//58
 		DB::table('towns')->insert([
@@ -1153,7 +1194,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1054',
             'ycoord' => '1090',
             'region' => '5',
-            'province' => '16'
+            'province' => '16',
+            'realm' => '10'
         ]);
         //Raetia Prima
 		//59
@@ -1173,7 +1215,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1045',
             'ycoord' => '1022',
             'region' => '5',
-            'province' => '17'
+            'province' => '17',
+            'realm' => '12'
         ]);
 		//60
 		DB::table('towns')->insert([
@@ -1193,7 +1236,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1040',
             'ycoord' => '950',
             'region' => '5',
-            'province' => '17'
+            'province' => '17',
+            'realm' => '12'
         ]);
 		//61
 		DB::table('towns')->insert([
@@ -1214,7 +1258,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '993',
             'ycoord' => '967',
             'region' => '5',
-            'province' => '17'
+            'province' => '17',
+            'realm' => '12'
         ]);
 		//62
 		DB::table('towns')->insert([
@@ -1235,7 +1280,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1121',
             'ycoord' => '1026',
             'region' => '5',
-            'province' => '17'
+            'province' => '17',
+            'realm' => '12'
         ]); 
 		//63
 		DB::table('towns')->insert([
@@ -1256,7 +1302,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1111',
             'ycoord' => '1054',
             'region' => '5',
-            'province' => '17'
+            'province' => '17',
+            'realm' => '12'
         ]);
 		//64
 		DB::table('towns')->insert([
@@ -1277,7 +1324,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1126',
             'ycoord' => '967',
             'region' => '5',
-            'province' => '17'
+            'province' => '17',
+            'realm' => '12'
         ]); 
         //Raetia Secunda
 		//65
@@ -1299,7 +1347,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1099',
             'ycoord' => '884',
             'region' => '5',
-            'province' => '18'
+            'province' => '18',
+            'realm' => '12'
         ]);
 		//66
 		DB::table('towns')->insert([
@@ -1319,7 +1368,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1127',
             'ycoord' => '851',
             'region' => '5',
-            'province' => '18'
+            'province' => '18',
+            'realm' => '12'
         ]);
 		//67
 		DB::table('towns')->insert([
@@ -1338,7 +1388,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1147',
             'ycoord' => '819',
             'region' => '5',
-            'province' => '18'
+            'province' => '18',
+            'realm' => '12'
         ]);        
 		//68
 		DB::table('towns')->insert([
@@ -1361,7 +1412,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1162',
             'ycoord' => '811',
             'region' => '5',
-            'province' => '18'
+            'province' => '18',
+            'realm' => '12'
         ]);
         //noricum
 		//69
@@ -1382,7 +1434,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1197',
             'ycoord' => '899',
             'region' => '5',
-            'province' => '19'
+            'province' => '19',
+            'realm' => '6' 
         ]);  
 		//70
 		DB::table('towns')->insert([
@@ -1401,7 +1454,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1258',
             'ycoord' => '900',
             'region' => '5',
-            'province' => '19'
+            'province' => '19',
+            'realm' => '6' 
         ]);
 		//71
 		DB::table('towns')->insert([
@@ -1420,7 +1474,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1335',
             'ycoord' => '1003',
             'region' => '5',
-            'province' => '19'
+            'province' => '19',
+            'realm' => '6' 
         ]);
 		//72
 		DB::table('towns')->insert([
@@ -1441,7 +1496,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1273',
             'ycoord' => '1014',
             'region' => '5',
-            'province' => '19'
+            'province' => '19',
+            'realm' => '6' 
         ]);
 		//73
 		DB::table('towns')->insert([
@@ -1458,7 +1514,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1313',
             'ycoord' => '1035',
             'region' => '5',
-            'province' => '19'
+            'province' => '19',
+            'realm' => '6' 
         ]);  
 		//74
 		DB::table('towns')->insert([
@@ -1475,7 +1532,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1277',
             'ycoord' => '1052',
             'region' => '5',
-            'province' => '19'
+            'province' => '19',
+            'realm' => '6' 
         ]);
 		//75
 		DB::table('towns')->insert([
@@ -1492,7 +1550,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1341',
             'ycoord' => '897',
             'region' => '5',
-            'province' => '19'
+            'province' => '19',
+            'realm' => '6' 
         ]);
         //venetia
 		//76
@@ -1512,7 +1571,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1095',
             'ycoord' => '1122',
             'region' => '5',
-            'province' => '20'
+            'province' => '20',
+            'realm' => '8'
         ]);
 		//77
 		DB::table('towns')->insert([
@@ -1532,7 +1592,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1101',
             'ycoord' => '1098',
             'region' => '5',
-            'province' => '20'
+            'province' => '20',
+            'realm' => '8'
         ]);
 		//78
 		DB::table('towns')->insert([
@@ -1551,7 +1612,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1150',
             'ycoord' => '1105',
             'region' => '5',
-            'province' => '20'
+            'province' => '20',
+            'realm' => '8'
         ]);
 		//79
 		DB::table('towns')->insert([
@@ -1570,7 +1632,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1143',
             'ycoord' => '1078',
             'region' => '5',
-            'province' => '20'
+            'province' => '20',
+            'realm' => '8'
         ]);
 		//80
 		DB::table('towns')->insert([
@@ -1588,7 +1651,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '1217',
             'ycoord' => '1075',
             'region' => '5',
-            'province' => '20'
+            'province' => '20',
+            'realm' => '8'
         ]);
         //Alpes Cottiae
 		//81
@@ -1606,7 +1670,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '885',
             'ycoord' => '1156',
             'region' => '5',
-            'province' => '21'
+            'province' => '21',
+            'realm' => '13'
         ]);
         //Alpes Maritimae
 		//82
@@ -1622,7 +1687,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '915',
             'ycoord' => '1225',
             'region' => '5',
-            'province' => '22'
+            'province' => '22',
+            'realm' => '14'
         ]);
         //Alpes Poeniae
 		//83
@@ -1641,7 +1707,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '906',
             'ycoord' => '1053',
             'region' => '5',
-            'province' => '23'
+            'province' => '23',
+            'realm' => '13'
         ]);
         //gallia
         //helvetia
@@ -1664,7 +1731,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '933',
             'ycoord' => '1005',
             'region' => '6',
-            'province' => '24'
+            'province' => '24',
+            'realm' => '7' 
         ]);  
 		//85
 		DB::table('towns')->insert([
@@ -1684,7 +1752,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '947',
             'ycoord' => '962',
             'region' => '6',
-            'province' => '24'
+            'province' => '24',
+            'realm' => '7' 
         ]);
 		//86
 		DB::table('towns')->insert([
@@ -1705,7 +1774,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '829',
             'ycoord' => '1012',
             'region' => '6',
-            'province' => '24'
+            'province' => '24',
+            'realm' => '17' 
         ]);  
 		//87
 		DB::table('towns')->insert([
@@ -1726,7 +1796,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '976',
             'ycoord' => '960',
             'region' => '6',
-            'province' => '24'
+            'province' => '24',
+            'realm' => '7' 
         ]); 
 		//88
 		DB::table('towns')->insert([
@@ -1746,7 +1817,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '908',
             'ycoord' => '1003',
             'region' => '6',
-            'province' => '24'
+            'province' => '24',
+            'realm' => '7' 
         ]); 
         //Gallia Viennensis
 		//89
@@ -1765,7 +1837,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '850',
             'ycoord' => '1266',
             'region' => '6',
-            'province' => '25'
+            'province' => '25',
+            'realm' => '15'
         ]);
 		//90
 		DB::table('towns')->insert([
@@ -1802,7 +1875,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '783',
             'ycoord' => '1227',
             'region' => '6',
-            'province' => '25'
+            'province' => '25',
+            'realm' => '15'
         ]);  
 		//92
 		DB::table('towns')->insert([
@@ -1819,7 +1893,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '787',
             'ycoord' => '1181',
             'region' => '6',
-            'province' => '25'
+            'province' => '25',
+            'realm' => '15'
         ]);
 		//93
 		DB::table('towns')->insert([
@@ -1859,7 +1934,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '842',
             'ycoord' => '1117',
             'region' => '6',
-            'province' => '25'
+            'province' => '25',
+            'realm' => '13'
         ]);
 		//95
 		DB::table('towns')->insert([
@@ -1879,7 +1955,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '790',
             'ycoord' => '1102',
             'region' => '6',
-            'province' => '25'
+            'province' => '25',
+            'realm' => '16'
         ]); 
 		//96
 		DB::table('towns')->insert([
@@ -1899,7 +1976,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '847',
             'ycoord' => '1090',
             'region' => '6',
-            'province' => '25'
+            'province' => '25',
+            'realm' => '13'
         ]); 
 		//97
 		DB::table('towns')->insert([
@@ -1920,7 +1998,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '859',
             'ycoord' => '1047',
             'region' => '6',
-            'province' => '25'
+            'province' => '25',
+            'realm' => '16'
         ]); 
 		//98
 		DB::table('towns')->insert([
@@ -1939,7 +2018,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '771',
             'ycoord' => '1202',
             'region' => '6',
-            'province' => '25'
+            'province' => '25',
+            'realm' => '15'
         ]);
         //Gallia Lugdunensis
 		//99
@@ -1961,7 +2041,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '792',
             'ycoord' => '1079',
             'region' => '6',
-            'province' => '26'
+            'province' => '26',
+            'realm' => '16',
         ]);
 		//100
 		DB::table('towns')->insert([
@@ -1978,7 +2059,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '792',
             'ycoord' => '1037',
             'region' => '6',
-            'province' => '26'
+            'province' => '26',
+            'realm' => '16'
         ]);
 		//101
 		DB::table('towns')->insert([
@@ -1995,7 +2077,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '795',
             'ycoord' => '1003',
             'region' => '6',
-            'province' => '26'
+            'province' => '26',
+            'realm' => '27'
         ]);
 		//102
 		DB::table('towns')->insert([
@@ -2013,7 +2096,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '772',
             'ycoord' => '1003',
             'region' => '6',
-            'province' => '26'
+            'province' => '26',
+            'realm' => '27'
         ]);
 		//103
 		DB::table('towns')->insert([
@@ -2032,7 +2116,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '801',
             'ycoord' => '965',
             'region' => '6',
-            'province' => '26'
+            'province' => '26',
+            'realm' => '27'
         ]);  
 		//104
 		DB::table('towns')->insert([
@@ -2052,7 +2137,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '859',
             'ycoord' => '940',
             'region' => '6',
-            'province' => '26'
+            'province' => '26',
+            'realm' => '28'
         ]);
         //Gallia Narbonensis
 		//105
@@ -2075,7 +2161,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '699',
             'ycoord' => '1261',
             'region' => '6',
-            'province' => '27'
+            'province' => '27',
+            'realm' => '19'
         ]);  
 		//106
 		DB::table('towns')->insert([
@@ -2095,7 +2182,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '667',
             'ycoord' => '1257',
             'region' => '6',
-            'province' => '27'
+            'province' => '27',
+            'realm' => '19'
         ]);      
 		//107
 		DB::table('towns')->insert([
@@ -2117,7 +2205,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '619',
             'ycoord' => '1232',
             'region' => '6',
-            'province' => '27'
+            'province' => '27',
+            'realm' => '19'
         ]);
 		//108
 		DB::table('towns')->insert([
@@ -2136,7 +2225,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '657',
             'ycoord' => '1207',
             'region' => '6',
-            'province' => '27'
+            'province' => '27',
+            'realm' => '19'
         ]);  
 		//109
 		DB::table('towns')->insert([
@@ -2156,7 +2246,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '679',
             'ycoord' => '1179',
             'region' => '6',
-            'province' => '27'
+            'province' => '27',
+            'realm' => '19'
         ]);
 		//110
 		DB::table('towns')->insert([
@@ -2176,7 +2267,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '671',
             'ycoord' => '1140',
             'region' => '6',
-            'province' => '27'
+            'province' => '27',
+            'realm' => '19'
         ]); 
 		//111
 		DB::table('towns')->insert([
@@ -2218,7 +2310,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '580',
             'ycoord' => '1191',
             'region' => '6',
-            'province' => '28'
+            'province' => '28',
+            'realm' => '20'
         ]);
 		//113
 		DB::table('towns')->insert([
@@ -2244,7 +2337,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '517',
             'ycoord' => '1144',
             'region' => '6',
-            'province' => '28'
+            'province' => '28',
+            'realm' => '21'
         ]);
 		//114
 		DB::table('towns')->insert([
@@ -2262,7 +2356,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '613',
             'ycoord' => '1073',
             'region' => '6',
-            'province' => '28'
+            'province' => '28',
+            'realm' => '22'
         ]); 
 		//115
 		DB::table('towns')->insert([
@@ -2280,7 +2375,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '708',
             'ycoord' => '1075',
             'region' => '6',
-            'province' => '28'
+            'province' => '28',
+            'realm' => '18'
         ]);
 		//116
 		DB::table('towns')->insert([
@@ -2299,7 +2395,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '494',
             'ycoord' => '1224',
             'region' => '6',
-            'province' => '28'
+            'province' => '28',
+            'realm' => '20'
         ]);
 		//117
 		DB::table('towns')->insert([
@@ -2317,7 +2414,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '586',
             'ycoord' => '1120',
             'region' => '6',
-            'province' => '28'
+            'province' => '28',
+            'realm' => '22'
         ]);
 		//118
 		DB::table('towns')->insert([
@@ -2334,7 +2432,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '620',
             'ycoord' => '1172',
             'region' => '6',
-            'province' => '28'
+            'province' => '28',
+            'realm' => '23'
         ]);
 		//119
 		DB::table('towns')->insert([
@@ -2351,7 +2450,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '578',
             'ycoord' => '1230',
             'region' => '6',
-            'province' => '28'
+            'province' => '28',
+            'realm' => '20'
         ]);
         //Gallia Celtica
  		//120
@@ -2371,7 +2471,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '565',
             'ycoord' => '1017',
             'region' => '6',
-            'province' => '29'
+            'province' => '29',
+            'realm' => '38'
         ]);
 		//121
 		DB::table('towns')->insert([
@@ -2393,7 +2494,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '471',
             'ycoord' => '971',
             'region' => '6',
-            'province' => '29'
+            'province' => '29',
+            'realm' => '36'
         ]);
 		//122
 		DB::table('towns')->insert([
@@ -2415,7 +2517,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '463',
             'ycoord' => '905',
             'region' => '6',
-            'province' => '29'
+            'province' => '29',
+            'realm' => '24'
         ]);
 		//123
 		DB::table('towns')->insert([
@@ -2431,7 +2534,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '558',
             'ycoord' => '913',
             'region' => '6',
-            'province' => '29'
+            'province' => '29',
+            'realm' => '25'
         ]);
 		//124
 		DB::table('towns')->insert([
@@ -2447,7 +2551,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '669',
             'ycoord' => '982',
             'region' => '6',
-            'province' => '29'
+            'province' => '29',
+            'realm' => '21'
         ]); 
 		//125
 		DB::table('towns')->insert([
@@ -2466,7 +2571,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '583',
             'ycoord' => '959',
             'region' => '6',
-            'province' => '29'
+            'province' => '29',
+            'realm' => '37'
         ]); 
         //Gallia Senonia
 		//126
@@ -2486,7 +2592,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '645',
             'ycoord' => '920',
             'region' => '6',
-            'province' => '30'
+            'province' => '30',
+            'realm' => '25'
         ]);    
 		//127
 		DB::table('towns')->insert([
@@ -2507,7 +2614,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '667',
             'ycoord' => '848',
             'region' => '6',
-            'province' => '30'
+            'province' => '30',
+            'realm' => '26'
         ]);
 		//128
 		DB::table('towns')->insert([
@@ -2526,7 +2634,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '603',
             'ycoord' => '802',
             'region' => '6',
-            'province' => '30'
+            'province' => '30',
+            'realm' => '32'
         ]);
 		//129
 		DB::table('towns')->insert([
@@ -2545,7 +2654,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '666',
             'ycoord' => '766',
             'region' => '6',
-            'province' => '30'
+            'province' => '30',
+            'realm' => '31'
         ]);
 		//130
 		DB::table('towns')->insert([
@@ -2563,7 +2673,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '714',
             'ycoord' => '896',
             'region' => '6',
-            'province' => '30'
+            'province' => '30',
+            'realm' => '30'
         ]);
         //Belgica Prima
 		//131
@@ -2584,7 +2695,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '860',
             'ycoord' => '815',
             'region' => '6',
-            'province' => '31'
+            'province' => '31',
+            'realm' => '29'
         ]);  
 		//132
 		DB::table('towns')->insert([
@@ -2607,7 +2719,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '918',
             'ycoord' => '786',
             'region' => '6',
-            'province' => '31'
+            'province' => '31',
+            'realm' => '29'
         ]);
         //Belgica Secunda
 		//133
@@ -2625,7 +2738,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '693',
             'ycoord' => '723',
             'region' => '6',
-            'province' => '32'
+            'province' => '32',
+            'realm' => '34'
         ]);        
 		//134
 		DB::table('towns')->insert([
@@ -2643,7 +2757,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '730',
             'ycoord' => '726',
             'region' => '6',
-            'province' => '32'
+            'province' => '32',
+            'realm' => '34'
         ]);
 		//135
 		DB::table('towns')->insert([
@@ -2660,7 +2775,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '628',
             'ycoord' => '699',
             'region' => '6',
-            'province' => '32'
+            'province' => '32',
+            'realm' => '34'
         ]);
 		//136
 		DB::table('towns')->insert([
@@ -2678,7 +2794,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '787',
             'ycoord' => '777',
             'region' => '6',
-            'province' => '32'
+            'province' => '32',
+            'realm' => '33'
         ]); 
         //germania
         //Germania Inferior
@@ -2699,7 +2816,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '811',
             'ycoord' => '693',
             'region' => '7',
-            'province' => '33'
+            'province' => '33',
+            'realm' => '35'
         ]); 
 		//138
 		DB::table('towns')->insert([
@@ -2718,7 +2836,8 @@ class TownsSeeder extends Seeder
 			'xcoord' => '837',
             'ycoord' => '688',
             'region' => '7',
-            'province' => '33'
+            'province' => '33',
+            'realm' => '35'
         ]);        
 		//139
 		DB::table('towns')->insert([

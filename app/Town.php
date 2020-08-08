@@ -21,9 +21,9 @@ class Town extends Model
         return $this->belongsTo('App\Province','province');
     } 
 
-    public function rulers()
+    public function realms()
     {
-        return $this->belongsTo('App\Person','ruler');
+        return $this->belongsTo('App\Realm','realm');
     } 
 
     //mayors

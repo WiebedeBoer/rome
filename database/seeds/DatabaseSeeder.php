@@ -27,6 +27,8 @@ class DatabaseSeeder extends Seeder
         $this->call('ProvinceSeeder');
 		//towns
         $this->call('TownsSeeder');
+        //capitals
+        $this->call('CapitalSeeder');
     }
 }
 
@@ -65,7 +67,6 @@ class ForeignKeySeeder extends Seeder
         });		
         //politics
         Schema::table('realms', function (Blueprint $table) {
-            $table->foreign('capital')->references('town_id')->on('towns');
             $table->foreign('culture')->references('culture_id')->on('cultures');
         });	
 		Schema::table('governors', function (Blueprint $table) {
@@ -86,6 +87,10 @@ class ForeignKeySeeder extends Seeder
         });	
 		Schema::table('rulers', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');
+            $table->foreign('realm')->references('realm_id')->on('realms');
+        });	
+        Schema::table('capitals', function (Blueprint $table) {
+            $table->foreign('town')->references('town_id')->on('towns');
             $table->foreign('realm')->references('realm_id')->on('realms');
         });	
         //military

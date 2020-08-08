@@ -29,7 +29,7 @@ class ArchitectureSeeder extends Seeder
         ]);
         //6
         DB::table('architectures')->insert([
-            'architecture_name' => 'Punic Roman'
+            'architecture_name' => 'Punic'
         ]);
         //7
         DB::table('architectures')->insert([
@@ -39,9 +39,13 @@ class ArchitectureSeeder extends Seeder
         DB::table('architectures')->insert([
             'architecture_name' => 'Arabic'
         ]);
-        //8
+        //9
         DB::table('architectures')->insert([
             'architecture_name' => 'Persian'
+        ]);
+        //10
+        DB::table('architectures')->insert([
+            'architecture_name' => 'Scythian'
         ]);
     }
 }

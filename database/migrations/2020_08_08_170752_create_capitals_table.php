@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRealmsTable extends Migration
+class CreateCapitalsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,11 @@ class CreateRealmsTable extends Migration
      */
     public function up()
     {
-        Schema::create('realms', function (Blueprint $table) {
-            $table->bigIncrements('realm_id');
-            $table->string('realm_name');
-            //treasury
-            $table->integer('treasury')->default(100);
+        Schema::create('capitals', function (Blueprint $table) {
+            $table->bigIncrements('capital_id');
             //fk
-            $table->unsignedBigInteger('culture')->nullable();
+            $table->unsignedBigInteger('realm');
+            $table->unsignedBigInteger('town');
             //timestamps
             $table->timestamps();
         });
@@ -32,6 +30,6 @@ class CreateRealmsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('realms');
+        Schema::dropIfExists('capitals');
     }
 }

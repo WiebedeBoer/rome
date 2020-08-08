@@ -487,6 +487,7 @@ class ComposerStaticInitf37bbadeedfb9fa5cfed2981b2a30435
     public static $classMap = array (
         'App\\Architecture' => __DIR__ . '/../..' . '/app/Architecture.php',
         'App\\Army' => __DIR__ . '/../..' . '/app/Army.php',
+        'App\\Capital' => __DIR__ . '/../..' . '/app/Capital.php',
         'App\\Citizen' => __DIR__ . '/../..' . '/app/Citizen.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Culture' => __DIR__ . '/../..' . '/app/Culture.php',
@@ -544,6 +545,7 @@ class ComposerStaticInitf37bbadeedfb9fa5cfed2981b2a30435
         'Brick\\Math\\Internal\\Calculator\\GmpCalculator' => __DIR__ . '/..' . '/brick/math/src/Internal/Calculator/GmpCalculator.php',
         'Brick\\Math\\Internal\\Calculator\\NativeCalculator' => __DIR__ . '/..' . '/brick/math/src/Internal/Calculator/NativeCalculator.php',
         'Brick\\Math\\RoundingMode' => __DIR__ . '/..' . '/brick/math/src/RoundingMode.php',
+        'CapitalSeeder' => __DIR__ . '/../..' . '/database/seeds/CapitalSeeder.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonConverterInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonConverterInterface.php',
         'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
