@@ -111,10 +111,10 @@ class CapitalSeeder extends Seeder
             'realm' => '19',
             'town' => '107'
         ]);
-        //Ausci, Auscorum
+        //Nitiobroges, Aginnum
         DB::table('capitals')->insert([
             'realm' => '20',
-            'town' => '119'
+            'town' => '112'
         ]);
         //Bituriges, Burdigala
         DB::table('capitals')->insert([
@@ -205,358 +205,464 @@ class CapitalSeeder extends Seeder
         DB::table('capitals')->insert([
             'realm' => '38',
             'town' => '120'
-        ]);
-        /*
+        ]);     
         //britannia
-        //Durotriges
+        //Belgae, Aquae Sulis
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '39',
+            'town' => '160'
         ]);
-        //Dumnonii
+        //Dumnonii, Isca Dumnonum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '40',
+            'town' => '159'
         ]);
-        //Trinovantes
+        //Dobunni, Glevum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '41',
+            'town' => '162'
         ]);
-        //Iceni
+        //Silures, Isca Silurum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '42',
+            'town' => '163'
         ]);
-        //Catuvellauni
+        //Demetae, Moridunum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '43',
+            'town' => '164'
         ]);
-        //Ordovices
+        //Ordovices, Segontium
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '44',
+            'town' => '165'
         ]);
-        //Silures
+        //Cornovii, Viroconium
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '45',
+            'town' => '167'
         ]);
-        //Demetae
+        //Regnenses, Portus Adurni
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '46',
+            'town' => '168'
         ]);
-        //Cornovii
+        //Catuvellauni, Verulamium
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '47',
+            'town' => '170'
         ]);
-        //Brigantes
+        //Trinovantes, Camulodunum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '48',
+            'town' => '171'
         ]);
-        //Caledonii
+        //Iceni, Icenorum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '49',
+            'town' => '172'
         ]);
-        //Eblanii
+        //Coritani, Lindum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '50',
+            'town' => '174'
+        ]);
+        //Brigantes, Eboracum
+        DB::table('capitals')->insert([
+            'realm' => '51',
+            'town' => '175'
+        ]);
+        //Caledonii, Curia
+        DB::table('capitals')->insert([
+            'realm' => '52',
+            'town' => '180'
+        ]);
+        //Eblanii, Eblana
+        DB::table('capitals')->insert([
+            'realm' => '53',
+            'town' => '181'
         ]);
         //hispania, celtiberian
-        //Gallaeci
+        //Gallaeci, Lucus
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '54',
+            'town' => '218'
         ]);
-        //Astures
+        //Astures, Asturica
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '55',
+            'town' => '217'
         ]);
-        //Cantabri
+        //Cantabri, Portus Victoriae
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '56',
+            'town' => '190'
         ]);
-        //Vaccaei
+        //Vaccaei, Pallantia
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '57',
+            'town' => '193'
         ]);
-        //Celtiberi
+        //Celtiberi, Ercavica
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '58',
+            'town' => '201'
         ]);
-        //Carpetani
+        //Carpetani, Toletum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '59',
+            'town' => '212'
         ]);
-        //Vettones
+        //Vettones, Caparra
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '60',
+            'town' => '225'
         ]);
-        //Lusitani
+        //Lusitani, Aeminium
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '61',
+            'town' => '222'
         ]);
-        //Turduli
+        //Turduli, Segida
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '62',
+            'town' => '227'
         ]);
-        //Celtici
+        //Celtici, Ebora
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '63',
+            'town' => '228'
         ]);
         //basque
-        //Vascones
+        //Ausci, Auscorum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '64',
+            'town' => '119'
+        ]);
+        //Vascones, Pompaelo
+        DB::table('capitals')->insert([
+            'realm' => '65',
+            'town' => '188'
         ]);
         //tartessian
-        //Turdetani
+        //Turdetani, Tartessus
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '66',
+            'town' => '205'
         ]);
         //iberian
-        //Ilergetae
+        //Oretani, Castulo
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '67',
+            'town' => '210'
         ]);
-        //Ilercavones
+        //Edetani, Valentia Edatonorum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '68',
+            'town' => '194'
         ]);
-        //Edetani
+        //Ilercavones, Saguntum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '69',
+            'town' => '191'
         ]);
-        //Contestani
+        //Ilergetae, Ilerda
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
-        ]);
-        //Oretani
-        DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
-        ]);
-        //Bastetani
-        DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '70',
+            'town' => '186'
         ]);
         //germanic
-        //Frisii
+        //Frisii, Flevum
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '71',
+            'town' => '142'
+        ]);
+        //Batavii, Portus Batavorum
+        DB::table('capitals')->insert([
+            'realm' => '72',
+            'town' => '141'
+        ]);
+        //Chamavi, Noviomagus
+        DB::table('capitals')->insert([
+            'realm' => '73',
             'town' => ''
         ]);
-        //Chauci
+        //Bructeri, Castra Vetera
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '74',
+            'town' => '140'
         ]);
-        //Cherusci
+        //Cherusci, Aliso
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '75',
+            'town' => '144'
         ]);
-        //Chatti
+        //Chauci, Fabiranum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '76',
+            'town' => '153'
         ]);
-        //Tencteri
+        //Chatti, Mogontiacum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '77',
+            'town' => '147'
         ]);
-        //Alemanes
+        //Tencteri, Ubiorum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '78',
+            'town' => '143'
         ]);
-        //Marcomanni
+        //Alemanes, Argentoratum
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '79',
+            'town' => '146'
         ]);
-        //Quadi
+        //Hermunduri, Bicurgium
         DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => ''
+            'realm' => '80',
+            'town' => '155'
+        ]);
+        //Marcomanni, Alcimoennis
+        DB::table('capitals')->insert([
+            'realm' => '81',
+            'town' => '67'
+        ]);
+        //Quadi, Casurgis
+        DB::table('capitals')->insert([
+            'realm' => '82',
+            'town' => '157'
         ]);
         //illyrian
         //Histria, Pola
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '83',
             'town' => '358'
         ]);
         //Liburnia, Iadera
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '84',
             'town' => '354'
         ]);
         //Dalmatia, Delminium
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '85',
             'town' => '351'
         ]);
         //Dardania, Scupi
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '86',
             'town' => '346'
         ]);
         //Vardaei, Doclea
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '87',
             'town' => '348'
         ]);
         //Scordisci, Sirmium
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '88',
             'town' => '361'
         ]);
         //Breuci, Siscia
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '90',
             'town' => '367'
+        ]);
+        //Hercuniates, Gorsium
+        DB::table('capitals')->insert([
+            'realm' => '90',
+            'town' => '371'
         ]);
         //thracian
         //Dacia, Sarmizegetusa
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '91',
             'town' => '376'
         ]);
         //punic
         //Carthage, Carthago
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '92',
             'town' => '265'
         ]);
         //numidian
         //Numidia, Cirta
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '93',
             'town' => '252'
         ]);
         //Mauretania, Volubilis
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '94',
             'town' => '237'
         ]);
         //Garamantia, Germa
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '95',
             'town' => '277'
         ]);
-        //hellenic
+        //greek colonies, hispania
+        //Lucentum, Lucentum
+        DB::table('capitals')->insert([
+            'realm' => '96',
+            'town' => '195'
+        ]); 
+        //Barcino, Barcino
+        DB::table('capitals')->insert([
+            'realm' => '97',
+            'town' => '184'
+        ]);
         //Emporiae, Emporiae
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '98',
             'town' => '182'
-        ]);        
+        ]);
+        //greek colonies, gallia   
+        //Agathe, Agathe
+        DB::table('capitals')->insert([
+            'realm' => '99',
+            'town' => '111'
+        ]);            
         //Massilia, Massilia
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '100',
             'town' => '90'
+        ]);
+        //greek colonies, italia
+        //Neapolis, Neapolis
+        DB::table('capitals')->insert([
+            'realm' => '101',
+            'town' => '7'
+        ]);
+        //Paestum, Paestum
+        DB::table('capitals')->insert([
+            'realm' => '102',
+            'town' => '9'
+        ]);
+        //Crotona, Crotona
+        DB::table('capitals')->insert([
+            'realm' => '103',
+            'town' => '13'
         ]);
         //Tarentum, Tarentum
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '104',
             'town' => '15'
+        ]);
+        //Messana, Messana
+        DB::table('capitals')->insert([
+            'realm' => '105',
+            'town' => '41'
         ]);
         //Syracusae, Syracusae
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '106',
             'town' => '39'
         ]);
+        //hellenic
         //Epirus, Ambracia
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '107',
             'town' => '323'
         ]);
         //Macedon, Pella
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '108',
             'town' => '329'
         ]);
         //Aegyptus, Alexandria
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '109',
             'town' => '284'
         ]);
         //Seleucid, Seleucia
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '110',
             'town' => '526'
         ]);
         //Bithynia, Nicomedia
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '111',
             'town' => '415'
         ]);
         //Caria, Halicarnassus
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '112',
             'town' => '404'
         ]);
         //Cilicia, Tarsus
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '113',
             'town' => '457'
         ]);
         //Odrysia, Philippopolis
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '114',
             'town' => '338'
         ]);
         //Pergamon, Pergamum
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '115',
             'town' => '408'
+        ]);
+        //Galatia, Ancyra
+        DB::table('capitals')->insert([
+            'realm' => '116',
+            'town' => '443'
+        ]);
+        //Cappadocia,
+        DB::table('capitals')->insert([
+            'realm' => '117',
+            'town' => '446'
         ]);
         //Aetolia, Thermum
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '118',
             'town' => '322'
         ]);
         //Achaea, Patrae
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '119',
             'town' => '313'
         ]);
-        //persian
-        //Pontus, Sinope
-        DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => '420'
-        ]);
+        //armenian
         //Armenia, Artaxata
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '120',
             'town' => '467'
+        ]);
+        //kartvelian
+        //Colchis, Phasis
+        DB::table('capitals')->insert([
+            'realm' => '121',
+            'town' => '479'
+        ]);
+        //Iberia, Armazi
+        DB::table('capitals')->insert([
+            'realm' => '122',
+            'town' => '480'
+        ]);
+        //gargarian
+        //Albania
+        DB::table('capitals')->insert([
+            'realm' => '123',
+            'town' => '482'
+        ]);
+        //pontic
+        //Pontus, Sinope
+        DB::table('capitals')->insert([
+            'realm' => '124',
+            'town' => '420'
+        ]);
+        //persian
+        //Media Atropatene, Ganzak
+        DB::table('capitals')->insert([
+            'realm' => '125',
+            'town' => '486'
         ]);
         //Parthia, Susa
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '126',
             'town' => '495'
         ]);
         //arabic
@@ -602,7 +708,7 @@ class CapitalSeeder extends Seeder
             'realm' => '',
             'town' => '395'
         ]);
-        */
+        
     
     }
 }

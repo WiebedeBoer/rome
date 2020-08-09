@@ -19,7 +19,7 @@ class CreateTownsTable extends Migration
 			//population
             $table->integer('population')->default(10000); //vicus (39) 2000, castrum (58) 5000, municipium (466) 10000, (29) 20000, (7) 50000, (3) 100000
             //climate
-            $table->string('climate')->default('mediterranean'); //223 mediterranean, 74 oceanic, 42 pontic, 81 continental, 25 alpine, 14 hot steppe,  37 cold steppe,  72 desert oasis,  36 desert wetland
+            $table->string('climate')->default('mediterranean'); //223 mediterranean, 74 oceanic, 42 pontic, 81 continental, 25 alpine, 14 hot steppe, 37 cold steppe,  72 desert oasis,  36 desert wetland
             //animals
             $table->string('pack')->default('none'); //105 horse, 114 camel
             $table->string('cattle')->default('none'); //162 cattle
@@ -37,14 +37,14 @@ class CreateTownsTable extends Migration
             $table->string('seasoning')->default('none');  //212 olives         
             //metals
             $table->string('tin')->default('none'); //11 tin
-            $table->string('copper')->default('none'); //74 copper
-            $table->string('iron')->default('none'); //66 iron
-            $table->string('gold')->default('none'); //68 gold
+            $table->string('copper')->default('none'); //75 copper
+            $table->string('iron')->default('none'); //67 iron
+            $table->string('gold')->default('none'); //69 gold
             $table->string('silver')->default('none'); //55 silver
-            $table->string('salt')->default('none'); //28 salt
+            $table->string('salt')->default('none'); //30 salt
             //resources  
             $table->string('fiber')->default('none'); //29 flax
-            $table->string('pottery')->default('none'); //313 clay
+            $table->string('pottery')->default('none'); //314 clay
             $table->string('dye')->default('none'); //81 woad, 18 madder, 21 indigo
             $table->string('timber')->default('none'); //168 oak, 70 cypress, 43 yew, 39 beech, 110 juniper, 8 cedar, 33 pine, 118 palm
             $table->string('paper')->default('none'); // 13 papyrus

@@ -694,7 +694,7 @@ class ProvinceSeeder extends Seeder
         ]);
         //131
         DB::table('provinces')->insert([
-            'province_name' => 'Gallatia Salutaris',
+            'province_name' => 'Galatia Salutaris',
             'region' => '31'
         ]);
         //132

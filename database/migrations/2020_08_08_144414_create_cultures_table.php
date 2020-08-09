@@ -16,6 +16,11 @@ class CreateCulturesTable extends Migration
         Schema::create('cultures', function (Blueprint $table) {
             $table->bigIncrements('culture_id');
             $table->string('culture_name');
+            //cultures
+            $table->string('culture_language');
+            $table->string('culture_military');
+            $table->unsignedBigInteger('culture_construction')->nullable();
+            $table->string('culture_religion');
             //timestamps
             $table->timestamps();
         });

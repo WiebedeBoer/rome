@@ -66,6 +66,9 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('person')->references('person_id')->on('people');
         });		
         //politics
+        Schema::table('cultures', function (Blueprint $table) {
+            $table->foreign('culture_construction')->references('architecture_id')->on('architectures');
+        });	
         Schema::table('realms', function (Blueprint $table) {
             $table->foreign('culture')->references('culture_id')->on('cultures');
         });	

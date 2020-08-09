@@ -22,53 +22,53 @@ class RealmSeeder extends Seeder
             'realm_name' => 'Samnium',
             'culture' => '1'
         ]);
-        //3
+        //3 (etruria)
         DB::table('realms')->insert([
             'realm_name' => 'Etruria',
-            'culture' => '1'
+            'culture' => '2'
         ]);
         //4
         DB::table('realms')->insert([
             'realm_name' => 'Umbria',
             'culture' => '1'
         ]);
-        //5
+        //5 (liguria)
         DB::table('realms')->insert([
             'realm_name' => 'Liguria',
-            'culture' => '1'
+            'culture' => '2'
         ]);
         //celtic
         //6 (cisalpina)
         DB::table('realms')->insert([
             'realm_name' => 'Norici',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //7
         DB::table('realms')->insert([
             'realm_name' => 'Helvetii',
-            'culture' => '2'
+            'culture' => '3'
         ]);
-        //8
+        //8 (venetia)
         DB::table('realms')->insert([
             'realm_name' => 'Venetii',
-            'culture' => '2'
+            'culture' => '1'
         ]);
         //9
         DB::table('realms')->insert([
             'realm_name' => 'Boii',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //10
         DB::table('realms')->insert([
             'realm_name' => 'Insubres',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //11
         DB::table('realms')->insert([
             'realm_name' => 'Taurini',
-            'culture' => '2'
+            'culture' => '3'
         ]);
-        //12
+        //12 (raetia)
         DB::table('realms')->insert([
             'realm_name' => 'Raeti',
             'culture' => '2'
@@ -77,517 +77,629 @@ class RealmSeeder extends Seeder
         //13
         DB::table('realms')->insert([
             'realm_name' => 'Vocontii',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //14
         DB::table('realms')->insert([
             'realm_name' => 'Deciates',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //15 (gallia)
         DB::table('realms')->insert([
             'realm_name' => 'Salluvi',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //16
         DB::table('realms')->insert([
             'realm_name' => 'Allobroges',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //17
         DB::table('realms')->insert([
             'realm_name' => 'Sequani',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //18
         DB::table('realms')->insert([
             'realm_name' => 'Arverni',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //19
         DB::table('realms')->insert([
             'realm_name' => 'Volcae',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //20
         DB::table('realms')->insert([
-            'realm_name' => 'Ausci',
-            'culture' => '2'
+            'realm_name' => 'Nitiobroges',
+            'culture' => '3'
         ]);
         //21
         DB::table('realms')->insert([
             'realm_name' => 'Bituriges',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //22
         DB::table('realms')->insert([
             'realm_name' => 'Lemovices',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //23
         DB::table('realms')->insert([
             'realm_name' => 'Cadurci',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //24
         DB::table('realms')->insert([
             'realm_name' => 'Redones',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //25
         DB::table('realms')->insert([
             'realm_name' => 'Cenomani',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //26
         DB::table('realms')->insert([
             'realm_name' => 'Parisii',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //27
         DB::table('realms')->insert([
             'realm_name' => 'Haedui',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //28
         DB::table('realms')->insert([
             'realm_name' => 'Lingones',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //29
         DB::table('realms')->insert([
             'realm_name' => 'Treveri',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //30
         DB::table('realms')->insert([
             'realm_name' => 'Senones',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //31
         DB::table('realms')->insert([
             'realm_name' => 'Ambiani',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //32
         DB::table('realms')->insert([
             'realm_name' => 'Caletes',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //33
         DB::table('realms')->insert([
             'realm_name' => 'Remi',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //34
         DB::table('realms')->insert([
             'realm_name' => 'Atrebates',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //35
         DB::table('realms')->insert([
             'realm_name' => 'Eburones',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //36
         DB::table('realms')->insert([
             'realm_name' => 'Namnetes',
-            'culture' => '2'
+            'culture' => '3'
         ]);
         //37
         DB::table('realms')->insert([
             'realm_name' => 'Turones',
-            'culture' => '2'
+            'culture' => '3'
         ]);
-        // (britannia)
+        //38
         DB::table('realms')->insert([
-            'realm_name' => 'Durotriges',
-            'culture' => '2'
+            'realm_name' => 'Pictones',
+            'culture' => '3'
         ]);
-        //
+        //39 (britannia)
+        DB::table('realms')->insert([
+            'realm_name' => 'Belgae',
+            'culture' => '4'
+        ]);
+        //40
         DB::table('realms')->insert([
             'realm_name' => 'Dumnonii',
-            'culture' => '2'
+            'culture' => '4'
         ]);
-        //
+        //41
         DB::table('realms')->insert([
-            'realm_name' => 'Trinovantes',
-            'culture' => '2'
+            'realm_name' => 'Dobunni',
+            'culture' => '4'
         ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Iceni',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Catuvellauni',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Ordovices',
-            'culture' => '2'
-        ]);
-        //
+        //42
         DB::table('realms')->insert([
             'realm_name' => 'Silures',
-            'culture' => '2'
+            'culture' => '4'
         ]);
-        //
+        //43
         DB::table('realms')->insert([
             'realm_name' => 'Demetae',
-            'culture' => '2'
+            'culture' => '4'
         ]);
-        //
+        //44
+        DB::table('realms')->insert([
+            'realm_name' => 'Ordovices',
+            'culture' => '4'
+        ]);
+        //45
         DB::table('realms')->insert([
             'realm_name' => 'Cornovii',
-            'culture' => '2'
+            'culture' => '4'
         ]);
-        //
+        //46
+        DB::table('realms')->insert([
+            'realm_name' => 'Regnenses',
+            'culture' => '4'
+        ]);
+        //47
+        DB::table('realms')->insert([
+            'realm_name' => 'Catuvellauni',
+            'culture' => '4'
+        ]);
+        //48
+        DB::table('realms')->insert([
+            'realm_name' => 'Trinovantes',
+            'culture' => '4'
+        ]);
+        //49
+        DB::table('realms')->insert([
+            'realm_name' => 'Iceni',
+            'culture' => '4'
+        ]);
+        //50
+        DB::table('realms')->insert([
+            'realm_name' => 'Coritani',
+            'culture' => '4'
+        ]);
+        //51
         DB::table('realms')->insert([
             'realm_name' => 'Brigantes',
-            'culture' => '2'
+            'culture' => '4'
         ]);
-        //
+        //52
         DB::table('realms')->insert([
             'realm_name' => 'Caledonii',
-            'culture' => '2'
+            'culture' => '4'
         ]);
-        //
+        //53
         DB::table('realms')->insert([
             'realm_name' => 'Eblanii',
-            'culture' => '2'
+            'culture' => '4'
         ]);
-        // (hispania, celtiberian)
+        //54 (hispania, celtiberian)
         DB::table('realms')->insert([
             'realm_name' => 'Gallaeci',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Astures',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Cantabri',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Vaccaei',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Celtiberi',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Carpetani',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Vettones',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Lusitani',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Turduli',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Celtici',
-            'culture' => '2'
-        ]);
-        // (basque)
-        DB::table('realms')->insert([
-            'realm_name' => 'Vascones',
-            'culture' => '2'
-        ]);
-        // (tartessian)
-        DB::table('realms')->insert([
-            'realm_name' => 'Turdetani',
-            'culture' => '2'
-        ]);
-        // (iberian)
-        DB::table('realms')->insert([
-            'realm_name' => 'Ilergetae',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Ilercavones',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Edetani',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Contestani',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Oretani',
-            'culture' => '2'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Bastetani',
-            'culture' => '2'
-        ]);
-        //germanic
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Frisii',
-            'culture' => '3'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Chauci',
-            'culture' => '3'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Cherusci',
-            'culture' => '3'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Chatti',
-            'culture' => '3'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Tencteri',
-            'culture' => '3'
-        ]);  
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Alemanes',
-            'culture' => '3'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Marcomanni',
-            'culture' => '3'
-        ]);  
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Quadi',
-            'culture' => '3'
-        ]);  
-        //illyrian
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Histria',
-            'culture' => '4'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Liburnia',
-            'culture' => '4'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Dalmatia',
-            'culture' => '4'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Dardania',
-            'culture' => '4'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Vardaei',
-            'culture' => '4'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Scordisci',
-            'culture' => '4'
-        ]);
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Breuci',
-            'culture' => '4'
-        ]);
-        //thracian
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Dacia',
             'culture' => '5'
         ]);
-        //punic
-        //
+        //55
         DB::table('realms')->insert([
-            'realm_name' => 'Carthage',
+            'realm_name' => 'Astures',
+            'culture' => '5'
+        ]);
+        //56
+        DB::table('realms')->insert([
+            'realm_name' => 'Cantabri',
+            'culture' => '5'
+        ]);
+        //57
+        DB::table('realms')->insert([
+            'realm_name' => 'Vaccaei',
+            'culture' => '5'
+        ]);
+        //58
+        DB::table('realms')->insert([
+            'realm_name' => 'Celtiberi',
+            'culture' => '5'
+        ]);
+        //59
+        DB::table('realms')->insert([
+            'realm_name' => 'Carpetani',
+            'culture' => '5'
+        ]);
+        //60
+        DB::table('realms')->insert([
+            'realm_name' => 'Vettones',
+            'culture' => '5'
+        ]);
+        //61
+        DB::table('realms')->insert([
+            'realm_name' => 'Lusitani',
+            'culture' => '5'
+        ]);
+        //62
+        DB::table('realms')->insert([
+            'realm_name' => 'Turduli',
+            'culture' => '5'
+        ]);
+        //63
+        DB::table('realms')->insert([
+            'realm_name' => 'Celtici',
+            'culture' => '5'
+        ]);
+        //64 (aquitanian)
+        DB::table('realms')->insert([
+            'realm_name' => 'Ausci',
             'culture' => '6'
         ]);
+        //65
+        DB::table('realms')->insert([
+            'realm_name' => 'Vascones',
+            'culture' => '6'
+        ]);
+        //66 (tartessian)
+        DB::table('realms')->insert([
+            'realm_name' => 'Turdetani',
+            'culture' => '7'
+        ]);
+        //67 (iberian)
+        DB::table('realms')->insert([
+            'realm_name' => 'Oretani',
+            'culture' => '8'
+        ]);
+        //68
+        DB::table('realms')->insert([
+            'realm_name' => 'Edetani',
+            'culture' => '8'
+        ]);
+        //69
+        DB::table('realms')->insert([
+            'realm_name' => 'Ilercavones',
+            'culture' => '8'
+        ]);
+        //70 
+        DB::table('realms')->insert([
+            'realm_name' => 'Ilergetae',
+            'culture' => '8'
+        ]);
+        //germanic
+        //71
+        DB::table('realms')->insert([
+            'realm_name' => 'Frisii',
+            'culture' => '9'
+        ]);
+        //72
+        DB::table('realms')->insert([
+            'realm_name' => 'Batavii',
+            'culture' => '9'
+        ]);
+        //73
+        DB::table('realms')->insert([
+            'realm_name' => 'Chamavi',
+            'culture' => '9'
+        ]);
+        //74
+        DB::table('realms')->insert([
+            'realm_name' => 'Bructeri',
+            'culture' => '9'
+        ]);
+        //75
+        DB::table('realms')->insert([
+            'realm_name' => 'Cherusci',
+            'culture' => '9'
+        ]);
+        //76
+        DB::table('realms')->insert([
+            'realm_name' => 'Chauci',
+            'culture' => '9'
+        ]);
+        //77
+        DB::table('realms')->insert([
+            'realm_name' => 'Chatti',
+            'culture' => '9'
+        ]);
+        //78
+        DB::table('realms')->insert([
+            'realm_name' => 'Tencteri',
+            'culture' => '9'
+        ]);  
+        //79
+        DB::table('realms')->insert([
+            'realm_name' => 'Alemanes',
+            'culture' => '9'
+        ]);
+        //80
+        DB::table('realms')->insert([
+            'realm_name' => 'Hermunduri',
+            'culture' => '9'
+        ]); 
+        //81
+        DB::table('realms')->insert([
+            'realm_name' => 'Marcomanni',
+            'culture' => '9'
+        ]);  
+        //82
+        DB::table('realms')->insert([
+            'realm_name' => 'Quadi',
+            'culture' => '9'
+        ]);  
+        //illyrian
+        //83
+        DB::table('realms')->insert([
+            'realm_name' => 'Histria',
+            'culture' => '10'
+        ]);
+        //84
+        DB::table('realms')->insert([
+            'realm_name' => 'Liburnia',
+            'culture' => '10'
+        ]);
+        //85
+        DB::table('realms')->insert([
+            'realm_name' => 'Dalmatia',
+            'culture' => '10'
+        ]);
+        //86
+        DB::table('realms')->insert([
+            'realm_name' => 'Dardania',
+            'culture' => '10'
+        ]);
+        //87
+        DB::table('realms')->insert([
+            'realm_name' => 'Vardaei',
+            'culture' => '10'
+        ]);
+        //88
+        DB::table('realms')->insert([
+            'realm_name' => 'Scordisci',
+            'culture' => '10'
+        ]);
+        //89
+        DB::table('realms')->insert([
+            'realm_name' => 'Breuci',
+            'culture' => '10'
+        ]);
+        //90
+        DB::table('realms')->insert([
+            'realm_name' => 'Hercuniates',
+            'culture' => '10'
+        ]);
+        //thracian
+        //91
+        DB::table('realms')->insert([
+            'realm_name' => 'Dacia',
+            'culture' => '11'
+        ]);
+        //punic
+        //92
+        DB::table('realms')->insert([
+            'realm_name' => 'Carthage',
+            'culture' => '12'
+        ]);
         //numidian
-        //
+        //93
         DB::table('realms')->insert([
             'realm_name' => 'Numidia',
-            'culture' => '7'
+            'culture' => '13'
         ]);
-        //
+        //94
         DB::table('realms')->insert([
             'realm_name' => 'Mauretania',
-            'culture' => '7'
+            'culture' => '13'
         ]);
-        //
+        //95
         DB::table('realms')->insert([
             'realm_name' => 'Garamantia',
-            'culture' => '7'
+            'culture' => '13'
         ]);
-        //hellenic
-        //
+        //greek colonies, hispania
+        //96
+        DB::table('realms')->insert([
+            'realm_name' => 'Lucentum',
+            'culture' => '14'
+        ]);
+        //97
+        DB::table('realms')->insert([
+            'realm_name' => 'Barcino',
+            'culture' => '14'
+        ]);
+        //98
         DB::table('realms')->insert([
             'realm_name' => 'Emporiae',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //greek colonies, gallia
+        //99
+        DB::table('realms')->insert([
+            'realm_name' => 'Agathe',
+            'culture' => '14'
+        ]);
+        //100
         DB::table('realms')->insert([
             'realm_name' => 'Massilia',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //greek colonies, italia
+        //101
+        DB::table('realms')->insert([
+            'realm_name' => 'Neapolis',
+            'culture' => '14'
+        ]);
+        //102
+        DB::table('realms')->insert([
+            'realm_name' => 'Paestum',
+            'culture' => '14'
+        ]);
+        //103
+        DB::table('realms')->insert([
+            'realm_name' => 'Crotona',
+            'culture' => '14'
+        ]);
+        //104
         DB::table('realms')->insert([
             'realm_name' => 'Tarentum',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //105
+        DB::table('realms')->insert([
+            'realm_name' => 'Messana',
+            'culture' => '14'
+        ]);
+        //106
         DB::table('realms')->insert([
             'realm_name' => 'Syracusae',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //hellenic
+        //107
         DB::table('realms')->insert([
             'realm_name' => 'Epirus',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //108
         DB::table('realms')->insert([
             'realm_name' => 'Macedon',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //109
         DB::table('realms')->insert([
             'realm_name' => 'Aegyptus',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //110
         DB::table('realms')->insert([
             'realm_name' => 'Seleucid',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //111
         DB::table('realms')->insert([
             'realm_name' => 'Bithynia',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //112
         DB::table('realms')->insert([
             'realm_name' => 'Caria',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //113
         DB::table('realms')->insert([
             'realm_name' => 'Cilicia',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //114 (thracia)
         DB::table('realms')->insert([
             'realm_name' => 'Odrysia',
-            'culture' => '8'
+            'culture' => '11'
         ]);
-        //
+        //115 (asia)
         DB::table('realms')->insert([
             'realm_name' => 'Pergamon',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //116 (galatia)
+        DB::table('realms')->insert([
+            'realm_name' => 'Galatia',
+            'culture' => '3'
+        ]);
+        //117 (cappadocia)
+        DB::table('realms')->insert([
+            'realm_name' => 'Cappadocia',
+            'culture' => '14'
+        ]);
+        //118 (greek leagues)
         DB::table('realms')->insert([
             'realm_name' => 'Aetolia',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //
+        //119
         DB::table('realms')->insert([
             'realm_name' => 'Achaea',
-            'culture' => '8'
+            'culture' => '14'
         ]);
-        //persian
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Pontus',
-            'culture' => '9'
-        ]);
-        //
+        //armenian
+        //120
         DB::table('realms')->insert([
             'realm_name' => 'Armenia',
-            'culture' => '9'
+            'culture' => '15'
         ]);
-        //
+        //kartvelian
+        //121
+        DB::table('realms')->insert([
+            'realm_name' => 'Colchis',
+            'culture' => '16'
+        ]);
+        //122
+        DB::table('realms')->insert([
+            'realm_name' => 'Iberia',
+            'culture' => '16'
+        ]);
+        //gargarian
+        //123
+        DB::table('realms')->insert([
+            'realm_name' => 'Albania',
+            'culture' => '17'
+        ]);
+        //pontic
+        //124
+        DB::table('realms')->insert([
+            'realm_name' => 'Pontus',
+            'culture' => '18'
+        ]);
+        //persian
+        //125
+        DB::table('realms')->insert([
+            'realm_name' => 'Media Atropatene',
+            'culture' => '19'
+        ]);
+        //126
         DB::table('realms')->insert([
             'realm_name' => 'Parthia',
-            'culture' => '9'
+            'culture' => '19'
         ]);
         //arabic
         //
         DB::table('realms')->insert([
             'realm_name' => 'Nabataea',
-            'culture' => '10'
+            'culture' => '20'
         ]);
         //
         DB::table('realms')->insert([
             'realm_name' => 'Lihyan',
-            'culture' => '10'
+            'culture' => '20'
         ]);
         //
         DB::table('realms')->insert([
             'realm_name' => 'Main',
-            'culture' => '10'
+            'culture' => '20'
         ]);
         //
         DB::table('realms')->insert([
             'realm_name' => 'Kindah',
-            'culture' => '10'
+            'culture' => '20'
         ]);
         //
         DB::table('realms')->insert([
             'realm_name' => 'Gerrha',
-            'culture' => '10'
+            'culture' => '20'
         ]);
         //
         DB::table('realms')->insert([
             'realm_name' => 'Saba',
-            'culture' => '10'
+            'culture' => '20'
         ]);
         //scythian
         //
         DB::table('realms')->insert([
             'realm_name' => 'Scythia',
-            'culture' => '11'
+            'culture' => '21'
         ]);
         //sarmatian
         //
         DB::table('realms')->insert([
             'realm_name' => 'Sarmatia',
-            'culture' => '12'
+            'culture' => '22'
         ]);
 
     }

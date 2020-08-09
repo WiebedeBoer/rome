@@ -15,4 +15,10 @@ class Architecture extends Model
     {
         return $this->hasMany('App\Region','region_id');
     }
+
+    //cultures
+    public function cultures()
+    {
+        return $this->hasMany('App\Culture','culture_id');
+    }
 }

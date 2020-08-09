@@ -10,6 +10,12 @@ class Culture extends Model
     protected $table = 'cultures';
     protected $primaryKey = 'culture_id';
 
+	//fk
+    public function architectures()
+    {
+        return $this->belongsTo('App\Architecture','culture_construction');
+    } 
+
     //regions
     public function realms()
     {
