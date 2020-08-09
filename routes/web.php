@@ -64,9 +64,37 @@ Route::get('towns/{towns}/edit', 'TownController@edit');
 Route::patch('towns/{towns}', 'TownController@update');
 //town maps
 Route::get('mappopulation','TownController@mappopulation');
+Route::get('mapculture','TownController@mapculture');
+//maps food
 Route::get('mapstaples','TownController@mapstaples');
+Route::get('mapfruit','TownController@mapfruit');
+Route::get('mapgrapes','TownController@mapgrapes');
+Route::get('mapolives','TownController@mapolives');
+Route::get('maphoney','TownController@maphoney');
+//maps animals
+Route::get('mappack','TownController@mappack');
+Route::get('mapcattle','TownController@mapcattle');
+Route::get('mapwool','TownController@mapwool');
+Route::get('mappigs','TownController@mappigs');
+Route::get('mappoultry','TownController@mappoultry');
+Route::get('maprabbit','TownController@maprabbit');
+Route::get('mapfish','TownController@mapfish');
+Route::get('mapgame','TownController@mapgame');
+//maps raw
 Route::get('mappottery','TownController@mappottery');
 Route::get('maptimber','TownController@maptimber');
+Route::get('mapmarble','TownController@mapmarble');
+//maps metals
+Route::get('maptin','TownController@maptin');
+Route::get('mapcopper','TownController@mapcopper');
+Route::get('mapiron','TownController@mapiron');
+Route::get('mapgold','TownController@mapgold');
+Route::get('mapsilver','TownController@mapsilver');
+//maps products
+Route::get('mapdye','TownController@mapdye');
+Route::get('mappapyrus','TownController@mappapyrus');
+Route::get('mapglass','TownController@mapglass');
+//maps caravans
 Route::get('mapsilk','TownController@mapsilk');
 Route::get('mapspice','TownController@mapspice');
 Route::get('mapincense','TownController@mapincense');
