@@ -385,7 +385,7 @@ class CapitalSeeder extends Seeder
         //Chamavi, Noviomagus
         DB::table('capitals')->insert([
             'realm' => '73',
-            'town' => ''
+            'town' => '139'
         ]);
         //Bructeri, Castra Vetera
         DB::table('capitals')->insert([
@@ -665,50 +665,60 @@ class CapitalSeeder extends Seeder
             'realm' => '126',
             'town' => '495'
         ]);
+        //greco bactrian
+        //Bactria, Bactra
+        DB::table('capitals')->insert([
+            'realm' => '127',
+            'town' => '514'
+        ]);
         //arabic
+        //Judea, Hirosolyma
+        DB::table('capitals')->insert([
+            'realm' => '128',
+            'town' => '567'
+        ]);
         //Nabataea, Petra
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '129',
             'town' => '579'
         ]);
         //Lihyan, Dedan
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '130',
             'town' => '583'
         ]);
         //Main, Marib
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '131',
             'town' => '598'
         ]);
         //Kindah, Hajr
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '132',
             'town' => '593'
         ]);
         //Gerrha, Gerrha
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '133',
             'town' => '595'
         ]);
         //Saba, Sanaa
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '134',
             'town' => '599'
-        ]);
-        //scythian
-        //Scythia, Tanais
-        DB::table('capitals')->insert([
-            'realm' => '',
-            'town' => '396'
         ]);
         //sarmatian
         //Sarmatia, Olbia
         DB::table('capitals')->insert([
-            'realm' => '',
+            'realm' => '135',
             'town' => '395'
         ]);
-        
+        //scythian
+        //Scythia, Tanais
+        DB::table('capitals')->insert([
+            'realm' => '136',
+            'town' => '396'
+        ]);        
     
     }
 }

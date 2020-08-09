@@ -31,4 +31,11 @@ class Town extends Model
     {
         return $this->hasMany('App\Mayor','mayor_id');
     }
+
+    //chronicles
+    public function chronicles()
+    {
+        return $this->hasMany('App\Chronicle','chronicle_id');
+    }  
+
 }

@@ -20,4 +20,8 @@
         </div>
     </div>
 </div>
+
+		<!--game menu-->
+        @include('layouts.gamemenu')
+
 @endsection

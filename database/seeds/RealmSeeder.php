@@ -658,49 +658,60 @@ class RealmSeeder extends Seeder
             'realm_name' => 'Parthia',
             'culture' => '19'
         ]);
+        //127
+        DB::table('realms')->insert([
+            'realm_name' => 'Bactria',
+            'culture' => '14'
+        ]);
         //arabic
-        //
+        //128
+        DB::table('realms')->insert([
+            'realm_name' => 'Judea',
+            'culture' => '20'
+        ]);
+        //129
         DB::table('realms')->insert([
             'realm_name' => 'Nabataea',
             'culture' => '20'
         ]);
-        //
+        //130
         DB::table('realms')->insert([
             'realm_name' => 'Lihyan',
             'culture' => '20'
         ]);
-        //
+        //131
         DB::table('realms')->insert([
             'realm_name' => 'Main',
             'culture' => '20'
         ]);
-        //
+        //132
         DB::table('realms')->insert([
             'realm_name' => 'Kindah',
             'culture' => '20'
         ]);
-        //
+        //133
         DB::table('realms')->insert([
             'realm_name' => 'Gerrha',
             'culture' => '20'
         ]);
-        //
+        //134
         DB::table('realms')->insert([
             'realm_name' => 'Saba',
             'culture' => '20'
         ]);
-        //scythian
-        //
-        DB::table('realms')->insert([
-            'realm_name' => 'Scythia',
-            'culture' => '21'
-        ]);
         //sarmatian
-        //
+        //135
         DB::table('realms')->insert([
             'realm_name' => 'Sarmatia',
             'culture' => '22'
         ]);
+        //scythian
+        //136
+        DB::table('realms')->insert([
+            'realm_name' => 'Scythia',
+            'culture' => '21'
+        ]);
+
 
     }
 }

@@ -68,6 +68,11 @@ class Person extends Model
     }
 
     //armies
+    public function armies()
+    {
+        return $this->hasMany('App\Army','army_id');
+    }
+
     public function generals()
     {
         return $this->hasMany('App\Army','army_id');
@@ -76,6 +81,12 @@ class Person extends Model
     public function quartermasters()
     {
         return $this->hasMany('App\Army','army_id');
+    }
+
+    //chronicles
+    public function chronicles()
+    {
+        return $this->hasMany('App\Chronicle','chronicle_id');
     }
 
 }

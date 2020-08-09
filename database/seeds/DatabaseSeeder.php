@@ -65,35 +65,37 @@ class ForeignKeySeeder extends Seeder
         Schema::table('skills', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');
         });		
-        //politics
+        //cultures
         Schema::table('cultures', function (Blueprint $table) {
             $table->foreign('culture_construction')->references('architecture_id')->on('architectures');
         });	
+        //territorial organization
         Schema::table('realms', function (Blueprint $table) {
             $table->foreign('culture')->references('culture_id')->on('cultures');
-        });	
-		Schema::table('governors', function (Blueprint $table) {
-            $table->foreign('person')->references('person_id')->on('people');
-            $table->foreign('capital')->references('town_id')->on('towns');
         });	
 		Schema::table('prefectures', function (Blueprint $table) {
             $table->foreign('governor')->references('governor_id')->on('governors');
             $table->foreign('town')->references('town_id')->on('towns');
         });	
+        Schema::table('capitals', function (Blueprint $table) {
+            $table->foreign('town')->references('town_id')->on('towns');
+            $table->foreign('realm')->references('realm_id')->on('realms');
+        });	
+        //political organization
+		Schema::table('rulers', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
+            $table->foreign('realm')->references('realm_id')->on('realms');
+        });	
+		Schema::table('governors', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
+            $table->foreign('capital')->references('town_id')->on('towns');
+        });
 		Schema::table('mayors', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');
             $table->foreign('town')->references('town_id')->on('towns');
         });	
 		Schema::table('citizens', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');
-            $table->foreign('realm')->references('realm_id')->on('realms');
-        });	
-		Schema::table('rulers', function (Blueprint $table) {
-            $table->foreign('person')->references('person_id')->on('people');
-            $table->foreign('realm')->references('realm_id')->on('realms');
-        });	
-        Schema::table('capitals', function (Blueprint $table) {
-            $table->foreign('town')->references('town_id')->on('towns');
             $table->foreign('realm')->references('realm_id')->on('realms');
         });	
         //military
@@ -103,5 +105,13 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('quaestor')->references('person_id')->on('people');
             $table->foreign('location')->references('town_id')->on('towns');
         });	
+		//chronicles
+		Schema::table('chronicles', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
+			$table->foreign('town')->references('town_id')->on('towns');
+			$table->foreign('realm')->references('realm_id')->on('realms');
+			$table->foreign('belligerent')->references('realm_id')->on('realms');
+        });	
+
 	}
 }

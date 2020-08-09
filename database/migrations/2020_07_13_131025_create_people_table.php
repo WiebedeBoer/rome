@@ -19,6 +19,7 @@ class CreatePeopleTable extends Migration
             //birth year
             $table->integer('birth')->default(300);
             $table->string('era')->default('BCE');
+            $table->integer('generation')->default(1);
 			//gender
 			$table->string('gender')->default('male');
 			//turns
