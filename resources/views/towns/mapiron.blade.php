@@ -15,12 +15,12 @@ Game
 
 
 	@foreach($towns as $town) 
-		@if($town->fabric =="silk")
-			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (silk)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(183,169,155)" stroke="black" stroke-width="4" /></a>
+		@if($town->iron =="iron")
+		<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (iron)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(161,157,148)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
-			<g z-index="2">
+		<g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@endif

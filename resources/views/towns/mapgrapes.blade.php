@@ -15,9 +15,9 @@ Game
 
 
 	@foreach($towns as $town) 
-		@if($town->fabric =="silk")
+		@if($town->vine =="grapes")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (silk)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(183,169,155)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (wine)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(111,45,168)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
 			<g z-index="2">

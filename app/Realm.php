@@ -11,9 +11,9 @@ class Realm extends Model
     protected $primaryKey = 'realm_id';
 	
 	//fk
-    public function capitals()
+    public function cultures()
     {
-        return $this->belongsTo('App\Town','capital');
+        return $this->belongsTo('App\Culture','culture');
     } 
 
     //citizens

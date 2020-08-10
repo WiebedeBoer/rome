@@ -12,21 +12,25 @@ Game
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
 
-
-
 	@foreach($towns as $town) 
-		@if($town->spice =="none")
+		@if($town->spice =="spice")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spices)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(121,56,2)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->spice =="saffron")
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (saffron)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(121,56,2)" stroke="yellow" stroke-width="4" /></a>
+			</g>
+		@elseif($town->spice =="silphium")
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (silphium)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(121,56,2)" stroke="purple" stroke-width="4" /></a>
 			</g>
 		@else
-			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (incense)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(183,169,155)" stroke="rgb(185,63,110)" stroke-width="4" /></a>
+		<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@endif
 	@endforeach
 	</svg>
-
-
 
 @endsection

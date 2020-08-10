@@ -65,6 +65,7 @@ Route::patch('towns/{towns}', 'TownController@update');
 //town maps
 Route::get('mappopulation','TownController@mappopulation');
 Route::get('mapculture','TownController@mapculture');
+Route::get('mapclimate','TownController@mapclimate');
 //maps food
 Route::get('mapstaples','TownController@mapstaples');
 Route::get('mapfruit','TownController@mapfruit');
@@ -75,7 +76,7 @@ Route::get('maphoney','TownController@maphoney');
 Route::get('mappack','TownController@mappack');
 Route::get('mapcattle','TownController@mapcattle');
 Route::get('mapwool','TownController@mapwool');
-Route::get('mappigs','TownController@mappigs');
+Route::get('mappig','TownController@mappig');
 Route::get('mappoultry','TownController@mappoultry');
 Route::get('maprabbit','TownController@maprabbit');
 Route::get('mapfish','TownController@mapfish');

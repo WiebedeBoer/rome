@@ -18,7 +18,7 @@ Game
 			</g>
 		@elseif($town->grain =="durum")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (durum whgeat)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(245,222,179)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (durum wheat)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(245,222,179)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->grain =="emmer")
 			<g z-index="2">

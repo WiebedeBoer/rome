@@ -14,27 +14,27 @@ Game
 	@foreach($towns as $town) 
 		@if($town->timber =="oak")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(123,182,97)" stroke="yellow" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(54,91,63)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->timber =="cypress")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(245,222,179)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(123,182,97)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->timber =="yew")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(245,222,179)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(127,155,92)" stroke="cyan" stroke-width="4" /></a>
 			</g>
 		@elseif($town->timber =="beech")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(245,222,179)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(245,222,179)" stroke="rgb(175,96,25)" stroke-width="4" /></a>
 			</g>
 		@elseif($town->timber =="juniper")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(245,222,179)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(60,119,89)" stroke="brown" stroke-width="4" /></a>
 			</g>
 		@elseif($town->timber =="cedar")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(111,99,75)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(111,99,97)" stroke="yellow" stroke-width="4" /></a>
 			</g>
 		@elseif($town->timber =="pine")
 			<g z-index="2">
@@ -42,7 +42,7 @@ Game
 			</g>
         @elseif($town->timber =="palm")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(64,32,0)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->timber}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(64,32,0)" stroke="cyan" stroke-width="4" /></a>
 			</g>
 		@else
 			<g z-index="2">

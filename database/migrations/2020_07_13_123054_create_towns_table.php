@@ -30,8 +30,8 @@ class CreateTownsTable extends Migration
             $table->string('rabbit')->default('none'); //55 rabbit
             $table->string('game')->default('none'); //245 boar, 259 deer, 82 hare, 8 pheasant, 8 elephant
             //crops
-            $table->string('fruit')->default('none'); //fruit
-            $table->string('grain')->default('none'); //53 durum, 224 barley, 38 rye, 85 oats, 29 einkorn, 13 spelt, 160 emmer
+            $table->string('fruit')->default('none'); //fruit, figs, 118 dates, 33 pomegranates, grapes, olives
+            $table->string('grain')->default('none'); //53 durum, 224 barley, 39 rye, 85 oats, 29 einkorn, 12 spelt, 160 emmer
             $table->string('vine')->default('none'); //389 grapes
             $table->string('sweetener')->default('none'); //86 honey
             $table->string('seasoning')->default('none');  //212 olives         
@@ -44,15 +44,15 @@ class CreateTownsTable extends Migration
             $table->string('salt')->default('none'); //30 salt
             //resources  
             $table->string('fiber')->default('none'); //29 flax
-            $table->string('pottery')->default('none'); //314 clay
-            $table->string('dye')->default('none'); //81 woad, 18 madder, 21 indigo
+            $table->string('pottery')->default('none'); //315 clay
+            $table->string('dye')->default('none'); //80 woad, 18 madder, 21 indigo, 5 saffron
             $table->string('timber')->default('none'); //168 oak, 70 cypress, 43 yew, 39 beech, 110 juniper, 8 cedar, 33 pine, 118 palm
-            $table->string('paper')->default('none'); // 13 papyrus
+            $table->string('paper')->default('none'); // 13 papyrus, 4 parchment
             $table->string('sculpture')->default('none'); //26 marble, 15 ivory   
             $table->string('glass')->default('none'); //22 glass
-            $table->string('spice')->default('none'); //28 spice
+            $table->string('spice')->default('none'); //28 spice, 5 saffron, 2 silphium
             $table->string('fabric')->default('none'); //36 silk
-            $table->string('scent')->default('none'); //30 incense
+            $table->string('scent')->default('none'); //30 incense, 8 cedar
             $table->string('chattel')->default('none'); //3 slave
 			//stats
 			$table->integer('defenses')->default(10); //1 - 999, ruin 1, oppida 100, castra 300, city wall 600
