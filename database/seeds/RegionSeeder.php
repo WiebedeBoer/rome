@@ -144,7 +144,7 @@ class RegionSeeder extends Seeder
         //27
         DB::table('regions')->insert([
             'region_name' => 'Bosporus',
-            'architecture' => '6'
+            'architecture' => '5'
         ]);
         //28
         DB::table('regions')->insert([

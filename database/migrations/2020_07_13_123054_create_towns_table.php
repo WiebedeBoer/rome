@@ -28,9 +28,9 @@ class CreateTownsTable extends Migration
             $table->string('fish')->default('none'); //174 fish
             $table->string('poultry')->default('none'); //275 chicken, 13 duck
             $table->string('rabbit')->default('none'); //55 rabbit
-            $table->string('game')->default('none'); //245 boar, 259 deer, 82 hare, 8 pheasant, 8 elephant
+            $table->string('game')->default('none'); //245 boar, 259 deer, 82 hare, 8 pheasant, 8 elephant, lion
             //crops
-            $table->string('fruit')->default('none'); //fruit, figs, 118 dates, 33 pomegranates, grapes, olives
+            $table->string('fruit')->default('none'); //fruit, figs, 118 dates, 33 pomegranates, grapes, olives, apples, pears, quinces, plums, cherries, currants
             $table->string('grain')->default('none'); //53 durum, 224 barley, 39 rye, 85 oats, 29 einkorn, 12 spelt, 160 emmer
             $table->string('vine')->default('none'); //389 grapes
             $table->string('sweetener')->default('none'); //86 honey
@@ -58,7 +58,17 @@ class CreateTownsTable extends Migration
 			$table->integer('defenses')->default(10); //1 - 999, ruin 1, oppida 100, castra 300, city wall 600
 			$table->integer('justice')->default(900); //1 - 999
 			$table->integer('commerce')->default(10); //1 - 999
-			$table->integer('agriculture')->default(10); //1 - 999
+            $table->integer('agriculture')->default(10); //1 - 999
+            //religious buildings
+            $table->string('templum')->default('none'); //state, agriculture, war, love, commerce, arts, sea, healing
+            //health buildings
+            $table->string('thermae')->default('none'); //thermae
+            //education buildings
+            $table->string('bibliotheca')->default('none'); //bibliotheca
+            //entertainment buildings
+            $table->string('theatrum')->default('none'); //theatrum
+            $table->string('amphitheatrum')->default('none'); //amphitheatrum
+            $table->string('stadium')->default('none'); //stadium
 			//army stats
 			$table->integer('morale')->default(100);
 			$table->integer('training')->default(100);

@@ -20,7 +20,7 @@ class CreateCulturesTable extends Migration
             $table->string('culture_language');
             $table->string('culture_military');
             $table->unsignedBigInteger('culture_construction')->nullable();
-            $table->string('culture_religion');
+            $table->unsignedBigInteger('culture_religion')->nullable();
             //timestamps
             $table->timestamps();
         });

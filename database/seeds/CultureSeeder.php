@@ -17,7 +17,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Italic',
             'culture_military' => 'Italic',
             'culture_construction' => '1',
-            'culture_religion' => 'Roman Polytheism'
+            'culture_religion' => '7'
         ]);
         //2
         DB::table('cultures')->insert([
@@ -25,7 +25,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Tyrsenian',
             'culture_military' => 'Italic',
             'culture_construction' => '1',
-            'culture_religion' => 'Roman Polytheism'
+            'culture_religion' => '7'
         ]);
         //3
         DB::table('cultures')->insert([
@@ -33,7 +33,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Celtic',
             'culture_military' => 'Gallic',
             'culture_construction' => '2',
-            'culture_religion' => 'Celtic Polytheism'
+            'culture_religion' => '2'
         ]);
         //4
         DB::table('cultures')->insert([
@@ -41,7 +41,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Celtic',
             'culture_military' => 'Britonic',
             'culture_construction' => '2',
-            'culture_religion' => 'Celtic Polytheism'
+            'culture_religion' => '2'
         ]);
         //5
         DB::table('cultures')->insert([
@@ -49,7 +49,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Celtic',
             'culture_military' => 'Celtiberian',
             'culture_construction' => '4',
-            'culture_religion' => 'Celtic Polytheism'
+            'culture_religion' => '2'
         ]);
         //6
         DB::table('cultures')->insert([
@@ -57,7 +57,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Aquitanian',
             'culture_military' => 'Celtiberian',
             'culture_construction' => '2',
-            'culture_religion' => 'Celtic Polytheism'
+            'culture_religion' => '2'
         ]);
         //7
         DB::table('cultures')->insert([
@@ -65,7 +65,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Tartessian',
             'culture_military' => 'Celtiberian',
             'culture_construction' => '4',
-            'culture_religion' => 'Iberian Polytheism'
+            'culture_religion' => '4'
         ]);
         //8
         DB::table('cultures')->insert([
@@ -73,7 +73,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Iberian',
             'culture_military' => 'Celtiberian',
             'culture_construction' => '4',
-            'culture_religion' => 'Iberian Polytheism'
+            'culture_religion' => '4'
         ]);
         //9
         DB::table('cultures')->insert([
@@ -81,7 +81,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Germanic',
             'culture_military' => 'Germanic',
             'culture_construction' => '3',
-            'culture_religion' => 'Norse Polytheism'
+            'culture_religion' => '6'
         ]);
         //10
         DB::table('cultures')->insert([
@@ -89,7 +89,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Illyrian',
             'culture_military' => 'Illyrian',
             'culture_construction' => '7',
-            'culture_religion' => 'Thraco-Illyrian Polytheism'
+            'culture_religion' => '9'
         ]);
         //11
         DB::table('cultures')->insert([
@@ -97,7 +97,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Thracian',
             'culture_military' => 'Thracian',
             'culture_construction' => '7',
-            'culture_religion' => 'Thraco-Illyrian Polytheism'
+            'culture_religion' => '9'
         ]);
         //12
         DB::table('cultures')->insert([
@@ -105,7 +105,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Punic',
             'culture_military' => 'Punic',
             'culture_construction' => '6',
-            'culture_religion' => 'Arabic Polytheism'
+            'culture_religion' => '1'
         ]);
         //13
         DB::table('cultures')->insert([
@@ -113,7 +113,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Numidian',
             'culture_military' => 'Numidian',
             'culture_construction' => '6',
-            'culture_religion' => 'Libyan Polytheism'
+            'culture_religion' => '5'
         ]);
         //14
         DB::table('cultures')->insert([
@@ -121,7 +121,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Greek',
             'culture_military' => 'Hellenic',
             'culture_construction' => '5',
-            'culture_religion' => 'Greek Polytheism'
+            'culture_religion' => '3'
         ]);
         //15
         DB::table('cultures')->insert([
@@ -129,7 +129,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Armenian',
             'culture_military' => 'Hellenic',
             'culture_construction' => '9',
-            'culture_religion' => 'Greek Polytheism'
+            'culture_religion' => '3'
         ]);
         //16
         DB::table('cultures')->insert([
@@ -137,7 +137,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Kartvelian',
             'culture_military' => 'Pontic',
             'culture_construction' => '9',
-            'culture_religion' => 'Greek Polytheism'
+            'culture_religion' => '3'
         ]);
         //17
         DB::table('cultures')->insert([
@@ -145,7 +145,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Gargarian',
             'culture_military' => 'Pontic',
             'culture_construction' => '9',
-            'culture_religion' => 'Greek Polytheism'
+            'culture_religion' => '3'
         ]);
         //18
         DB::table('cultures')->insert([
@@ -153,7 +153,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Persian',
             'culture_military' => 'Pontic',
             'culture_construction' => '9',
-            'culture_religion' => 'Greek Polytheism'
+            'culture_religion' => '3'
         ]);
         //19
         DB::table('cultures')->insert([
@@ -161,7 +161,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Persian',
             'culture_military' => 'Persian',
             'culture_construction' => '9',
-            'culture_religion' => 'Zoroastrianism'
+            'culture_religion' => '10'
         ]);
         //20
         DB::table('cultures')->insert([
@@ -169,7 +169,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Arabic',
             'culture_military' => 'Arabic',
             'culture_construction' => '8',
-            'culture_religion' => 'Arabic Polytheism'
+            'culture_religion' => '1'
         ]);
         //21
         DB::table('cultures')->insert([
@@ -177,7 +177,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Scythian',
             'culture_military' => 'Scythian',
             'culture_construction' => '10',
-            'culture_religion' => 'Scythian Polytheism'
+            'culture_religion' => '8'
         ]);
         //22
         DB::table('cultures')->insert([
@@ -185,7 +185,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Sarmatian',
             'culture_military' => 'Scythian',
             'culture_construction' => '10',
-            'culture_religion' => 'Scythian Polytheism'
+            'culture_religion' => '8'
         ]);
     }
 }

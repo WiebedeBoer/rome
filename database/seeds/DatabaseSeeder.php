@@ -15,6 +15,10 @@ class DatabaseSeeder extends Seeder
     {
         //foreign keys
         $this->call('ForeignKeySeeder');
+        //users
+        $this->call('UserSeeder');
+        //religions
+        $this->call('ReligionSeeder');
         //architectures
         $this->call('ArchitectureSeeder');
         //cultures
@@ -68,6 +72,7 @@ class ForeignKeySeeder extends Seeder
         //cultures
         Schema::table('cultures', function (Blueprint $table) {
             $table->foreign('culture_construction')->references('architecture_id')->on('architectures');
+            $table->foreign('culture_religion')->references('religion_id')->on('religions');
         });	
         //territorial organization
         Schema::table('realms', function (Blueprint $table) {
@@ -114,4 +119,17 @@ class ForeignKeySeeder extends Seeder
         });	
 
 	}
+}
+
+//users
+class UserSeeder extends Seeder
+{
+    public function run()
+    {
+		DB::table('users')->insert([
+            'name' => 'Wiebe',
+            'email' => 'wiebe81@gmail.com',
+            'password' => '$2y$10$oxROZ./q4K6V.cFw/njPPufOnNVDoMCW0OQKr/OEA816ZGSNZnfSa'
+        ]);
+    }
 }

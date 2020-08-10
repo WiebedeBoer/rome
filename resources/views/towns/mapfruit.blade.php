@@ -14,11 +14,11 @@ Game
 	@foreach($towns as $town) 
 		@if($town->fruit =="fruit")
 		    <g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(169,55,61)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(32,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->fruit =="figs")
 		    <g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(169,55,61)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(189,93,51)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->fruit =="pomegranates")
 		    <g z-index="2">
@@ -36,9 +36,33 @@ Game
 			<g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(66,70,50)" stroke="black" stroke-width="4" /></a>
 			</g>
+		@elseif($town->fruit =="apples")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(32,0,0)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fruit =="pears")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(32,0,0)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fruit =="quinces")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(32,0,0)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fruit =="cherries")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(32,0,0)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fruit =="plums")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(32,0,0)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fruit =="currants")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(32,0,0)" stroke="black" stroke-width="4" /></a>
+			</g>
 		@else
 		    <g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@endif
 	@endforeach

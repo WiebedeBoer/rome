@@ -16,7 +16,12 @@ class Culture extends Model
         return $this->belongsTo('App\Architecture','culture_construction');
     } 
 
-    //regions
+    public function religions()
+    {
+        return $this->belongsTo('App\Religion','culture_religion');
+    } 
+
+    //realms
     public function realms()
     {
         return $this->hasMany('App\Realm','realm_id');

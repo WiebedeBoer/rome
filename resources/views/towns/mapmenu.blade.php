@@ -1,9 +1,15 @@
 <div class="map-menu">
 	<div class="links m-1">
-		<a href="/towns" class="btn btn-dark">Worldmap</a>
-		<a href="/mappopulation" class="btn btn-dark">Population</a>
-		<a href="/mapculture" class="btn btn-dark">Cultures &amp; Realms</a>
 		<a href="/mapclimate" class="btn btn-dark">Climate</a>
+		<a href="/mapculture" class="btn btn-dark">Cultures &amp; Realms</a>
+		<a href="/mappopulation" class="btn btn-dark">Population</a>		
+		<a href="/maparchitecture" class="btn btn-dark">Vernacular Architecture</a>
+		<a href="/maptemple" class="btn btn-dark">Temples</a>
+		<a href="/mapbath" class="btn btn-dark">Baths</a>
+		<a href="/maplibrary" class="btn btn-dark">Libraries</a>
+		<a href="/maptheatre" class="btn btn-dark">Theatres</a>
+		<a href="/mapamphitheatre" class="btn btn-dark">Amphitheatres</a>
+		<a href="/maprace" class="btn btn-dark">Racetracks</a>
 	</div>
 	<div class="links m-1">
 		<a href="/mapstaples" class="btn btn-dark">Grains</a>
@@ -11,8 +17,6 @@
 		<a href="/mapgrapes" class="btn btn-dark">Wine</a>
 		<a href="/mapolives" class="btn btn-dark">Olive Oil</a>
 		<a href="/maphoney" class="btn btn-dark">Honey</a>
-	</div>
-	<div class="links m-1">
 		<a href="/mappack" class="btn btn-dark">Pack Animals</a>
 		<a href="/mapcattle" class="btn btn-dark">Cattle</a>
 		<a href="/mapwool" class="btn btn-dark">Sheep &amp; Goats</a>
@@ -31,8 +35,6 @@
 		<a href="/mapiron" class="btn btn-dark">Iron</a>
 		<a href="/mapgold" class="btn btn-dark">Gold</a>
 		<a href="/mapsilver" class="btn btn-dark">Silver</a>		
-	</div>
-	<div class="links m-1">
 		<a href="/mapdye" class="btn btn-dark">Dyes</a>
 		<a href="/mappapyrus" class="btn btn-dark">Papyrus &amp; Parchment</a>
 		<a href="/mapglass" class="btn btn-dark">Glass</a>

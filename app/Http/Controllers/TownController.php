@@ -10,6 +10,9 @@ use Illuminate\Support\Arr;
 use App\Person;
 use App\Culture;
 use App\Realm;
+use App\Architecture;
+use App\Religion;
+use App\Region;
 use App\Town;
 
 class TownController extends Controller
@@ -80,11 +83,100 @@ class TownController extends Controller
     }
 
 	//map view
+    public function maparchitecture()
+    {            
+        $towns = Town::all();
+        
+        //collect the region and culture
+        foreach($towns as $town)
+        {
+            $town_region = $town->region;
+            $region = Region::where('region_id', $town_region)->get();
+            $town_architecture = $region[0]->architecture; //architecture id
+            $architecture = Architecture::where('architecture_id', $town_architecture)->get();
+            $town->architecture_name = $architecture[0]->architecture_name; //architecture name
+        }       
+
+        //return view
+        return view('towns.maparchitecture', compact('towns'));	   
+    }
+
+	//map view
     public function mapclimate()
     {            
 		$towns = Town::all();	   
         //return view
         return view('towns.mapclimate', compact('towns'));	   
+    }
+
+    //maps buildings
+    //map view
+    public function maptemple()
+    {            
+        $towns = Town::all();
+        
+        //collect the realm and culture
+        foreach($towns as $town)
+        {
+            $town_realm = $town->realm;
+            $realm = Realm::where('realm_id', $town_realm)->get();
+            $town_culture = $realm[0]->culture; //culture id
+            $culture = Culture::where('culture_id', $town_culture)->get();
+            $town_religion = $culture[0]->culture_religion; //religion id
+            $religion = Religion::where('religion_id', $town_religion)->get();
+            $town->god_state = $religion[0]->state;
+            $town->god_agriculture = $religion[0]->agriculture;
+            $town->god_war = $religion[0]->war;
+            $town->god_love = $religion[0]->love;
+            $town->god_commerce = $religion[0]->commerce;
+            $town->god_arts = $religion[0]->arts;
+            $town->god_sea = $religion[0]->sea;
+            $town->god_healing = $religion[0]->healing;
+            
+        }       
+
+        //return view
+        return view('towns.maptemple', compact('towns'));	   
+    }
+
+    //map view
+    public function mapbath()
+    {            
+        $towns = Town::all();	   
+        //return view
+        return view('towns.mapbath', compact('towns'));	   
+    }
+
+    //map view
+    public function maplibrary()
+    {            
+        $towns = Town::all();	   
+        //return view
+        return view('towns.maplibrary', compact('towns'));	   
+    }
+
+    //map view
+    public function maptheatre()
+    {            
+        $towns = Town::all();	   
+        //return view
+        return view('towns.maptheatre', compact('towns'));	   
+    }
+
+    //map view
+    public function mapamphitheatre()
+    {            
+        $towns = Town::all();	   
+        //return view
+        return view('towns.mapamphitheatre', compact('towns'));	   
+    }
+
+    //map view
+    public function maprace()
+    {            
+        $towns = Town::all();	   
+        //return view
+        return view('towns.maprace', compact('towns'));	   
     }
     
     //maps food
