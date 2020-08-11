@@ -26,6 +26,11 @@ class Town extends Model
         return $this->belongsTo('App\Realm','realm');
     } 
 
+    public function seas()
+    {
+        return $this->belongsTo('App\Sea','sea');
+    } 
+
     //mayors
     public function mayors()
     {
@@ -37,5 +42,7 @@ class Town extends Model
     {
         return $this->hasMany('App\Chronicle','chronicle_id');
     }  
+
+
 
 }

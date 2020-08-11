@@ -15,4 +15,21 @@ class Region extends Model
     {
         return $this->hasMany('App\Town','town_id');
     } 
+
+    //provinces
+    public function provinces()
+    {
+        return $this->hasMany('App\Province','province_id');
+    } 
+
+    //land connections
+    public function toes()
+    {
+        return $this->hasMany('App\Landconnection','connection_id');
+    } 
+
+    public function froms()
+    {
+        return $this->hasMany('App\Landconnection','connection_id');
+    } 
 }

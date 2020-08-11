@@ -108,6 +108,8 @@ Route::get('mapsilk','TownController@mapsilk');
 Route::get('mapspice','TownController@mapspice');
 Route::get('mapincense','TownController@mapincense');
 Route::get('mapivory','TownController@mapivory');
+//maps slavery
+Route::get('mapslave','TownController@mapslave');
 //persons
 Route::get('persons', 'PersonController@index');
 Route::get('persons/create','PersonController@create');

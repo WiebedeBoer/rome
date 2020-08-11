@@ -14,6 +14,9 @@ use App\Architecture;
 use App\Religion;
 use App\Region;
 use App\Town;
+use App\Landconnection;
+use App\Sea;
+use App\Seaconnection;
 
 class TownController extends Controller
 {
@@ -34,17 +37,170 @@ class TownController extends Controller
 	//show view
     public function show($id)
     {       
-		$towns = Town::where('town_id', $id)->firstOrFail();
+        $towns = Town::where('town_id', $id)->firstOrFail();
+        
+        //land movement
+        //region
+        $region = $towns->region;
+        //same region towns
+        $sameregion = Region::where('region_id', $region)->firstOrFail();
+
+        $sametowns_count = Town::where('region', $region)->where('town_id', '!=', $id)->count();
+        if($sametowns_count >=1){
+            $sametowns = Town::where('region', $region)->where('town_id', '!=', $id)->orderBy('town_name', 'asc')->get();
+        }
+        else {
+            $sametowns =[];
+        }
+        
+
+        //other region towns
+        $connections_count = Landconnection::where('from', $region)->count();
+        if($connections_count >=1){
+            $connections = Landconnection::where('from', $region)->get();
+            foreach($connections as $connection)
+            {
+                $toes = $connection->to;
+                $otherregion = Region::where('region_id', $toes)->firstOrFail();
+                $connection->otherregion = $otherregion->region_name;
+                $othertowns = Town::where('region', $toes)->orderBy('town_name', 'asc')->get();
+                $connection->othertowns = $othertowns;                     
+            }   
+        }
+        else {
+            $connections =[];
+        }
+
+        //sea movement
+        //sea
+        $sea = $towns->sea;
+        //sea check
+        $sea_check = is_null($sea);
+        if($sea_check !=1){
+            //same sea towns
+            $samesea = Sea::where('sea_id', $sea)->firstOrFail();
+
+            $sameseatowns_count = Town::where('sea', $sea)->where('town_id', '!=', $id)->count();
+            if($sameseatowns_count >=1){
+                $sameseatowns = Town::where('sea', $sea)->where('town_id', '!=', $id)->orderBy('town_name', 'asc')->get();
+            }
+            else {
+                $sameseatowns =[];
+            }
+            //other sea towns
+            $seaconnections_count = Seaconnection::where('from', $sea)->count();
+            if($seaconnections_count >=1){
+                $seaconnections = Seaconnection::where('from', $sea)->get();
+                foreach($seaconnections as $seaconnection)
+                {
+                    $seatoes = $seaconnection->to;
+                    $othersea = Sea::where('sea_id', $seatoes)->firstOrFail();
+                    $seaconnection->othersea = $othersea->sea_name;
+                    $otherseatowns = Town::where('sea', $seatoes)->orderBy('town_name', 'asc')->get();
+                    $seaconnection->otherseatowns = $otherseatowns;                     
+                }   
+            }
+            else {
+                $seaconnections =[];
+            }
+
+        }
+        else {
+            $samesea ="none";
+            $sameseatowns_count =0;
+            $sameseatowns =[];
+            $seaconnections_count =0;
+            $seaconnections =[];
+        } 
+
 		//return
-		return view('towns.show', compact('towns'));	
+        return view('towns.show', compact('towns',
+        'sametowns_count','sameregion','sametowns','connections_count','connections',
+        'sameseatowns_count','samesea','sameseatowns','seaconnections_count','seaconnections'));	
     }
 	
 	//edit form
     public function edit($id)
     {       
-		$towns = Town::where('town_id', $id)->firstOrFail();
+        $towns = Town::where('town_id', $id)->firstOrFail();
+        
+        //land movement
+        //region
+        $region = $towns->region;
+        //same region towns
+        $sameregion = Region::where('region_id', $region)->firstOrFail();
+
+        $sametowns_count = Town::where('region', $region)->where('town_id', '!=', $id)->count();
+        if($sametowns_count >=1){
+            $sametowns = Town::where('region', $region)->where('town_id', '!=', $id)->orderBy('town_name', 'asc')->get();
+        }
+        else {
+            $sametowns =[];
+        }
+        
+
+        //other region towns
+        $connections_count = Landconnection::where('from', $region)->count();
+        if($connections_count >=1){
+            $connections = Landconnection::where('from', $region)->get();
+            foreach($connections as $connection)
+            {
+                $toes = $connection->to;
+                $otherregion = Region::where('region_id', $toes)->firstOrFail();
+                $connection->otherregion = $otherregion->region_name;
+                $othertowns = Town::where('region', $toes)->orderBy('town_name', 'asc')->get();
+                $connection->othertowns = $othertowns;                     
+            }   
+        }
+        else {
+            $connections =[];
+        }
+
+        //sea movement
+        //sea
+        $sea = $towns->sea;
+        //sea check
+        $sea_check = is_null($sea);
+        if($sea_check !=1){
+            //same sea towns
+            $samesea = Sea::where('sea_id', $sea)->firstOrFail();
+
+            $sameseatowns_count = Town::where('sea', $sea)->where('town_id', '!=', $id)->count();
+            if($sameseatowns_count >=1){
+                $sameseatowns = Town::where('sea', $sea)->where('town_id', '!=', $id)->orderBy('town_name', 'asc')->get();
+            }
+            else {
+                $sameseatowns =[];
+            }
+            //other sea towns
+            $seaconnections_count = Seaconnection::where('from', $sea)->count();
+            if($seaconnections_count >=1){
+                $seaconnections = Seaconnection::where('from', $sea)->get();
+                foreach($seaconnections as $seaconnection)
+                {
+                    $seatoes = $seaconnection->to;
+                    $othersea = Sea::where('sea_id', $seatoes)->firstOrFail();
+                    $seaconnection->othersea = $othersea->sea_name;
+                    $otherseatowns = Town::where('sea', $seatoes)->orderBy('town_name', 'asc')->get();
+                    $seaconnection->otherseatowns = $otherseatowns;                     
+                }   
+            }
+            else {
+                $seaconnections =[];
+            }
+
+        }
+        else {
+            $samesea ="none";
+            $sameseatowns_count =0;
+            $sameseatowns =[];
+            $seaconnections_count =0;
+            $seaconnections =[];
+        } 
 		//return
-		return view('towns.edit', compact('towns'));
+        return view('towns.edit', compact('towns',
+        'sametowns_count','sameregion','sametowns','connections_count','connections',
+        'sameseatowns_count','samesea','sameseatowns','seaconnections_count','seaconnections'));
     }
 		
     //update function
@@ -409,6 +565,12 @@ class TownController extends Controller
         return view('towns.mapivory', compact('towns'));	   
     }
 	
-
+	//map view
+    public function mapslave()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapslave', compact('towns'));	   
+    }
 	
 }

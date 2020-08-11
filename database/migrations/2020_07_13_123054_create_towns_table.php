@@ -8,7 +8,7 @@ class CreateTownsTable extends Migration
 {
     /**
      * Run the migrations.
-     *mackerel (red sea), sturgeon (black sea), (sea of marmara), anchovy (aegean sea),  (levantine sea), tuna (libyan sea), (ionian sea), sardine  (adriatic sea), (tyrrhenian sea), (ligurian sea), (belearic sea), (mediterranean sea), (alboran sea), (atlantic ocean), (bay of biscay), herring (channel), (north sea), (irish sea)
+     *
      * @return void
      */
     public function up()
@@ -21,7 +21,7 @@ class CreateTownsTable extends Migration
             //climate
             $table->string('climate')->default('mediterranean'); //223 mediterranean, 74 oceanic, 42 pontic, 81 continental, 25 alpine, 14 hot steppe, 37 cold steppe,  72 desert oasis,  36 desert wetland
             //animals
-            $table->string('pack')->default('none'); //105 horse, 114 camel
+            $table->string('pack')->default('none'); //105 horse, 114 camel, oxen, donkey
             $table->string('cattle')->default('none'); //162 cattle
             $table->string('wool')->default('none'); //238 sheep, 118 goat
             $table->string('pig')->default('none'); //307 pig
@@ -83,6 +83,7 @@ class CreateTownsTable extends Migration
             $table->unsignedBigInteger('region')->nullable();
             $table->unsignedBigInteger('province')->nullable();
             $table->unsignedBigInteger('realm')->nullable();
+            $table->unsignedBigInteger('sea')->nullable();
             //timestamps
             $table->timestamps();
         });

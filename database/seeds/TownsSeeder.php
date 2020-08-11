@@ -39,6 +39,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ostia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'sardine',
             'game' => 'boar',
@@ -52,7 +53,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1361',
 			'region' => '1',
             'province' => '1',
-            'realm' => '1' 
+            'realm' => '1',
+            'sea' => '8' 
         ]);
 		//3
 		DB::table('towns')->insert([
@@ -92,7 +94,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1391',
             'region' => '1',
             'province' => '1',
-            'realm' => '1'   
+            'realm' => '1',
+            'sea' => '8'   
         ]);
 		//5
 		DB::table('towns')->insert([
@@ -161,7 +164,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1422',
             'region' => '1',
             'province' => '2',
-            'realm' => '101' 
+            'realm' => '101',
+            'sea' => '8' 
         ]);
 		//8
 		DB::table('towns')->insert([
@@ -186,13 +190,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1430',
             'region' => '1',
             'province' => '2',
-            'realm' => '1' 
+            'realm' => '1',
+            'sea' => '8' 
         ]);
         //lucania     
 		//9
 		DB::table('towns')->insert([
             'town_name' => 'Paestum',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -210,7 +216,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1452',
             'region' => '1',
             'province' => '3',
-            'realm' => '102' 
+            'realm' => '102',
+            'sea' => '8' 
         ]);
 		//10
 		DB::table('towns')->insert([
@@ -275,6 +282,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Crotona',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -289,12 +297,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1539',
             'region' => '1',
             'province' => '4',
-            'realm' => '103'
+            'realm' => '103',
+            'sea' => '6'
         ]);
 		//14
 		DB::table('towns')->insert([
             'town_name' => 'Rhegium',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -309,13 +319,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1594',
             'region' => '1',
             'province' => '4',
-            'realm' => '105'
+            'realm' => '105',
+            'sea' => '8'
         ]);
         //calabria
 		//15
 		DB::table('towns')->insert([
             'town_name' => 'Tarentum',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'fish' => 'sardine',
@@ -333,12 +345,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1452',
             'region' => '1',
             'province' => '5',
-            'realm' => '104'
+            'realm' => '104',
+            'sea' => '6'
         ]);
 		//16
 		DB::table('towns')->insert([
             'town_name' => 'Brundisium',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -354,7 +368,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1434',
             'region' => '1',
             'province' => '5',
-            'realm' => '104'
+            'realm' => '104',
+            'sea' => '7'
         ]);
         //apulia
 		//17
@@ -374,7 +389,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1404',
             'region' => '1',
             'province' => '6',
-            'realm' => '2' 
+            'realm' => '2',
+            'sea' => '7' 
         ]);
 		//18
 		DB::table('towns')->insert([
@@ -430,7 +446,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1335',
             'region' => '1',
             'province' => '7',
-            'realm' => '2' 
+            'realm' => '2',
+            'sea' => '7' 
         ]);
 		//21
 		DB::table('towns')->insert([
@@ -464,7 +481,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'copper' => 'copper',
-            'timber' => 'yew',
+            'timber' => 'cypress',
 			'xcoord' => '1228',
             'ycoord' => '1340',
             'region' => '1',
@@ -484,7 +501,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'pottery' => 'clay',
-            'timber' => 'yew',
+            'timber' => 'cypress',
 			'xcoord' => '1199',
             'ycoord' => '1328',
             'region' => '1',
@@ -503,7 +520,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'seasoning' => 'olives',
-            'timber' => 'yew',
+            'timber' => 'cypress',
             'defenses' => '800',
 			'xcoord' => '1200',
             'ycoord' => '1313',
@@ -522,7 +539,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'pottery' => 'clay',
-            'timber' => 'yew',
+            'timber' => 'cypress',
             'defenses' => '800',
             'templum' => 'arts',
 			'xcoord' => '1177',
@@ -549,7 +566,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1234',
             'region' => '1',
             'province' => '9',
-            'realm' => '4' 
+            'realm' => '4',
+            'sea' => '7' 
         ]);
 		//27
 		DB::table('towns')->insert([
@@ -588,7 +606,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1340',
             'region' => '1',
             'province' => '10',
-            'realm' => '3' 
+            'realm' => '3',
+            'sea' => '8' 
         ]);
 		//29
 		DB::table('towns')->insert([
@@ -609,7 +628,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1289',
             'region' => '1',
             'province' => '10',
-            'realm' => '3'
+            'realm' => '3',
+            'sea' => '8'
         ]);
 		//30
 		DB::table('towns')->insert([
@@ -680,7 +700,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1231',
             'region' => '1',
             'province' => '10',
-            'realm' => '3'
+            'realm' => '3',
+            'sea' => '9'
         ]);
 		//33
 		DB::table('towns')->insert([
@@ -725,7 +746,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1203',
             'region' => '1',
             'province' => '10',
-            'realm' => '3'
+            'realm' => '3',
+            'sea' => '9'
         ]);
         //sicilia
         //sicilia
@@ -750,7 +772,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1599',
             'region' => '2',
             'province' => '11',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '8'
         ]);
 		//36
 		DB::table('towns')->insert([
@@ -772,7 +795,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1621',
             'region' => '2',
             'province' => '11',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '11'
         ]);
 		//37
 		DB::table('towns')->insert([
@@ -795,12 +819,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1654',
             'region' => '2',
             'province' => '11',
-            'realm' => '106'
+            'realm' => '106',
+            'sea' => '5'
         ]);
 		//38
 		DB::table('towns')->insert([
             'town_name' => 'Gela',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',       
             'pig' => 'pig',
             'fish' => 'tuna',
@@ -817,7 +843,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1667',
             'region' => '2',
             'province' => '11',
-            'realm' => '106'
+            'realm' => '106',
+            'sea' => '5'
         ]);
 		//39
 		DB::table('towns')->insert([
@@ -843,13 +870,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1663',
             'region' => '2',
             'province' => '11',
-            'realm' => '106'
+            'realm' => '106',
+            'sea' => '6'
         ]);
 		//40
 		DB::table('towns')->insert([
             'town_name' => 'Catania',
             'population' => '20000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',           
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -866,12 +895,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1637',
             'region' => '2',
             'province' => '11',
-            'realm' => '106'
+            'realm' => '106',
+            'sea' => '6'
         ]);       
 		//41
 		DB::table('towns')->insert([
             'town_name' => 'Messana',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',       
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -888,7 +919,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1596',
             'region' => '2',
             'province' => '11',
-            'realm' => '105'
+            'realm' => '105',
+            'sea' => '8'
         ]);
         //sardinia
         //sardinia
@@ -910,7 +942,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1422',
             'region' => '3',
             'province' => '12',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '11'
         ]);
 		//43
 		DB::table('towns')->insert([
@@ -933,7 +966,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1527',
             'region' => '3',
             'province' => '12',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '11'
         ]);
         //corsica
         //corsica
@@ -955,7 +989,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1340',
             'region' => '4',
             'province' => '13',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '8'
         ]);
         //annonaria
         //aemilia
@@ -975,7 +1010,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1210',
             'region' => '5',
             'province' => '14',
-            'realm' => '9'
+            'realm' => '9',
+            'sea' => '7'
         ]);
 		//46
 		DB::table('towns')->insert([
@@ -994,7 +1030,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1172',
             'region' => '5',
             'province' => '14',
-            'realm' => '9'
+            'realm' => '9',
+            'sea' => '7'
         ]);
 		//47
 		DB::table('towns')->insert([
@@ -1057,7 +1094,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1176',
             'region' => '5',
             'province' => '15',
-            'realm' => '5'
+            'realm' => '5',
+            'sea' => '9'
         ]);
 		//50
 		DB::table('towns')->insert([
@@ -1075,7 +1113,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1185',
             'region' => '5',
             'province' => '15',
-            'realm' => '5'
+            'realm' => '5',
+            'sea' => '9'
         ]);
         //gallia cisalpina
 		//51
@@ -1266,7 +1305,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'iron' => 'iron',
-            'timber' => 'yew',  
+            'timber' => 'pine',  
 			'xcoord' => '1045',
             'ycoord' => '1022',
             'region' => '5',
@@ -1287,7 +1326,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'iron' => 'iron',
             'pottery' => 'clay',
-            'timber' => 'yew',  
+            'timber' => 'pine',  
 			'xcoord' => '1040',
             'ycoord' => '950',
             'region' => '5',
@@ -1308,7 +1347,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'yew',  
+            'timber' => 'pine',  
             'defenses' => '800',
 			'xcoord' => '993',
             'ycoord' => '967',
@@ -1330,7 +1369,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'iron' => 'iron',
             'pottery' => 'clay',
-            'timber' => 'yew',
+            'timber' => 'pine',
             'defenses' => '400',
 			'xcoord' => '1121',
             'ycoord' => '1026',
@@ -1352,7 +1391,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'silver' => 'silver',
             'pottery' => 'clay',
-            'timber' => 'yew',
+            'timber' => 'pine',
             'defenses' => '400',
 			'xcoord' => '1111',
             'ycoord' => '1054',
@@ -1373,7 +1412,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'yew',
+            'timber' => 'pine',
             'glass' => 'glass',
             'defenses' => '400',
 			'xcoord' => '1126',
@@ -1419,7 +1458,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper', 
             'silver' => 'silver', 
             'pottery' => 'clay',
-            'timber' => 'oak', 
+            'timber' => 'pine', 
             'glass' => 'glass', 
 			'xcoord' => '1127',
             'ycoord' => '851',
@@ -1440,7 +1479,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'copper' => 'copper', 
             'gold' => 'gold',
-            'timber' => 'yew',  
+            'timber' => 'pine',  
 			'xcoord' => '1147',
             'ycoord' => '819',
             'region' => '5',
@@ -1462,7 +1501,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron', 
             'pottery' => 'clay',
             'dye' => 'woad', 
-            'timber' => 'yew',  
+            'timber' => 'pine',  
             'sculpture' => 'marble', 
             'defenses' => '400',
 			'xcoord' => '1162',
@@ -1506,7 +1545,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'beech', 
+            'timber' => 'yew', 
             'defenses' => '400',
 			'xcoord' => '1258',
             'ycoord' => '900',
@@ -1527,7 +1566,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'gold' => 'gold',
             'pottery' => 'clay',
-            'timber' => 'beech', 
+            'timber' => 'pine', 
 			'xcoord' => '1335',
             'ycoord' => '1003',
             'region' => '5',
@@ -1548,7 +1587,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'iron' => 'iron',
             'gold' => 'gold',
-            'timber' => 'yew', 
+            'timber' => 'pine', 
             'glass' => 'glass', 
 			'xcoord' => '1273',
             'ycoord' => '1014',
@@ -1566,7 +1605,7 @@ class TownsSeeder extends Seeder
             'grain' => 'spelt',
             'vine' => 'grapes',
             'iron' => 'iron',
-            'timber' => 'beech', 
+            'timber' => 'pine', 
             'defenses' => '400',
 			'xcoord' => '1313',
             'ycoord' => '1035',
@@ -1585,7 +1624,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'iron' => 'iron',
             'pottery' => 'clay',
-            'timber' => 'beech', 
+            'timber' => 'pine', 
 			'xcoord' => '1277',
             'ycoord' => '1052',
             'region' => '5',
@@ -1603,7 +1642,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'beech',  
+            'timber' => 'yew',  
 			'xcoord' => '1341',
             'ycoord' => '897',
             'region' => '5',
@@ -1665,7 +1704,7 @@ class TownsSeeder extends Seeder
             'fruit' => 'apples',
             'grain' => 'durum',
             'vine' => 'grapes',
-            'timber' => 'beech',
+            'timber' => 'yew',
             'glass' => 'glass',
             'defenses' => '400',
 			'xcoord' => '1150',
@@ -1707,12 +1746,13 @@ class TownsSeeder extends Seeder
             'fruit' => 'apples',
             'grain' => 'durum',
             'vine' => 'grapes',
-            'timber' => 'beech',
+            'timber' => 'yew',
 			'xcoord' => '1217',
             'ycoord' => '1075',
             'region' => '5',
             'province' => '20',
-            'realm' => '8'
+            'realm' => '8',
+            'sea' => '7'
         ]);
         //Alpes Cottiae
 		//81
@@ -1726,7 +1766,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'vine' => 'grapes', 
             'sweetener' => 'honey',
-            'timber' => 'yew', 
+            'timber' => 'pine', 
 			'xcoord' => '885',
             'ycoord' => '1156',
             'region' => '5',
@@ -1763,7 +1803,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'vine' => 'grapes',
             'sweetener' => 'honey',
-            'timber' => 'yew',  
+            'timber' => 'pine',  
 			'xcoord' => '906',
             'ycoord' => '1053',
             'region' => '5',
@@ -1787,7 +1827,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'yew',  
+            'timber' => 'pine',  
 			'xcoord' => '933',
             'ycoord' => '1005',
             'region' => '6',
@@ -1808,7 +1848,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'yew',  
+            'timber' => 'pine',  
 			'xcoord' => '947',
             'ycoord' => '962',
             'region' => '6',
@@ -1830,7 +1870,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'iron' => 'iron', 
             'pottery' => 'clay',
-            'timber' => 'yew', 
+            'timber' => 'pine', 
 			'xcoord' => '829',
             'ycoord' => '1012',
             'region' => '6',
@@ -1852,7 +1892,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'copper' => 'copper', 
             'pottery' => 'clay',
-            'timber' => 'yew', 
+            'timber' => 'pine', 
 			'xcoord' => '976',
             'ycoord' => '960',
             'region' => '6',
@@ -1873,7 +1913,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'yew', 
+            'timber' => 'pine', 
 			'xcoord' => '908',
             'ycoord' => '1003',
             'region' => '6',
@@ -1898,7 +1938,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1266',
             'region' => '6',
             'province' => '25',
-            'realm' => '15'
+            'realm' => '15',
+            'sea' => '10'
         ]);
 		//90
 		DB::table('towns')->insert([
@@ -1919,7 +1960,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1254',
             'region' => '6',
             'province' => '25',
-            'realm' => '100'
+            'realm' => '100',
+            'sea' => '10'
         ]);
 		//91
 		DB::table('towns')->insert([
@@ -1939,7 +1981,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1227',
             'region' => '6',
             'province' => '25',
-            'realm' => '15'
+            'realm' => '15',
+            'sea' => '10'
         ]);  
 		//92
 		DB::table('towns')->insert([
@@ -1972,7 +2015,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes', 
             'pottery' => 'clay',
-            'timber' => 'oak', 
+            'timber' => 'yew', 
             'defenses' => '800',
 			'xcoord' => '795',
             'ycoord' => '1134',
@@ -1994,7 +2037,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes', 
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'yew', 
+            'timber' => 'pine', 
 			'xcoord' => '842',
             'ycoord' => '1117',
             'region' => '6',
@@ -2037,7 +2080,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes', 
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'yew', 
+            'timber' => 'pine', 
             'thermae' => 'thermae',
 			'xcoord' => '847',
             'ycoord' => '1090',
@@ -2059,7 +2102,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes', 
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'yew', 
+            'timber' => 'pine', 
             'defenses' => '400',
 			'xcoord' => '859',
             'ycoord' => '1047',
@@ -2235,7 +2278,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1261',
             'region' => '6',
             'province' => '27',
-            'realm' => '19'
+            'realm' => '19',
+            'sea' => '10'
         ]);  
 		//106
 		DB::table('towns')->insert([
@@ -2363,7 +2407,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1252',
             'region' => '6',
             'province' => '27',
-            'realm' => '99'
+            'realm' => '99',
+            'sea' => '10'
         ]); 
         //Gallia Aquitania
 		//112
@@ -2413,7 +2458,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1144',
             'region' => '6',
             'province' => '28',
-            'realm' => '21'
+            'realm' => '21',
+            'sea' => '15'
         ]);
 		//114
 		DB::table('towns')->insert([
@@ -2445,7 +2491,7 @@ class TownsSeeder extends Seeder
             'fruit' => 'apples',
             'grain' => 'oats',
             'vine' => 'grapes',
-            'timber' => 'yew', 
+            'timber' => 'oak', 
             'defenses' => '400',
 			'xcoord' => '708',
             'ycoord' => '1075',
@@ -2571,7 +2617,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '971',
             'region' => '6',
             'province' => '29',
-            'realm' => '36'
+            'realm' => '36',
+            'sea' => '15'
         ]);
 		//122
 		DB::table('towns')->insert([
@@ -2709,7 +2756,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'dye' => 'woad',
-            'timber' => 'oak', 
+            'timber' => 'yew', 
 			'xcoord' => '603',
             'ycoord' => '802',
             'region' => '6',
@@ -2857,7 +2904,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '699',
             'region' => '6',
             'province' => '32',
-            'realm' => '34'
+            'realm' => '34',
+            'sea' => '16'
         ]);
 		//136
 		DB::table('towns')->insert([
@@ -2937,7 +2985,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay',
             'dye' => 'woad',
-            'timber' => 'oak', 
+            'timber' => 'yew', 
             'defenses' => '400',
 			'xcoord' => '840',
             'ycoord' => '613',
@@ -2980,12 +3028,13 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay',
             'dye' => 'woad',
-            'timber' => 'oak', 
+            'timber' => 'yew', 
 			'xcoord' => '769',
             'ycoord' => '583',
             'region' => '7',
             'province' => '33',
-            'realm' => '72'
+            'realm' => '72',
+            'sea' => '17'
         ]);
 		//142
 		DB::table('towns')->insert([
@@ -2999,7 +3048,7 @@ class TownsSeeder extends Seeder
             'fruit' => 'apples',
             'grain' => 'oats',
             'pottery' => 'clay',
-            'timber' => 'oak', 
+            'timber' => 'yew', 
             'defenses' => '400',
 			'xcoord' => '783',
             'ycoord' => '556',
@@ -3231,13 +3280,14 @@ class TownsSeeder extends Seeder
             'fruit' => 'apples',
             'grain' => 'oats',
             'pottery' => 'clay',
-            'timber' => 'oak', 
+            'timber' => 'yew', 
             'chattel' => 'slave',
 			'xcoord' => '994',
             'ycoord' => '507',
             'region' => '7',
             'province' => '35',
-            'realm' => '76'
+            'realm' => '76',
+            'sea' => '17'
         ]); 
 		//154
 		DB::table('towns')->insert([
@@ -3254,12 +3304,13 @@ class TownsSeeder extends Seeder
             'fruit' => 'apples',
             'grain' => 'oats',
             'pottery' => 'clay',
-            'timber' => 'oak', 
+            'timber' => 'yew', 
 			'xcoord' => '1047',
             'ycoord' => '468',
             'region' => '7',
             'province' => '35',
-            'realm' => '76'
+            'realm' => '76',
+            'sea' => '17'
         ]);
 		//155
 		DB::table('towns')->insert([
@@ -3311,7 +3362,7 @@ class TownsSeeder extends Seeder
             'fruit' => 'apples',
             'grain' => 'rye',
             'pottery' => 'clay',
-            'timber' => 'oak', 
+            'timber' => 'pine', 
 			'xcoord' => '1282',
             'ycoord' => '751',
             'region' => '7',
@@ -3329,7 +3380,7 @@ class TownsSeeder extends Seeder
             'fruit' => 'apples',
             'grain' => 'rye',
             'pottery' => 'clay',
-            'timber' => 'oak', 
+            'timber' => 'pine', 
 			'xcoord' => '1389',
             'ycoord' => '820',
             'region' => '7',
@@ -3357,7 +3408,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '701',
             'region' => '8',
             'province' => '37',
-            'realm' => '40'
+            'realm' => '40',
+            'sea' => '16'
         ]);
 		//160
 		DB::table('towns')->insert([
@@ -3424,7 +3476,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '609',
             'region' => '8',
             'province' => '38',
-            'realm' => '41'
+            'realm' => '41',
+            'sea' => '18'
         ]);
 		//163
 		DB::table('towns')->insert([
@@ -3448,7 +3501,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '631',
             'region' => '8',
             'province' => '38',
-            'realm' => '42'
+            'realm' => '42',
+            'sea' => '18'
         ]);
 		//164
 		DB::table('towns')->insert([
@@ -3491,7 +3545,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '503',
             'region' => '8',
             'province' => '38',
-            'realm' => '44'
+            'realm' => '44',
+            'sea' => '18'
         ]);  
 		//166
 		DB::table('towns')->insert([
@@ -3516,7 +3571,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '499',
             'region' => '8',
             'province' => '38',
-            'realm' => '45'
+            'realm' => '45',
+            'sea' => '18'
         ]);
         //167
         DB::table('towns')->insert([
@@ -3556,12 +3612,13 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay', 
             'dye' => 'woad', 
-            'timber' => 'beech', 
+            'timber' => 'oak', 
 			'xcoord' => '493',
             'ycoord' => '697',
             'region' => '8',
             'province' => '39',
-            'realm' => '46'
+            'realm' => '46',
+            'sea' => '16'
         ]);   
 		//169
 		DB::table('towns')->insert([
@@ -3579,13 +3636,14 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'pottery' => 'clay', 
             'dye' => 'woad', 
-            'timber' => 'beech', 
+            'timber' => 'oak', 
             'defenses' => '400',
 			'xcoord' => '540',
             'ycoord' => '640',
             'region' => '8',
             'province' => '39',
-            'realm' => '47'
+            'realm' => '47',
+            'sea' => '17'
         ]);
 		//170
 		DB::table('towns')->insert([
@@ -3601,7 +3659,7 @@ class TownsSeeder extends Seeder
             'grain' => 'oats',
             'pottery' => 'clay', 
             'dye' => 'woad', 
-            'timber' => 'beech', 
+            'timber' => 'yew', 
             'templum' => 'war',
 			'xcoord' => '532',
             'ycoord' => '618',
@@ -3623,7 +3681,7 @@ class TownsSeeder extends Seeder
             'salt' => 'salt', 
             'pottery' => 'clay', 
             'dye' => 'woad', 
-            'timber' => 'beech', 
+            'timber' => 'yew', 
             'defenses' => '400',
             'stadium' => 'stadium',
 			'xcoord' => '594',
@@ -3843,7 +3901,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '485',
             'region' => '9',
             'province' => '43',
-            'realm' => '53'
+            'realm' => '53',
+            'sea' => '18'
         ]);
         //Hispania
         //hispania tarraconensis
@@ -3869,7 +3928,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1331',
             'region' => '10',
             'province' => '44',
-            'realm' => '98'
+            'realm' => '98',
+            'sea' => '10'
         ]);  
 		//183
 		DB::table('towns')->insert([
@@ -3917,7 +3977,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1385',
             'region' => '10',
             'province' => '44',
-            'realm' => '97'
+            'realm' => '97',
+            'sea' => '12'
         ]);  
 		//185
 		DB::table('towns')->insert([
@@ -3944,7 +4005,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1403',
             'region' => '10',
             'province' => '44',
-            'realm' => '70'
+            'realm' => '70',
+            'sea' => '12'
         ]);
 		//186
 		DB::table('towns')->insert([
@@ -4047,7 +4109,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1243',
             'region' => '10',
             'province' => '44',
-            'realm' => '56'
+            'realm' => '56',
+            'sea' => '15'
         ]);
 		//191
 		DB::table('towns')->insert([
@@ -4072,7 +4135,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1475',
             'region' => '10',
             'province' => '44',
-            'realm' => '69'
+            'realm' => '69',
+            'sea' => '12'
         ]);
         //192
 		DB::table('towns')->insert([
@@ -4140,7 +4204,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1513',
             'region' => '10',
             'province' => '45',
-            'realm' => '68'
+            'realm' => '68',
+            'sea' => '12'
         ]);  
 		//195
 		DB::table('towns')->insert([
@@ -4164,7 +4229,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1584',
             'region' => '10',
             'province' => '45',
-            'realm' => '96'
+            'realm' => '96',
+            'sea' => '13'
         ]);
 		//196
 		DB::table('towns')->insert([
@@ -4188,7 +4254,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1634',
             'region' => '10',
             'province' => '45',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '13'
         ]);  
         //197
 		DB::table('towns')->insert([
@@ -4205,7 +4272,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'copper' => 'copper', 
             'silver' => 'silver', 
-            'timber' => 'oak', 
+            'timber' => 'juniper', 
 			'xcoord' => '421',
             'ycoord' => '1542',
             'region' => '10',
@@ -4226,7 +4293,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'copper' => 'copper', 
             'silver' => 'silver', 
-            'timber' => 'oak', 
+            'timber' => 'juniper', 
 			'xcoord' => '432',
             'ycoord' => '1522',
             'region' => '10',
@@ -4312,7 +4379,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1687',
             'region' => '10',
             'province' => '46',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '13'
         ]);  
 		//203
 		DB::table('towns')->insert([
@@ -4333,7 +4401,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1689',
             'region' => '10',
             'province' => '46',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '13'
         ]);
 		//204
 		DB::table('towns')->insert([
@@ -4357,7 +4426,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1701',
             'region' => '10',
             'province' => '46',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '14'
         ]);  
 		//205
 		DB::table('towns')->insert([
@@ -4381,7 +4451,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1655',
             'region' => '10',
             'province' => '46',
-            'realm' => '66'
+            'realm' => '66',
+            'sea' => '14'
         ]);
 		//206
 		DB::table('towns')->insert([
@@ -4624,7 +4695,7 @@ class TownsSeeder extends Seeder
             'tin' => 'tin',
             'gold' => 'gold',
             'silver' => 'silver',
-            'timber' => 'yew', 
+            'timber' => 'oak', 
             'defenses' => '400',
 			'xcoord' => '266',
             'ycoord' => '1300',
@@ -4646,7 +4717,7 @@ class TownsSeeder extends Seeder
             'tin' => 'tin',
             'gold' => 'gold',
             'silver' => 'silver',
-            'timber' => 'yew', 
+            'timber' => 'oak', 
             'defenses' => '400',
 			'xcoord' => '246',
             'ycoord' => '1313',
@@ -4665,7 +4736,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes', 
             'tin' => 'tin',
-            'timber' => 'yew',
+            'timber' => 'oak',
             'templum' => 'commerce',
 			'xcoord' => '164',
             'ycoord' => '1274',
@@ -4738,7 +4809,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1399',
             'region' => '10',
             'province' => '49',
-            'realm' => '54'
+            'realm' => '54',
+            'sea' => '14'
         ]);
 		//222
 		DB::table('towns')->insert([
@@ -4780,7 +4852,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1474',
             'region' => '10',
             'province' => '49',
-            'realm' => '61'
+            'realm' => '61',
+            'sea' => '14'
         ]);
 		//224
 		DB::table('towns')->insert([
@@ -4800,7 +4873,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1561',
             'region' => '10',
             'province' => '49',
-            'realm' => '61'
+            'realm' => '61',
+            'sea' => '14'
         ]);  
         //225
 		DB::table('towns')->insert([
@@ -4879,7 +4953,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'pottery' => 'clay', 
-            'timber' => 'yew', 
+            'timber' => 'oak', 
 			'xcoord' => '149',
             'ycoord' => '1575',
             'region' => '10',
@@ -4905,7 +4979,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1609',
             'region' => '10',
             'province' => '49',
-            'realm' => '63'
+            'realm' => '63',
+            'sea' => '14'
         ]);
         //230
 		DB::table('towns')->insert([
@@ -4927,7 +5002,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1663',
             'region' => '10',
             'province' => '49',
-            'realm' => '66'
+            'realm' => '66',
+            'sea' => '14'
         ]); 
         //Balearis Maior
         //Balearis Maior
@@ -4949,7 +5025,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1506',
             'region' => '11',
             'province' => '50',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '12'
         ]);
         //Balearis Ebusus
         //Balearis Ebusus
@@ -4971,7 +5048,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1548',
             'region' => '12',
             'province' => '51',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '12'
         ]);
         //Mauretania
         //mauretania tingitana 
@@ -4993,12 +5071,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1740',
             'region' => '13',
             'province' => '52',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '13'
         ]);
 		//234
 		DB::table('towns')->insert([
             'town_name' => 'Tingis',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -5015,7 +5095,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1747',
             'region' => '13',
             'province' => '52',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '14'
         ]);
 		//235
 		DB::table('towns')->insert([
@@ -5037,7 +5118,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1766',
             'region' => '13',
             'province' => '52',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '14'
         ]);  
 		//236
 		DB::table('towns')->insert([
@@ -5059,7 +5141,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1839',
             'region' => '13',
             'province' => '52',
-            'realm' => '94'
+            'realm' => '94',
+            'sea' => '14'
         ]);
         //237
 		DB::table('towns')->insert([
@@ -5104,7 +5187,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1779',
             'region' => '13',
             'province' => '52',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '13'
         ]);
         //mauretania caesariensis
 		//239
@@ -5142,7 +5226,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1739',
             'region' => '13',
             'province' => '53',
-            'realm' => '94'
+            'realm' => '94',
+            'sea' => '13'
         ]);  
 		//241
 		DB::table('towns')->insert([
@@ -5161,7 +5246,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1701',
             'region' => '13',
             'province' => '53',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '13'
         ]);
         //242
 		DB::table('towns')->insert([
@@ -5225,7 +5311,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1697',
             'region' => '13',
             'province' => '53',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '13'
         ]);
 		//245
 		DB::table('towns')->insert([
@@ -5246,7 +5333,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1687',
             'region' => '13',
             'province' => '53',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '13'
         ]);  
         //mauretania sitifensis
 		//246
@@ -5265,7 +5353,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1687',
             'region' => '13',
             'province' => '54',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '11'
         ]);
         //247
 		DB::table('towns')->insert([
@@ -5311,7 +5400,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1678',
             'region' => '14',
             'province' => '55',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '11'
         ]);
 		//249
 		DB::table('towns')->insert([
@@ -5329,7 +5419,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1679',
             'region' => '14',
             'province' => '55',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '11'
         ]);
 		//250
 		DB::table('towns')->insert([
@@ -5592,6 +5683,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Thugga',
             'population' => '20000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -5634,12 +5726,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1655',
             'region' => '15',
             'province' => '57',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '11'
         ]); 
 		//264
 		DB::table('towns')->insert([
             'town_name' => 'Utica',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -5657,13 +5751,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1670',
             'region' => '15',
             'province' => '57',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '11'
         ]);
 		//265
 		DB::table('towns')->insert([
             'town_name' => 'Carthago',
             'population' => '50000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -5687,7 +5783,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1680',
             'region' => '15',
             'province' => '57',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '11'
         ]); 
         //Africa Byzacium
 		//266
@@ -5714,7 +5811,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1745',
             'region' => '15',
             'province' => '58',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '5'
         ]);  
 		//267
 		DB::table('towns')->insert([
@@ -5734,7 +5832,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1811',
             'region' => '15',
             'province' => '58',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '5'
         ]); 
 		//268
 		DB::table('towns')->insert([
@@ -5824,7 +5923,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1864',
             'region' => '15',
             'province' => '59',
-            'realm' => '93'
+            'realm' => '93',
+            'sea' => '5'
         ]); 
         //Africa Tripolitana
 		//272
@@ -5845,7 +5945,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1929',
             'region' => '15',
             'province' => '60',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '5'
         ]); 
 		//273
 		DB::table('towns')->insert([
@@ -5866,7 +5967,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1924',
             'region' => '15',
             'province' => '60',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '5'
         ]); 
 		//274
 		DB::table('towns')->insert([
@@ -5887,7 +5989,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1939',
             'region' => '15',
             'province' => '60',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '5'
         ]); 
 		//275
 		DB::table('towns')->insert([
@@ -5907,7 +6010,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '2025',
             'region' => '15',
             'province' => '60',
-            'realm' => '92'
+            'realm' => '92',
+            'sea' => '5'
         ]); 
         //Phasania
 		//276
@@ -5986,7 +6090,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1968',
             'region' => '16',
             'province' => '63',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '5'
         ]); 
 		//280
 		DB::table('towns')->insert([
@@ -6008,7 +6113,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1928',
             'region' => '16',
             'province' => '63',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '5'
         ]); 
 		//281
 		DB::table('towns')->insert([
@@ -6028,7 +6134,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1973',
             'region' => '16',
             'province' => '63',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '5'
         ]); 
         //Marmarica
 		//282
@@ -6048,7 +6155,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '2016',
             'region' => '16',
             'province' => '64',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '5'
         ]); 
 		//283
 		DB::table('towns')->insert([
@@ -6074,7 +6182,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Alexandria',
             'population' => '100000',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -6097,13 +6205,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '2026',
             'region' => '16',
             'province' => '65',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '4'
         ]); 
         //285
 		DB::table('towns')->insert([
             'town_name' => 'Bolbitinum',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -6122,13 +6231,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '2013',
             'region' => '16',
             'province' => '65',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '4'
         ]); 
         //286
 		DB::table('towns')->insert([
             'town_name' => 'Sais',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'duck',
@@ -6152,7 +6262,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Leontopolis',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'duck',
@@ -6177,7 +6287,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Memphis',
             'population' => '20000',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'duck',
@@ -6205,7 +6315,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tamiathis',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -6224,13 +6334,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '2014',
             'region' => '16',
             'province' => '66',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '4'
         ]); 
         //290
 		DB::table('towns')->insert([
             'town_name' => 'Tanis',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'duck',
@@ -6271,14 +6382,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '2035',
             'region' => '16',
             'province' => '66',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '4'
         ]); 
         //Aegyptus Heptanomis
         //292
 		DB::table('towns')->insert([
             'town_name' => 'Heracleapolis',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',            
             'poultry' => 'duck',
@@ -6303,7 +6415,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Hermopolis',
             'population' => '20000',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',            
             'poultry' => 'duck',
@@ -6330,7 +6442,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lycopolis',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',            
             'poultry' => 'duck',
@@ -6355,7 +6467,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ptolemais',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',            
             'poultry' => 'duck',
@@ -6379,7 +6491,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Thebae',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',            
             'poultry' => 'duck',
@@ -6407,7 +6519,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Syene',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',            
             'poultry' => 'duck',
@@ -6483,7 +6595,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '2439',
             'region' => '16',
             'province' => '68',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '19'
         ]); 
         //301
 		DB::table('towns')->insert([
@@ -6503,7 +6616,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '2284',
             'region' => '16',
             'province' => '68',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '19'
         ]); 
         //Cyprus
         //Cyprus
@@ -6511,6 +6625,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Salamus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'boar',
@@ -6527,12 +6642,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1788',
             'region' => '17',
             'province' => '69',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '4'
         ]);
         //303
 		DB::table('towns')->insert([
             'town_name' => 'Paphus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -6547,7 +6664,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1811',
             'region' => '17',
             'province' => '69',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '4'
         ]);
         //creta
         //creta
@@ -6555,6 +6673,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Kydonia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -6573,12 +6692,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1764',
             'region' => '18',
             'province' => '70',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '3'
         ]);
 		//305
 		DB::table('towns')->insert([
             'town_name' => 'Heracleum',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -6597,7 +6718,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1775',
             'region' => '18',
             'province' => '70',
-            'realm' => '109'
+            'realm' => '109',
+            'sea' => '3'
         ]);
         //cyclades
         //cyclades
@@ -6605,6 +6727,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Delos',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'anchovy',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -6616,7 +6739,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1645',
             'region' => '19',
             'province' => '71',
-            'realm' => '108'
+            'realm' => '108',
+            'sea' => '3'
         ]);
         //rhodus
         //rhodus
@@ -6624,6 +6748,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Rhodus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'anchovy',
             'game' => 'deer',
             'fruit' => 'grapes',
@@ -6639,7 +6764,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1707',
             'region' => '20',
             'province' => '72',
-            'realm' => '113'
+            'realm' => '113',
+            'sea' => '3'
         ]);
         //achaea
         //laconia
@@ -6647,6 +6773,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Sparta',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6669,6 +6796,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Gythium',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'anchovy',
             'poultry' => 'chicken',
@@ -6683,13 +6811,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1684',
             'region' => '21',
             'province' => '73',
-            'realm' => '119'
+            'realm' => '119',
+            'sea' => '3'
         ]);
         //messenia
 		//310
 		DB::table('towns')->insert([
             'town_name' => 'Messenia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -6712,6 +6842,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Megalopolis',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -6754,6 +6885,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Patrae',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'sardine',
             'game' => 'boar',
@@ -6767,13 +6899,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1592',
             'region' => '21',
             'province' => '77',
-            'realm' => '119'
+            'realm' => '119',
+            'sea' => '6'
         ]);  
         //argolis
 		//314
 		DB::table('towns')->insert([
             'town_name' => 'Argos',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'anchovy',
             'game' => 'lion',
@@ -6790,7 +6924,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1633',
             'region' => '21',
             'province' => '78',
-            'realm' => '119'
+            'realm' => '119',
+            'sea' => '3'
         ]);
         //corinthia
 		//315
@@ -6820,7 +6955,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1611',
             'region' => '21',
             'province' => '79',
-            'realm' => '108'
+            'realm' => '108',
+            'sea' => '6'
         ]);
         //hellas
         //attica
@@ -6829,6 +6965,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Athenae',
             'population' => '50000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6857,6 +6994,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Piraeus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'anchovy',           
             'poultry' => 'chicken',
@@ -6873,13 +7011,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1612',
             'region' => '22',
             'province' => '80',
-            'realm' => '108'
+            'realm' => '108',
+            'sea' => '3'
         ]);
         //boeotia
 		//318
 		DB::table('towns')->insert([
             'town_name' => 'Thebes',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6902,6 +7042,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Mideia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6923,6 +7064,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Delphi',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -6944,6 +7086,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lamia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'anchovy',
@@ -6959,13 +7102,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1551',
             'region' => '22',
             'province' => '81',
-            'realm' => '118'
+            'realm' => '118',
+            'sea' => '3'
         ]);
         //aetolia
 		//322
 		DB::table('towns')->insert([
             'town_name' => 'Thermum',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -7002,13 +7147,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1526',
             'region' => '22',
             'province' => '83',
-            'realm' => '107'
+            'realm' => '107',
+            'sea' => '6'
         ]);
         //magnesia
 		//324
 		DB::table('towns')->insert([
             'town_name' => 'Demetrias',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'anchovy',
             'game' => 'deer',
             'fruit' => 'grapes',
@@ -7021,13 +7168,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1519',
             'region' => '22',
             'province' => '84',
-            'realm' => '118'
+            'realm' => '118',
+            'sea' => '3'
         ]);
         //thessalia
 		//325
 		DB::table('towns')->insert([
             'town_name' => 'Larissa',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -7048,6 +7197,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Pharsalus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -7082,7 +7232,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1493',
             'region' => '23',
             'province' => '86',
-            'realm' => '107'
+            'realm' => '107',
+            'sea' => '6'
         ]);
 		//328
 		DB::table('towns')->insert([
@@ -7101,7 +7252,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1390',
             'region' => '23',
             'province' => '86',
-            'realm' => '107'
+            'realm' => '107',
+            'sea' => '7'
         ]);
         //Macedonia Salutaris
         //329
@@ -7150,7 +7302,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1437',
             'region' => '23',
             'province' => '87',
-            'realm' => '108'
+            'realm' => '108',
+            'sea' => '3'
         ]);
 		//331
 		DB::table('towns')->insert([
@@ -7185,7 +7338,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'gold' => 'gold',
-            'timber' => 'yew',
+            'timber' => 'beech',
             'thermae' => 'thermae',
 			'xcoord' => '1693',
             'ycoord' => '1381',
@@ -7205,7 +7358,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'gold' => 'gold',
-            'timber' => 'yew',
+            'timber' => 'beech',
 			'xcoord' => '1663',
             'ycoord' => '1380',
             'region' => '23',
@@ -7223,7 +7376,7 @@ class TownsSeeder extends Seeder
             'grain' => 'rye',
             'vine' => 'grapes',
             'gold' => 'gold',
-            'timber' => 'pine', 
+            'timber' => 'beech', 
 			'xcoord' => '1735',
             'ycoord' => '1288',
             'region' => '23',
@@ -7251,7 +7404,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1421',
             'region' => '24',
             'province' => '89',
-            'realm' => '108'
+            'realm' => '108',
+            'sea' => '3'
         ]);
         //europa
 		//336
@@ -7270,7 +7424,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1409',
             'region' => '24',
             'province' => '90',
-            'realm' => '108'
+            'realm' => '108',
+            'sea' => '2'
         ]);
 		//337
 		DB::table('towns')->insert([
@@ -7291,7 +7446,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1409',
             'region' => '24',
             'province' => '90',
-            'realm' => '114'
+            'realm' => '114',
+            'sea' => '2'
         ]);
         //Thracia Salutaris
 		//338
@@ -7371,7 +7527,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1260',
             'region' => '24',
             'province' => '93',
-            'realm' => '114'
+            'realm' => '114',
+            'sea' => '1'
         ]);   
 		//342
 		DB::table('towns')->insert([
@@ -7391,7 +7548,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1314',
             'region' => '24',
             'province' => '93',
-            'realm' => '114'
+            'realm' => '114',
+            'sea' => '1'
         ]);  
 		//343
 		DB::table('towns')->insert([
@@ -7410,7 +7568,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1191',
             'region' => '24',
             'province' => '93',
-            'realm' => '114'
+            'realm' => '114',
+            'sea' => '1'
         ]);         
 		//344
 		DB::table('towns')->insert([
@@ -7464,7 +7623,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'gold' => 'gold',
-            'timber' => 'yew',
+            'timber' => 'pine',
             'defenses' => '800',
 			'xcoord' => '1634',
             'ycoord' => '1343',
@@ -7532,7 +7691,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1239',
             'region' => '25',
             'province' => '96',
-            'realm' => '85'
+            'realm' => '85',
+            'sea' => '7'
         ]);
 		//350
 		DB::table('towns')->insert([
@@ -7552,7 +7712,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1272',
             'region' => '25',
             'province' => '96',
-            'realm' => '85'
+            'realm' => '85',
+            'sea' => '7'
         ]);
 		//351
 		DB::table('towns')->insert([
@@ -7625,7 +7786,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1196',
             'region' => '25',
             'province' => '97',
-            'realm' => '84'
+            'realm' => '84',
+            'sea' => '7'
         ]);
 		//355
 		DB::table('towns')->insert([
@@ -7668,7 +7830,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1086',
             'region' => '25',
             'province' => '98',
-            'realm' => '83'
+            'realm' => '83',
+            'sea' => '7'
         ]);
 		//357
 		DB::table('towns')->insert([
@@ -7688,7 +7851,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1109',
             'region' => '25',
             'province' => '98',
-            'realm' => '83'
+            'realm' => '83',
+            'sea' => '7'
         ]);
 		//358
 		DB::table('towns')->insert([
@@ -7706,7 +7870,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1146',
             'region' => '25',
             'province' => '98',
-            'realm' => '83'
+            'realm' => '83',
+            'sea' => '7'
         ]); 
         //Pannonia Prima
 		//359
@@ -7721,7 +7886,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'beech', 
+            'timber' => 'yew', 
             'defenses' => '400',
 			'xcoord' => '1408',
             'ycoord' => '902',
@@ -7740,7 +7905,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay',
-            'timber' => 'beech', 
+            'timber' => 'yew', 
 			'xcoord' => '1413',
             'ycoord' => '964',
             'region' => '25',
@@ -7818,7 +7983,7 @@ class TownsSeeder extends Seeder
             'grain' => 'spelt',
             'vine' => 'grapes',
             'pottery' => 'clay',
-            'timber' => 'beech', 
+            'timber' => 'pine', 
             'defenses' => '400',
 			'xcoord' => '1343',
             'ycoord' => '1023',
@@ -8333,7 +8498,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1161',
             'region' => '27',
             'province' => '107',
-            'realm' => '124'
+            'realm' => '124',
+            'sea' => '1'
         ]);
         //391
 		DB::table('towns')->insert([
@@ -8353,7 +8519,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1129',
             'region' => '27',
             'province' => '107',
-            'realm' => '124'
+            'realm' => '124',
+            'sea' => '1'
         ]);
         //392
 		DB::table('towns')->insert([
@@ -8372,7 +8539,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1109',
             'region' => '27',
             'province' => '107',
-            'realm' => '124'
+            'realm' => '124',
+            'sea' => '1'
         ]);  
         //Sarmatia
         //Sarmatia
@@ -8393,7 +8561,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1047',
             'region' => '28',
             'province' => '108',
-            'realm' => '135'
+            'realm' => '135',
+            'sea' => '1'
         ]);
 		//394
 		DB::table('towns')->insert([
@@ -8412,7 +8581,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1026',
             'region' => '28',
             'province' => '108',
-            'realm' => '135'
+            'realm' => '135',
+            'sea' => '1'
         ]);
 		//395
 		DB::table('towns')->insert([
@@ -8431,7 +8601,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1011',
             'region' => '28',
             'province' => '108',
-            'realm' => '135'
+            'realm' => '135',
+            'sea' => '1'
         ]);
         //Scythia
         //Scythia
@@ -8455,7 +8626,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '982',
             'region' => '29',
             'province' => '109',
-            'realm' => '136'
+            'realm' => '136',
+            'sea' => '1'
         ]);
         //chios
         //chios
@@ -8463,6 +8635,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Chios',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'anchovy',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -8476,7 +8649,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1585',
             'region' => '30',
             'province' => '110',
-            'realm' => '113'
+            'realm' => '113',
+            'sea' => '3'
         ]);  
         //Asia
         //Ionia  
@@ -8485,6 +8659,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Smyrna',
             'population' => '20000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -8504,13 +8679,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1580',
             'region' => '31',
             'province' => '111',
-            'realm' => '115'
+            'realm' => '115',
+            'sea' => '3'
         ]); 
         //399
 		DB::table('towns')->insert([
             'town_name' => 'Ephesus',
             'population' => '50000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -8533,13 +8710,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1615',
             'region' => '31',
             'province' => '111',
-            'realm' => '115'
+            'realm' => '115',
+            'sea' => '3'
         ]); 
         //caria
 		//400
 		DB::table('towns')->insert([
             'town_name' => 'Tralles',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -8559,6 +8738,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Miletus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'anchovy',
             'poultry' => 'chicken',
@@ -8576,7 +8756,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1651',
             'region' => '31',
             'province' => '112',
-            'realm' => '112'
+            'realm' => '112',
+            'sea' => '3'
         ]);
 		//402
 		DB::table('towns')->insert([
@@ -8640,7 +8821,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1670',
             'region' => '31',
             'province' => '112',
-            'realm' => '112'
+            'realm' => '112',
+            'sea' => '3'
         ]);
         //Lydia
         //405
@@ -8648,6 +8830,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Sardes',
             'population' => '50000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -8671,6 +8854,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Magnesia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -8693,6 +8877,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Thyatira',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -8715,6 +8900,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Pergamum',
             'population' => '50000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -8738,12 +8924,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1534',
             'region' => '31',
             'province' => '114',
-            'realm' => '115'
+            'realm' => '115',
+            'sea' => '3'
         ]);  
 		//409
 		DB::table('towns')->insert([
             'town_name' => 'Troas',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'anchovy',
@@ -8758,13 +8946,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1468',
             'region' => '31',
             'province' => '114',
-            'realm' => '115'
+            'realm' => '115',
+            'sea' => '2'
         ]);
         //Lycia
         //410
 		DB::table('towns')->insert([
             'town_name' => 'Xanthus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'anchovy',
             'poultry' => 'chicken',
@@ -8779,13 +8969,15 @@ class TownsSeeder extends Seeder
             'ycoord' => '1709',
             'region' => '31',
             'province' => '115',
-            'realm' => '115'
+            'realm' => '115',
+            'sea' => '3'
         ]); 
         //Pamphylia
         //411
 		DB::table('towns')->insert([
             'town_name' => 'Attalia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -8803,12 +8995,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1679',
             'region' => '31',
             'province' => '116',
-            'realm' => '115'
+            'realm' => '115',
+            'sea' => '4'
         ]);  
 		//412
 		DB::table('towns')->insert([
             'town_name' => 'Side',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -8828,7 +9022,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1687',
             'region' => '31',
             'province' => '116',
-            'realm' => '115'
+            'realm' => '115',
+            'sea' => '4'
         ]);
         //Mysia
         //413
@@ -8836,6 +9031,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Cyzicus',
             'population' => '20000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'anchovy',
             'poultry' => 'chicken',
@@ -8852,7 +9048,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1453',
             'region' => '31',
             'province' => '117',
-            'realm' => '113'
+            'realm' => '113',
+            'sea' => '2'
         ]); 
         //Bithynia
         //414
@@ -8902,7 +9099,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1428',
             'region' => '31',
             'province' => '118',
-            'realm' => '111'
+            'realm' => '111',
+            'sea' => '2'
         ]);  
         //416
 		DB::table('towns')->insert([
@@ -8920,7 +9118,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1392',
             'region' => '31',
             'province' => '118',
-            'realm' => '111'
+            'realm' => '111',
+            'sea' => '1'
         ]);  
         //417
 		DB::table('towns')->insert([
@@ -8978,7 +9177,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1361',
             'region' => '31',
             'province' => '119',
-            'realm' => '111'
+            'realm' => '111',
+            'sea' => '1'
         ]);  
         //420
 		DB::table('towns')->insert([
@@ -8991,13 +9191,14 @@ class TownsSeeder extends Seeder
             'fruit' => 'quinces',
             'grain' => 'barley',
             'vine' => 'grapes',
-            'timber' => 'oak', 
+            'timber' => 'pine', 
             'defenses' => '800',
 			'xcoord' => '2325',
             'ycoord' => '1342',
             'region' => '31',
             'province' => '119',
-            'realm' => '124'
+            'realm' => '124',
+            'sea' => '1'
         ]);  
         //421
 		DB::table('towns')->insert([
@@ -9134,6 +9335,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ousakeium',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -9310,7 +9512,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1389',
             'region' => '31',
             'province' => '127',
-            'realm' => '124'
+            'realm' => '124',
+            'sea' => '1'
         ]); 
         //437
 		DB::table('towns')->insert([
@@ -9347,7 +9550,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1408',
             'region' => '31',
             'province' => '128',
-            'realm' => '124'
+            'realm' => '124',
+            'sea' => '1'
         ]);  
         //439
 		DB::table('towns')->insert([
@@ -9365,7 +9569,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1416',
             'region' => '31',
             'province' => '128',
-            'realm' => '124'
+            'realm' => '124',
+            'sea' => '1'
         ]); 
         //Pontus Chaldia
         //440
@@ -9386,7 +9591,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1411',
             'region' => '31',
             'province' => '129',
-            'realm' => '124'
+            'realm' => '124',
+            'sea' => '1'
         ]); 
         //441
 		DB::table('towns')->insert([
@@ -9404,7 +9610,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1409',
             'region' => '31',
             'province' => '129',
-            'realm' => '124'
+            'realm' => '124',
+            'sea' => '1'
         ]); 
         //Galatia Prima
         //442
@@ -9620,7 +9827,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1701',
             'region' => '31',
             'province' => '137',
-            'realm' => '113'
+            'realm' => '113',
+            'sea' => '4'
         ]);  
         //454
 		DB::table('towns')->insert([
@@ -9639,7 +9847,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1729',
             'region' => '31',
             'province' => '137',
-            'realm' => '113'
+            'realm' => '113',
+            'sea' => '4'
         ]);  
         //Cilicia Aspera
         //455
@@ -9662,7 +9871,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1715',
             'region' => '31',
             'province' => '138',
-            'realm' => '113'
+            'realm' => '113',
+            'sea' => '4'
         ]);  
         //Cilicia Pedias
         //456
@@ -9744,7 +9954,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1683',
             'region' => '31',
             'province' => '139',
-            'realm' => '113'
+            'realm' => '113',
+            'sea' => '4'
         ]); 
         //Armenia
         //Armenia Minor
@@ -10091,7 +10302,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1245',
             'region' => '32',
             'province' => '148',
-            'realm' => '121'
+            'realm' => '121',
+            'sea' => '1'
         ]); 
         //478
 		DB::table('towns')->insert([
@@ -10110,7 +10322,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1280',
             'region' => '32',
             'province' => '148',
-            'realm' => '121'
+            'realm' => '121',
+            'sea' => '1'
         ]); 
         //Colchis
         //479
@@ -10132,7 +10345,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1314',
             'region' => '32',
             'province' => '149',
-            'realm' => '121'
+            'realm' => '121',
+            'sea' => '1'
         ]); 
         //Iberia
         //480
@@ -10958,7 +11172,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Kharba',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -10979,7 +11193,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Charax',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11001,7 +11215,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Uruk',
             'population' => '20000',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'poultry' => 'chicken',
@@ -11026,7 +11240,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Nippur',
             'population' => '20000',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'poultry' => 'chicken',
@@ -11049,7 +11263,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Apameia',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'poultry' => 'chicken',
@@ -11070,7 +11284,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Seleucia',
             'population' => '100000',
             'climate' => 'desert wetland',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'poultry' => 'chicken',
@@ -11548,6 +11762,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Beroea',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11593,6 +11808,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Laodicea',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11604,12 +11820,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1762',
             'region' => '35',
             'province' => '177',
-            'realm' => '110'
+            'realm' => '110',
+            'sea' => '4'
         ]); 
         //553
 		DB::table('towns')->insert([
             'town_name' => 'Epiphaneia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11629,6 +11847,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Emesa',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11694,6 +11913,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Heliopolis',
             'population' => '20000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'poultry' => 'chicken',
             'game' => 'deer',
             'fruit' => 'figs',
@@ -11715,6 +11935,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tripolis Phoenicia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11729,7 +11950,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1829',
             'region' => '35',
             'province' => '179',
-            'realm' => '110'
+            'realm' => '110',
+            'sea' => '4'
         ]); 
         //559
 		DB::table('towns')->insert([
@@ -11751,7 +11973,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1866',
             'region' => '35',
             'province' => '179',
-            'realm' => '110'
+            'realm' => '110',
+            'sea' => '4'
         ]); 
         //560
 		DB::table('towns')->insert([
@@ -11775,12 +11998,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1902',
             'region' => '35',
             'province' => '179',
-            'realm' => '110'
+            'realm' => '110',
+            'sea' => '4'
         ]); 
         //561
 		DB::table('towns')->insert([
             'town_name' => 'Hepha',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11796,12 +12021,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1928',
             'region' => '35',
             'province' => '179',
-            'realm' => '110'
+            'realm' => '110',
+            'sea' => '4'
         ]); 
         //562
 		DB::table('towns')->insert([
             'town_name' => 'Sidon',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11819,7 +12046,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '1879',
             'region' => '35',
             'province' => '179',
-            'realm' => '110'
+            'realm' => '110',
+            'sea' => '4'
         ]); 
         //Peraea
         //563
@@ -11922,6 +12150,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Hebron',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11961,6 +12190,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ascolon',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11973,12 +12203,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1999',
             'region' => '35',
             'province' => '181',
-            'realm' => '128'
+            'realm' => '128',
+            'sea' => '4'
         ]);
         //571
 		DB::table('towns')->insert([
             'town_name' => 'Raphia',
             'climate' => 'hot steppe',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -11989,7 +12221,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '2016',
             'region' => '35',
             'province' => '181',
-            'realm' => '128'
+            'realm' => '128',
+            'sea' => '4'
         ]);
         //Samaria
         //572
@@ -12004,7 +12237,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'seasoning' => 'olives',
-            'timber' => 'juniper',
+            'timber' => 'cypress',
             'paper' => 'parchment',
             'glass' => 'glass',
             'defenses' => '800',
@@ -12014,12 +12247,14 @@ class TownsSeeder extends Seeder
             'ycoord' => '1951',
             'region' => '35',
             'province' => '182',
-            'realm' => '128'
+            'realm' => '128',
+            'sea' => '4'
         ]); 
         //573
 		DB::table('towns')->insert([
             'town_name' => 'Samaria',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -12039,6 +12274,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Nazareth',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -12311,7 +12547,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '2440',
             'region' => '36',
             'province' => '187',
-            'realm' => '130'
+            'realm' => '130',
+            'sea' => '19'
         ]); 
         //589
 		DB::table('towns')->insert([
@@ -12348,7 +12585,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '2572',
             'region' => '36',
             'province' => '187',
-            'realm' => '131'
+            'realm' => '131',
+            'sea' => '19'
         ]);
         //591
 		DB::table('towns')->insert([
@@ -12465,7 +12703,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '3035',
             'region' => '36',
             'province' => '190',
-            'realm' => '134'
+            'realm' => '134',
+            'sea' => '19'
         ]);  
         //597
 		DB::table('towns')->insert([
@@ -12485,7 +12724,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '3001',
             'region' => '36',
             'province' => '190',
-            'realm' => '134'
+            'realm' => '134',
+            'sea' => '19'
         ]);    
         //598
 		DB::table('towns')->insert([
@@ -12580,7 +12820,8 @@ class TownsSeeder extends Seeder
             'ycoord' => '2946',
             'region' => '36',
             'province' => '190',
-            'realm' => '131'
+            'realm' => '131',
+            'sea' => '19'
         ]);      
     }
 }

@@ -29,6 +29,12 @@ class DatabaseSeeder extends Seeder
         $this->call('RegionSeeder');
         //provinces
         $this->call('ProvinceSeeder');
+        //land conections
+        $this->call('LandconnectionSeeder');
+        //seas
+        $this->call('SeaSeeder');
+        //sea conections
+        $this->call('SeaconnectionSeeder');
 		//towns
         $this->call('TownsSeeder');
         //capitals
@@ -54,6 +60,16 @@ class ForeignKeySeeder extends Seeder
 			$table->foreign('region')->references('region_id')->on('regions');
             $table->foreign('province')->references('province_id')->on('provinces');
             $table->foreign('realm')->references('realm_id')->on('realms');
+            $table->foreign('sea')->references('sea_id')->on('seas');
+        });
+        //travel organization
+        Schema::table('landconnections', function (Blueprint $table) {
+            $table->foreign('to')->references('region_id')->on('regions');
+            $table->foreign('from')->references('region_id')->on('regions');
+        });	
+        Schema::table('seaconnections', function (Blueprint $table) {
+            $table->foreign('to')->references('sea_id')->on('seas');
+            $table->foreign('from')->references('sea_id')->on('seas');
         });
         //people
 		Schema::table('people', function (Blueprint $table) {

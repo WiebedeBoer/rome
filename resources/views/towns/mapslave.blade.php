@@ -12,12 +12,12 @@ Game
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
 	@foreach($towns as $town) 
-		@if($town->sweetener =="honey")
-		<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (honey)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(235,150,5)" stroke="black" stroke-width="4" /></a>
+		@if($town->chattel =="slave")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (slave market)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
-		<g z-index="2">
+		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@endif
