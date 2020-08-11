@@ -21,7 +21,7 @@
 		<a href="/maphoney" class="btn btn-dark">Honey</a>
 	</div>
 	<div class="mlinks m-1">
-		<a href="/mappack" class="btn btn-dark">Pack Animals</a>
+		<a href="/mappack" class="btn btn-dark">Pack &amp; Draught Animals</a>
 		<a href="/mapcattle" class="btn btn-dark">Cattle</a>
 		<a href="/mapwool" class="btn btn-dark">Sheep &amp; Goats</a>
 		<a href="/mappig" class="btn btn-dark">Pigs</a>

@@ -16,6 +16,11 @@ class Person extends Model
         return $this->belongsTo('App\User','owner');
     } 
 
+    public function locations()
+    {
+        return $this->belongsTo('App\Town','location');
+    } 
+
     //statistics
 
     //skills
@@ -87,6 +92,12 @@ class Person extends Model
     public function chronicles()
     {
         return $this->hasMany('App\Chronicle','chronicle_id');
+    }
+
+    //villas
+    public function villas()
+    {
+        return $this->hasMany('App\Villa','villa_id');
     }
 
 }

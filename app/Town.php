@@ -31,6 +31,12 @@ class Town extends Model
         return $this->belongsTo('App\Sea','sea');
     } 
 
+    //milestones
+    public function milestones()
+    {
+        return $this->hasMany('App\Milestone','milestone_id');
+    } 
+
     //mayors
     public function mayors()
     {
@@ -43,6 +49,16 @@ class Town extends Model
         return $this->hasMany('App\Chronicle','chronicle_id');
     }  
 
+    //people locations
+    public function locations()
+    {
+        return $this->hasMany('App\Person','person_id');
+    }
 
+    //villas
+    public function villas()
+    {
+        return $this->hasMany('App\Villa','villa_id');
+    }
 
 }

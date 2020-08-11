@@ -22,11 +22,15 @@ Game
 			</g>
 		@elseif($town->pack =="oxen")
 		    <g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (oxen)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(193,154,107)" stroke="yellow" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (oxen)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(167,174,182)" stroke="rgb(43,41,42)" stroke-width="4" /></a>
 			</g>
 		@elseif($town->pack =="donkey")
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (donkey)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(106,91,77)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->pack =="dog")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (dog)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(35,29,65)" stroke="rgb(192,128,0)" stroke-width="4" /></a>
 			</g>
 		@else
 		    <g z-index="2">

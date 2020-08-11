@@ -60,6 +60,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lanuvium',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -82,6 +83,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tarracina',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -101,6 +103,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Casinum',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -171,6 +174,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Pompei',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -223,6 +227,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Grumentum',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'boar',
             'fruit' => 'figs',
@@ -242,6 +247,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Potentia',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -262,6 +268,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Consentia',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -376,6 +383,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Barium',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'fish' => 'sardine',
@@ -396,6 +404,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Canusium',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -453,6 +462,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Beneventum',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'game' => 'boar',
@@ -473,6 +483,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Marruvium',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -492,6 +503,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Reate',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -512,6 +524,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Spoletum',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -532,6 +545,8 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Perusia',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
+            'cattle' => 'cattle',           
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -553,6 +568,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ancona',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -573,6 +589,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Asculum',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'figs',
@@ -591,6 +608,8 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Gravisca',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
+            'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -602,6 +621,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak',
+            'templum' => 'agriculture',
 			'xcoord' => '1145',
             'ycoord' => '1340',
             'region' => '1',
@@ -613,6 +633,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Rusellae',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -635,6 +656,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Arretium',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -660,6 +682,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Saena',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -684,6 +707,8 @@ class TownsSeeder extends Seeder
             'town_name' => 'Pisa',
             'population' => '20000',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
+            'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -707,6 +732,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Florentia',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -731,6 +757,8 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Luna',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
+            'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -779,6 +807,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lilybaeum',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',            
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -928,6 +957,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Turris Libyssonis',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -949,6 +979,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Caralis',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',           
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -975,6 +1006,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aleria',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -998,6 +1030,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ariminum',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -1017,6 +1050,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ravenna',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -1081,6 +1115,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Genua',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',  
@@ -1101,6 +1136,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Savona',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',  
@@ -1142,6 +1178,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Placentia',
             'climate' => 'pontic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -1161,6 +1198,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Dertona',
             'climate' => 'pontic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -1182,6 +1220,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Taurinorum',
             'climate' => 'pontic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -1204,6 +1243,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ticinum',
             'climate' => 'pontic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'poultry' => 'chicken',
             'game' => 'boar',
@@ -1252,6 +1292,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Vercellae',
             'climate' => 'pontic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -1274,6 +1315,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Brixia',
             'climate' => 'pontic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -1296,6 +1338,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Curia Raetorum',
             'climate' => 'alpine',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1316,6 +1359,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Brigantium',
             'climate' => 'alpine',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1338,6 +1382,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Turicum',
             'climate' => 'alpine',
             'population' => '2000',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1360,6 +1405,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Bauzanum',
             'climate' => 'alpine',
             'population' => '5000',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'bear',
@@ -1382,6 +1428,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Tridentum',
             'climate' => 'alpine',
             'population' => '5000',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'bear',
@@ -1404,6 +1451,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Veldidena',
             'climate' => 'alpine',
             'population' => '5000',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'deer',
@@ -1426,6 +1474,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Vindelicorum',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1448,6 +1497,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Vallatum',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -1470,6 +1520,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Alcimoennis',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1491,6 +1542,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Castra Regina',
             'climate' => 'continental',
             'population' => '5000',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1537,7 +1589,9 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lauriacum',
             'population' => '5000',
-            'climate' => 'alpine',            
+            'climate' => 'alpine', 
+            'pack' => 'dog',
+            'wool' => 'goat',           
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -1557,6 +1611,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Flavia Solva',
             'climate' => 'alpine',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -1577,6 +1632,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Virunum',
             'climate' => 'alpine',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -1599,6 +1655,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Celeia',
             'climate' => 'alpine',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -1617,6 +1674,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Emona',
             'climate' => 'alpine',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -1635,6 +1693,8 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aelium Cetium',
             'climate' => 'alpine',
+            'pack' => 'dog',
+            'wool' => 'goat',   
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -1654,6 +1714,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Mantua',
             'climate' => 'pontic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -1697,6 +1758,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Patavium',
             'climate' => 'pontic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'duck',
@@ -1717,6 +1779,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Acelum',
             'climate' => 'pontic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'duck',
@@ -1759,6 +1822,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ebrodunum',
             'climate' => 'alpine',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'deer', 
@@ -1778,6 +1842,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Cemelenum',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'game' => 'deer',
             'fruit' => 'figs',
@@ -1795,6 +1860,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Octodurum',
             'climate' => 'alpine',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1817,6 +1883,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Brenodurum',
             'population' => '2000',
             'climate' => 'alpine',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1838,6 +1905,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Rauracorum',
             'climate' => 'alpine',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1859,6 +1927,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Vesontio',
             'climate' => 'alpine',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1881,6 +1950,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Vindonissa',
             'climate' => 'alpine',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1903,6 +1973,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aventicum',
             'climate' => 'alpine',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -1925,6 +1996,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Telo Martius',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -1945,6 +2017,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Massilia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -1988,6 +2061,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Arausio',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'poultry' => 'chicken',
             'game' => 'boar', 
@@ -2028,6 +2102,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Cularo',
             'population' => '2000',
             'climate' => 'alpine',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -2071,6 +2146,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Aquae Gratianae',
             'population' => '2000',
             'climate' => 'alpine',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -2093,6 +2169,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Geneva',
             'population' => '5000',
             'climate' => 'alpine',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -2114,6 +2191,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Nemausus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2160,6 +2238,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Matisco',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',  
@@ -2179,6 +2258,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Divio',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',  
@@ -2198,6 +2278,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Augustodunum',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2217,6 +2298,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Alesia',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2260,6 +2342,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Narbo Martius',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -2285,6 +2368,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Carcasum',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2306,6 +2390,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tolosa',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2330,6 +2415,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Albigensium',
             'population' => '2000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2349,6 +2435,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Segodunum',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2371,6 +2458,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Aureliacum',
             'population' => '2000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2392,6 +2480,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Agathe',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -2415,6 +2504,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aginnum',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2437,6 +2527,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Burdigala',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2465,6 +2556,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Augustoritum',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2484,6 +2576,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Gergovia',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2525,6 +2618,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Vesunna',
             'population' => '2000',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2543,6 +2637,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Cadurcorum',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2561,6 +2656,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Auscorum',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2580,6 +2676,7 @@ class TownsSeeder extends Seeder
          DB::table('towns')->insert([
             'town_name' => 'Limonum',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -2601,6 +2698,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Portus Namnetus',
             'population' => '2000',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -2667,6 +2765,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Avaricum',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'poultry' => 'chicken',
             'game' => 'boar',
@@ -2684,6 +2783,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Turonum',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2705,6 +2805,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Cenabum',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2725,6 +2826,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lutetia',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2747,6 +2849,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Rotomagus',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'duck',
@@ -2788,6 +2891,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Agedincum',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2809,6 +2913,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Divodurum',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2855,6 +2960,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Nemetacum',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2873,6 +2979,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Bagacum',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -2892,6 +2999,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Gesioracum',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'fish' => 'herring',
             'poultry' => 'chicken',
@@ -2933,6 +3041,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tungrorum',
             'climate' => 'oceanic',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -2954,6 +3063,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Coriovallum',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',  
@@ -3060,6 +3170,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ubiorum',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -3084,6 +3195,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Aliso',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -3103,6 +3215,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Confluentes',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -3126,6 +3239,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Argentoratum',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -3148,6 +3262,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Mogontiacum',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -3172,6 +3287,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Castra Stativa',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -3190,6 +3306,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Riusiava',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -3209,6 +3326,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Biriciana',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -3230,6 +3348,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Arbalo',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -3250,6 +3369,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Mattium',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -3317,6 +3437,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Bicurgium',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -3336,6 +3457,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Menosgada',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -3356,6 +3478,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Casurgis',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -3374,6 +3497,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Bruna',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -3393,6 +3517,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Isca Dumnonum',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',          
             'fish' => 'herring',
@@ -3438,6 +3563,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Corinium',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',  
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -3459,6 +3585,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Glevum',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',   
             'fish' => 'herring',           
@@ -3509,6 +3636,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Moridunum',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -3530,6 +3658,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Segontium',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'horse',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'herring',
@@ -3553,6 +3682,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Deva',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'fish' => 'herring',
@@ -3579,6 +3709,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Viroconium',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -3603,6 +3734,8 @@ class TownsSeeder extends Seeder
             'town_name' => 'Portus Adurni',
             'population' => '2000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
+            'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'herring',
@@ -3738,6 +3871,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lindum',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',  
             'pig' => 'pig', 
@@ -3784,6 +3918,8 @@ class TownsSeeder extends Seeder
             'town_name' => 'Bremetennacum',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'dog',
+            'wool' => 'sheep',
             'pig' => 'pig', 
             'game' => 'boar',
             'fruit' => 'apples',
@@ -3803,6 +3939,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Luguvalium',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'boar',
@@ -3823,6 +3960,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Habitancum',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'poultry' => 'chicken',
@@ -3848,6 +3986,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Trimontium',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'poultry' => 'chicken',
@@ -3869,6 +4008,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Curia',
             'population' => '2000',
             'climate' => 'oceanic',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -3910,6 +4050,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Emporiae',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -3936,6 +4077,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Aquae Calidae',
             'population' => '2000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -3960,6 +4102,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Barcino',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -4054,6 +4197,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Pompaelo',
             'population' => '20000',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'rabbit' => 'rabbit',
@@ -4095,6 +4239,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Portus Victoriae',
             'population' => '2000',
             'climate' => 'oceanic',
+            'pack' => 'dog',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -4237,6 +4382,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Carthago Nova',
             'population' => '20000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -4262,6 +4408,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Mentesa',
             'population' => '2000',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'goat',
             'pig' => 'pig',
             'rabbit' => 'rabbit',
@@ -4283,6 +4430,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Libisosanorum',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'goat',
             'pig' => 'pig',
             'rabbit' => 'rabbit',
@@ -4362,6 +4510,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Abdera',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -4386,6 +4535,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Malaca',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -4409,6 +4559,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Gadeira',
             'population' => '50000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -4433,6 +4584,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tartessus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -4458,6 +4610,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Hispalis',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -4481,6 +4634,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Carmona',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -4503,6 +4657,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Astigi',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'pig' => 'pig',
@@ -4554,6 +4709,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Castulo',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -4687,6 +4843,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Castra Legionis',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'rabbit' => 'rabbit',
             'game' => 'deer',
@@ -4708,6 +4865,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Asturica',
             'population' => '5000',
             'climate' => 'oceanic',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'rabbit' => 'rabbit',
             'game' => 'deer',
@@ -4729,6 +4887,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lucus',
             'climate' => 'oceanic',
+            'pack' => 'dog',
             'pig' => 'pig',
             'rabbit' => 'rabbit',
             'game' => 'deer',
@@ -4750,6 +4909,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Aquae Flaviae',
             'population' => '2000',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'rabbit' => 'rabbit',
@@ -4773,6 +4933,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Bracara',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'poultry' => 'chicken',
             'rabbit' => 'rabbit',
@@ -4796,6 +4957,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Portus Cale',
             'population' => '2000',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'rabbit' => 'rabbit',
@@ -4837,6 +4999,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Eburobrittium',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -5011,6 +5174,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Palma',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -5034,6 +5198,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Caleta',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -5057,6 +5222,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Septem',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -5102,6 +5268,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Lixus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -5126,6 +5293,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Sala',
             'population' => '2000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -5173,6 +5341,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Rusadir',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -5216,6 +5385,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Murustaga',
             'climate' => 'mediterranean',
             'fish' => 'sardine',
+            'pack' => 'donkey',
             'poultry' => 'chicken',
             'game' => 'deer',
             'fruit' => 'figs',
@@ -5233,6 +5403,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Cartenna',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -5318,6 +5489,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Icosium',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -5341,6 +5513,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Saldae',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -5387,6 +5560,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Russicada',
             'population' => '20000',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'fish' => 'sardine',
             'poultry' => 'chicken',
@@ -5407,6 +5581,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Hippo Regius',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -5662,6 +5837,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Bulla Regia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -5708,6 +5884,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Hippo Zarytus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -5818,6 +5995,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Thaenae',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'tuna',
             'poultry' => 'chicken',
             'game' => 'boar',
@@ -6075,7 +6253,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Berenice',
             'climate' => 'mediterranean',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'fish' => 'tuna',
             'poultry' => 'chicken',
@@ -6097,7 +6275,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Cyrene',
             'climate' => 'mediterranean',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'fish' => 'tuna',
             'poultry' => 'chicken',
@@ -7239,6 +7417,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Epidaurus',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'fish' => 'sardine',
             'game' => 'hare',
@@ -7260,6 +7439,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Pella',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -7330,6 +7510,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tiveriopolis',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -7350,6 +7531,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Stobi',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -7369,6 +7551,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Serdica',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -7496,6 +7679,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Storgasia',
             'climate' => 'continental',
+            'pack' => 'dog',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -7513,6 +7697,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Odessus',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'game' => 'hare',
@@ -7534,6 +7719,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Antheia',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'game' => 'hare',
@@ -7555,6 +7741,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tomis',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'fish' => 'sturgeon',
             'game' => 'hare',
             'fruit' => 'apples',
@@ -7576,6 +7763,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Durostorum',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'hare',
             'fruit' => 'apples',
@@ -7595,6 +7783,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Noviodunum',
             'population' => '5000',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'hare',
             'fruit' => 'apples',
@@ -7615,6 +7804,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Scupi',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -7635,6 +7825,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Naissus',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'game' => 'deer',
@@ -7656,6 +7847,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Doclea',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'game' => 'hare',
             'fruit' => 'apples',
@@ -7676,6 +7868,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Salonia',
             'population' => '20000',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -7698,6 +7891,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Narona',
             'climate' => 'mediterranean',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'fish' => 'sardine',
@@ -7719,6 +7913,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Delminium',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'figs',
@@ -7737,6 +7932,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Capedunum',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'goat',
             'pig' => 'pig',
             'game' => 'boar',
@@ -7756,6 +7952,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Aquae Sulphurae',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'dog',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -7775,6 +7972,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Iadera',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'fish' => 'sardine',
             'game' => 'boar',
@@ -7794,6 +7992,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Burnum',
             'population' => '5000',
             'climate' => 'mediterranean',
+            'pack' => 'dog',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'figs',
@@ -7814,6 +8013,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tergeste',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'pig' => 'pig',
@@ -7837,6 +8037,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tarsatica',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'fish' => 'sardine',
@@ -7858,6 +8059,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Pola',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'sardine',
             'game' => 'boar',
@@ -7879,6 +8081,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Carnuntum',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -7898,6 +8101,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Savaria',
             'climate' => 'continental',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -7938,6 +8142,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Singidunum',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'deer',
@@ -7957,6 +8162,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Viminacium',
             'climate' => 'continental',
+            'pack' => 'oxen',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'deer',
@@ -7977,6 +8183,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Poetovio',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -7996,6 +8203,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Aquae Iasae',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -8016,6 +8224,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Aquae Balissae',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'deer',
@@ -8035,6 +8244,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Siscia',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -8054,6 +8264,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Metulum',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'boar',
@@ -8073,6 +8284,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Marsonia',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'game' => 'deer',
@@ -8092,7 +8304,9 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Aquincum',
             'climate' => 'continental',
+            'pack' => 'dog',
             'cattle' => 'cattle',
+            'wool' => 'goat',
             'pig' => 'pig',
             'game' => 'hare',
             'fruit' => 'apples',
@@ -8114,6 +8328,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Gorsium',
             'climate' => 'continental',
+            'pack' => 'dog',
             'pig' => 'pig',
             'game' => 'hare',
             'fruit' => 'apples',
@@ -8133,6 +8348,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Sopianae',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'dog',
             'pig' => 'pig',
             'game' => 'hare',
             'fruit' => 'apples',
@@ -8174,6 +8390,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Apulum',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'grapes',
@@ -8196,6 +8413,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Micia',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8214,6 +8432,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Sarmizegetusa',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8234,6 +8453,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Tibiscum',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8253,6 +8473,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Argidava',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8271,6 +8492,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Aquae Herculi',
             'population' => '2000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8290,6 +8512,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Petrodava',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8310,6 +8533,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Cotnari',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8330,6 +8554,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Drobeta',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'grapes',
@@ -8348,6 +8573,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Castra Traiana',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8366,6 +8592,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Cumidava',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8383,6 +8610,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Malva',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8402,6 +8630,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Oescus',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8421,6 +8650,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Porolissum',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'bear',
             'fruit' => 'apples',
@@ -8443,6 +8673,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Napoca',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'bear',
             'fruit' => 'apples',
@@ -8465,6 +8696,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Felix Romulania',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'game' => 'boar',
             'fruit' => 'apples',
@@ -8486,6 +8718,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Chersonesus',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'pig' => 'pig',
             'fish' => 'sturgeon',
             'game' => 'boar',
@@ -8505,6 +8738,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Theodosia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'pig' => 'pig',
             'fish' => 'sturgeon',
@@ -9107,6 +9341,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Heraclea Pontica',
             'climate' => 'mediterranean',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'fish' => 'sturgeon',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -9165,6 +9400,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Sesamus',
             'climate' => 'mediterranean',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'fish' => 'sturgeon',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -9184,6 +9420,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Sinope',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'poultry' => 'chicken',
@@ -9204,6 +9441,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Timonium',
             'climate' => 'continental',
+            'pack' => 'dog',
             'poultry' => 'chicken',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -9220,6 +9458,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Germanicopolis',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'goat',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -9237,6 +9476,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Hadrianapolis',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'poultry' => 'chicken',
             'game' => 'deer',
             'fruit' => 'quinces',
@@ -9256,6 +9496,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Apamea',
             'climate' => 'continental',
+            'pack' => 'dog',
             'pig' => 'pig',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -9276,6 +9517,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Baris',
             'climate' => 'continental',
+            'pack' => 'dog',
             'pig' => 'pig',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -9296,6 +9538,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Isaura',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -9314,6 +9557,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Synnada',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -9377,6 +9621,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Gordium',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -9462,6 +9707,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Iconium',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'quinces',
@@ -9480,6 +9726,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Laranda', 
             'climate' => 'mediterranean',  
+            'pack' => 'donkey',
             'cattle' => 'cattle',       
             'wool' => 'sheep',
             'game' => 'deer',
@@ -9500,6 +9747,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Amisus',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'poultry' => 'chicken',
@@ -9519,6 +9767,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Amasea',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'deer',
@@ -9537,6 +9786,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Polemonium',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'game' => 'deer',
@@ -9557,6 +9807,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Cerasus',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'game' => 'deer',
@@ -9578,6 +9829,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Trapezus',
             'population' => '20000',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'game' => 'deer',
@@ -9598,6 +9850,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Rhizus',
             'climate' => 'pontic',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'game' => 'deer',
@@ -9618,6 +9871,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tavium',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -9637,6 +9891,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Ancyra',
             'population' => '20000',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -9655,6 +9910,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Pessinus',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -9671,6 +9927,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Amorium',
             'climate' => 'cold steppe',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'poultry' => 'chicken',
             'game' => 'hare',
@@ -9855,6 +10112,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ourbanopolis',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'cattle' => 'cattle',
             'wool' => 'goat',
             'fish' => 'sardine',
@@ -9879,6 +10137,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Caesarea Germanicia',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'figs',
@@ -9941,6 +10200,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Zephyrium',
             'climate' => 'mediterranean',
+            'pack' => 'donkey',
             'fish' => 'sardine',
             'game' => 'deer',
             'fruit' => 'figs',
@@ -10004,6 +10264,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Her',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'goat',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -10022,6 +10283,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Thospia',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'goat',
             'game' => 'hare',
             'fruit' => 'pomegranates',
@@ -10041,6 +10303,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Bitlis',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'goat',
             'game' => 'hare',
             'fruit' => 'pomegranates',
@@ -10060,6 +10323,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ardahan',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'goat',
             'game' => 'pheasant',
             'fruit' => 'pomegranates',
@@ -10078,6 +10342,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Armavir',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -10096,6 +10361,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Artaxata',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -10116,6 +10382,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Naxuana',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -10134,6 +10401,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Manzikert',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -10151,6 +10419,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Karin',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -10169,6 +10438,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Amida',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'goat',
             'game' => 'hare',
             'fruit' => 'pomegranates',
@@ -10187,6 +10457,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Tigranocerta',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'goat',
             'game' => 'hare',
             'fruit' => 'pomegranates',
@@ -10207,6 +10478,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Acilisene',
             'climate' => 'continental',
+            'pack' => 'dog',
             'cattle' => 'cattle',
             'wool' => 'sheep',
             'game' => 'deer',
@@ -10230,6 +10502,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Satala',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -10250,6 +10523,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Baiburt',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -10270,6 +10544,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Sareisa',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -10289,6 +10564,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Pityus',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'game' => 'pheasant',
@@ -10309,6 +10585,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Dioscurias',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'game' => 'pheasant',
@@ -10330,6 +10607,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Phasis',
             'climate' => 'pontic',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'fish' => 'sturgeon',
             'game' => 'pheasant',
@@ -10353,6 +10631,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Armazi',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'game' => 'pheasant',
             'fruit' => 'pomegranates',
@@ -10501,7 +10780,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Ecbatana',
             'climate' => 'desert oasis',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'pig' => 'pig',
             'poultry' => 'chicken',
@@ -11607,6 +11886,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Samosata',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -11628,6 +11908,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Zeugma',
             'population' => '5000',
             'climate' => 'continental',
+            'pack' => 'donkey',
             'wool' => 'sheep',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -11647,6 +11928,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Arsamosata',
             'climate' => 'continental',
+            'pack' => 'dog',
             'wool' => 'goat',
             'game' => 'deer',
             'fruit' => 'pomegranates',
@@ -12711,7 +12993,7 @@ class TownsSeeder extends Seeder
             'town_name' => 'Mocha',
             'population' => '2000',
             'climate' => 'desert oasis',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'fish' => 'mackerel',
             'game' => 'deer',
@@ -12731,7 +13013,7 @@ class TownsSeeder extends Seeder
 		DB::table('towns')->insert([
             'town_name' => 'Marib',
             'climate' => 'desert oasis',
-            'pack' => 'camel',
+            'pack' => 'donkey',
             'wool' => 'goat',
             'game' => 'deer',
             'fruit' => 'dates',

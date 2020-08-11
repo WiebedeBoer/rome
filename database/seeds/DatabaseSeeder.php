@@ -39,6 +39,10 @@ class DatabaseSeeder extends Seeder
         $this->call('TownsSeeder');
         //capitals
         $this->call('CapitalSeeder');
+        //roads
+        $this->call('RoadSeeder');
+        //milestones
+        $this->call('MilestoneSeeder');
     }
 }
 
@@ -71,9 +75,19 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('to')->references('sea_id')->on('seas');
             $table->foreign('from')->references('sea_id')->on('seas');
         });
+        Schema::table('milestones', function (Blueprint $table) {
+            $table->foreign('road')->references('road_id')->on('roads');
+            $table->foreign('town')->references('town_id')->on('towns');
+        });	
+        //agricultural organization
+		Schema::table('villas', function (Blueprint $table) {
+            $table->foreign('owner')->references('person_id')->on('people');
+            $table->foreign('town')->references('town_id')->on('towns');
+        });	
         //people
 		Schema::table('people', function (Blueprint $table) {
             $table->foreign('owner')->references('id')->on('users');
+            $table->foreign('location')->references('town_id')->on('towns');
         });	
         Schema::table('spouses', function (Blueprint $table) {
             $table->foreign('husband')->references('person_id')->on('people');

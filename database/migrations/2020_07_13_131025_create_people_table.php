@@ -27,10 +27,18 @@ class CreatePeopleTable extends Migration
             $table->integer('kt')->default(1);
 			//money
             $table->integer('money')->default(0);
+            $table->integer('salary')->default(0);
+            //stats
+            $table->integer('health')->default(100);
+            $table->integer('pleasure')->default(100);
+            $table->integer('morale')->default(100);
+            $table->integer('piety')->default(100);
+            $table->integer('renown')->default(0);
             //biography
 			$table->text('bio')->nullable();
 			//fk
             $table->unsignedBigInteger('owner')->nullable();
+            $table->unsignedBigInteger('location')->nullable();
             //timestamps
             $table->timestamps();
         });

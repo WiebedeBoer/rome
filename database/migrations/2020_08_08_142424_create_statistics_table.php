@@ -36,7 +36,29 @@ class CreateStatisticsTable extends Migration
 			$table->integer('rid')->default(0);
 			$table->integer('sai')->default(0);
 			$table->integer('rai')->default(0);
-			$table->integer('tra')->default(0);				
+			$table->integer('tra')->default(0);	
+			//development xp
+			$table->integer('jud_xp')->default(0);
+			$table->integer('eng_xp')->default(0);
+			$table->integer('com_xp')->default(0);
+			$table->integer('agr_xp')->default(0);
+			//management xp
+			$table->integer('tac_xp')->default(0);
+			$table->integer('lea_xp')->default(0);
+			$table->integer('cha_xp')->default(0);
+			//combat xp
+			$table->integer('bra_xp')->default(0);
+			$table->integer('str_xp')->default(0);
+			$table->integer('agi_xp')->default(0);
+			//weapon xp
+			$table->integer('pol_xp')->default(0);
+			$table->integer('swo_xp')->default(0);
+			$table->integer('arc_xp')->default(0);
+			//logistical xp
+			$table->integer('rid_xp')->default(0);
+			$table->integer('sai_xp')->default(0);
+			$table->integer('rai_xp')->default(0);
+			$table->integer('tra_xp')->default(0);				
 			//fk
 			$table->unsignedBigInteger('person')->nullable();
 			//timestamps

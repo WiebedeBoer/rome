@@ -21,7 +21,7 @@ class CreateTownsTable extends Migration
             //climate
             $table->string('climate')->default('mediterranean'); //223 mediterranean, 74 oceanic, 42 pontic, 81 continental, 25 alpine, 14 hot steppe, 37 cold steppe,  72 desert oasis,  36 desert wetland
             //animals
-            $table->string('pack')->default('none'); //105 horse, 114 camel, oxen, donkey
+            $table->string('pack')->default('none'); //105 horse, 114 camel, oxen, donkey, dog
             $table->string('cattle')->default('none'); //162 cattle
             $table->string('wool')->default('none'); //238 sheep, 118 goat
             $table->string('pig')->default('none'); //307 pig
@@ -54,7 +54,7 @@ class CreateTownsTable extends Migration
             $table->string('fabric')->default('none'); //36 silk
             $table->string('scent')->default('none'); //30 incense, 8 cedar
             $table->string('chattel')->default('none'); //13 slave
-			//stats
+			//statistics
 			$table->integer('defenses')->default(10); //1 - 999, ruin 1, oppida 100, castra 300, city wall 600
 			$table->integer('justice')->default(900); //1 - 999
 			$table->integer('commerce')->default(10); //1 - 999
@@ -75,7 +75,15 @@ class CreateTownsTable extends Migration
 			//soldiers
 			$table->integer('guards')->default(1);
 			//stored resources
-			$table->integer('stored_food')->default(30000);
+            $table->integer('stored_food')->default(10000);
+            $table->integer('stored_horses')->default(0);
+            $table->integer('stored_bows')->default(0);
+            $table->integer('stored_spears')->default(0);
+            $table->integer('stored_swords')->default(0);
+            $table->integer('stored_armor')->default(0);
+            $table->integer('stored_books')->default(0);
+            //rebel status
+            $table->string('rebel_status')->default('loyal');
 			//location
 			$table->integer('xcoord');
             $table->integer('ycoord');
