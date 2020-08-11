@@ -132,7 +132,7 @@ class TownController extends Controller
             $town->god_arts = $religion[0]->arts;
             $town->god_sea = $religion[0]->sea;
             $town->god_healing = $religion[0]->healing;
-            
+            $town->god_hunting = $religion[0]->hunting;
         }       
 
         //return view

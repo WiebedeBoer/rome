@@ -28,6 +28,10 @@ Game
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (pheasant)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(38,83,92)" stroke="black" stroke-width="4" /></a>
 			</g>
+		@elseif($town->game =="duck")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (duck)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(27,79,166)" stroke="black" stroke-width="4" /></a>
+			</g>
         @elseif($town->game =="elephant")
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (elephant)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(108,105,88)" stroke="cyan" stroke-width="4" /></a>
@@ -35,6 +39,10 @@ Game
 		@elseif($town->game =="lion")
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (lion)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(205,138,57)" stroke="red" stroke-width="4" /></a>
+			</g>
+		@elseif($town->game =="bear")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (bear)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(76,56,55)" stroke="red" stroke-width="4" /></a>
 			</g>
 		@else
 		    <g z-index="2">

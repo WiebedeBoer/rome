@@ -12,9 +12,29 @@ Game
 	</g>
 
 	@foreach($towns as $town) 
-		@if($town->fish =="fish")
+		@if($town->fish =="mackerel")
 		    <g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (fish)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(75,89,109)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fish}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(176,214,211)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fish =="sturgeon")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fish}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(117,92,73)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fish =="anchovy")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fish}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(116,216,240)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fish =="sardine")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fish}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(34,51,65)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fish =="tuna")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fish}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(215,184,102)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->fish =="herring")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fish}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(138,155,191)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
 		    <g z-index="2">

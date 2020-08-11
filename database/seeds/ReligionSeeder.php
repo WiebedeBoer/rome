@@ -22,6 +22,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Kothar',
             'sea' => 'Yam',
             'healing' => 'Eshmun',
+            'hunting' => 'Ninurta',
             'state_gender' => 'male',
             'agriculture_gender' => 'male',
             'war_gender' => 'female',
@@ -29,7 +30,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'male',
             'sea_gender' => 'male',
-            'healing_gender' => 'male'
+            'healing_gender' => 'male',
+            'hunting_gender' => 'male'
         ]);
         //2
         DB::table('religions')->insert([
@@ -42,6 +44,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Belisama',
             'sea' => 'Lir',
             'healing' => 'Sirona',
+            'hunting' => 'Cernunnos',
             'state_gender' => 'male',
             'agriculture_gender' => 'female',
             'war_gender' => 'male',
@@ -49,7 +52,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'female',
             'sea_gender' => 'male',
-            'healing_gender' => 'female'
+            'healing_gender' => 'female',
+            'hunting_gender' => 'male'
         ]);
         //3
         DB::table('religions')->insert([
@@ -62,6 +66,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Athena',
             'sea' => 'Poseidon',
             'healing' => 'Asclepius',
+            'hunting' => 'Artemis',
             'state_gender' => 'male',
             'agriculture_gender' => 'female',
             'war_gender' => 'male',
@@ -69,7 +74,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'female',
             'sea_gender' => 'male',
-            'healing_gender' => 'male'
+            'healing_gender' => 'male',
+            'hunting_gender' => 'female'
         ]);
         //4
         DB::table('religions')->insert([
@@ -82,6 +88,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Belisama',
             'sea' => 'Duberdicus',
             'healing' => 'Endovelicus',
+            'hunting' => 'Cernunnos',
             'state_gender' => 'male',
             'agriculture_gender' => 'female',
             'war_gender' => 'male',
@@ -89,7 +96,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'female',
             'sea_gender' => 'male',
-            'healing_gender' => 'male'
+            'healing_gender' => 'male',
+            'hunting_gender' => 'male'
         ]);
         //5
         DB::table('religions')->insert([
@@ -102,6 +110,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Isis',
             'sea' => 'Awessu',
             'healing' => 'Anqet',
+            'hunting' => 'Neith',
             'state_gender' => 'male',
             'agriculture_gender' => 'male',
             'war_gender' => 'female',
@@ -109,7 +118,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'female',
             'arts_gender' => 'female',
             'sea_gender' => 'male',
-            'healing_gender' => 'female'
+            'healing_gender' => 'female',
+            'hunting_gender' => 'female'
         ]);
         //6
         DB::table('religions')->insert([
@@ -122,6 +132,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Niorun',
             'sea' => 'Aegir',
             'healing' => 'Eir',
+            'hunting' => 'Wodan',
             'state_gender' => 'male',
             'agriculture_gender' => 'female',
             'war_gender' => 'male',
@@ -129,7 +140,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'male',
             'sea_gender' => 'male',
-            'healing_gender' => 'female'
+            'healing_gender' => 'female',
+            'hunting_gender' => 'male'
         ]);
         //7
         DB::table('religions')->insert([
@@ -142,6 +154,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Minerva',
             'sea' => 'Neptunus',
             'healing' => 'Asclepius',
+            'hunting' => 'Diana',
             'state_gender' => 'male',
             'agriculture_gender' => 'female',
             'war_gender' => 'male',
@@ -149,7 +162,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'female',
             'sea_gender' => 'male',
-            'healing_gender' => 'male'
+            'healing_gender' => 'male',
+            'hunting_gender' => 'female'
         ]);
         //8
         DB::table('religions')->insert([
@@ -162,6 +176,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Tabiti',
             'sea' => 'Thagimasidas',
             'healing' => 'Oitosyros',
+            'hunting' => 'Api',
             'state_gender' => 'male',
             'agriculture_gender' => 'female',
             'war_gender' => 'male',
@@ -169,7 +184,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'female',
             'sea_gender' => 'male',
-            'healing_gender' => 'male'
+            'healing_gender' => 'male',
+            'hunting_gender' => 'female'
         ]);
         //9
         DB::table('religions')->insert([
@@ -182,6 +198,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Hecate',
             'sea' => 'Bindus',
             'healing' => 'Derzelas',
+            'hunting' => 'Bendis',
             'state_gender' => 'male',
             'agriculture_gender' => 'female',
             'war_gender' => 'male',
@@ -189,7 +206,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'female',
             'sea_gender' => 'male',
-            'healing_gender' => 'male'
+            'healing_gender' => 'male',
+            'hunting_gender' => 'female'
         ]);
         //10
         DB::table('religions')->insert([
@@ -202,6 +220,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Hormazd',
             'sea' => 'Hormazd',
             'healing' => 'Hormazd',
+            'hunting' => 'Hormazd',
             'state_gender' => 'male',
             'agriculture_gender' => 'male',
             'war_gender' => 'male',
@@ -209,7 +228,8 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'male',
             'sea_gender' => 'male',
-            'healing_gender' => 'male'
+            'healing_gender' => 'male',
+            'hunting_gender' => 'male'
         ]);
         //11
         DB::table('religions')->insert([
@@ -222,6 +242,7 @@ class ReligionSeeder extends Seeder
             'arts' => 'Yahweh',
             'sea' => 'Yahweh',
             'healing' => 'Yahweh',
+            'hunting' => 'Yahweh',
             'state_gender' => 'male',
             'agriculture_gender' => 'male',
             'war_gender' => 'male',
@@ -229,7 +250,30 @@ class ReligionSeeder extends Seeder
             'commerce_gender' => 'male',
             'arts_gender' => 'male',
             'sea_gender' => 'male',
-            'healing_gender' => 'male'
+            'healing_gender' => 'male',
+            'hunting_gender' => 'male'
+        ]);
+        //12
+        DB::table('religions')->insert([
+            'religion_name' => 'Georgian Polytheism',
+            'state' => 'Armazi',
+            'agriculture' => 'Tevdore',
+            'war' => 'Kopala',
+            'love' => 'Samdzimari',
+            'commerce' => 'Zaden',
+            'arts' => 'Lamaria',
+            'sea' => 'Leucothenia',
+            'healing' => 'Barbale',
+            'hunting' => 'Dali',
+            'state_gender' => 'male',
+            'agriculture_gender' => 'male',
+            'war_gender' => 'male',
+            'love_gender' => 'female',
+            'commerce_gender' => 'male',
+            'arts_gender' => 'female',
+            'sea_gender' => 'female',
+            'healing_gender' => 'female',
+            'hunting_gender' => 'female'
         ]);
     }
 }

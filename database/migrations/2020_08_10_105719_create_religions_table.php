@@ -25,6 +25,7 @@ class CreateReligionsTable extends Migration
 			$table->string('arts');
             $table->string('sea');
             $table->string('healing');
+            $table->string('hunting');
             //gods gender
 			$table->string('state_gender');
 			$table->string('agriculture_gender');
@@ -34,6 +35,7 @@ class CreateReligionsTable extends Migration
 			$table->string('arts_gender');
             $table->string('sea_gender');
             $table->string('healing_gender');
+            $table->string('hunting_gender');
 			//timestamps
             $table->timestamps();
         });

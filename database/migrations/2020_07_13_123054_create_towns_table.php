@@ -8,7 +8,7 @@ class CreateTownsTable extends Migration
 {
     /**
      * Run the migrations.
-     *
+     *mackerel (red sea), sturgeon (black sea), (sea of marmara), anchovy (aegean sea),  (levantine sea), tuna (libyan sea), (ionian sea), sardine  (adriatic sea), (tyrrhenian sea), (ligurian sea), (belearic sea), (mediterranean sea), (alboran sea), (atlantic ocean), (bay of biscay), herring (channel), (north sea), (irish sea)
      * @return void
      */
     public function up()
@@ -25,12 +25,12 @@ class CreateTownsTable extends Migration
             $table->string('cattle')->default('none'); //162 cattle
             $table->string('wool')->default('none'); //238 sheep, 118 goat
             $table->string('pig')->default('none'); //307 pig
-            $table->string('fish')->default('none'); //174 fish
+            $table->string('fish')->default('none'); // mackerel, sturgeon, anchovy, tuna, sardine, herring
             $table->string('poultry')->default('none'); //275 chicken, 13 duck
             $table->string('rabbit')->default('none'); //55 rabbit
-            $table->string('game')->default('none'); //245 boar, 259 deer, 82 hare, 8 pheasant, 8 elephant, lion
+            $table->string('game')->default('none'); //245 boar, 259 deer, 82 hare, 8 pheasant, 8 elephant, 7 lion, bear, duck
             //crops
-            $table->string('fruit')->default('none'); //fruit, figs, 118 dates, 33 pomegranates, grapes, olives, apples, pears, quinces, plums, cherries, currants
+            $table->string('fruit')->default('none'); //147 figs, 119 dates, 33 pomegranates, 72 grapes, 25 olives, 175 apples, 31 quinces
             $table->string('grain')->default('none'); //53 durum, 224 barley, 39 rye, 85 oats, 29 einkorn, 12 spelt, 160 emmer
             $table->string('vine')->default('none'); //389 grapes
             $table->string('sweetener')->default('none'); //86 honey
@@ -53,22 +53,22 @@ class CreateTownsTable extends Migration
             $table->string('spice')->default('none'); //28 spice, 5 saffron, 2 silphium
             $table->string('fabric')->default('none'); //36 silk
             $table->string('scent')->default('none'); //30 incense, 8 cedar
-            $table->string('chattel')->default('none'); //3 slave
+            $table->string('chattel')->default('none'); //13 slave
 			//stats
 			$table->integer('defenses')->default(10); //1 - 999, ruin 1, oppida 100, castra 300, city wall 600
 			$table->integer('justice')->default(900); //1 - 999
 			$table->integer('commerce')->default(10); //1 - 999
             $table->integer('agriculture')->default(10); //1 - 999
             //religious buildings
-            $table->string('templum')->default('none'); //state, agriculture, war, love, commerce, arts, sea, healing
+            $table->string('templum')->default('none'); //11 state, 6 agriculture, 2 war, 4 love, 3 commerce, 8 arts, 3 sea, 6 healing, 4 hunting
             //health buildings
-            $table->string('thermae')->default('none'); //thermae
+            $table->string('thermae')->default('none'); //27 thermae
             //education buildings
-            $table->string('bibliotheca')->default('none'); //bibliotheca
+            $table->string('bibliotheca')->default('none'); //7 bibliotheca
             //entertainment buildings
-            $table->string('theatrum')->default('none'); //theatrum
-            $table->string('amphitheatrum')->default('none'); //amphitheatrum
-            $table->string('stadium')->default('none'); //stadium
+            $table->string('theatrum')->default('none'); //18 theatrum
+            $table->string('amphitheatrum')->default('none'); //11 amphitheatrum
+            $table->string('stadium')->default('none'); //23 stadium
 			//army stats
 			$table->integer('morale')->default(100);
 			$table->integer('training')->default(100);

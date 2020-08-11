@@ -18,7 +18,7 @@ Game
 			</g>
         @elseif($town->templum =="agriculture")
 		    <g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (temple of {{$town->god_agriculture}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb()" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (temple of {{$town->god_agriculture}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(92,32,0)" stroke="black" stroke-width="4" /></a>
 			</g>
         @elseif($town->templum =="war")
 		    <g z-index="2">
@@ -43,6 +43,10 @@ Game
         @elseif($town->templum =="healing")
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (temple of {{$town->god_healing}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,192,0)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->templum =="hunting")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (temple of {{$town->god_hunting}})</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,92,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
 		    <g z-index="2">
