@@ -17,6 +17,8 @@ use App\Town;
 use App\Landconnection;
 use App\Sea;
 use App\Seaconnection;
+use App\Road;
+use App\Milestone;
 
 class TownController extends Controller
 {
@@ -255,6 +257,50 @@ class TownController extends Controller
 
         //return view
         return view('towns.maparchitecture', compact('towns'));	   
+    }
+
+	//map view
+    public function maproad()
+    {            
+        //towns
+        $towns = Town::all();
+        foreach($towns as $town)
+        {
+            $town->milestone_count = Milestone::where('town', $town->town_id)->count();
+        }
+
+        //roads
+        $roads = Road::all();
+        foreach($roads as $road)
+        {
+            $road->via = $road->road_id;
+            $road->milestone_count = Milestone::with('towns')->where('road', $road->via)->count();
+            if ($road->milestone_count >=1){
+                $road->milestones = Milestone::with('towns')->where('road', $road->via)->get();
+                foreach($road->milestones as $milestone)
+                {
+                    $milestone->marker = $milestone->milestone;
+                    $milestone->xco = $milestone->towns->xcoord;
+                    $milestone->yco = $milestone->towns->ycoord;
+                    
+                    if($milestone->marker > 1 && $milestone->marker <= $road->milestone_count){
+                        $milestone_section = $milestone->milestone - 1;
+                        $prevmarker = Milestone::with('towns')->where('road', $road->via)->where('milestone', $milestone_section)->get();
+                        $milestone->xpre = $prevmarker[0]->towns->xcoord;
+                        $milestone->ypre = $prevmarker[0]->towns->ycoord;
+                    }
+                    else {                  
+                        $milestone->section = 0;
+                        $milestone->xpre = 0;
+                        $milestone->ypre = 0;
+                    }     
+                } 
+            }
+ 
+        }       
+        
+        //return view
+        return view('towns.maproad', compact('towns','roads'));	   
     }
 
 	//map view

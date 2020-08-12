@@ -66,6 +66,7 @@ Route::patch('towns/{towns}', 'TownController@update');
 Route::get('mappopulation','TownController@mappopulation');
 Route::get('mapculture','TownController@mapculture');
 Route::get('mapclimate','TownController@mapclimate');
+Route::get('maproad','TownController@maproad');
 Route::get('maparchitecture','TownController@maparchitecture');
 //buildings maps
 Route::get('maptemple','TownController@maptemple');
