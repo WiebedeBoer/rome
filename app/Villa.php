@@ -20,4 +20,10 @@ class Villa extends Model
     {
         return $this->belongsTo('App\Person','owner');
     } 
+
+    //sales
+    public function sales()
+    {
+        return $this->hasMany('App\Sale','sale_id');
+    }
 }

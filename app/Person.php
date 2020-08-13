@@ -100,4 +100,10 @@ class Person extends Model
         return $this->hasMany('App\Villa','villa_id');
     }
 
+    //equipment
+    public function equipment()
+    {
+        return $this->hasMany('App\Equipment','equipment_id');
+    }
+
 }

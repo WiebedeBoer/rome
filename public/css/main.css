@@ -28,14 +28,12 @@ body.news-cards,body.manual-cards {
 }
 
 /*main welcome*/
-
 .main-welcome {
-	background-image: url("../img/medieval_castle.png");
+	background-image: url("../img/main_scene.gif");
 	background-position: center; 
     background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 760px 360px;
 }
-
 .main-links > a {
     color: #636b6f;
     padding: 0 25px;

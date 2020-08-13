@@ -37,25 +37,25 @@ class PersonController extends Controller
 	//edit form
     public function edit($id)
     {       
-       
+        return view('persons.edit'); 
     }
 	
 	//create form
     public function create()
     {       
-       
+        return view('persons.create'); 
     }
 	
     //update function
     public function update(Request $request, $id)
     {
-
+        return view('persons.edit'); 
     }
 	
     //store function
     public function store()
     {
-			
+        return view('persons.index'); 
 	}
 	
     //delete function

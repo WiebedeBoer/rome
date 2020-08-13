@@ -57,11 +57,23 @@ Route::get('forum/war','ForumController@war');
 //gameplay
 //chronicles
 Route::get('chronicles', 'ChronicleController@index');
+
+//territorial organization
+//realms
+Route::get('realms', 'RealmController@index');
+Route::get('realms/create','RealmController@create');
+Route::post('realms','RealmController@store');
+Route::get('realms/{realms}', 'RealmController@show');
+Route::get('realms/{realms}/edit', 'RealmController@edit');
+Route::delete('realms/{realms}', 'RealmController@destroy');
+Route::patch('realms/{realms}', 'RealmController@update');
 //towns
 Route::get('towns', 'TownController@index');
 Route::get('towns/{towns}', 'TownController@show');
 Route::get('towns/{towns}/edit', 'TownController@edit');
 Route::patch('towns/{towns}', 'TownController@update');
+
+//maps
 //town maps
 Route::get('mappopulation','TownController@mappopulation');
 Route::get('mapculture','TownController@mapculture');
@@ -111,6 +123,15 @@ Route::get('mapincense','TownController@mapincense');
 Route::get('mapivory','TownController@mapivory');
 //maps slavery
 Route::get('mapslave','TownController@mapslave');
+//maps military
+Route::get('maparmy','TownController@maparmy');
+//maps towns stats
+Route::get('mapdefenses','TownController@mapdefenses');
+Route::get('mapjustice','TownController@mapjustice');
+Route::get('mapagriculture','TownController@mapagriculture');
+Route::get('mapcommerce','TownController@mapcommerce');
+
+//people
 //persons
 Route::get('persons', 'PersonController@index');
 Route::get('persons/create','PersonController@create');
@@ -119,11 +140,57 @@ Route::get('persons/{person}', 'PersonController@show');
 Route::get('persons/{person}/edit', 'PersonController@edit');
 Route::delete('persons/{person}', 'PersonController@destroy');
 Route::patch('persons/{person}', 'PersonController@update');
-//realms
-Route::get('realms', 'RealmController@index');
-Route::get('realms/create','RealmController@create');
-Route::post('realms','RealmController@store');
-Route::get('realms/{realms}', 'RealmController@show');
-Route::get('realms/{realms}/edit', 'RealmController@edit');
-Route::delete('realms/{realms}', 'RealmController@destroy');
-Route::patch('realms/{realms}', 'RealmController@update');
+
+//agricultural organization
+//villas
+Route::get('villas', 'VillaController@index');
+Route::get('villas/create','VillaController@create');
+Route::post('villas','VillaController@store');
+Route::get('villas/{villas}', 'VillaController@show');
+Route::get('villas/{villas}/edit', 'VillaController@edit');
+Route::delete('villas/{villas}', 'VillaController@destroy');
+Route::patch('villas/{villas}', 'VillaController@update');
+//workshops
+Route::get('workshops', 'WorkshopController@index');
+Route::get('workshops/create','WorkshopController@create');
+Route::post('workshops','WorkshopController@store');
+Route::get('workshops/{workshops}', 'WorkshopController@show');
+Route::get('workshops/{workshops}/edit', 'WorkshopController@edit');
+Route::delete('workshops/{workshops}', 'WorkshopController@destroy');
+Route::patch('workshops/{workshops}', 'WorkshopController@update');
+
+//trade
+//trade
+Route::get('trade', 'TradeController@index');
+Route::get('trade/create','TradeController@create');
+Route::post('trade','TradeController@store');
+Route::get('trade/{trade}', 'TradeController@show');
+Route::get('trade/{trade}/edit', 'TradeController@edit');
+Route::delete('trade/{trade}', 'TradeController@destroy');
+Route::patch('trade/{trade}', 'TradeController@update');
+//caravans
+Route::get('caravans', 'CaravanController@index');
+Route::get('caravans/create','CaravanController@create');
+Route::post('caravans','CaravanController@store');
+Route::get('caravans/{caravans}', 'CaravanController@show');
+Route::get('caravans/{caravans}/edit', 'CaravanController@edit');
+Route::delete('caravans/{caravans}', 'CaravanController@destroy');
+Route::patch('caravans/{caravans}', 'CaravanController@update');
+
+//military
+//armies
+Route::get('armies', 'ArmyController@index');
+Route::get('armies/create','ArmyController@create');
+Route::post('armies','ArmyController@store');
+Route::get('armies/{armies}', 'ArmyController@show');
+Route::get('armies/{armies}/edit', 'ArmyController@edit');
+Route::delete('armies/{armies}', 'ArmyController@destroy');
+Route::patch('armies/{armies}', 'ArmyController@update');
+//battles
+Route::get('battles', 'BattleController@index');
+Route::get('battles/create','BattleController@create');
+Route::post('battles','BattleController@store');
+Route::get('battles/{battles}', 'BattleController@show');
+Route::get('battles/{battles}/edit', 'BattleController@edit');
+Route::delete('battles/{battles}', 'BattleController@destroy');
+Route::patch('battles/{battles}', 'BattleController@update');

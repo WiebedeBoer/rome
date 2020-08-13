@@ -75,12 +75,28 @@ class CreateTownsTable extends Migration
 			//soldiers
 			$table->integer('guards')->default(1);
 			//stored resources
-            $table->integer('stored_food')->default(10000);
+            //stored foodstuff
+            $table->integer('stored_meat')->default(0); 
+            $table->integer('stored_cheese')->default(0); 
+            $table->integer('stored_fish')->default(0); 
+            $table->integer('stored_vegetables')->default(10000);  
+            $table->integer('stored_fruit')->default(10000); 
+            $table->integer('stored_bread')->default(10000); 
+            //stored animals
             $table->integer('stored_horses')->default(0);
+            $table->integer('stored_camels')->default(0);
+            $table->integer('stored_dogs')->default(0);
+            $table->integer('stored_donkeys')->default(0);
+            $table->integer('stored_oxen')->default(0);
+            //stored weapons
             $table->integer('stored_bows')->default(0);
             $table->integer('stored_spears')->default(0);
             $table->integer('stored_swords')->default(0);
-            $table->integer('stored_armor')->default(0);
+            //stored armor
+            $table->integer('stored_leather_armor')->default(0);
+            $table->integer('stored_mail_armor')->default(0);
+            $table->integer('stored_plate_armor')->default(0);
+            //stored books
             $table->integer('stored_books')->default(0);
             //rebel status
             $table->string('rebel_status')->default('loyal');

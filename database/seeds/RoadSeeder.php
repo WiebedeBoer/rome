@@ -179,6 +179,26 @@ class RoadSeeder extends Seeder
         DB::table('roads')->insert([
             'road_name' => 'Via Strata'
         ]);
+        //43
+        DB::table('roads')->insert([
+            'road_name' => 'Via Militaris'
+        ]); 
+        //44
+        DB::table('roads')->insert([
+            'road_name' => 'Via Diagonalis'
+        ]); 
+        //45
+        DB::table('roads')->insert([
+            'road_name' => 'Via Tiburtina'
+        ]); 
+        //46
+        DB::table('roads')->insert([
+            'road_name' => 'Via Syrica'
+        ]); 
+        //47
+        DB::table('roads')->insert([
+            'road_name' => 'Via Tiberia'
+        ]); 
 
     }
 }
@@ -339,7 +359,7 @@ class MilestoneSeeder extends Seeder
             'town' => '359'
         ]);
 
-        //Via Popilia, 17
+        //Via Popilia, 18
         //Rhegium
         DB::table('milestones')->insert([
             'milestone' => '1',
@@ -424,26 +444,32 @@ class MilestoneSeeder extends Seeder
             'road' => '3',
             'town' => '50'
         ]);
-        //Telo Martius
+        //Cemelenum
         DB::table('milestones')->insert([
             'milestone' => '15',
+            'road' => '3',
+            'town' => '82'
+        ]);
+        //Telo Martius
+        DB::table('milestones')->insert([
+            'milestone' => '16',
             'road' => '3',
             'town' => '89'
         ]);
         //Massilia
         DB::table('milestones')->insert([
-            'milestone' => '16',
+            'milestone' => '17',
             'road' => '3',
             'town' => '90'
         ]);
         //Arelate
         DB::table('milestones')->insert([
-            'milestone' => '17',
+            'milestone' => '18',
             'road' => '3',
             'town' => '91'
         ]);
 
-        //Via Cassia, 5
+        //Via Cassia, 6
         //Roma
         DB::table('milestones')->insert([
             'milestone' => '1',
@@ -455,19 +481,26 @@ class MilestoneSeeder extends Seeder
             'road' => '4',
             'town' => '25'
         ]);
+        //Arretium
         DB::table('milestones')->insert([
             'milestone' => '3',
             'road' => '4',
             'town' => '30'
         ]);
+        //Saena
         DB::table('milestones')->insert([
             'milestone' => '4',
+            'road' => '4',
+            'town' => '31'
+        ]);
+        DB::table('milestones')->insert([
+            'milestone' => '5',
             'road' => '4',
             'town' => '33'
         ]);
         //Luna
         DB::table('milestones')->insert([
-            'milestone' => '5',
+            'milestone' => '6',
             'road' => '4',
             'town' => '34'
         ]);
@@ -818,11 +851,13 @@ class MilestoneSeeder extends Seeder
             'road' => '12',
             'town' => '62'
         ]);
+        //Veldidena
         DB::table('milestones')->insert([
             'milestone' => '7',
             'road' => '12',
             'town' => '64'
         ]);
+        //Vindelicorum
         DB::table('milestones')->insert([
             'milestone' => '8',
             'road' => '12',
@@ -845,7 +880,7 @@ class MilestoneSeeder extends Seeder
             'town' => '56'
         ]);
 
-        //Via Flavia, 19
+        //Via Flavia, 22
         //Aquileia
         DB::table('milestones')->insert([
             'milestone' => '1',
@@ -940,10 +975,27 @@ class MilestoneSeeder extends Seeder
             'road' => '13',
             'town' => '315'
         ]);
+        //Patrae
         DB::table('milestones')->insert([
             'milestone' => '19',
             'road' => '13',
             'town' => '313'
+        ]);
+        DB::table('milestones')->insert([
+            'milestone' => '20',
+            'road' => '13',
+            'town' => '312'
+        ]);
+        DB::table('milestones')->insert([
+            'milestone' => '21',
+            'road' => '13',
+            'town' => '311'
+        ]);
+        //Sparta
+        DB::table('milestones')->insert([
+            'milestone' => '22',
+            'road' => '13',
+            'town' => '308'
         ]);
 
         //Via Graeca, 17
@@ -1163,7 +1215,7 @@ class MilestoneSeeder extends Seeder
             'town' => '69'
         ]);
 
-        //Via Carpata, 8
+        //Via Carpata, 11
         //Philippopolis
         DB::table('milestones')->insert([
             'milestone' => '1',
@@ -1191,23 +1243,40 @@ class MilestoneSeeder extends Seeder
             'road' => '17',
             'town' => '383'
         ]);
-        //Apulum
         DB::table('milestones')->insert([
             'milestone' => '6',
+            'road' => '17',
+            'town' => '384'
+        ]);
+        //Apulum
+        DB::table('milestones')->insert([
+            'milestone' => '7',
             'road' => '17',
             'town' => '374'
         ]);
         //Napoca
         DB::table('milestones')->insert([
-            'milestone' => '7',
+            'milestone' => '8',
             'road' => '17',
             'town' => '388'
         ]);
         //Porolissum
         DB::table('milestones')->insert([
-            'milestone' => '8',
+            'milestone' => '9',
             'road' => '17',
             'town' => '387'
+        ]);
+        //Partiscum
+        DB::table('milestones')->insert([
+            'milestone' => '10',
+            'road' => '17',
+            'town' => '373'
+        ]);
+        //Sopianae
+        DB::table('milestones')->insert([
+            'milestone' => '11',
+            'road' => '17',
+            'town' => '372'
         ]);
 
         //Via Aurelia, 24
@@ -1465,7 +1534,7 @@ class MilestoneSeeder extends Seeder
             'town' => '143'
         ]);
 
-        //Via Gallica, 5
+        //Via Gallica, 7
         //Portus Namnetus
         DB::table('milestones')->insert([
             'milestone' => '1',
@@ -1495,6 +1564,18 @@ class MilestoneSeeder extends Seeder
             'milestone' => '5',
             'road' => '21',
             'town' => '101'
+        ]);
+        //Vesontio
+        DB::table('milestones')->insert([
+            'milestone' => '6',
+            'road' => '21',
+            'town' => '86'
+        ]);
+        //Andematunum
+        DB::table('milestones')->insert([
+            'milestone' => '7',
+            'road' => '21',
+            'town' => '104'
         ]);
 
         //Via Agrippa, 11
@@ -1707,7 +1788,7 @@ class MilestoneSeeder extends Seeder
             'town' => '188'
         ]);
 
-        //Via Domitiana, 4
+        //Via Domitiana, 6
         //Byzantium
         DB::table('milestones')->insert([
             'milestone' => '1',
@@ -1729,6 +1810,17 @@ class MilestoneSeeder extends Seeder
             'milestone' => '4',
             'road' => '26',
             'town' => '343'
+        ]);
+        DB::table('milestones')->insert([
+            'milestone' => '5',
+            'road' => '26',
+            'town' => '344'
+        ]);
+        //Oescus
+        DB::table('milestones')->insert([
+            'milestone' => '6',
+            'road' => '26',
+            'town' => '386'
         ]);
 
         //Via Delapidata
@@ -1864,135 +1956,141 @@ class MilestoneSeeder extends Seeder
             'town' => '226'
         ]);
 
-        //Via Claudia, 24
-        //Sala
+        //Via Claudia, 25
+        //Volubilis
         DB::table('milestones')->insert([
             'milestone' => '1',
+            'road' => '30',
+            'town' => '237'
+        ]);
+        //Sala
+        DB::table('milestones')->insert([
+            'milestone' => '2',
             'road' => '30',
             'town' => '236'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '2',
+            'milestone' => '3',
             'road' => '30',
             'town' => '235'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '3',
+            'milestone' => '4',
             'road' => '30',
             'town' => '234'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '4',
+            'milestone' => '5',
             'road' => '30',
             'town' => '233'
         ]);
         //Russadir
         DB::table('milestones')->insert([
-            'milestone' => '5',
+            'milestone' => '6',
             'road' => '30',
             'town' => '238'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '6',
+            'milestone' => '7',
             'road' => '30',
             'town' => '240'
         ]);
         //Cartenna
         DB::table('milestones')->insert([
-            'milestone' => '7',
+            'milestone' => '8',
             'road' => '30',
             'town' => '241'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '8',
+            'milestone' => '9',
             'road' => '30',
             'town' => '244'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '9',
+            'milestone' => '10',
             'road' => '30',
             'town' => '245'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '10',
+            'milestone' => '11',
             'road' => '30',
             'town' => '246'
         ]);
         //Russicada
         DB::table('milestones')->insert([
-            'milestone' => '11',
+            'milestone' => '12',
             'road' => '30',
             'town' => '248'
         ]);
         //Hippo Regius
         DB::table('milestones')->insert([
-            'milestone' => '12',
+            'milestone' => '13',
             'road' => '30',
             'town' => '249'
         ]);
         //Carthago
         DB::table('milestones')->insert([
-            'milestone' => '13',
+            'milestone' => '14',
             'road' => '30',
             'town' => '265'
         ]);
         //Hadrumetum
         DB::table('milestones')->insert([
-            'milestone' => '14',
+            'milestone' => '15',
             'road' => '30',
             'town' => '266'
         ]);
         //Tacape
         DB::table('milestones')->insert([
-            'milestone' => '15',
+            'milestone' => '16',
             'road' => '30',
             'town' => '271'
         ]);
         //Sabrata
         DB::table('milestones')->insert([
-            'milestone' => '16',
+            'milestone' => '17',
             'road' => '30',
             'town' => '272'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '17',
+            'milestone' => '18',
             'road' => '30',
             'town' => '273'
         ]);
         //Leptis Magna
         DB::table('milestones')->insert([
-            'milestone' => '18',
+            'milestone' => '19',
             'road' => '30',
             'town' => '274'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '19',
+            'milestone' => '20',
             'road' => '30',
             'town' => '275'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '20',
+            'milestone' => '21',
             'road' => '30',
             'town' => '279'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '21',
+            'milestone' => '22',
             'road' => '30',
             'town' => '280'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '22',
+            'milestone' => '23',
             'road' => '30',
             'town' => '281'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '23',
+            'milestone' => '24',
             'road' => '30',
             'town' => '282'
         ]);
         //Alexandria
         DB::table('milestones')->insert([
-            'milestone' => '24',
+            'milestone' => '25',
             'road' => '30',
             'town' => '284'
         ]);
@@ -2379,49 +2477,71 @@ class MilestoneSeeder extends Seeder
             'town' => '288'
         ]);
 
-        //Via Valeria Nova, 8
-        //Nicaea
+        //Via Valeria Nova, 12
+        //Pergamum
         DB::table('milestones')->insert([
             'milestone' => '1',
+            'road' => '36',
+            'town' => '408'
+        ]);
+        //Cyzicus
+        DB::table('milestones')->insert([
+            'milestone' => '2',
+            'road' => '36',
+            'town' => '413'
+        ]);
+        DB::table('milestones')->insert([
+            'milestone' => '3',
+            'road' => '36',
+            'town' => '433'
+        ]);
+        DB::table('milestones')->insert([
+            'milestone' => '4',
+            'road' => '36',
+            'town' => '432'
+        ]);      
+        //Nicaea
+        DB::table('milestones')->insert([
+            'milestone' => '5',
             'road' => '36',
             'town' => '414'
         ]);
         //Nicomedia
         DB::table('milestones')->insert([
-            'milestone' => '2',
+            'milestone' => '6',
             'road' => '36',
             'town' => '415'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '3',
+            'milestone' => '7',
             'road' => '36',
             'town' => '417'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '4',
+            'milestone' => '8',
             'road' => '36',
             'town' => '418'
         ]);
         //Ancyra
         DB::table('milestones')->insert([
-            'milestone' => '5',
+            'milestone' => '9',
             'road' => '36',
             'town' => '443'
         ]);
         DB::table('milestones')->insert([
-            'milestone' => '6',
+            'milestone' => '10',
             'road' => '36',
             'town' => '449'
         ]);
         //Tyana
         DB::table('milestones')->insert([
-            'milestone' => '7',
+            'milestone' => '11',
             'road' => '36',
             'town' => '448'
         ]);
         //Tarsus
         DB::table('milestones')->insert([
-            'milestone' => '8',
+            'milestone' => '12',
             'road' => '36',
             'town' => '457'
         ]);
@@ -2647,27 +2767,33 @@ class MilestoneSeeder extends Seeder
             'town' => '440'
         ]);
 
-        //Via Baetica
+        //Via Baetica, 4
         //Gadeira
         DB::table('milestones')->insert([
             'milestone' => '1',
             'road' => '40',
             'town' => '204'
         ]);
-        //Malaca
+        //Abdera
         DB::table('milestones')->insert([
             'milestone' => '2',
             'road' => '40',
             'town' => '203'
         ]);
-        //Corduba
+        //Malaca
         DB::table('milestones')->insert([
             'milestone' => '3',
+            'road' => '40',
+            'town' => '202'
+        ]);
+        //Corduba
+        DB::table('milestones')->insert([
+            'milestone' => '4',
             'road' => '40',
             'town' => '209'
         ]);
 
-        //Via Flaminia
+        //Via Flaminia, 4
         //Corinthus
         DB::table('milestones')->insert([
             'milestone' => '1',
@@ -2693,7 +2819,7 @@ class MilestoneSeeder extends Seeder
             'town' => '309'
         ]);
 
-        //Via Strata
+        //Via Strata, 11
         //Portus Adurni
         DB::table('milestones')->insert([
             'milestone' => '1',
@@ -2728,11 +2854,150 @@ class MilestoneSeeder extends Seeder
             'road' => '42',
             'town' => '166'
         ]);
+        //Bremetancum
         DB::table('milestones')->insert([
             'milestone' => '7',
             'road' => '42',
             'town' => '176'
-        ]);      
+        ]);  
+        //Luguvallium
+        DB::table('milestones')->insert([
+            'milestone' => '8',
+            'road' => '42',
+            'town' => '177'
+        ]);  
+        //Habitancum
+        DB::table('milestones')->insert([
+            'milestone' => '9',
+            'road' => '42',
+            'town' => '178'
+        ]); 
+        DB::table('milestones')->insert([
+            'milestone' => '10',
+            'road' => '42',
+            'town' => '179'
+        ]);  
+        DB::table('milestones')->insert([
+            'milestone' => '11',
+            'road' => '42',
+            'town' => '180'
+        ]); 
+        
+        //Via Militaris, 4
+        //Ubiorum
+        DB::table('milestones')->insert([
+            'milestone' => '1',
+            'road' => '43',
+            'town' => '143'
+        ]);  
+        DB::table('milestones')->insert([
+            'milestone' => '2',
+            'road' => '43',
+            'town' => '140'
+        ]); 
+        DB::table('milestones')->insert([
+            'milestone' => '3',
+            'road' => '43',
+            'town' => '139'
+        ]);  
+        //Portus Batavorum
+        DB::table('milestones')->insert([
+            'milestone' => '4',
+            'road' => '43',
+            'town' => '141'
+        ]); 
 
+        //Via Diagonalis
+        //Poetovio
+        DB::table('milestones')->insert([
+            'milestone' => '1',
+            'road' => '44',
+            'town' => '364'
+        ]);  
+        DB::table('milestones')->insert([
+            'milestone' => '2',
+            'road' => '44',
+            'town' => '365'
+        ]); 
+        DB::table('milestones')->insert([
+            'milestone' => '3',
+            'road' => '44',
+            'town' => '366'
+        ]);  
+        //Marsonia 
+        DB::table('milestones')->insert([
+            'milestone' => '4',
+            'road' => '44',
+            'town' => '369'
+        ]); 
+
+        //Via Tiburtina, 3
+        //Roma
+        DB::table('milestones')->insert([
+            'milestone' => '1',
+            'road' => '45',
+            'town' => '1'
+        ]);
+        //Marruvium  
+        DB::table('milestones')->insert([
+            'milestone' => '2',
+            'road' => '45',
+            'town' => '22'
+        ]); 
+        //Histonium
+        DB::table('milestones')->insert([
+            'milestone' => '3',
+            'road' => '45',
+            'town' => '20'
+        ]);  
+
+        //Via Syrica, 5
+        //Beroea
+        DB::table('milestones')->insert([
+            'milestone' => '1',
+            'road' => '46',
+            'town' => '550'
+        ]);  
+        DB::table('milestones')->insert([
+            'milestone' => '2',
+            'road' => '46',
+            'town' => '549'
+        ]); 
+        DB::table('milestones')->insert([
+            'milestone' => '3',
+            'road' => '46',
+            'town' => '543'
+        ]); 
+        DB::table('milestones')->insert([
+            'milestone' => '4',
+            'road' => '46',
+            'town' => '539'
+        ]); 
+        //Edessa
+        DB::table('milestones')->insert([
+            'milestone' => '5',
+            'road' => '46',
+            'town' => '538'
+        ]); 
+
+        //Via Tiberia
+        //Sinope
+        DB::table('milestones')->insert([
+            'milestone' => '1',
+            'road' => '47',
+            'town' => '420'
+        ]); 
+        DB::table('milestones')->insert([
+            'milestone' => '2',
+            'road' => '47',
+            'town' => '437'
+        ]);
+        //Sebasteia
+        DB::table('milestones')->insert([
+            'milestone' => '3',
+            'road' => '47',
+            'town' => '460'
+        ]); 
+ 
     }
 }

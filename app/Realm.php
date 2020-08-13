@@ -34,4 +34,10 @@ class Realm extends Model
         return $this->hasMany('App\Chronicle','chronicle_id');
     }
 
+    //trades
+    public function trades()
+    {
+        return $this->hasMany('App\Trade','trade_id');
+    }
+
 }

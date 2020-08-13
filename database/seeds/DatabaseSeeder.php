@@ -43,6 +43,10 @@ class DatabaseSeeder extends Seeder
         $this->call('RoadSeeder');
         //milestones
         $this->call('MilestoneSeeder');
+        //goods types
+        $this->call('GoodtypeSeeder');
+        //equipment types
+        $this->call('EquipmenttypeSeeder');
     }
 }
 
@@ -84,6 +88,30 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('owner')->references('person_id')->on('people');
             $table->foreign('town')->references('town_id')->on('towns');
         });	
+        //trade
+		Schema::table('trades', function (Blueprint $table) {
+            $table->foreign('realm')->references('realm_id')->on('realms');
+            $table->foreign('tradegoods')->references('good_id')->on('goodtypes');
+            $table->foreign('startpoint')->references('town_id')->on('towns');
+            $table->foreign('endpoint')->references('town_id')->on('towns');
+        });	
+		Schema::table('caravans', function (Blueprint $table) {
+            $table->foreign('tradegoods')->references('good_id')->on('goodtypes');
+            $table->foreign('person')->references('person_id')->on('people');
+            $table->foreign('location')->references('town_id')->on('towns');
+        });	
+		Schema::table('cargos', function (Blueprint $table) {
+            $table->foreign('tradegoods')->references('good_id')->on('goodtypes');
+            $table->foreign('caravan')->references('caravan_id')->on('caravans');
+        });	
+		Schema::table('sales', function (Blueprint $table) {
+            $table->foreign('tradegoods')->references('good_id')->on('goodtypes');
+            $table->foreign('villa')->references('villa_id')->on('villas');
+        });
+		Schema::table('stocks', function (Blueprint $table) {
+            $table->foreign('tradegoods')->references('good_id')->on('goodtypes');
+            $table->foreign('villa')->references('villa_id')->on('villas');
+        });		
         //people
 		Schema::table('people', function (Blueprint $table) {
             $table->foreign('owner')->references('id')->on('users');
@@ -139,6 +167,10 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('tribunus')->references('person_id')->on('people');
             $table->foreign('quaestor')->references('person_id')->on('people');
             $table->foreign('location')->references('town_id')->on('towns');
+        });	
+        Schema::table('equipment', function (Blueprint $table) {
+            $table->foreign('equipmenttype')->references('equipment_id')->on('equipmenttypes');
+            $table->foreign('person')->references('person_id')->on('people');         
         });	
 		//chronicles
 		Schema::table('chronicles', function (Blueprint $table) {

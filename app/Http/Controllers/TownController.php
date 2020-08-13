@@ -19,6 +19,7 @@ use App\Sea;
 use App\Seaconnection;
 use App\Road;
 use App\Milestone;
+use App\Army;
 
 class TownController extends Controller
 {
@@ -301,6 +302,20 @@ class TownController extends Controller
         
         //return view
         return view('towns.maproad', compact('towns','roads'));	   
+    }
+
+	//map view
+    public function maparmy()
+    {            
+        //towns
+        $towns = Town::all();
+        foreach($towns as $town)
+        {
+            $town->legion_count = Army::where('location', $town->town_id)->count();
+        }     
+        
+        //return view
+        return view('towns.maparmy', compact('towns'));	   
     }
 
 	//map view
@@ -617,6 +632,39 @@ class TownController extends Controller
 		$towns = Town::all();	   
         //return view
         return view('towns.mapslave', compact('towns'));	   
+    }
+
+    //maps towns stats
+	//map view
+    public function mapdefenses()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapdefenses', compact('towns'));	   
+    }
+
+	//map view
+    public function mapjustice()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapjustice', compact('towns'));	   
+    }
+
+	//map view
+    public function mapagriculture()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapagriculture', compact('towns'));	   
+    }
+
+	//map view
+    public function mapcommerce()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapcommerce', compact('towns'));	   
     }
 	
 }

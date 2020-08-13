@@ -5,6 +5,13 @@
 		<a href="/mappopulation" class="btn btn-dark">Population</a>
 		<a href="/maproad" class="btn btn-dark">Roads</a>
 		<a href="/maparchitecture" class="btn btn-dark">Vernacular Architecture</a>
+		<a href="/maparmy" class="btn btn-dark">Armies</a>	
+	</div>
+	<div class="mlinks m-1">
+		<a href="/mapdefenses" class="btn btn-dark">Defenses</a>
+		<a href="/mapjustice" class="btn btn-dark">Justice &amp; Loyalty</a>
+		<a href="/mapagriculture" class="btn btn-dark">Agriculture</a>
+		<a href="/mapcommerce" class="btn btn-dark">Commerce</a>
 	</div>
 	<div class="mlinks m-1">				
 		<a href="/maptemple" class="btn btn-dark">Temples</a>

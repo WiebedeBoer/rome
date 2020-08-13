@@ -66,5 +66,4 @@ Game
 	
     </div>
 </div>
-{{$roads}}
 @endsection

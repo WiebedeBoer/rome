@@ -31,31 +31,31 @@ class RealmController extends Controller
 	//show view
     public function show($id)
     {       
-      
+        return view('realms.show');
     }
 	
 	//edit form
     public function edit($id)
     {       
-       
+        return view('realms.edit');     
     }
 	
 	//create form
     public function create()
     {       
-       
+        return view('realms.create');  
     }
 	
     //update function
     public function update(Request $request, $id)
     {
-
+        return view('realms.edit');
     }
 	
     //store function
     public function store()
     {
-			
+        return view('realms.index');
 	}
 	
     //delete function

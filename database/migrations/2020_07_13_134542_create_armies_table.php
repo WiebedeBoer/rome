@@ -15,12 +15,28 @@ class CreateArmiesTable extends Migration
     {
         Schema::create('armies', function (Blueprint $table) {
             $table->bigIncrements('army_id');
+            $table->string('army_name')->default('Legio'); 
             //soldiers
-            $table->integer('soldiers');
+            $table->integer('archers')->default(0);
+            $table->integer('skirmishers')->default(0);
+            $table->integer('infantry')->default(0);
+            $table->integer('cavalry')->default(0);
+            //army movement
+            $table->integer('movement')->default(365);
+            //armor
+            $table->integer('armor')->default(0);
+            //morale 
+            $table->integer('morale')->default(100);
+            //pack animals
+            $table->integer('pack_horses')->default(0); 
+            $table->integer('caravan_camels')->default(0); 
+            $table->integer('donkey_train')->default(0); 
+            $table->integer('draught_dogs')->default(0); 
+            $table->integer('oxen')->default(0); 
             //fk
             $table->unsignedBigInteger('legatus');
-            $table->unsignedBigInteger('tribunus');
-            $table->unsignedBigInteger('quaestor');
+            $table->unsignedBigInteger('tribunus')->nullable();
+            $table->unsignedBigInteger('quaestor')->nullable();
             $table->unsignedBigInteger('location');
             //timestamps
             $table->timestamps();
