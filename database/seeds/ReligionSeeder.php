@@ -23,15 +23,7 @@ class ReligionSeeder extends Seeder
             'sea' => 'Yam',
             'healing' => 'Eshmun',
             'hunting' => 'Ninurta',
-            'state_gender' => 'male',
-            'agriculture_gender' => 'male',
-            'war_gender' => 'female',
-            'love_gender' => 'female',
-            'commerce_gender' => 'male',
-            'arts_gender' => 'male',
-            'sea_gender' => 'male',
-            'healing_gender' => 'male',
-            'hunting_gender' => 'male'
+
         ]);
         //2
         DB::table('religions')->insert([
@@ -45,15 +37,7 @@ class ReligionSeeder extends Seeder
             'sea' => 'Lir',
             'healing' => 'Sirona',
             'hunting' => 'Cernunnos',
-            'state_gender' => 'male',
-            'agriculture_gender' => 'female',
-            'war_gender' => 'male',
-            'love_gender' => 'male',
-            'commerce_gender' => 'male',
-            'arts_gender' => 'female',
-            'sea_gender' => 'male',
-            'healing_gender' => 'female',
-            'hunting_gender' => 'male'
+
         ]);
         //3
         DB::table('religions')->insert([

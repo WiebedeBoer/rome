@@ -13,7 +13,7 @@ Game
 	</g>
 
 	@foreach($towns as $town) 
-		@if($town->thermae =="thermae")
+		@if($town->building_count >=1)
 		<g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (thermae)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,255,255)" stroke="black" stroke-width="4" /></a>
 			</g>

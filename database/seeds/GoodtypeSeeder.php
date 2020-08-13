@@ -292,6 +292,18 @@ class GoodtypeSeeder extends Seeder
             'good_name' => 'marble',
             'good_category' => 'construction'
         ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'tatch',
+            'good_category' => 'construction'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'bricks',
+            'good_category' => 'construction'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'tiles',
+            'good_category' => 'construction'
+        ]);
         //carvings
 		DB::table('goodtypes')->insert([
             'good_name' => 'ivory',

@@ -186,6 +186,14 @@ Route::get('armies/{armies}', 'ArmyController@show');
 Route::get('armies/{armies}/edit', 'ArmyController@edit');
 Route::delete('armies/{armies}', 'ArmyController@destroy');
 Route::patch('armies/{armies}', 'ArmyController@update');
+//fleets
+Route::get('fleets', 'FleetController@index');
+Route::get('fleets/create','FleetController@create');
+Route::post('fleets','FleetController@store');
+Route::get('fleets/{fleets}', 'FleetController@show');
+Route::get('fleets/{fleets}/edit', 'FleetController@edit');
+Route::delete('fleets/{fleets}', 'FleetController@destroy');
+Route::patch('fleets/{fleets}', 'FleetController@update');
 //battles
 Route::get('battles', 'BattleController@index');
 Route::get('battles/create','BattleController@create');
@@ -194,3 +202,18 @@ Route::get('battles/{battles}', 'BattleController@show');
 Route::get('battles/{battles}/edit', 'BattleController@edit');
 Route::delete('battles/{battles}', 'BattleController@destroy');
 Route::patch('battles/{battles}', 'BattleController@update');
+
+//politics
+//court
+Route::get('court', 'CourtController@index');
+Route::get('court/{court}', 'CourtController@show');
+Route::get('court/{court}/edit', 'CourtController@edit');
+Route::patch('court/{court}', 'CourtController@update');
+//diplomacy
+Route::get('diplomacy', 'DiplomacyController@index');
+Route::get('diplomacy/create','DiplomacyController@create');
+Route::post('diplomacy','DiplomacyController@store');
+Route::get('diplomacy/{diplomacy}', 'DiplomacyController@show');
+Route::get('diplomacy/{diplomacy}/edit', 'DiplomacyController@edit');
+Route::delete('diplomacy/{diplomacy}', 'DiplomacyController@destroy');
+Route::patch('diplomacy/{diplomacy}', 'DiplomacyController@update');

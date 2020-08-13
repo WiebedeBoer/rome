@@ -43,4 +43,5 @@ Game
 	</svg>
     </div>
 </div>
+
 @endsection

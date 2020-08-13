@@ -27,8 +27,8 @@ class TownsSeeder extends Seeder
             'glass' => 'glass',
             'chattel' => 'slave',
             'defenses' => '800',
-            'templum' => 'state',
-            'amphitheatrum' => 'amphitheatrum',
+            
+            
 			'xcoord' => '1187',
             'ycoord' => '1353',
 			'region' => '1',
@@ -71,8 +71,8 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'oak',
-            'templum' => 'hunting',
-            'amphitheatrum' => 'amphitheatrum',
+            
+            
 			'xcoord' => '1204',
             'ycoord' => '1373',
             'region' => '1',
@@ -112,7 +112,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'timber' => 'oak',
             'defenses' => '800',
-            'amphitheatrum' => 'amphitheatrum',
+            
 			'xcoord' => '1246',
             'ycoord' => '1377',
             'region' => '1',
@@ -137,7 +137,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'oak',
             'defenses' => '800',
-            'amphitheatrum' => 'amphitheatrum',
+            
 			'xcoord' => '1268',
             'ycoord' => '1404',
             'region' => '1',
@@ -162,7 +162,7 @@ class TownsSeeder extends Seeder
             'dye' => 'madder',
             'timber' => 'oak',
             'defenses' => '800',
-            'amphitheatrum' => 'amphitheatrum',
+            
 			'xcoord' => '1270',
             'ycoord' => '1422',
             'region' => '1',
@@ -188,8 +188,8 @@ class TownsSeeder extends Seeder
             'dye' => 'madder',
             'timber' => 'oak',
             'defenses' => '800',
-            'templum' => 'state',
-            'amphitheatrum' => 'amphitheatrum',
+            
+            
 			'xcoord' => '1280',
             'ycoord' => '1430',
             'region' => '1',
@@ -215,7 +215,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'madder',
             'timber' => 'oak',
-            'templum' => 'sea',
+            
 			'xcoord' => '1306',
             'ycoord' => '1452',
             'region' => '1',
@@ -347,7 +347,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'juniper',
             'defenses' => '800',
-            'templum' => 'sea',
+            
 			'xcoord' => '1422',
             'ycoord' => '1452',
             'region' => '1',
@@ -556,7 +556,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'cypress',
             'defenses' => '800',
-            'templum' => 'arts',
+            
 			'xcoord' => '1177',
             'ycoord' => '1266',
             'region' => '1',
@@ -621,7 +621,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak',
-            'templum' => 'agriculture',
+            
 			'xcoord' => '1145',
             'ycoord' => '1340',
             'region' => '1',
@@ -644,7 +644,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak',
-            'amphitheatrum' => 'amphitheatrum',
+            
 			'xcoord' => '1110',
             'ycoord' => '1289',
             'region' => '1',
@@ -746,7 +746,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad',
             'timber' => 'cypress',
             'defenses' => '800',
-            'amphitheatrum' => 'amphitheatrum',
+            
 			'xcoord' => '1115',
             'ycoord' => '1218',
             'region' => '1',
@@ -867,7 +867,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '1268',
             'ycoord' => '1667',
             'region' => '2',
@@ -892,9 +892,9 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'cypress',
             'defenses' => '800',
-            'templum' => 'agriculture',
-            'thermae' => 'thermae',
-            'theatrum' => 'theatrum',
+            
+            
+            
 			'xcoord' => '1318',
             'ycoord' => '1663',
             'region' => '2',
@@ -967,7 +967,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'copper' => 'copper',
             'timber' => 'oak',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '982',
             'ycoord' => '1422',
             'region' => '3',
@@ -1254,7 +1254,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'beech',
-            'amphitheatrum' => 'amphitheatrum',
+            
 			'xcoord' => '1012',
             'ycoord' => '1119',
             'region' => '5',
@@ -1280,8 +1280,8 @@ class TownsSeeder extends Seeder
             'timber' => 'yew',
             'sculpture' => 'marble',
             'defenses' => '400',
-            'templum' => 'arts',
-            'amphitheatrum' => 'amphitheatrum',
+            
+            
 			'xcoord' => '1015',
             'ycoord' => '1088',
             'region' => '5',
@@ -1747,7 +1747,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'beech',
             'defenses' => '400',
-            'amphitheatrum' => 'amphitheatrum',
+            
 			'xcoord' => '1101',
             'ycoord' => '1098',
             'region' => '5',
@@ -2028,7 +2028,7 @@ class TownsSeeder extends Seeder
             'salt' => 'salt',
             'timber' => 'oak',
             'defenses' => '800',
-            'templum' => 'hunting',
+            
 			'xcoord' => '818',
             'ycoord' => '1254',
             'region' => '6',
@@ -2157,7 +2157,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay',
             'timber' => 'pine', 
-            'thermae' => 'thermae',
+            
 			'xcoord' => '847',
             'ycoord' => '1090',
             'region' => '6',
@@ -2202,7 +2202,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes', 
             'pottery' => 'clay',
             'timber' => 'oak', 
-            'templum' => 'arts',
+            
 			'xcoord' => '771',
             'ycoord' => '1202',
             'region' => '6',
@@ -2227,7 +2227,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'yew', 
             'defenses' => '400',
-            'templum' => 'commerce',
+            
 			'xcoord' => '792',
             'ycoord' => '1079',
             'region' => '6',
@@ -3074,7 +3074,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad',
             'timber' => 'oak', 
             'defenses' => '400',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '837',
             'ycoord' => '688',
             'region' => '7',
@@ -3275,7 +3275,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad',
             'timber' => 'oak', 
             'defenses' => '400',
-            'templum' => 'arts',
+            
 			'xcoord' => '979',
             'ycoord' => '771',
             'region' => '7',
@@ -3551,8 +3551,8 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
-            'templum' => 'arts',
-            'thermae' => 'thermae',
+            
+            
 			'xcoord' => '427',
             'ycoord' => '649',
             'region' => '8',
@@ -3721,7 +3721,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad', 
             'timber' => 'oak', 
             'defenses' => '400',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '422',
             'ycoord' => '539',
             'region' => '8',
@@ -3793,7 +3793,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'yew', 
-            'templum' => 'war',
+            
 			'xcoord' => '532',
             'ycoord' => '618',
             'region' => '8',
@@ -3816,7 +3816,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad', 
             'timber' => 'yew', 
             'defenses' => '400',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '594',
             'ycoord' => '605',
             'region' => '8',
@@ -3838,7 +3838,7 @@ class TownsSeeder extends Seeder
             'dye' => 'woad', 
             'timber' => 'oak', 
             'defenses' => '400',
-            'templum' => 'commerce',
+            
 			'xcoord' => '612',
             'ycoord' => '544',
             'region' => '8',
@@ -3860,7 +3860,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
-            'thermae' => 'thermae',
+            
 			'xcoord' => '490',
             'ycoord' => '544',
             'region' => '8',
@@ -4064,7 +4064,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver', 
             'timber' => 'oak', 
             'defenses' => '800',
-            'templum' => 'hunting',
+            
 			'xcoord' => '706',
             'ycoord' => '1331',
             'region' => '10',
@@ -4091,7 +4091,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver', 
             'pottery' => 'clay', 
             'timber' => 'oak', 
-            'thermae' => 'thermae',
+            
 			'xcoord' => '689',
             'ycoord' => '1355',
             'region' => '10',
@@ -4115,7 +4115,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver', 
             'timber' => 'oak', 
             'defenses' => '800',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '659',
             'ycoord' => '1385',
             'region' => '10',
@@ -4143,7 +4143,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'timber' => 'juniper', 
             'defenses' => '800',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '612',
             'ycoord' => '1403',
             'region' => '10',
@@ -4275,7 +4275,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'timber' => 'juniper',
             'defenses' => '400', 
-            'stadium' => 'stadium',
+            
 			'xcoord' => '550',
             'ycoord' => '1475',
             'region' => '10',
@@ -4316,7 +4316,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold', 
             'silver' => 'silver', 
             'timber' => 'juniper', 
-            'templum' => 'agriculture',
+            
 			'xcoord' => '320',
             'ycoord' => '1345',
             'region' => '10',
@@ -4698,7 +4698,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'timber' => 'oak', 
             'defenses' => '800',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '305',
             'ycoord' => '1614',
             'region' => '10',
@@ -4769,7 +4769,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'timber' => 'juniper', 
             'defenses' => '400',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '346',
             'ycoord' => '1462',
             'region' => '10',
@@ -4896,7 +4896,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes', 
             'tin' => 'tin',
             'timber' => 'oak',
-            'templum' => 'commerce',
+            
 			'xcoord' => '164',
             'ycoord' => '1274',
             'region' => '10',
@@ -4922,7 +4922,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'pottery' => 'clay', 
             'timber' => 'oak', 
-            'thermae' => 'thermae',
+            
 			'xcoord' => '169',
             'ycoord' => '1361',
             'region' => '10',
@@ -4988,7 +4988,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay', 
             'timber' => 'oak', 
-            'stadium' => 'stadium',
+            
 			'xcoord' => '120',
             'ycoord' => '1439',
             'region' => '10',
@@ -5051,7 +5051,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'seasoning' => 'olives',
             'timber' => 'juniper', 
-            'stadium' => 'stadium',
+            
 			'xcoord' => '256',
             'ycoord' => '1450',
             'region' => '10',
@@ -5074,7 +5074,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver', 
             'timber' => 'oak', 
             'defenses' => '400',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '226',
             'ycoord' => '1546',
             'region' => '10',
@@ -5094,7 +5094,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'oak', 
-            'stadium' => 'stadium',
+            
 			'xcoord' => '220',
             'ycoord' => '1583',
             'region' => '10',
@@ -5137,7 +5137,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay', 
             'timber' => 'oak', 
-            'stadium' => 'stadium',
+            
 			'xcoord' => '101',
             'ycoord' => '1609',
             'region' => '10',
@@ -5160,7 +5160,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'silver' => 'silver', 
             'timber' => 'oak', 
-            'stadium' => 'stadium',
+            
 			'xcoord' => '162',
             'ycoord' => '1663',
             'region' => '10',
@@ -5477,7 +5477,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'timber' => 'oak', 
             'defenses' => '800',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '660',
             'ycoord' => '1697',
             'region' => '13',
@@ -5547,7 +5547,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'timber' => 'oak', 
             'defenses' => '800',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '822',
             'ycoord' => '1723',
             'region' => '13',
@@ -5765,7 +5765,7 @@ class TownsSeeder extends Seeder
             'salt' => 'salt',
             'timber' => 'juniper', 
             'sculpture' => 'ivory',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '910',
             'ycoord' => '1768',
             'region' => '14',
@@ -5785,7 +5785,7 @@ class TownsSeeder extends Seeder
             'timber' => 'juniper', 
             'paper' => 'parchment', 
             'sculpture' => 'ivory',
-            'bibliotheca' => 'bibliotheca',
+            
 			'xcoord' => '886',
             'ycoord' => '1768',
             'region' => '14',
@@ -5872,8 +5872,8 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'timber' => 'cypress', 
             'chattel' => 'slave',
-            'thermae' => 'thermae',
-            'stadium' => 'stadium',
+            
+            
 			'xcoord' => '1015',
             'ycoord' => '1713',
             'region' => '15',
@@ -5923,7 +5923,7 @@ class TownsSeeder extends Seeder
             'dye' => 'indigo',
             'timber' => 'cypress', 
             'defenses' => '800',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '1057',
             'ycoord' => '1670',
             'region' => '15',
@@ -5954,8 +5954,8 @@ class TownsSeeder extends Seeder
             'timber' => 'cypress', 
             'paper' => 'parchment', 
             'defenses' => '800',
-            'templum' => 'state',
-            'thermae' => 'thermae',
+            
+            
 			'xcoord' => '1070',
             'ycoord' => '1680',
             'region' => '15',
@@ -6286,7 +6286,7 @@ class TownsSeeder extends Seeder
             'salt' => 'salt',
             'timber' => 'palm', 
             'spice' => 'silphium', 
-            'templum' => 'agriculture',
+            
 			'xcoord' => '1654',
             'ycoord' => '1928',
             'region' => '16',
@@ -6377,8 +6377,8 @@ class TownsSeeder extends Seeder
             'paper' => 'papyrus',             
             'glass' => 'glass', 
             'defenses' => '800',
-            'templum' => 'agriculture',
-            'bibliotheca' => 'bibliotheca',
+            
+            
 			'xcoord' => '2060',
             'ycoord' => '2026',
             'region' => '16',
@@ -6481,7 +6481,7 @@ class TownsSeeder extends Seeder
             'dye' => 'madder',
             'timber' => 'palm', 
             'paper' => 'papyrus', 
-            'templum' => 'arts',
+            
 			'xcoord' => '2130',
             'ycoord' => '2101',
             'region' => '16',
@@ -6555,7 +6555,7 @@ class TownsSeeder extends Seeder
             'copper' => 'copper', 
             'gold' => 'gold', 
             'timber' => 'palm', 
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2197',
             'ycoord' => '2035',
             'region' => '16',
@@ -6686,7 +6686,7 @@ class TownsSeeder extends Seeder
             'glass' => 'glass', 
             'spice' => 'spice', 
             'defenses' => '800',
-            'templum' => 'arts',
+            
 			'xcoord' => '2201',
             'ycoord' => '2343',
             'region' => '16',
@@ -6935,9 +6935,9 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'copper' => 'copper',
             'timber' => 'juniper',
-            'templum' => 'sea',
-            'bibliotheca' => 'bibliotheca',
-            'theatrum' => 'theatrum',
+            
+            
+            
 			'xcoord' => '1976',
             'ycoord' => '1707',
             'region' => '20',
@@ -6962,8 +6962,8 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'pottery' => 'clay',
             'timber' => 'cypress',
-            'templum' => 'hunting',
-            'theatrum' => 'theatrum',
+            
+            
 			'xcoord' => '1684',
             'ycoord' => '1665',
             'region' => '21',
@@ -7007,8 +7007,8 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'pottery' => 'clay',
             'timber' => 'cypress',
-            'templum' => 'healing',
-            'thermae' => 'thermae',
+            
+            
 			'xcoord' => '1659',
             'ycoord' => '1658',
             'region' => '21',
@@ -7050,8 +7050,8 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'pottery' => 'clay',
             'timber' => 'cypress',
-            'templum' => 'state',
-            'stadium' => 'stadium',
+            
+            
 			'xcoord' => '1640',
             'ycoord' => '1627',
             'region' => '21',
@@ -7096,8 +7096,8 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'cypress',
             'defenses' => '800',
-            'thermae' => 'thermae',
-            'theatrum' => 'theatrum',
+            
+            
 			'xcoord' => '1699',
             'ycoord' => '1633',
             'region' => '21',
@@ -7127,8 +7127,8 @@ class TownsSeeder extends Seeder
             'timber' => 'cypress',
             'paper' => 'parchment',
             'defenses' => '800',
-            'templum' => 'love',
-            'stadium' => 'stadium',
+            
+            
 			'xcoord' => '1708',
             'ycoord' => '1611',
             'region' => '21',
@@ -7159,9 +7159,9 @@ class TownsSeeder extends Seeder
             'paper' => 'parchment',
             'sculpture' => 'marble',
             'defenses' => '800',
-            'thermae' => 'thermae',
-            'bibliotheca' => 'bibliotheca',
-            'templum' => 'arts',
+            
+            
+            
 			'xcoord' => '1749',
             'ycoord' => '1606',
             'region' => '22',
@@ -7209,7 +7209,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'juniper',
             'defenses' => '800',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '1728',
             'ycoord' => '1585',
             'region' => '22',
@@ -7231,7 +7231,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'pottery' => 'clay',
             'timber' => 'juniper',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '1707',
             'ycoord' => '1577',
             'region' => '22',
@@ -7253,7 +7253,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'pottery' => 'clay',
             'timber' => 'juniper',
-            'templum' => 'healing',
+            
 			'xcoord' => '1680',
             'ycoord' => '1569',
             'region' => '22',
@@ -7320,7 +7320,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'cypress',
             'chattel' => 'slave',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '1609',
             'ycoord' => '1526',
             'region' => '22',
@@ -7426,7 +7426,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'cypress',
-            'templum' => 'healing',
+            
 			'xcoord' => '1532',
             'ycoord' => '1390',
             'region' => '23',
@@ -7452,8 +7452,8 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'pottery' => 'clay',
             'timber' => 'oak',
-            'templum' => 'agriculture',
-            'thermae' => 'thermae',
+            
+            
 			'xcoord' => '1682',
             'ycoord' => '1425',
             'region' => '23',
@@ -7477,7 +7477,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'timber' => 'oak',
             'defenses' => '800',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '1709',
             'ycoord' => '1437',
             'region' => '23',
@@ -7498,7 +7498,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'gold' => 'gold',
             'timber' => 'oak',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '1740',
             'ycoord' => '1403',
             'region' => '23',
@@ -7520,7 +7520,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'gold' => 'gold',
             'timber' => 'beech',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '1693',
             'ycoord' => '1381',
             'region' => '23',
@@ -7582,7 +7582,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'gold' => 'gold',
             'timber' => 'oak',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '1854',
             'ycoord' => '1421',
             'region' => '24',
@@ -7624,7 +7624,7 @@ class TownsSeeder extends Seeder
             'timber' => 'oak', 
             'chattel' => 'slave',
             'defenses' => '800',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '2014',
             'ycoord' => '1409',
             'region' => '24',
@@ -7707,7 +7707,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'beech', 
             'defenses' => '800',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '1962',
             'ycoord' => '1260',
             'region' => '24',
@@ -7729,7 +7729,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'beech', 
             'defenses' => '800',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '1946',
             'ycoord' => '1314',
             'region' => '24',
@@ -7750,7 +7750,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'beech', 
             'defenses' => '800',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '1998',
             'ycoord' => '1191',
             'region' => '24',
@@ -7960,7 +7960,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay', 
             'timber' => 'cypress', 
-            'thermae' => 'thermae',
+            
 			'xcoord' => '1480',
             'ycoord' => '1214',
             'region' => '25',
@@ -8212,7 +8212,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech', 
-            'thermae' => 'thermae',
+            
 			'xcoord' => '1375',
             'ycoord' => '1039',
             'region' => '25',
@@ -8233,7 +8233,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech', 
-            'thermae' => 'thermae',
+            
 			'xcoord' => '1425',
             'ycoord' => '1073',
             'region' => '25',
@@ -8500,7 +8500,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'pine', 
-            'thermae' => 'thermae',
+            
 			'xcoord' => '1686',
             'ycoord' => '1138',
             'region' => '26',
@@ -8907,8 +8907,8 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'cypress',
             'defenses' => '800',
-            'thermae' => 'thermae',
-            'theatrum' => 'theatrum',
+            
+            
 			'xcoord' => '1920',
             'ycoord' => '1580',
             'region' => '31',
@@ -8938,8 +8938,8 @@ class TownsSeeder extends Seeder
             'sculpture' => 'marble',
             'chattel' => 'slave',
             'defenses' => '800',
-            'templum' => 'hunting',
-            'bibliotheca' => 'bibliotheca',
+            
+            
 			'xcoord' => '1927',
             'ycoord' => '1615',
             'region' => '31',
@@ -8984,8 +8984,8 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'cypress',
             'defenses' => '800',
-            'templum' => 'healing',
-            'theatrum' => 'theatrum',
+            
+            
 			'xcoord' => '1952',
             'ycoord' => '1651',
             'region' => '31',
@@ -9008,7 +9008,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'cypress',
             'sculpture' => 'marble',
-            'templum' => 'love',
+            
 			'xcoord' => '1989',
             'ycoord' => '1631',
             'region' => '31',
@@ -9100,7 +9100,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'juniper',
-            'templum' => 'hunting',
+            
 			'xcoord' => '1936',
             'ycoord' => '1566',
             'region' => '31',
@@ -9152,8 +9152,8 @@ class TownsSeeder extends Seeder
             'paper' => 'parchment',
             'sculpture' => 'marble',
             'defenses' => '800',
-            'templum' => 'healing',
-            'bibliotheca' => 'bibliotheca',
+            
+            
 			'xcoord' => '1923',
             'ycoord' => '1534',
             'region' => '31',
@@ -9198,7 +9198,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives',
             'timber' => 'cypress',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2031',
             'ycoord' => '1709',
             'region' => '31',
@@ -9224,7 +9224,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'timber' => 'cypress', 
             'paper' => 'parchment',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2100',
             'ycoord' => '1679',
             'region' => '31',
@@ -9251,7 +9251,7 @@ class TownsSeeder extends Seeder
             'timber' => 'cypress',  
             'chattel' => 'slave',
             'defenses' => '800',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2139',
             'ycoord' => '1687',
             'region' => '31',
@@ -9302,7 +9302,7 @@ class TownsSeeder extends Seeder
             'timber' => 'oak', 
             'sculpture' => 'marble', 
             'defenses' => '800',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2052',
             'ycoord' => '1447',
             'region' => '31',
@@ -9328,7 +9328,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'timber' => 'oak', 
             'defenses' => '800',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '2062',
             'ycoord' => '1428',
             'region' => '31',
@@ -9506,7 +9506,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay', 
             'timber' => 'juniper', 
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2088',
             'ycoord' => '1603',
             'region' => '31',
@@ -9568,7 +9568,7 @@ class TownsSeeder extends Seeder
             'sweetener' => 'honey',
             'pottery' => 'clay', 
             'timber' => 'juniper',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2094',
             'ycoord' => '1562',
             'region' => '31',
@@ -9630,7 +9630,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'timber' => 'juniper',
             'defenses' => '800',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2172',
             'ycoord' => '1506',
             'region' => '31',
@@ -9695,7 +9695,7 @@ class TownsSeeder extends Seeder
             'silver' => 'silver',
             'timber' => 'oak',
             'sculpture' => 'marble',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '1992',
             'ycoord' => '1477',
             'region' => '31',
@@ -9715,7 +9715,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'timber' => 'juniper',
             'defenses' => '800',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2193',
             'ycoord' => '1616',
             'region' => '31',
@@ -10944,7 +10944,7 @@ class TownsSeeder extends Seeder
             'timber' => 'palm',
             'paper' => 'parchment',
             'fabric' => 'silk',
-            'templum' => 'state',
+            
 			'xcoord' => '2998',
             'ycoord' => '1955',
             'region' => '33',
@@ -11064,7 +11064,7 @@ class TownsSeeder extends Seeder
             'paper' => 'parchment',
             'spice' => 'spice',
             'fabric' => 'silk',
-            'templum' => 'state',
+            
 			'xcoord' => '3316',
             'ycoord' => '2073',
             'region' => '33',
@@ -11087,7 +11087,7 @@ class TownsSeeder extends Seeder
             'timber' => 'palm',
             'spice' => 'spice',
             'fabric' => 'silk',
-            'templum' => 'state',
+            
 			'xcoord' => '3267',
             'ycoord' => '2108',
             'region' => '33',
@@ -11507,7 +11507,7 @@ class TownsSeeder extends Seeder
             'timber' => 'palm',
             'paper' => 'papyrus',
             'defenses' => '800',
-            'templum' => 'state',
+            
 			'xcoord' => '2840',
             'ycoord' => '2019',
             'region' => '34',
@@ -12077,9 +12077,9 @@ class TownsSeeder extends Seeder
             'glass' => 'glass',
             'fabric' => 'silk',
             'defenses' => '800',
-            'templum' => 'healing',
-            'bibliotheca' => 'bibliotheca',
-            'stadium' => 'stadium',
+            
+            
+            
 			'xcoord' => '2378',
             'ycoord' => '1721',
             'region' => '35',
@@ -12161,7 +12161,7 @@ class TownsSeeder extends Seeder
             'spice' => 'spice',
             'fabric' => 'silk',
             'scent' => 'incense',
-            'templum' => 'war',
+            
 			'xcoord' => '2485',
             'ycoord' => '1820',
             'region' => '35',
@@ -12183,7 +12183,7 @@ class TownsSeeder extends Seeder
             'timber' => 'palm',
             'glass' => 'glass',
             'defenses' => '800',
-            'templum' => 'state',
+            
 			'xcoord' => '2384',
             'ycoord' => '1890',
             'region' => '35',
@@ -12250,7 +12250,7 @@ class TownsSeeder extends Seeder
             'timber' => 'cedar',
             'scent' => 'cedar',
             'defenses' => '800',
-            'stadium' => 'stadium',
+            
 			'xcoord' => '2343',
             'ycoord' => '1866',
             'region' => '35',
@@ -12323,7 +12323,7 @@ class TownsSeeder extends Seeder
             'glass' => 'glass',
             'scent' => 'cedar',
             'defenses' => '800',
-            'templum' => 'agriculture',
+            
 			'xcoord' => '2339',
             'ycoord' => '1879',
             'region' => '35',
@@ -12380,8 +12380,8 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'timber' => 'palm',
             'scent' => 'incense',
-            'templum' => 'love',
-            'thermae' => 'thermae',
+            
+            
 			'xcoord' => '2349',
             'ycoord' => '1947',
             'region' => '35',
@@ -12421,7 +12421,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'cypress',
             'defenses' => '800',
-            'templum' => 'state',
+            
 			'xcoord' => '2327',
             'ycoord' => '1993',
             'region' => '35',
@@ -12461,7 +12461,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'timber' => 'palm',
             'defenses' => '800',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '2336',
             'ycoord' => '2020',
             'region' => '35',
@@ -12480,7 +12480,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'timber' => 'cypress',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '2295',
             'ycoord' => '1999',
             'region' => '35',
@@ -12523,8 +12523,8 @@ class TownsSeeder extends Seeder
             'paper' => 'parchment',
             'glass' => 'glass',
             'defenses' => '800',
-            'thermae' => 'thermae',
-            'stadium' => 'stadium',
+            
+            
 			'xcoord' => '2313',
             'ycoord' => '1951',
             'region' => '35',
@@ -12622,7 +12622,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'timber' => 'palm',
             'scent' => 'incense',
-            'theatrum' => 'theatrum',
+            
 			'xcoord' => '2360',
             'ycoord' => '1980',
             'region' => '36',
@@ -12641,7 +12641,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'timber' => 'palm',
             'scent' => 'incense',
-            'thermae' => 'thermae',
+            
 			'xcoord' => '2309',
             'ycoord' => '2058',
             'region' => '36',
@@ -12843,7 +12843,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'timber' => 'palm',
             'scent' => 'incense',
-            'templum' => 'state',
+            
 			'xcoord' => '2565',
             'ycoord' => '2580',
             'region' => '36',
@@ -12882,7 +12882,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'timber' => 'palm',
             'scent' => 'incense',
-            'templum' => 'love',
+            
 			'xcoord' => '2593',
             'ycoord' => '2586',
             'region' => '36',

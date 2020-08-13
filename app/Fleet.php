@@ -4,26 +4,26 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Army extends Model
+class Fleet extends Model
 {
     //table
     protected $table = 'armies';
     protected $primaryKey = 'army_id';
 	
 	//fk
-    public function generals()
+    public function admirals()
     {
-        return $this->belongsTo('App\Person','legatus');
+        return $this->belongsTo('App\Person','admiral');
     } 
 
-    public function tribunes()
+    public function captains()
     {
-        return $this->belongsTo('App\Person','tribunus');
+        return $this->belongsTo('App\Person','captain');
     } 
 
-    public function quartermasters()
+    public function seas()
     {
-        return $this->belongsTo('App\Person','quaestor');
+        return $this->belongsTo('App\Sea','sea');
     } 
 
     public function locations()

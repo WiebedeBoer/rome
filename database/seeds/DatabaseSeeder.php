@@ -17,6 +17,8 @@ class DatabaseSeeder extends Seeder
         $this->call('ForeignKeySeeder');
         //users
         $this->call('UserSeeder');
+        //gods
+        $this->call('GodSeeder');
         //religions
         $this->call('ReligionSeeder');
         //architectures
@@ -47,6 +49,10 @@ class DatabaseSeeder extends Seeder
         $this->call('GoodtypeSeeder');
         //equipment types
         $this->call('EquipmenttypeSeeder');
+        //building types
+        $this->call('BuildingtypeSeeder');  
+        //buildings
+        $this->call('BuildingSeeder');       
     }
 }
 
@@ -70,6 +76,11 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('realm')->references('realm_id')->on('realms');
             $table->foreign('sea')->references('sea_id')->on('seas');
         });
+        Schema::table('buildings', function (Blueprint $table) {
+            $table->foreign('buildingtype')->references('building_id')->on('buildingtypes');
+            $table->foreign('location')->references('town_id')->on('towns');
+            $table->foreign('owner')->references('person_id')->on('people');
+        });	
         //travel organization
         Schema::table('landconnections', function (Blueprint $table) {
             $table->foreign('to')->references('region_id')->on('regions');
@@ -128,6 +139,17 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('person')->references('person_id')->on('people');
         });		
         //cultures
+        Schema::table('religions', function (Blueprint $table) {
+            $table->foreign('state')->references('god_id')->on('gods');
+            $table->foreign('agriculture')->references('god_id')->on('gods');
+            $table->foreign('war')->references('god_id')->on('gods');
+            $table->foreign('love')->references('god_id')->on('gods');
+            $table->foreign('commerce')->references('god_id')->on('gods');
+            $table->foreign('arts')->references('god_id')->on('gods');
+            $table->foreign('sea')->references('god_id')->on('gods');
+            $table->foreign('healing')->references('god_id')->on('gods');
+            $table->foreign('hunting')->references('god_id')->on('gods');
+        });	
         Schema::table('cultures', function (Blueprint $table) {
             $table->foreign('culture_construction')->references('architecture_id')->on('architectures');
             $table->foreign('culture_religion')->references('religion_id')->on('religions');
@@ -171,6 +193,12 @@ class ForeignKeySeeder extends Seeder
         Schema::table('equipment', function (Blueprint $table) {
             $table->foreign('equipmenttype')->references('equipment_id')->on('equipmenttypes');
             $table->foreign('person')->references('person_id')->on('people');         
+        });	
+		Schema::table('fleets', function (Blueprint $table) {
+            $table->foreign('admiral')->references('person_id')->on('people');
+            $table->foreign('captain')->references('person_id')->on('people');
+            $table->foreign('sea')->references('sea_id')->on('seas');
+            $table->foreign('location')->references('town_id')->on('towns');
         });	
 		//chronicles
 		Schema::table('chronicles', function (Blueprint $table) {

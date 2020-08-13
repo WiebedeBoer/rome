@@ -73,12 +73,12 @@ class Person extends Model
     }
 
     //armies
-    public function armies()
+    public function generals()
     {
         return $this->hasMany('App\Army','army_id');
     }
 
-    public function generals()
+    public function tribunes()
     {
         return $this->hasMany('App\Army','army_id');
     }
@@ -100,10 +100,27 @@ class Person extends Model
         return $this->hasMany('App\Villa','villa_id');
     }
 
+    //buildings
+    public function buildings()
+    {
+        return $this->hasMany('App\Building','building_id');
+    }
+
     //equipment
     public function equipment()
     {
         return $this->hasMany('App\Equipment','equipment_id');
+    }
+
+    //fleets
+    public function admirals()
+    {
+        return $this->hasMany('App\Fleet','fleet_id');
+    }
+
+    public function captains()
+    {
+        return $this->hasMany('App\Fleet','fleet_id');
     }
 
 }

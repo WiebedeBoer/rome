@@ -61,4 +61,22 @@ class Town extends Model
         return $this->hasMany('App\Villa','villa_id');
     }
 
+    //armies
+    public function armies()
+    {
+        return $this->hasMany('App\Army','army_id');
+    }
+
+    //fleets
+    public function fleets()
+    {
+        return $this->hasMany('App\Fleet','fleet_id');
+    }
+
+    //buildings
+    public function buildings()
+    {
+        return $this->hasMany('App\Building','building_id');
+    }
+
 }

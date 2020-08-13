@@ -50,6 +50,9 @@ class CreateVillasTable extends Migration
             $table->integer('ivory')->default(0);
             $table->integer('bronze')->default(0); 
             $table->integer('hardware')->default(0); 
+            $table->integer('tatch')->default(0);
+            $table->integer('bricks')->default(0); 
+            $table->integer('tiles')->default(0); 
             //spices
             $table->integer('spices')->default(0);
             //scents

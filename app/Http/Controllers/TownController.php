@@ -20,6 +20,8 @@ use App\Seaconnection;
 use App\Road;
 use App\Milestone;
 use App\Army;
+use App\Capital;
+use App\Building;
 
 class TownController extends Controller
 {
@@ -32,7 +34,14 @@ class TownController extends Controller
 	//main view
     public function index()
     {            
-		$towns = Town::all();	   
+        
+        /*
+        maptile coordinates
+
+        -10.8105,12.5117,68.2031,58.6998
+        */
+        
+        $towns = Town::all();	 
         //return view
         return view('towns.index', compact('towns'));	   
     }
@@ -235,6 +244,8 @@ class TownController extends Controller
             $realm_culture = Realm::where('realm_id', $town_realm)->get();
             $town->culture = $realm_culture[0]->culture; //culture id
             $town->faction = $realm_culture[0]->realm_name; //realm name
+            //treasury count
+            $town->treasury_count = Building::where('location', $town->town_id)->where('buildingtype',11)->count();
         }       
 
         //return view
@@ -341,6 +352,33 @@ class TownController extends Controller
             $culture = Culture::where('culture_id', $town_culture)->get();
             $town_religion = $culture[0]->culture_religion; //religion id
             $religion = Religion::where('religion_id', $town_religion)->get();
+
+        } 
+        
+        //building count	
+        foreach($towns as $town)
+        {
+            //temple counts
+            /*
+            $town->god_state_count = Building::where('location', $town->town_id)->where('buildingtype',1)->count(); 
+            $town->god_agriculture_count = Building::where('location', $town->town_id)->where('buildingtype',2)->count(); 
+            $town->god_war_count = Building::where('location', $town->town_id)->where('buildingtype',3)->count(); 
+            $town->god_love_count = Building::where('location', $town->town_id)->where('buildingtype',4)->count(); 
+            $town->god_commerce_count = Building::where('location', $town->town_id)->where('buildingtype',5)->count(); 
+            $town->god_arts_count = Building::where('location', $town->town_id)->where('buildingtype',6)->count(); 
+            $town->god_sea_count = Building::where('location', $town->town_id)->where('buildingtype',7)->count(); 
+            $town->god_healing_count = Building::where('location', $town->town_id)->where('buildingtype',8)->count();
+            $town->god_hunting_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();
+            */
+            $town->temple_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[1,9])->count();
+
+            /*
+            $town_realm = $town->realm;
+            $realm = Realm::where('realm_id', $town_realm)->get();
+            $town_culture = $realm[0]->culture; //culture id
+            $culture = Culture::where('culture_id', $town_culture)->get();
+            $town_religion = $culture[0]->culture_religion; //religion id
+            $religion = Religion::where('religion_id', $town_religion)->get();
             $town->god_state = $religion[0]->state;
             $town->god_agriculture = $religion[0]->agriculture;
             $town->god_war = $religion[0]->war;
@@ -349,8 +387,13 @@ class TownController extends Controller
             $town->god_arts = $religion[0]->arts;
             $town->god_sea = $religion[0]->sea;
             $town->god_healing = $religion[0]->healing;
-            $town->god_hunting = $religion[0]->hunting;
-        }       
+            $town->god_hunting = $religion[0]->hunting;            
+            */
+
+            //oracle count
+            $town->oracle_count = Building::where('location', $town->town_id)->where('buildingtype',10)->count();
+
+        } 
 
         //return view
         return view('towns.maptemple', compact('towns'));	   
@@ -359,7 +402,13 @@ class TownController extends Controller
     //map view
     public function mapbath()
     {            
-        $towns = Town::all();	   
+        $towns = Town::all();
+        //building count	
+        foreach($towns as $town)
+        {
+            $town_realm = $town->realm;
+            $town->building_count = Building::where('location', $town->town_id)->where('buildingtype',12)->count(); 
+        }       
         //return view
         return view('towns.mapbath', compact('towns'));	   
     }
@@ -367,7 +416,13 @@ class TownController extends Controller
     //map view
     public function maplibrary()
     {            
-        $towns = Town::all();	   
+        $towns = Town::all();
+        //building count	
+        foreach($towns as $town)
+        {
+            $town_realm = $town->realm;
+            $town->building_count = Building::where('location', $town->town_id)->where('buildingtype',14)->count(); 
+        } 	   
         //return view
         return view('towns.maplibrary', compact('towns'));	   
     }
@@ -375,7 +430,13 @@ class TownController extends Controller
     //map view
     public function maptheatre()
     {            
-        $towns = Town::all();	   
+        $towns = Town::all();	
+        //building count	
+        foreach($towns as $town)
+        {
+            $town_realm = $town->realm;
+            $town->building_count = Building::where('location', $town->town_id)->where('buildingtype',17)->count(); 
+        }    
         //return view
         return view('towns.maptheatre', compact('towns'));	   
     }
@@ -383,7 +444,13 @@ class TownController extends Controller
     //map view
     public function mapamphitheatre()
     {            
-        $towns = Town::all();	   
+        $towns = Town::all();
+        //building count	
+        foreach($towns as $town)
+        {
+            $town_realm = $town->realm;
+            $town->building_count = Building::where('location', $town->town_id)->where('buildingtype',18)->count(); 
+        } 	   
         //return view
         return view('towns.mapamphitheatre', compact('towns'));	   
     }
@@ -391,7 +458,13 @@ class TownController extends Controller
     //map view
     public function maprace()
     {            
-        $towns = Town::all();	   
+        $towns = Town::all();
+        //building count	
+        foreach($towns as $town)
+        {
+            $town_realm = $town->realm;
+            $town->building_count = Building::where('location', $town->town_id)->where('buildingtype',20)->count(); 
+        } 	   
         //return view
         return view('towns.maprace', compact('towns'));	   
     }

@@ -59,16 +59,6 @@ class CreateTownsTable extends Migration
 			$table->integer('justice')->default(900); //1 - 999
 			$table->integer('commerce')->default(10); //1 - 999
             $table->integer('agriculture')->default(10); //1 - 999
-            //religious buildings
-            $table->string('templum')->default('none'); //11 state, 6 agriculture, 2 war, 4 love, 3 commerce, 8 arts, 3 sea, 6 healing, 4 hunting
-            //health buildings
-            $table->string('thermae')->default('none'); //27 thermae
-            //education buildings
-            $table->string('bibliotheca')->default('none'); //7 bibliotheca
-            //entertainment buildings
-            $table->string('theatrum')->default('none'); //18 theatrum
-            $table->string('amphitheatrum')->default('none'); //11 amphitheatrum
-            $table->string('stadium')->default('none'); //23 stadium
 			//army stats
 			$table->integer('morale')->default(100);
 			$table->integer('training')->default(100);
