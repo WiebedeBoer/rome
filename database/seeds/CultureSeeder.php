@@ -105,7 +105,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Punic',
             'culture_military' => 'Punic',
             'culture_construction' => '6',
-            'culture_religion' => '1'
+            'culture_religion' => '12'
         ]);
         //13
         DB::table('cultures')->insert([
@@ -137,7 +137,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Kartvelian',
             'culture_military' => 'Pontic',
             'culture_construction' => '9',
-            'culture_religion' => '12'
+            'culture_religion' => '11'
         ]);
         //17
         DB::table('cultures')->insert([
@@ -186,6 +186,14 @@ class CultureSeeder extends Seeder
             'culture_military' => 'Scythian',
             'culture_construction' => '10',
             'culture_religion' => '8'
+        ]);
+        //23
+        DB::table('cultures')->insert([
+            'culture_name' => 'Judean',
+            'culture_language' => 'Arabic',
+            'culture_military' => 'Arabic',
+            'culture_construction' => '8',
+            'culture_religion' => '13'
         ]);
     }
 }

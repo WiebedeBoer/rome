@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateReligionsTable extends Migration
+class CreateMythologiesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreateReligionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('religions', function (Blueprint $table) {
-            $table->bigIncrements('religion_id');
-            $table->string('religion_name');
-            $table->string('religion_category');
+        Schema::create('mythologies', function (Blueprint $table) {
+            $table->bigIncrements('mythology_id');
+            //fk
+			$table->unsignedBigInteger('god');
+			$table->unsignedBigInteger('religion');
 			//timestamps
             $table->timestamps();
         });
@@ -29,6 +30,6 @@ class CreateReligionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('religions');
+        Schema::dropIfExists('mythologies');
     }
 }

@@ -667,7 +667,7 @@ class RealmSeeder extends Seeder
         //128
         DB::table('realms')->insert([
             'realm_name' => 'Judea',
-            'culture' => '20'
+            'culture' => '23'
         ]);
         //129
         DB::table('realms')->insert([

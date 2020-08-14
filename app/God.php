@@ -16,4 +16,10 @@ class God extends Model
         return $this->hasMany('App\Religion','religion_id');
     } 
 
+    //mythology
+    public function mythologies()
+    {
+        return $this->hasMany('App\Mythology','mythology_id');
+    }
+
 }
