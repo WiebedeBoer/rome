@@ -25,4 +25,10 @@ class Building extends Model
     {
         return $this->belongsTo('App\Person','owner');
     } 
+
+    public function gods()
+    {
+        return $this->belongsTo('App\God','god');
+    }
+
 }

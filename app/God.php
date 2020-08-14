@@ -22,4 +22,10 @@ class God extends Model
         return $this->hasMany('App\Mythology','mythology_id');
     }
 
+    //buildings
+    public function buildings()
+    {
+        return $this->hasMany('App\Building','building_id');
+    }
+
 }

@@ -84,20 +84,20 @@ class GodSeeder extends Seeder
             'god_gender' => 'male',
             'state' => 'judge'
         ]);
-        //9
+        //10
         DB::table('gods')->insert([
             'god_name' => 'Manat',
             'god_gender' => 'female',
-            'gold_realm' => 'chthonic',
+            'god_realm' => 'chthonic',
             'state' => 'death'    
         ]);
-        //10
+        //11
         DB::table('gods')->insert([
             'god_name' => 'Nabu',
             'god_gender' => 'male',
             'arts' => 'wisdom'
         ]);
-        //11
+        //12
         DB::table('gods')->insert([
             'god_name' => 'Ninurta',
             'god_gender' => 'male',
@@ -107,7 +107,7 @@ class GodSeeder extends Seeder
             'healing' => 'medicine',
             'hunting' => 'hunt'
         ]);
-        //12
+        //13
         DB::table('gods')->insert([
             'god_name' => 'Talab',
             'god_gender' => 'male',
@@ -115,13 +115,13 @@ class GodSeeder extends Seeder
         ]);
 
         //canaanite
-        //13
+        //14
         DB::table('gods')->insert([
             'god_name' => 'Anat',
             'god_gender' => 'female',
             'war' => 'war'
         ]);
-        //14
+        //15
         DB::table('gods')->insert([
             'god_name' => 'Baal',
             'god_gender' => 'male',
@@ -129,75 +129,75 @@ class GodSeeder extends Seeder
             'agriculture' => 'crops',
             'sea' => 'storm'
         ]);
-        //15
+        //16
         DB::table('gods')->insert([
             'god_name' => 'Dagon',
             'god_gender' => 'male',
             'god_realm' => 'maritime',
             'agriculture' => 'crops',
             'fish' => 'fish',
-            'grain' => 'grain'
+            'grains' => 'grain'
         ]);
-        //16
+        //17
         DB::table('gods')->insert([
             'god_name' => 'Eshmun',
             'god_gender' => 'male',
             'healing' => 'medicine'
         ]);
-        //17
+        //18
         DB::table('gods')->insert([
             'god_name' => 'Hadad',
             'god_gender' => 'male',
             'sea' => 'storm',
             'cattle' => 'cattle'
         ]);
-        //18
+        //19
         DB::table('gods')->insert([
             'god_name' => 'Kothar',
             'god_gender' => 'male',
             'arts' => 'crafts',
             'timber' => 'cedar'
         ]);
-        //19
+        //20
         DB::table('gods')->insert([
             'god_name' => 'Marqod',
             'god_gender' => 'male',
             'arts' => 'dancing',
             'healing' => 'medicine'
         ]);
-        //20
+        //21
         DB::table('gods')->insert([
             'god_name' => 'Melqart',
             'god_gender' => 'male',
             'god_status' => 'hero',
-            'gold_realm' => 'chthonic',
+            'god_realm' => 'chthonic',
             'state' => 'death',
             'war' => 'axe',
             'arts' => 'gold',
             'timber' => 'cedar'
         ]);
-        //21
+        //22
         DB::table('gods')->insert([
             'god_name' => 'Mot',
             'god_gender' => 'male',
-            'gold_realm' => 'chthonic',
+            'god_realm' => 'chthonic',
             'state' => 'death'   
         ]);
-        //22
+        //23
         DB::table('gods')->insert([
             'god_name' => 'Nikkal',
             'god_gender' => 'female',
             'agriculture' => 'orchard',
             'fruit' => 'blossom'    
         ]);
-        //23
+        //24
         DB::table('gods')->insert([
             'god_name' => 'Qetesh',
             'god_gender' => 'female',
             'love' => 'sex',
             'lions' => 'lion'
         ]);
-        //24
+        //25
         DB::table('gods')->insert([
             'god_name' => 'Resheph',
             'god_gender' => 'male',
@@ -205,13 +205,13 @@ class GodSeeder extends Seeder
             'healing' => 'pestilence',
             'horses' => 'chariot',
         ]);
-        //25
+        //26
         DB::table('gods')->insert([
             'god_name' => 'Shadrafa',
             'god_gender' => 'male',
             'healing' => 'medicine'
         ]);
-        //26
+        //27
         DB::table('gods')->insert([
             'god_name' => 'Yam',
             'god_gender' => 'male',
@@ -219,21 +219,21 @@ class GodSeeder extends Seeder
         ]);
 
         //Celtic
-        //27
+        //28
         DB::table('gods')->insert([
             'god_name' => 'Alauna',
             'god_gender' => 'female',
             'healing' => 'medicine',
             'sea' => 'waters'
         ]);
-        //28
+        //29
         DB::table('gods')->insert([
             'god_name' => 'Artio',
             'god_gender' => 'female',
             'bears' => 'bear',
             'fruit' => 'fruit'
         ]);
-        //29
+        //30
         DB::table('gods')->insert([
             'god_name' => 'Aveta',
             'god_gender' => 'female',
@@ -242,20 +242,20 @@ class GodSeeder extends Seeder
             'dogs' => 'dog',
             'fruit' => 'fruit'
         ]);
-        //30
+        //31
         DB::table('gods')->insert([
             'god_name' => 'Belenus',
             'god_gender' => 'male',
             'state' => 'light',
             'horses' => 'chariot'
         ]);
-        //31 (iberian)
+        //32 (iberian)
         DB::table('gods')->insert([
             'god_name' => 'Belisama',
             'god_gender' => 'female',
             'arts' => 'crafts'
         ]);
-        //32
+        //33
         DB::table('gods')->insert([
             'god_name' => 'Borvo',
             'god_gender' => 'male',
@@ -263,13 +263,13 @@ class GodSeeder extends Seeder
             'sea' => 'waters',
             'healing' => 'medicine'
         ]);
-        //33
+        //34
         DB::table('gods')->insert([
             'god_name' => 'Camulus',
             'god_gender' => 'male',
             'war' => 'war'
         ]);
-        //34
+        //35 (iberian)
         DB::table('gods')->insert([
             'god_name' => 'Cernunnos',
             'god_gender' => 'male',
@@ -278,7 +278,7 @@ class GodSeeder extends Seeder
             'deer' => 'deer',
             'dogs' => 'dog'
         ]);
-        //35
+        //36
         DB::table('gods')->insert([
             'god_name' => 'Cissonius',
             'god_gender' => 'male',
@@ -287,7 +287,7 @@ class GodSeeder extends Seeder
             'chickens' => 'rooster',
             'wine' => 'vines',
         ]);
-        //36 (roman)
+        //37 (roman)
         DB::table('gods')->insert([
             'god_name' => 'Dis',
             'god_gender' => 'male',
@@ -296,7 +296,7 @@ class GodSeeder extends Seeder
             'agriculture' => 'crops',
             'arts' => 'gold'
         ]);
-        //37
+        //38 (iberian, roman)
         DB::table('gods')->insert([
             'god_name' => 'Epona',
             'god_gender' => 'female',
@@ -305,7 +305,7 @@ class GodSeeder extends Seeder
             'donkeys' => 'donkey',
             'grains' => 'cornucopia'
         ]);
-        //38
+        //39
         DB::table('gods')->insert([
             'god_name' => 'Erecura',
             'god_gender' => 'male',
@@ -314,27 +314,27 @@ class GodSeeder extends Seeder
             'grains' => 'cornucopia',
             'fruit' => 'apples'
         ]);
-        //39
+        //40
         DB::table('gods')->insert([
             'god_name' => 'Lenus',
             'god_gender' => 'male',
             'war' => 'war',
             'healing' => 'medicine'
         ]);
-        //40
+        //41
         DB::table('gods')->insert([
             'god_name' => 'Lir',
             'god_gender' => 'male',
             'sea' => 'seas'
         ]);
-        //41 (iberian)
+        //42 (iberian)
         DB::table('gods')->insert([
             'god_name' => 'Lugus',
             'god_gender' => 'male',
             'commerce' => 'trade',
             'arts' => 'crafts'
         ]);
-        //42
+        //43
         DB::table('gods')->insert([
             'god_name' => 'Matrona',
             'god_gender' => 'female',
@@ -343,7 +343,7 @@ class GodSeeder extends Seeder
             'pigs' => 'pig',        
             'fruit' => 'fruit',
         ]);
-        //43
+        //44
         DB::table('gods')->insert([
             'god_name' => 'Rosmerta',
             'god_gender' => 'female',
@@ -352,21 +352,21 @@ class GodSeeder extends Seeder
             'grains' => 'cornucopia',
             'fruit' => 'apples'
         ]);
-        //44
+        //45
         DB::table('gods')->insert([
             'god_name' => 'Segomo',
             'god_gender' => 'male',
             'war' => 'war',
             'hunting' => 'hawk'
         ]);
-        //45
+        //46
         DB::table('gods')->insert([
             'god_name' => 'Sirona',
             'god_gender' => 'female',
             'healing' => 'medicine',
             'sea' => 'waters'
         ]);
-        //46 (iberian)
+        //47 (iberian)
         DB::table('gods')->insert([
             'god_name' => 'Sucellus',
             'god_gender' => 'male',
@@ -374,7 +374,7 @@ class GodSeeder extends Seeder
             'commerce' => 'prosperity',
             'wine' => 'vines'
         ]);
-        //47
+        //48
         DB::table('gods')->insert([
             'god_name' => 'Toutatis',
             'god_gender' => 'male',
@@ -383,7 +383,7 @@ class GodSeeder extends Seeder
         ]);
 
         //Greek
-        // (roman)
+        //49 (roman)
         DB::table('gods')->insert([
             'god_name' => 'Apollo',
             'god_gender' => 'male',
@@ -393,24 +393,23 @@ class GodSeeder extends Seeder
             'arts' => 'dancing',
             'healing' => 'medicine'
         ]);
-        //
+        //50
         DB::table('gods')->insert([
             'god_name' => 'Aphrodite',
             'god_gender' => 'female',
             'love' => 'sex',
             'vegetables' => 'vegetables'
         ]);
-        //
+        //51 (scythian)
         DB::table('gods')->insert([
             'god_name' => 'Ares',
             'god_gender' => 'male',
             'war' => 'spear',
             'horses' => 'chariot',
             'dogs' => 'dog',
-            'boars' => 'boar',
-            'war' => 'spear'
+            'boars' => 'boar'
         ]);
-        //
+        //52
         DB::table('gods')->insert([
             'god_name' => 'Artemis',
             'god_gender' => 'female',
@@ -419,14 +418,14 @@ class GodSeeder extends Seeder
             'deer' => 'deer',
             'timber' => 'cypress'
         ]);
-        // (roman)
+        //53 (roman)
         DB::table('gods')->insert([
             'god_name' => 'Asclepius',
             'god_gender' => 'male',
             'god_realm' => 'chthonic',
             'healing' => 'medicine'
         ]);
-        //
+        //54
         DB::table('gods')->insert([
             'god_name' => 'Athena',
             'god_gender' => 'female',
@@ -435,7 +434,7 @@ class GodSeeder extends Seeder
             'arts' => 'wisdom',
             'fruit' => 'olives'
         ]);
-        //
+        //55
         DB::table('gods')->insert([
             'god_name' => 'Demeter',
             'god_gender' => 'female',
@@ -445,17 +444,28 @@ class GodSeeder extends Seeder
             'grains' => 'cornucopia',
             'fruit' => 'fruit'
         ]);
-        //
+        //56
         DB::table('gods')->insert([
             'god_name' => 'Dionysus',
             'god_gender' => 'male',
+            'agriculture' => 'orchard',
+            'arts' => 'theatre',
+            'cattle' => 'cattle',
+            'goats' => 'goat',
+            'wine' => 'vines',
+            'fruit' => 'fruit'
         ]);
-        //
+        //57
         DB::table('gods')->insert([
             'god_name' => 'Gaia',
             'god_gender' => 'female',
+            'god_realm' => 'chthonic',
+            'agriculture' => 'crops',
+            'cattle' => 'cattle',
+            'grains' => 'cornucopia',
+            'fruit' => 'fruit'
         ]);
-        //
+        //58
         DB::table('gods')->insert([
             'god_name' => 'Hades',
             'god_gender' => 'male',
@@ -468,29 +478,43 @@ class GodSeeder extends Seeder
             'grains' => 'cornucopia',
             'timber' => 'cypress'
         ]);
-        //
+        //59
         DB::table('gods')->insert([
             'god_name' => 'Hebe',
             'god_gender' => 'female',
             'state' => 'mercy',
             'honey' => 'honey'
         ]);
-        // (thraco illyrian)
+        //60 (thraco illyrian)
         DB::table('gods')->insert([
             'god_name' => 'Hecate',
             'god_gender' => 'female',
+            'god_realm' => 'chthonic',
+            'love' => 'household',
+            'commerce' => 'weaving',
+            'arts' => 'cloak',
+            'fish' => 'fish',
+            'dogs' => 'dog'
         ]);
-        //
+        //61
         DB::table('gods')->insert([
             'god_name' => 'Hephaestus',
             'god_gender' => 'male',
+            'state' => 'fire',
+            'commerce' => 'metalwork',
+            'arts' => 'crafts'
         ]);
-        //
+        //62
         DB::table('gods')->insert([
             'god_name' => 'Hera',
             'god_gender' => 'female',
+            'love' => 'maternal',
+            'horses' => 'chariot',
+            'cattle' => 'cattle',
+            'lions' => 'lion',
+            'fruit' => 'pomegranates'
         ]);
-        //
+        //63
         DB::table('gods')->insert([
             'god_name' => 'Heracles',
             'god_gender' => 'male',
@@ -502,7 +526,7 @@ class GodSeeder extends Seeder
             'lions' => 'lion',
             'boars' => 'boar'
         ]);
-        //
+        //64
         DB::table('gods')->insert([
             'god_name' => 'Hermes',
             'god_gender' => 'male',
@@ -513,12 +537,14 @@ class GodSeeder extends Seeder
             'goats' => 'goat',
             'chickens' => 'rooster'
         ]);
-        //
+        //65
         DB::table('gods')->insert([
             'god_name' => 'Hestia',
             'god_gender' => 'female',
+            'state' => 'fire',
+            'love' => 'household'
         ]);
-        //
+        //66
         DB::table('gods')->insert([
             'god_name' => 'Persephone',
             'god_gender' => 'female',
@@ -529,12 +555,16 @@ class GodSeeder extends Seeder
             'grains' => 'grain',
             'fruit' => 'pomegranates'
         ]);
-        //
+        //67
         DB::table('gods')->insert([
             'god_name' => 'Pan',
             'god_gender' => 'male',
+            'agriculture' => 'flocks',
+            'love' => 'sex',
+            'arts' => 'dancing',
+            'goats' => 'goat'
         ]);
-        //
+        //68
         DB::table('gods')->insert([
             'god_name' => 'Poseidon',
             'god_gender' => 'male',
@@ -542,7 +572,7 @@ class GodSeeder extends Seeder
             'sea' => 'seas',
             'horses' => 'horse'
         ]);
-        //
+        //69
         DB::table('gods')->insert([
             'god_name' => 'Zeus',
             'god_gender' => 'male',
@@ -553,704 +583,709 @@ class GodSeeder extends Seeder
         ]);
 
         //Iberian
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Reo',
-            'god_gender' => 'male',
-            'state' => 'king'
-        ]);
-        //
+        //70
         DB::table('gods')->insert([
             'god_name' => 'Ataegina',
             'god_gender' => 'female',
-            'agriculture' => 'yes'
+            'god_realm' => 'chthonic',
+            'agriculture' => 'crops',
+            'goats' => 'goat',
         ]);
-        //
+        //71
         DB::table('gods')->insert([
-            'god_name' => 'Neto',
-            'god_gender' => 'male',
-            'war' => 'yes'
+            'god_name' => 'Coventina',
+            'god_gender' => 'female',
+            'commerce' => 'prosperity',
+            'sea' => 'waters'
         ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => '',
-            'love' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => '',
-            'commerce' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => '',
-            'arts' => 'yes'
-        ]);
-        //
+        //72
         DB::table('gods')->insert([
             'god_name' => 'Duberdicus',
             'god_gender' => 'male',
-            'sea' => 'yes'
+            'sea' => 'waters',
+            'hunting' => 'mountains'
         ]);
-        //
+        //73
         DB::table('gods')->insert([
             'god_name' => 'Endovelicus',
             'god_gender' => 'male',
-            'healing' => 'yes'
+            'god_realm' => 'chthonic',
+            'agriculture' => 'crops',
+            'healing' => 'medicine'
         ]);
-        //
+        //74
         DB::table('gods')->insert([
-            'god_name' => 'Cernunnos',
-            'god_gender' => 'male',
-            'hunting' => 'yes'
+            'god_name' => 'Mari',
+            'god_gender' => 'female',
+            'love' => 'maternal',
+            'sea' => 'storm',
         ]);
-
+        //75
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Neto',
             'god_gender' => 'male',
+            'state' => 'light',
+            'war' => 'war'
         ]);
+        //76
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Reo',
             'god_gender' => 'male',
+            'god_realm' => 'chthonic',
+            'state' => 'king',
+            'cattle' => 'cattle',
+            'sheep' => 'sheep'
         ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-
 
         //Libyan
-        //
+        //77
+        DB::table('gods')->insert([
+            'god_name' => 'Afri',
+            'god_gender' => 'female',
+            'agriculture' => 'crops',
+            'love' => 'sex'
+        ]);
+        //78
+        DB::table('gods')->insert([
+            'god_name' => 'Amun',
+            'god_gender' => 'male',
+            'state' => 'light',
+            'agriculture' => 'crops',
+            'sheep' => 'sheep'
+        ]);
+        //79
+        DB::table('gods')->insert([
+            'god_name' => 'Amunet',
+            'god_gender' => 'female',
+            'state' => 'judge',
+            'agriculture' => 'crops',
+            'arts' => 'wisdom'    
+        ]);
+        //80
+        DB::table('gods')->insert([
+            'god_name' => 'Anqet',
+            'god_gender' => 'female',
+            'war' => 'archery',
+            'sea' => 'waters',
+            'healing' => 'yes',
+            'deer' => 'deer'
+        ]);
+        //81
+        DB::table('gods')->insert([
+            'god_name' => 'Awessu',
+            'god_gender' => 'male',
+            'sea' => 'seas'
+        ]); 
+        //82
+        DB::table('gods')->insert([
+            'god_name' => 'Gurzil',
+            'god_gender' => 'male',
+            'state' => 'light',
+            'war' => 'war'
+        ]);
+        //83
+        DB::table('gods')->insert([
+            'god_name' => 'Isis',
+            'god_gender' => 'female',
+            'state' => 'light',
+            'love' => 'maternal',
+            'arts' => 'wisdom',
+            'ducks' => 'duck'
+        ]);      
+        //84
         DB::table('gods')->insert([
             'god_name' => 'Mastinam',
             'god_gender' => 'male',
             'state' => 'king'
         ]);
-        //
+        //85
         DB::table('gods')->insert([
-            'god_name' => 'Amun',
+            'god_name' => 'Seth',
             'god_gender' => 'male',
-            'agriculture' => 'yes'
+            'war' => 'war',
+            'sea' => 'storm',
+            'donkeys' => 'donkey'
         ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Neith',
-            'god_gender' => 'female',
-            'war' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Afri',
-            'god_gender' => 'female',
-            'love' => 'yes'
-        ]);
-        //
+        //86 (canaanite)
         DB::table('gods')->insert([
             'god_name' => 'Tanit',
             'god_gender' => 'female',
-            'commerce' => 'yes'
+            'commerce' => 'weaving'
         ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Isis',
-            'god_gender' => 'female',
-            'arts' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Awessu',
-            'god_gender' => 'male',
-            'sea' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Anqet',
-            'god_gender' => 'female',
-            'healing' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Neith',
-            'god_gender' => 'female',
-            'hunting' => 'yes'
-        ]);
-
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-
 
         //Norse
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Thor',
-            'god_gender' => '',
-            'state' => 'king'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Fulla',
-            'god_gender' => 'female',
-            'agriculture' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Odin',
-            'god_gender' => '',
-            'war' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Freia',
-            'god_gender' => 'female',
-            'love' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Wodan',
-            'god_gender' => '',
-            'commerce' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Niorun',
-            'god_gender' => '',
-            'arts' => 'yes'
-        ]);
-        //
+        //87
         DB::table('gods')->insert([
             'god_name' => 'Aegir',
-            'god_gender' => '',
-            'sea' => 'yes'
+            'god_gender' => 'male',
+            'god_realm' => 'maritime',
+            'state' => 'fire',
+            'sea' => 'seas'
         ]);
-        //
+        //88
         DB::table('gods')->insert([
             'god_name' => 'Eir',
             'god_gender' => 'female',
-            'healing' => 'yes'
+            'state' => 'mercy',
+            'love' => 'maternal',
+            'healing' => 'medicine',
+            'hunting' => 'mountains'
         ]);
-        //
+        //89
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => '',
-            'hunting' => 'yes'
+            'god_name' => 'Freia',
+            'god_gender' => 'female',
+            'god_realm' => 'chthonic',
+            'war' => 'war',
+            'love' => 'sex',
+            'arts' => 'gold',
+            'boars' => 'boar',
+            'honey' => 'honey'
         ]);
-
+        //90
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Freyr',
             'god_gender' => 'male',
+            'god_realm' => 'chthonic',
+            'state' => 'king',
+            'agriculture' => 'crops',
+            'war' => 'sword',
+            'deer' => 'deer',
+            'honey' => 'honey'
         ]);
+        //91
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Fosite',
             'god_gender' => 'male',
+            'state' => 'judge',
+            'arts' => 'gold',
+            'sea' => 'seas'
         ]);
+        //92
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Frigg',
+            'god_gender' => 'female',
+            'agriculture' => 'flocks',
+            'arts' => 'wisdom',
+            'healing' => 'medicine',
+            'horses' => 'horse'
         ]);
+        //93
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Nerthus',
+            'god_gender' => 'female',
+            'agriculture' => 'crops',
+            'cattle' => 'cattle',
+            'timber' => 'oak'
         ]);
+        //94
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Njord',
             'god_gender' => 'male',
+            'god_realm' => 'chthonic',
+            'agriculture' => 'crops',
+            'commerce' => 'prosperity',
+            'sea' => 'seas',
+            'fish' => 'fish'
         ]);
+        //95
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Odin',
             'god_gender' => 'male',
+            'state' => 'death',
+            'war' => 'war',
+            'arts' => 'wisdom',
+            'healing' => 'medicine',
+            'hunting' => 'hawk',
+            'dogs' => 'dog'
         ]);
+        //96
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Ullr',
             'god_gender' => 'male',
+            'war' => 'archery',
         ]);
+        //97
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Thor',
             'god_gender' => 'male',
+            'state' => 'king',
+            'war' => 'hammer',
+            'sea' => 'storm',
+            'timber' => 'oak'
         ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-
 
         //Roman
-        //
+        //98
         DB::table('gods')->insert([
-            'god_name' => 'Jupiter',
+            'god_name' => 'Bacchus',
             'god_gender' => 'male',
-            'state' => 'king'
+            'agriculture' => 'orchard',
+            'arts' => 'theatre',
+            'cattle' => 'cattle',
+            'goats' => 'goat',
+            'wine' => 'vines',
+            'fruit' => 'fruit'
         ]);
-        //
+        //99
+        DB::table('gods')->insert([
+            'god_name' => 'Bellona',
+            'god_gender' => 'female',
+            'war' => 'sword',
+            'horses' => 'chariot'
+        ]);
+        //100
         DB::table('gods')->insert([
             'god_name' => 'Ceres',
             'god_gender' => 'female',
-            'agriculture' => 'yes'
+            'god_realm' => 'chthonic',
+            'state' => 'judge',
+            'agriculture' => 'cereals',
+            'grains' => 'cornucopia',
+            'fruit' => 'fruit'
         ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Mars',
-            'god_gender' => 'male',
-            'war' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Venus',
-            'god_gender' => 'female',
-            'love' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Mercurius',
-            'god_gender' => 'male',
-            'commerce' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Minerva',
-            'god_gender' => 'female',
-            'arts' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Neptunus',
-            'god_gender' => 'male',
-            'sea' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => '',
-            'healing' => 'yes'
-        ]);
-        //
+        //101
         DB::table('gods')->insert([
             'god_name' => 'Diana',
             'god_gender' => 'female',
-            'hunting' => 'yes'
+            'war' => 'archery',
+            'love' => 'maternal',
+            'hunting' => 'hunt',
+            'deer' => 'deer',
+            'timber' => 'cypress'
         ]);
-
+        //102
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Faunus',
             'god_gender' => 'male',
+            'agriculture' => 'pastures',
+            'love' => 'sex',
+            'arts' => 'dancing',
+            'cattle' => 'cattle',
+            'timber' => 'oak'
         ]);
+        //103
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Juno',
+            'god_gender' => 'female',
+            'love' => 'maternal',
+            'horses' => 'chariot',
+            'cattle' => 'cattle',
+            'lions' => 'lion',
+            'fruit' => 'pomegranates'
         ]);
+        //104
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Jupiter',
             'god_gender' => 'male',
+            'state' => 'king',
+            'hunting' => 'hawk',
+            'cattle' => 'cattle',
+            'timber' => 'oak'
         ]);
+        //105
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Mars',
             'god_gender' => 'male',
+            'war' => 'spear',
+            'horses' => 'chariot',
+            'dogs' => 'dog',
+            'boars' => 'boar'
         ]);
+        //106
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Mercurius',
             'god_gender' => 'male',
+            'god_realm' => 'chthonic',
+            'agriculture' => 'flocks',
+            'commerce' => 'trade',
+            'arts' => 'cloak',
+            'goats' => 'goat',
+            'chickens' => 'rooster'
         ]);
+        //107
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Minerva',
+            'god_gender' => 'female',
+            'war' => 'spear',
+            'commerce' => 'weaving',
+            'arts' => 'wisdom',
+            'fruit' => 'olives'
         ]);
+        //108
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Neptunus',
             'god_gender' => 'male',
+            'god_realm' => 'maritime',
+            'sea' => 'seas',
+            'horses' => 'horse'
         ]);
+        //109
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Ops',
+            'god_gender' => 'female',
+            'agriculture' => 'crops',
+            'commerce' => 'prosperity',
+            'lions' => 'lion',
+            'grains' => 'cornucopia'
         ]);
+        //110
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Pomona',
+            'god_gender' => 'female',
+            'agriculture' => 'orchard',
+            'commerce' => 'prosperity',
+            'fruit' => 'fruit'
         ]);
+        //111
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Proserpina',
+            'god_gender' => 'female',
+            'god_realm' => 'chthonic',
+            'state' => 'death',
+            'agriculture' => 'crops',
+            'deer' => 'deer',
+            'grains' => 'grain',
+            'wine' => 'vines',
+            'fruit' => 'pomegranates'
         ]);
-
+        //112
+        DB::table('gods')->insert([
+            'god_name' => 'Saturnus',
+            'god_gender' => 'male',
+            'agriculture' => 'crops',
+            'war' => 'bounty',
+            'commerce' => 'prosperity',
+        ]);
+        //113
+        DB::table('gods')->insert([
+            'god_name' => 'Terra',
+            'god_gender' => 'female',
+            'god_realm' => 'chthonic',
+            'agriculture' => 'crops',
+            'cattle' => 'cattle',
+            'grains' => 'cornucopia',
+            'fruit' => 'fruit'
+        ]);
+        //114
+        DB::table('gods')->insert([
+            'god_name' => 'Venus',
+            'god_gender' => 'female',
+            'love' => 'sex',
+            'vegetables' => 'vegetables'
+        ]);
+        //115
+        DB::table('gods')->insert([
+            'god_name' => 'Vesta',
+            'god_gender' => 'female',
+            'state' => 'fire',
+            'love' => 'household'
+        ]);
+        //116
+        DB::table('gods')->insert([
+            'god_name' => 'Vulcan',
+            'god_gender' => 'male',
+		    'state' => 'fire',
+            'commerce' => 'metalwork',
+            'arts' => 'crafts'
+        ]);
 
         //Scythian
-        //
+        //117
         DB::table('gods')->insert([
-            'god_name' => 'Papaios',
+            'god_name' => 'Alardy',
             'god_gender' => 'male',
-            'state' => 'king'
+            'healing' => 'pestilence'
         ]);
-        //
+        //118
         DB::table('gods')->insert([
-            'god_name' => 'Satanaya',
-            'god_gender' => 'female',
-            'agriculture' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Agin',
+            'god_name' => 'Aminon',
             'god_gender' => 'male',
-            'war' => 'yes'
+            'god_realm' => 'chthonic',
+            'state' => 'death'
         ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Argimpasa',
-            'god_gender' => 'female',
-            'love' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Uastyrdzhi',
-            'god_gender' => 'male',
-            'commerce' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Tabiti',
-            'god_gender' => 'female',
-            'arts' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Thagimasidas',
-            'god_gender' => 'male',
-            'sea' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Oitosyros',
-            'god_gender' => 'male',
-            'healing' => 'yes'
-        ]);
-        //
+        //119
         DB::table('gods')->insert([
             'god_name' => 'Api',
             'god_gender' => 'female',
-            'hunting' => 'yes'
+            'god_realm' => 'chthonic',
+            'agriculture' => 'crops',
+            'cattle' => 'cattle',
+            'grains' => 'cornucopia',
+            'fruit' => 'fruit'
         ]);
-
+        //120
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Argimpasa',
+            'god_gender' => 'female',
+            'love' => 'sex',
+            'vegetables' => 'vegetables'
         ]);
+        //121 (georgian)
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Avsati',
             'god_gender' => 'male',
+            'hunting' => 'hunt',
+            'pheasants' => 'pheasant'
         ]);
+        //122
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Dzerassae',
+            'god_gender' => 'female',
+            'love' => 'maternal',
+            'sea' => 'waters'
         ]);
+        //123
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Faelvaera',
             'god_gender' => 'male',
+            'agriculture' => 'flocks',
+            'sheep' => 'sheep'
+        ]);  
+        //124
+        DB::table('gods')->insert([
+            'god_name' => 'Kurdalaegon',
+            'god_gender' => 'male',
+            'state' => 'fire',
+            'commerce' => 'metalwork',
+            'arts' => 'crafts'
         ]);
+        //125
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Oitosyros',
             'god_gender' => 'male',
+            'state' => 'light',
+            'agriculture' => 'flocks',
+            'war' => 'archery',
+            'arts' => 'dancing',
+            'healing' => 'medicine'
         ]);
+        //126
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Papaios',
             'god_gender' => 'male',
+            'state' => 'king',
+            'hunting' => 'hawk',
+            'cattle' => 'cattle'
         ]);
+        //127
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Satanaya',
+            'god_gender' => 'female',
+            'state' => 'light',
+            'agriculture' => 'crops',
+            'fruit' => 'blossom'
         ]);
+        //128
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Tabiti',
+            'god_gender' => 'female',
+            'state' => 'fire',
+            'love' => 'household'
         ]);
+        //129
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Targitaos',
             'god_gender' => 'male',
+            'sea' => 'storm',
+            'cattle' => 'cattle'
         ]);
+        //130
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Thagimasidas',
             'god_gender' => 'male',
-        ]);      
+            'god_realm' => 'maritime',
+            'sea' => 'seas',
+            'horses' => 'horse'
+        ]);
+        //131
+        DB::table('gods')->insert([
+            'god_name' => 'Uacilla',
+            'god_gender' => 'male',
+            'agriculture' => 'crops',
+            'sea' => 'storm'
+        ]);     
 
         //Thraco Illyrian
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Sabazios',
-            'god_gender' => 'male',
-            'state' => 'king'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Zemele',
-            'god_gender' => 'female',
-            'agriculture' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Armatus',
-            'god_gender' => 'male',
-            'war' => 'yes'
-        ]);
-        //
+        //132
         DB::table('gods')->insert([
             'god_name' => 'Anzotica',
             'god_gender' => 'female',
-            'love' => 'yes'
+            'love' => 'sex',
+            'vegetables' => 'vegetables'
         ]);
-        //
+        //133
         DB::table('gods')->insert([
-            'god_name' => 'Zalmoxis',
+            'god_name' => 'Armatus',
             'god_gender' => 'male',
-            'commerce' => 'yes'
+            'war' => 'yes',
+            'horses' => 'horse'
         ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Hecate',
-            'god_gender' => 'female',
-            'arts' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Bindus',
-            'god_gender' => 'male',
-            'sea' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Derzelas',
-            'god_gender' => 'male',
-            'healing' => 'yes'
-        ]);
-        //
+        //134
         DB::table('gods')->insert([
             'god_name' => 'Bendis',
             'god_gender' => 'female',
-            'hunting' => 'yes'
+            'arts' => 'dancing',
+            'hunting' => 'hunt'
         ]);
-
+        //135
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Bindus',
             'god_gender' => 'male',
+            'god_realm' => 'maritime',
+            'sea' => 'seas',
+            'horses' => 'horse'
         ]);
+        //136
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Derzelas',
             'god_gender' => 'male',
+            'god_realm' => 'chthonic',
+            'state' => 'death',
+            'commerce' => 'prosperity',
+            'healing' => 'medicine',
+            'grains' => 'cornucopia'
         ]);
+        //137
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Kotys',
             'god_gender' => 'male',
+            'war' => 'war',
+            'love' => 'sex',
+            'healing' => 'medicine'
         ]);
+        //138
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Sabazios',
             'god_gender' => 'male',
+            'state' => 'king',
+            'horses' => 'horse'
         ]);
+        //139
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Semele',
+            'god_gender' => 'female',
+            'god_realm' => 'chthonic',
+            'agriculture' => 'crops',
+            'wine' => 'vines'
         ]);
+        //140
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Silenus',
             'god_gender' => 'male',
+            'horses' => 'horse',
+            'wine' => 'vines'
         ]);
+        //141
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Silvanus',
             'god_gender' => 'male',
+            'agriculture' => 'flocks',
+            'love' => 'sex',
+            'arts' => 'dancing',
+            'goats' => 'goat',
+            'ducks' => 'duck'
         ]);
+        //142
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Zalmoxis',
             'god_gender' => 'male',
+            'god_realm' => 'chthonic',
+            'war' => 'axe',
+            'commerce' => 'prosperity'
         ]);
+        //143
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Zibelthiurdos',
             'god_gender' => 'male',
-        ]);
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'state' => 'light',
+            'sea' => 'storm'
         ]);
 
         //Georgian
-        //
+        //144
+        DB::table('gods')->insert([
+            'god_name' => 'Adgilis',
+            'god_gender' => 'male',
+            'love' => 'maternal',
+            'agriculture' => 'crops',
+            'cattle' => 'cattle'
+        ]);
+        //145
         DB::table('gods')->insert([
             'god_name' => 'Armazi',
             'god_gender' => 'male',
-            'state' => 'king'
+            'state' => 'king',
+            'commerce' => 'prosperity',
+            'arts' => 'gold'
         ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Tevdore',
-            'god_gender' => 'male',
-            'agriculture' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Kopala',
-            'god_gender' => 'male',
-            'war' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Samdzimari',
-            'god_gender' => 'female',
-            'love' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Zaden',
-            'god_gender' => 'male',
-            'commerce' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Lamaria',
-            'god_gender' => 'female',
-            'arts' => 'yes'
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => 'Leucothenia',
-            'god_gender' => 'female',
-            'sea' => 'yes'
-        ]);
-        //
+        //146
         DB::table('gods')->insert([
             'god_name' => 'Barbale',
             'god_gender' => 'female',
-            'healing' => 'yes'
+            'healing' => 'medicine'
         ]);
-        //
+        //147
         DB::table('gods')->insert([
             'god_name' => 'Dali',
             'god_gender' => 'female',
-            'hunting' => 'yes'
+            'love' => 'sex',
+            'arts' => 'gold',
+            'hunting' => 'yes',
+            'goats' => 'goat',
+            'deer' => 'deer'
         ]);
-
-        //
+        //148
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Lamaria',
+            'god_gender' => 'female',
+            'state' => 'fire',
+            'love' => 'maternal',
+            'arts' => 'dancing',
+            'cattle' => 'cattle',
+            'honey' => 'honey',
         ]);
-        //
+        //149
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Pirkusha',
             'god_gender' => 'male',
+            'state' => 'fire',
+            'commerce' => 'metalwork',
+            'arts' => 'crafts'
         ]);
-        //
+        //150
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Samdzimari',
+            'god_gender' => 'female',
+            'agriculture' => 'crops',
+            'love' => 'sex',
+            'arts' => 'gold',
+            'cattle' => 'cattle'
         ]);
-        //
+        //151
         DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
+            'god_name' => 'Tamar',
+            'god_gender' => 'female',
+            'sea' => 'storm'
         ]);
-        //
+        //152
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Tevdore',
             'god_gender' => 'male',
+            'agriculture' => 'crops',
+            'horses' => 'horse'
         ]);
-        //
+        //153
         DB::table('gods')->insert([
-            'god_name' => '',
+            'god_name' => 'Zaden',
             'god_gender' => 'male',
+            'commerce' => 'prosperity'
         ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-        //
-        DB::table('gods')->insert([
-            'god_name' => '',
-            'god_gender' => 'male',
-        ]);
-
-
 
         //monotheistic
 
         //Zoroastrianism
-        //
+        //154
         DB::table('gods')->insert([
             'god_name' => 'Hormazd',
             'god_gender' => 'male',
@@ -1258,7 +1293,7 @@ class GodSeeder extends Seeder
             'state' => 'creator',
             'horses' => 'chariot'      
         ]);
-        //
+        //155
         DB::table('gods')->insert([
             'god_name' => 'Mithra',
             'god_gender' => 'male',
@@ -1269,7 +1304,7 @@ class GodSeeder extends Seeder
             'sea' => 'waters',
             'cattle' => 'cattle'
         ]);
-        //
+        //156
         DB::table('gods')->insert([
             'god_name' => 'Anahita',
             'god_gender' => 'female',
@@ -1277,15 +1312,14 @@ class GodSeeder extends Seeder
             'god_status' => 'spirit',
             'agriculture' => 'crops',
             'sea' => 'waters',
-            'camels' => 'herd',
-            'horses' => 'herd',
-            'cattle' => 'herd',
-            'sheep' => 'herd',
-            'goats' => 'herd'
+            'horses' => 'horse',
+            'cattle' => 'cattle',
+            'sheep' => 'sheep',
+            'goats' => 'goat'
         ]);
 
         //Hellenic Judaism
-        //
+        //157
         DB::table('gods')->insert([
             'god_name' => 'Yahweh',
             'god_gender' => 'male',

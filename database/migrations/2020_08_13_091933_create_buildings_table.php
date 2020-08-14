@@ -21,6 +21,7 @@ class CreateBuildingsTable extends Migration
             $table->unsignedBigInteger('buildingtype');
             $table->unsignedBigInteger('location');
             $table->unsignedBigInteger('owner')->nullable();
+            $table->unsignedBigInteger('god')->nullable();
             //timestamps
             $table->timestamps();
         });

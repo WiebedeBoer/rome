@@ -277,7 +277,7 @@ class BuildingtypeSeeder extends Seeder
             'building_category' => 'trade'
         ]);
         //municipal ground (fixed) no.13
-        //49 *
+        //49 
         DB::table('buildingtypes')->insert([
             'building_name' => 'forum civilium',
             'building_category' => 'municipal'

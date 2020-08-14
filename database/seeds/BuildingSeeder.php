@@ -173,6 +173,10 @@ class BuildingSeeder extends Seeder
             'location' => '307'
             ]); 
         //temples healing
+        DB::table('buildings')->insert([
+            'buildingtype' => '8',
+            'location' => '228'
+            ]); 
             DB::table('buildings')->insert([
             'buildingtype' => '8',
             'location' => '310'
@@ -252,6 +256,11 @@ class BuildingSeeder extends Seeder
         DB::table('buildings')->insert([
             'buildingtype' => '10',
             'location' => '323'
+        ]);
+        //ebora
+        DB::table('buildings')->insert([
+            'buildingtype' => '10',
+            'location' => '228'
         ]);
         //treasuries
             DB::table('buildings')->insert([

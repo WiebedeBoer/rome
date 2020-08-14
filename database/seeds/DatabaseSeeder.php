@@ -17,8 +17,6 @@ class DatabaseSeeder extends Seeder
         $this->call('ForeignKeySeeder');
         //users
         $this->call('UserSeeder');
-        //gods
-        $this->call('GodSeeder');
         //religions
         $this->call('ReligionSeeder');
         //gods
@@ -84,6 +82,7 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('buildingtype')->references('building_id')->on('buildingtypes');
             $table->foreign('location')->references('town_id')->on('towns');
             $table->foreign('owner')->references('person_id')->on('people');
+            $table->foreign('god')->references('god_id')->on('gods');
         });	
         //travel organization
         Schema::table('landconnections', function (Blueprint $table) {
