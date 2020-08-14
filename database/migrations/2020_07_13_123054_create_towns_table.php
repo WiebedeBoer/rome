@@ -55,10 +55,10 @@ class CreateTownsTable extends Migration
             $table->string('scent')->default('none'); //30 incense, 8 cedar
             $table->string('chattel')->default('none'); //13 slave
 			//statistics
-			$table->integer('defenses')->default(10); //1 - 999, ruin 1, oppida 100, castra 300, city wall 600
-			$table->integer('justice')->default(900); //1 - 999
-			$table->integer('commerce')->default(10); //1 - 999
-            $table->integer('agriculture')->default(10); //1 - 999
+			$table->integer('defenses')->default(25); //1 - 999, ruin 1, oppida 100, castra 300, city wall 600
+			$table->integer('justice')->default(900); //1 - 999, wicked 1, unlawful 100, fair 700, virtuous 900
+			$table->integer('commerce')->default(50); //1 - 999, ruined 1, poor 100, moderate 300, prosperous 600, rich 800
+            $table->integer('agriculture')->default(50); //1 - 999, waste 1, unproductive 100, productive 400, fruitful 600, flourishing 800
 			//army stats
 			$table->integer('morale')->default(100);
 			$table->integer('training')->default(100);

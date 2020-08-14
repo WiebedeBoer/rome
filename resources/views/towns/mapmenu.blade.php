@@ -14,7 +14,7 @@
 		<a href="/mapcommerce" class="btn btn-dark">Commerce</a>
 	</div>
 	<div class="mlinks m-1">				
-		<a href="/maptemple" class="btn btn-dark">Temples</a>
+		<a href="/maptemple" class="btn btn-dark">Temples &amp; Oracles &amp; Tombs</a>
 		<a href="/mapbath" class="btn btn-dark">Baths</a>
 		<a href="/maplibrary" class="btn btn-dark">Libraries</a>
 		<a href="/maptheatre" class="btn btn-dark">Theatres</a>

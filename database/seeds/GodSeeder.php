@@ -54,7 +54,7 @@ class GodSeeder extends Seeder
             'agriculture' => 'crops',
             'sea' => 'seas'
         ]);
-        //6 (punic)
+        //6 (canaanite)
         DB::table('gods')->insert([
             'god_name' => 'Astarte',
             'god_gender' => 'female',

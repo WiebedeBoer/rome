@@ -13,61 +13,61 @@ class BuildingtypeSeeder extends Seeder
     {
 
         //religious, templum ground (multiple) no. 1
-        //1
+        //1 shrine for household gods
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'lararium',
+            'building_category' => 'religious',
+            'religious_category' => 'shrine'
+        ]);
+        //2 shrine at storeroom
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'aedicula',
+            'building_category' => 'religious',
+            'religious_category' => 'shrine'
+        ]);
+        //3 shrine small
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'sacellum',
+            'building_category' => 'religious',
+            'religious_category' => 'shrine'
+        ]);
+        //4 shrine medium
         DB::table('buildingtypes')->insert([
             'building_name' => 'aedes',
             'building_category' => 'religious',
-            'religious_category' => 'state'
+            'religious_category' => 'shrine'
         ]);
-        //2
+        //5 shrine with sacred objects
         DB::table('buildingtypes')->insert([
-            'building_name' => 'aedes',
+            'building_name' => 'sacrarium',
             'building_category' => 'religious',
-            'religious_category' => 'agriculture'
+            'religious_category' => 'shrine'
         ]);
-        //3
+        //6 shrine with idol
         DB::table('buildingtypes')->insert([
-            'building_name' => 'aedes',
+            'building_name' => 'delubrum',
             'building_category' => 'religious',
-            'religious_category' => 'war'
+            'religious_category' => 'shrine'
         ]);
-        //4
+        //7 grave
         DB::table('buildingtypes')->insert([
-            'building_name' => 'aedes',
+            'building_name' => 'sepulcrum',
             'building_category' => 'religious',
-            'religious_category' => 'love'
+            'religious_category' => 'grave'
         ]);
-        //5
+        //8 tomb
         DB::table('buildingtypes')->insert([
-            'building_name' => 'aedes',
+            'building_name' => 'mausoleum',
             'building_category' => 'religious',
-            'religious_category' => 'commerce'
+            'religious_category' => 'shrine'
         ]);
-        //6
+        //9 sacred grove
         DB::table('buildingtypes')->insert([
-            'building_name' => 'aedes',
+            'building_name' => 'lucus',
             'building_category' => 'religious',
-            'religious_category' => 'arts'
+            'religious_category' => 'grove'
         ]);
-        //7
-        DB::table('buildingtypes')->insert([
-            'building_name' => 'aedes',
-            'building_category' => 'religious',
-            'religious_category' => 'sea'
-        ]);
-        //8
-        DB::table('buildingtypes')->insert([
-            'building_name' => 'aedes',
-            'building_category' => 'religious',
-            'religious_category' => 'healing'
-        ]);
-        //9
-        DB::table('buildingtypes')->insert([
-            'building_name' => 'aedes',
-            'building_category' => 'religious',
-            'religious_category' => 'hunting'
-        ]);
-        //10 (oracle)
+        //10 oracle
         DB::table('buildingtypes')->insert([
             'building_name' => 'oraculum',
             'building_category' => 'religious',
@@ -313,6 +313,25 @@ class BuildingtypeSeeder extends Seeder
             'building_name' => 'sawmill',
             'building_category' => 'industrial'
         ]);
+
+        /*
+        //wonders
+        //56
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'hanging gardens',
+            'building_category' => 'wonder'
+        ]);
+        //57
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'pyramid',
+            'building_category' => 'wonder'
+        ]);
+        //58
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'lighthouse',
+            'building_category' => 'wonder'
+        ]);
+        */
 
     }
 }

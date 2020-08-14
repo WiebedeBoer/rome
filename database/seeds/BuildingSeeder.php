@@ -13,260 +13,499 @@ class BuildingSeeder extends Seeder
     {
  
         //religious no. 1
-        //temples state
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '1'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '8'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '265'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '312'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '495'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '501'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '502'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '523'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '556'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '567'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '1',
-            'location' => '589'
-            ]); 
-        //temples agriculture
-            DB::table('buildings')->insert([
-            'buildingtype' => '2',
-            'location' => '28'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '2',
-            'location' => '39'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '2',
-            'location' => '193'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '2',
-            'location' => '280'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '2',
-            'location' => '284'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '2',
-            'location' => '329'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '2',
-            'location' => '562'
-            ]); 
-        //temples war
-            DB::table('buildings')->insert([
-            'buildingtype' => '3',
-            'location' => '170'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '3',
-            'location' => '555'
-            ]); 
-        //temples love
-            DB::table('buildings')->insert([
+        //temples
+        //jupiter, roma
+        DB::table('buildings')->insert([
             'buildingtype' => '4',
-            'location' => '315'
-            ]);
-            DB::table('buildings')->insert([
+            'location' => '1',
+            'god' => '104'
+        ]);
+        //saturnus, roma
+        DB::table('buildings')->insert([
             'buildingtype' => '4',
-            'location' => '402'
-            ]);
-            DB::table('buildings')->insert([
+            'location' => '1',
+            'god' => '112'
+        ]);
+        //diana, lanuvium
+        DB::table('buildings')->insert([
             'buildingtype' => '4',
-            'location' => '565'
-            ]);
-            DB::table('buildings')->insert([
+            'location' => '3',
+            'god' => '101'
+        ]);
+        //jupiter, pompei
+        DB::table('buildings')->insert([
             'buildingtype' => '4',
-            'location' => '591'
-            ]); 
-        //temples commerce
-            DB::table('buildings')->insert([
-            'buildingtype' => '5',
-            'location' => '99'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '5',
-            'location' => '172'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '5',
-            'location' => '218'
-            ]); 
-        //temples arts
-            DB::table('buildings')->insert([
+            'location' => '8',
+            'god' => '104'
+        ]);
+        //poseidon, Paestum
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '9',
+            'god' => '68'
+        ]);
+        //poseidon, tarentum
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '15',
+            'god' => '68'
+        ]);
+        //minerva, Perusia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '25',
+            'god' => '107'
+        ]);
+        //ceres, gravisca
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '28',
+            'god' => '100'
+        ]);
+        //demeter, syracusae
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '39',
+            'god' => '55'
+        ]);
+        //Belisama, Mediolanum
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '56',
+            'god' => '32'
+        ]);
+        //artemis, Massilia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '90',
+            'god' => '52'
+        ]);
+        //lugus, valentia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '93',
+            'god' => '42'
+        ]);
+        //belisama, nemausus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '98',
+            'god' => '32'
+        ]);
+        //lugus, lugdunum
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '99',
+            'god' => '42'
+        ]);
+        //nerthus, flevum
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '142',
+            'god' => '93'
+        ]); 
+        //nerthus, mattium
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '152',
+            'god' => '93'
+        ]); 
+        //belisama, Aquae Sulis
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '160',
+            'god' => '32'
+        ]);
+        //camulus, Verulamium
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '170',
+            'god' => '34'
+        ]);
+        //lugus, icenorum
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '172',
+            'god' => '42'
+        ]);
+        //lugus, luguvalium
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '177',
+            'god' => '34'
+        ]);
+        //Artemis, Emporiae
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '182',
+            'god' => '52'
+        ]);
+        //epona, pallantia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '193',
+            'god' => '38'
+        ]);
+        //lugus, lucus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '218',
+            'god' => '42'
+        ]); 
+        //Endovelicus, Ebora
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '228',
+            'god' => '73'
+        ]); 
+        //baal, carthago
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '265',
+            'god' => '15'
+        ]);
+        //demeter, cyrene
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '280',
+            'god' => '55'
+        ]);
+        //persephone, cyrene
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '280',
+            'god' => '66'
+        ]);
+        //amun, ammonium
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '283',
+            'god' => '78'
+        ]);
+        //Apollo, delos
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '306',
+            'god' => '49'
+        ]);
+        //poseidon, rhodus (delubrum)
+        DB::table('buildings')->insert([
             'buildingtype' => '6',
-            'location' => '25'
-            ]);
-            DB::table('buildings')->insert([
+            'location' => '307',
+            'god' => '68'
+        ]); 
+        //artemis, sparta
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '308',
+            'god' => '52'
+        ]);
+        //asclepius, Messenia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '310',
+            'god' => '53'
+        ]);
+        //zeus, olympia (delubrum)
+        DB::table('buildings')->insert([
             'buildingtype' => '6',
-            'location' => '56'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '6',
-            'location' => '98'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '6',
-            'location' => '147'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '6',
-            'location' => '160'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '6',
-            'location' => '288'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '6',
-            'location' => '296'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '6',
-            'location' => '316'
-            ]); 
-        //temples sea
-            DB::table('buildings')->insert([
-            'buildingtype' => '7',
-            'location' => '9'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '7',
-            'location' => '15'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '7',
-            'location' => '307'
-            ]); 
-        //temples healing
+            'location' => '312',
+            'god' => '69'
+        ]);
+        //hera, argos
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '314',
+            'god' => '62'
+        ]);
+        //Apollo, corinthus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '315',
+            'god' => '49'
+        ]);
+        //aphrodite, corinthus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '315',
+            'god' => '50'
+        ]);
+        //poseidon, corinthus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '315',
+            'god' => '68'
+        ]);
+        //athena, athenae
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '316',
+            'god' => '54'
+        ]); 
+        //dionysus, thebes
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '318',
+            'god' => '56'
+        ]);
+        //Apollo, delphi
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '320',
+            'god' => '49'
+        ]);
+        //asclepius, ambracia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '323',
+            'god' => '49'
+        ]);
+        //artemis, magnesia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '324',
+            'god' => '52'
+        ]);
+        //asclepius, Epidaurus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '328',
+            'god' => '53'
+        ]);
+        //Aphrodite, pella
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '329',
+            'god' => '50'
+        ]);
+        //demeter, pella
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '329',
+            'god' => '55'
+        ]);
+        //Apollo, ephesus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '399',
+            'god' => '49'
+        ]);
+        //artemis, ephesus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '399',
+            'god' => '52'
+        ]);
+        //dionysus, ephesus
+        DB::table('buildings')->insert([
+            'buildingtype' => '10',
+            'location' => '399',
+            'god' => '56'
+        ]);
+        //Apollo, miletus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '401',
+            'god' => '49'
+        ]);
+        //aphrodite, Aphrodisias
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '402',
+            'god' => '50'
+        ]);
+        //asclepius, halicarnassus
         DB::table('buildings')->insert([
             'buildingtype' => '8',
-            'location' => '228'
-            ]); 
-            DB::table('buildings')->insert([
+            'location' => '404',
+            'god' => '53'
+        ]); 
+        //artemis, magnesia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '406',
+            'god' => '52'
+        ]); 
+        //asclepius, pergamum
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '408',
+            'god' => '53'
+        ]);
+        //hormazd, susa
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '495',
+            'god' => '154'
+        ]);
+        //hormazd, Pasargadae
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '501',
+            'god' => '154'
+        ]);
+        //hormazd, persepolis
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '502',
+            'god' => '154'
+        ]);
+        //mithra, persepolis
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '502',
+            'god' => '155'
+        ]);
+        //anahita, persepolis
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '502',
+            'god' => '156'
+        ]);
+        //mithra, dura europos
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '533',
+            'god' => '155'
+        ]);
+        //apollo, Antiochia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '551',
+            'god' => '49'
+        ]); 
+        //allat, palmyra
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '555',
+            'god' => '2'
+        ]);
+        //baal, damascus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '556',
+            'god' => '15'
+        ]);
+        //eshmun, sidon
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '562',
+            'god' => '17'
+        ]); 
+        //yahweh, hierosolyma
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '567',
+            'god' => '157'
+        ]);
+        //aluzza, makkah
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '589',
+            'god' => '4'
+        ]);
+        //allat, taif
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '591',
+            'god' => '2'
+        ]); 
+
+        //mausoleum
+        //halicarnassus
+        DB::table('buildings')->insert([
             'buildingtype' => '8',
-            'location' => '310'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '8',
-            'location' => '320'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '8',
-            'location' => '328'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '8',
-            'location' => '401'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '8',
-            'location' => '408'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '8',
-            'location' => '551'
-            ]); 
-        //temples hunting
-            DB::table('buildings')->insert([
+            'location' => '404'
+        ]); 
+
+        //groves
+        //diana, lanuvium
+        DB::table('buildings')->insert([
             'buildingtype' => '9',
-            'location' => '3'
-            ]);
-            DB::table('buildings')->insert([
+            'location' => '3',
+            'god' => '101'
+        ]);
+        //lugus, valentia
+        DB::table('buildings')->insert([
             'buildingtype' => '9',
-            'location' => '90'
-            ]);
-            DB::table('buildings')->insert([
+            'location' => '93',
+            'god' => '42'
+        ]); 
+        //nerthus, flevum
+        DB::table('buildings')->insert([
             'buildingtype' => '9',
-            'location' => '182'
-            ]);
-            DB::table('buildings')->insert([
+            'location' => '142',
+            'god' => '93'
+        ]); 
+        //nerthus, mattium
+        DB::table('buildings')->insert([
             'buildingtype' => '9',
-            'location' => '308'
-            ]);
-            DB::table('buildings')->insert([
+            'location' => '152',
+            'god' => '93'
+        ]); 
+        //lugus, lucus
+        DB::table('buildings')->insert([
             'buildingtype' => '9',
-            'location' => '399'
-            ]);
-            DB::table('buildings')->insert([
+            'location' => '218',
+            'god' => '42'
+        ]); 
+        //athena, athenae
+        DB::table('buildings')->insert([
             'buildingtype' => '9',
-            'location' => '406'
-            ]); 
+            'location' => '218',
+            'god' => '54'
+        ]); 
+
         //oracles
-        //delphi
+        //diana, lanuvium
         DB::table('buildings')->insert([
             'buildingtype' => '10',
-            'location' => '320'
+            'location' => '3',
+            'god' => '101'
         ]);
-        //ephesus
+        //Endovelicus, ebora
         DB::table('buildings')->insert([
             'buildingtype' => '10',
-            'location' => '399'
+            'location' => '228',
+            'god' => '73'
         ]);
-        //miletus
+        //amun, ammonium
         DB::table('buildings')->insert([
             'buildingtype' => '10',
-            'location' => '401'
+            'location' => '283',
+            'god' => '78'
         ]);
-        //ammonium
+        //apollo, delphi
         DB::table('buildings')->insert([
             'buildingtype' => '10',
-            'location' => '283'
+            'location' => '320',
+            'god' => '49'
         ]);
-        //lanuvium
+        //asclepius, ambracia
         DB::table('buildings')->insert([
             'buildingtype' => '10',
-            'location' => '3'
+            'location' => '323',
+            'god' => '49'
         ]);
-        //ambracia
+        //apollo, ephesus
         DB::table('buildings')->insert([
             'buildingtype' => '10',
-            'location' => '323'
+            'location' => '399',
+            'god' => '49'
         ]);
-        //ebora
+        //apollo, miletus
         DB::table('buildings')->insert([
             'buildingtype' => '10',
-            'location' => '228'
+            'location' => '401',
+            'god' => '49'
         ]);
+
         //treasuries
-            DB::table('buildings')->insert([
+        //roma
+        DB::table('buildings')->insert([
             'buildingtype' => '11',
             'location' => '1'
-            ]);
+        ]);
             DB::table('buildings')->insert([
             'buildingtype' => '11',
             'location' => '21'
@@ -934,34 +1173,34 @@ class BuildingSeeder extends Seeder
             ]); 
         //education no. 3
         //libraries
-            DB::table('buildings')->insert([
+        DB::table('buildings')->insert([
             'buildingtype' => '14',
             'location' => '258'
-            ]);
-            DB::table('buildings')->insert([
+        ]);
+        DB::table('buildings')->insert([
             'buildingtype' => '14',
             'location' => '284'
-            ]);
-            DB::table('buildings')->insert([
+        ]);
+        DB::table('buildings')->insert([
             'buildingtype' => '14',
             'location' => '307'
-            ]);
-            DB::table('buildings')->insert([
+        ]);
+        DB::table('buildings')->insert([
             'buildingtype' => '14',
             'location' => '316'
-            ]);
-            DB::table('buildings')->insert([
+        ]);
+        DB::table('buildings')->insert([
             'buildingtype' => '14',
             'location' => '399'
-            ]);
-            DB::table('buildings')->insert([
+        ]);
+        DB::table('buildings')->insert([
             'buildingtype' => '14',
             'location' => '408'
-            ]);
-            DB::table('buildings')->insert([
+        ]);
+        DB::table('buildings')->insert([
             'buildingtype' => '14',
             'location' => '551'
-            ]); 
+        ]); 
         //academies
         DB::table('buildings')->insert([
             'buildingtype' => '15',

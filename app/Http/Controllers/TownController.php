@@ -370,7 +370,7 @@ class TownController extends Controller
             $town->god_healing_count = Building::where('location', $town->town_id)->where('buildingtype',8)->count();
             $town->god_hunting_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();
             */
-            $town->temple_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[1,9])->count();
+            $town->temple_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[1,10])->count();
 
             /*
             $town_realm = $town->realm;
@@ -390,8 +390,12 @@ class TownController extends Controller
             $town->god_hunting = $religion[0]->hunting;            
             */
 
+            /*
+            //grove count
+            $town->grove_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();
             //oracle count
             $town->oracle_count = Building::where('location', $town->town_id)->where('buildingtype',10)->count();
+            */
 
         } 
 

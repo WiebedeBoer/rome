@@ -15,6 +15,7 @@ class CreateBuildingsTable extends Migration
     {
         Schema::create('buildings', function (Blueprint $table) {
             $table->bigIncrements('building_id');
+            $table->string('building_name')->nullable();
             //stats
             $table->integer('state')->default(100);
             //fk

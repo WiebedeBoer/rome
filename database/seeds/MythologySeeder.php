@@ -72,17 +72,13 @@ class MythologySeeder extends Seeder
             'religion' => '2'
         ]);   
         DB::table('mythologies')->insert([
-            'god' => '28',
-            'religion' => '2'
-        ]);   
-        DB::table('mythologies')->insert([
             'god' => '29',
             'religion' => '2'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '30',
             'religion' => '2'
-        ]);   
+        ]); 
         DB::table('mythologies')->insert([
             'god' => '31',
             'religion' => '2'
@@ -90,11 +86,11 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '32',
             'religion' => '2'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '33',
             'religion' => '2'
-        ]);   
+        ]); 
         DB::table('mythologies')->insert([
             'god' => '34',
             'religion' => '2'
@@ -110,11 +106,11 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '37',
             'religion' => '2'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '38',
             'religion' => '2'
-        ]);   
+        ]); 
         DB::table('mythologies')->insert([
             'god' => '39',
             'religion' => '2'
@@ -122,19 +118,19 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '40',
             'religion' => '2'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '41',
             'religion' => '2'
-        ]);   
+        ]); 
         DB::table('mythologies')->insert([
             'god' => '42',
             'religion' => '2'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '43',
             'religion' => '2'
-        ]);   
+        ]); 
         DB::table('mythologies')->insert([
             'god' => '44',
             'religion' => '2'
@@ -142,21 +138,21 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '45',
             'religion' => '2'
-        ]);  
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '46',
             'religion' => '2'
-        ]);   
+        ]);  
         DB::table('mythologies')->insert([
             'god' => '47',
+            'religion' => '2'
+        ]);   
+        DB::table('mythologies')->insert([
+            'god' => '48',
             'religion' => '2'
         ]); 
 
         //greek
-        DB::table('mythologies')->insert([
-            'god' => '48',
-            'religion' => '3'
-        ]);
         DB::table('mythologies')->insert([
             'god' => '49',
             'religion' => '3'
@@ -237,40 +233,40 @@ class MythologySeeder extends Seeder
             'god' => '68',
             'religion' => '3'
         ]);
+        DB::table('mythologies')->insert([
+            'god' => '69',
+            'religion' => '3'
+        ]);
 
         //iberian
         DB::table('mythologies')->insert([
-            'god' => '31',
+            'god' => '32',
             'religion' => '4'
         ]); 
         DB::table('mythologies')->insert([
-            'god' => '34',
+            'god' => '35',
             'religion' => '4'
         ]);   
         DB::table('mythologies')->insert([
-            'god' => '37',
+            'god' => '38',
             'religion' => '4'
         ]); 
         DB::table('mythologies')->insert([
-            'god' => '41',
+            'god' => '42',
             'religion' => '4'
         ]);   
         DB::table('mythologies')->insert([
-            'god' => '46',
+            'god' => '47',
             'religion' => '4'
         ]);    
         DB::table('mythologies')->insert([
-            'god' => '69',
-            'religion' => '4'
-        ]);   
-        DB::table('mythologies')->insert([
             'god' => '70',
             'religion' => '4'
-        ]);  
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '71',
             'religion' => '4'
-        ]);   
+        ]);  
         DB::table('mythologies')->insert([
             'god' => '72',
             'religion' => '4'
@@ -278,7 +274,7 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '73',
             'religion' => '4'
-        ]);  
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '74',
             'religion' => '4'
@@ -287,12 +283,12 @@ class MythologySeeder extends Seeder
             'god' => '75',
             'religion' => '4'
         ]);  
-
-        //libyan
         DB::table('mythologies')->insert([
             'god' => '76',
-            'religion' => '5'
-        ]);
+            'religion' => '4'
+        ]);  
+
+        //libyan
         DB::table('mythologies')->insert([
             'god' => '77',
             'religion' => '5'
@@ -329,12 +325,12 @@ class MythologySeeder extends Seeder
             'god' => '85',
             'religion' => '5'
         ]);
-
-        //norse
         DB::table('mythologies')->insert([
             'god' => '86',
-            'religion' => '6'
+            'religion' => '5'
         ]);
+
+        //norse
         DB::table('mythologies')->insert([
             'god' => '87',
             'religion' => '6'
@@ -375,30 +371,30 @@ class MythologySeeder extends Seeder
             'god' => '96',
             'religion' => '6'
         ]);
+        DB::table('mythologies')->insert([
+            'god' => '97',
+            'religion' => '6'
+        ]);
         
         //roman
-        DB::table('mythologies')->insert([
-            'god' => '36',
-            'religion' => '7'
-        ]);
         DB::table('mythologies')->insert([
             'god' => '37',
             'religion' => '7'
         ]);
         DB::table('mythologies')->insert([
-            'god' => '48',
+            'god' => '38',
             'religion' => '7'
         ]);
         DB::table('mythologies')->insert([
-            'god' => '52',
+            'god' => '49',
             'religion' => '7'
         ]);
         DB::table('mythologies')->insert([
-            'god' => '62',
+            'god' => '53',
             'religion' => '7'
         ]);
         DB::table('mythologies')->insert([
-            'god' => '97',
+            'god' => '63',
             'religion' => '7'
         ]);
         DB::table('mythologies')->insert([
@@ -473,16 +469,16 @@ class MythologySeeder extends Seeder
             'god' => '115',
             'religion' => '7'
         ]);
+        DB::table('mythologies')->insert([
+            'god' => '116',
+            'religion' => '7'
+        ]);
 
         //scythian
         DB::table('mythologies')->insert([
-            'god' => '50',
+            'god' => '51',
             'religion' => '8'
         ]);   
-        DB::table('mythologies')->insert([
-            'god' => '116',
-            'religion' => '8'
-        ]); 
         DB::table('mythologies')->insert([
             'god' => '117',
             'religion' => '8'
@@ -490,11 +486,11 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '118',
             'religion' => '8'
-        ]);   
+        ]); 
         DB::table('mythologies')->insert([
             'god' => '119',
             'religion' => '8'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '120',
             'religion' => '8'
@@ -502,11 +498,11 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '121',
             'religion' => '8'
-        ]);   
+        ]); 
         DB::table('mythologies')->insert([
             'god' => '122',
             'religion' => '8'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '123',
             'religion' => '8'
@@ -518,11 +514,11 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '125',
             'religion' => '8'
-        ]);   
+        ]); 
         DB::table('mythologies')->insert([
             'god' => '126',
             'religion' => '8'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '127',
             'religion' => '8'
@@ -530,23 +526,23 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '128',
             'religion' => '8'
-        ]);   
+        ]); 
         DB::table('mythologies')->insert([
             'god' => '129',
             'religion' => '8'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '130',
+            'religion' => '8'
+        ]); 
+        DB::table('mythologies')->insert([
+            'god' => '131',
             'religion' => '8'
         ]);
 
         //thraco illyrian
         DB::table('mythologies')->insert([
-            'god' => '59',
-            'religion' => '9'
-        ]);
-        DB::table('mythologies')->insert([
-            'god' => '131',
+            'god' => '60',
             'religion' => '9'
         ]);
         DB::table('mythologies')->insert([
@@ -592,15 +588,15 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '142',
             'religion' => '9'
+        ]);
+        DB::table('mythologies')->insert([
+            'god' => '143',
+            'religion' => '9'
         ]);  
 
         //georgian
         DB::table('mythologies')->insert([
-            'god' => '120',
-            'religion' => '11'
-        ]);   
-        DB::table('mythologies')->insert([
-            'god' => '143',
+            'god' => '121',
             'religion' => '11'
         ]);   
         DB::table('mythologies')->insert([
@@ -610,11 +606,11 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '145',
             'religion' => '11'
-        ]);  
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '146',
             'religion' => '11'
-        ]);   
+        ]);  
         DB::table('mythologies')->insert([
             'god' => '147',
             'religion' => '11'
@@ -626,7 +622,7 @@ class MythologySeeder extends Seeder
         DB::table('mythologies')->insert([
             'god' => '149',
             'religion' => '11'
-        ]); 
+        ]);   
         DB::table('mythologies')->insert([
             'god' => '150',
             'religion' => '11'
@@ -637,6 +633,10 @@ class MythologySeeder extends Seeder
         ]); 
         DB::table('mythologies')->insert([
             'god' => '152',
+            'religion' => '11'
+        ]); 
+        DB::table('mythologies')->insert([
+            'god' => '153',
             'religion' => '11'
         ]); 
         
@@ -708,21 +708,21 @@ class MythologySeeder extends Seeder
 
         //zoroastrian
         DB::table('mythologies')->insert([
-            'god' => '153',
-            'religion' => '10'
-        ]);   
-        DB::table('mythologies')->insert([
             'god' => '154',
             'religion' => '10'
         ]);   
         DB::table('mythologies')->insert([
             'god' => '155',
             'religion' => '10'
+        ]);   
+        DB::table('mythologies')->insert([
+            'god' => '156',
+            'religion' => '10'
         ]);  
 
         //hellenic judaism
         DB::table('mythologies')->insert([
-            'god' => '156',
+            'god' => '157',
             'religion' => '13'
         ]);
 

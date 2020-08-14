@@ -14,13 +14,13 @@ Game
 	@foreach($towns as $town)
         @if($town->rebel_status =="loyal")
 
-		    @if($town->justice >=100 && $town->justice <=799)	
+		    @if($town->justice >=100 && $town->justice <=699)	
 			    <g z-index="3">
 			    <a xlink:href="/towns/{{$town->town_id}}">
 			    <title>{{$town->town_name}} (unlawful but loyal)</title>
 			    <circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,128,0)" stroke="rgb(64,0,92)" stroke-width="4" /></a>
                 </g>
-            @elseif($town->justice >=800 && $town->justice <=899)	
+            @elseif($town->justice >=700 && $town->justice <=899)	
 			    <g z-index="3">
 			    <a xlink:href="/towns/{{$town->town_id}}">
 			    <title>{{$town->town_name}} (fair and loyal)</title>
