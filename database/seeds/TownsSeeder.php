@@ -548,8 +548,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'cypress',
-            'defenses' => '800',
-            
+            'defenses' => '800',        
 			'xcoord' => '1177',
             'ycoord' => '1266',
             'region' => '1',
@@ -1126,6 +1125,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'timber' => 'oak',
             'sculpture' => 'marble',
+            'defenses' => '200',
 			'xcoord' => '1000',
             'ycoord' => '1176',
             'region' => '5',
@@ -1748,8 +1748,7 @@ class TownsSeeder extends Seeder
             'iron' => 'iron',
             'pottery' => 'clay',
             'timber' => 'beech',
-            'defenses' => '400',
-            
+            'defenses' => '400',          
 			'xcoord' => '1101',
             'ycoord' => '1098',
             'region' => '5',
@@ -1842,7 +1841,7 @@ class TownsSeeder extends Seeder
         //Alpes Maritimae
 		//82
 		DB::table('towns')->insert([
-            'town_name' => 'Cemelenum',
+            'town_name' => 'Cemenelenum',
             'climate' => 'mediterranean',
             'pack' => 'dog',
             'pig' => 'pig',
@@ -3726,8 +3725,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
-            'defenses' => '400',
-            
+            'defenses' => '400',        
 			'xcoord' => '422',
             'ycoord' => '539',
             'region' => '8',
@@ -3842,8 +3840,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay', 
             'dye' => 'woad', 
             'timber' => 'oak', 
-            'defenses' => '400',
-            
+            'defenses' => '400',       
 			'xcoord' => '612',
             'ycoord' => '544',
             'region' => '8',

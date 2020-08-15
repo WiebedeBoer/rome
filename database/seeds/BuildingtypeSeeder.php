@@ -314,19 +314,40 @@ class BuildingtypeSeeder extends Seeder
             'building_category' => 'industrial'
         ]);
 
+        //health ground (addition) no. 2 (extra)
+        //56
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'gymnasium',
+            'building_category' => 'health'
+        ]);
+        //57
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'aquaduct',
+            'building_category' => 'health'
+        ]);
+        //58
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'fonticulus',
+            'building_category' => 'health'
+        ]);
+        //59
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'fons',
+            'building_category' => 'health'
+        ]);
         /*
         //wonders
-        //56
+        //60
         DB::table('buildingtypes')->insert([
             'building_name' => 'hanging gardens',
             'building_category' => 'wonder'
         ]);
-        //57
+        //61
         DB::table('buildingtypes')->insert([
             'building_name' => 'pyramid',
             'building_category' => 'wonder'
         ]);
-        //58
+        //62
         DB::table('buildingtypes')->insert([
             'building_name' => 'lighthouse',
             'building_category' => 'wonder'

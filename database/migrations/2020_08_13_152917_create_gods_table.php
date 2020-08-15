@@ -57,7 +57,7 @@ class CreateGodsTable extends Migration
             $table->string('grains')->default('none'); //none, grain, cornucopia
             $table->string('wine')->default('none'); //none, vines
             $table->string('timber')->default('none'); //none, oak, cedar, cypress
-            $table->string('fruit')->default('none'); //none, blossom, fruit, apples, pomegranates, olives
+            $table->string('fruit')->default('none'); //none, blossom, fruit, apples, pomegranates, olives, figs
             $table->string('vegetables')->default('none'); //none, vegetables
             $table->string('honey')->default('none'); //none, honey
             //bio

@@ -514,7 +514,7 @@ class GodSeeder extends Seeder
             'lions' => 'lion',
             'fruit' => 'pomegranates'
         ]);
-        //63
+        //63 (roman)
         DB::table('gods')->insert([
             'god_name' => 'Heracles',
             'god_gender' => 'male',
@@ -868,11 +868,11 @@ class GodSeeder extends Seeder
         DB::table('gods')->insert([
             'god_name' => 'Juno',
             'god_gender' => 'female',
-            'love' => 'maternal',
-            'horses' => 'chariot',
-            'cattle' => 'cattle',
-            'lions' => 'lion',
-            'fruit' => 'pomegranates'
+            'state' => 'judge',
+            'war' => 'spear',
+            'love' => 'maternal',            
+            'goats' => 'goat',
+            'fruit' => 'figs'
         ]);
         //104
         DB::table('gods')->insert([
