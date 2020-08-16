@@ -308,7 +308,7 @@ class GodSeeder extends Seeder
         //39
         DB::table('gods')->insert([
             'god_name' => 'Erecura',
-            'god_gender' => 'male',
+            'god_gender' => 'female',
             'god_realm' => 'chthonic',
             'agriculture' => 'crops',
             'grains' => 'cornucopia',

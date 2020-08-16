@@ -2228,7 +2228,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'yew', 
             'defenses' => '400',
-            
+            'commerce' => '200',            
 			'xcoord' => '792',
             'ycoord' => '1079',
             'region' => '6',
@@ -2823,6 +2823,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'oak',  
+            'defenses' => '800',
 			'xcoord' => '645',
             'ycoord' => '920',
             'region' => '6',
@@ -2846,6 +2847,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'oak', 
             'defenses' => '400',
+            'commerce' => '200',
             'agriculture' => '150',
 			'xcoord' => '667',
             'ycoord' => '848',
@@ -2868,6 +2870,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'yew', 
+            'commerce' => '200',
 			'xcoord' => '603',
             'ycoord' => '802',
             'region' => '6',
@@ -3283,8 +3286,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'dye' => 'woad',
             'timber' => 'oak', 
-            'defenses' => '400',
-            
+            'defenses' => '400',           
 			'xcoord' => '979',
             'ycoord' => '771',
             'region' => '7',
@@ -7066,9 +7068,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'seasoning' => 'olives', 
             'pottery' => 'clay',
-            'timber' => 'cypress',
-            
-            
+            'timber' => 'cypress',        
 			'xcoord' => '1640',
             'ycoord' => '1627',
             'region' => '21',
@@ -7328,8 +7328,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives', 
             'pottery' => 'clay',
             'timber' => 'cypress',
-            'chattel' => 'slave',
-            
+            'chattel' => 'slave',           
 			'xcoord' => '1609',
             'ycoord' => '1526',
             'region' => '22',
@@ -7630,8 +7629,7 @@ class TownsSeeder extends Seeder
             'pottery' => 'clay',
             'timber' => 'oak', 
             'chattel' => 'slave',
-            'defenses' => '800',
-            
+            'defenses' => '800',           
 			'xcoord' => '2014',
             'ycoord' => '1409',
             'region' => '24',
@@ -7713,8 +7711,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech', 
-            'defenses' => '800',
-            
+            'defenses' => '800',         
 			'xcoord' => '1962',
             'ycoord' => '1260',
             'region' => '24',
@@ -7735,8 +7732,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech', 
-            'defenses' => '800',
-            
+            'defenses' => '800',        
 			'xcoord' => '1946',
             'ycoord' => '1314',
             'region' => '24',
@@ -7756,8 +7752,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'pottery' => 'clay',
             'timber' => 'beech', 
-            'defenses' => '800',
-            
+            'defenses' => '800',      
 			'xcoord' => '1998',
             'ycoord' => '1191',
             'region' => '24',
@@ -8221,8 +8216,7 @@ class TownsSeeder extends Seeder
             'grain' => 'spelt',
             'vine' => 'grapes',
             'pottery' => 'clay',
-            'timber' => 'beech', 
-            
+            'timber' => 'beech',           
 			'xcoord' => '1375',
             'ycoord' => '1039',
             'region' => '25',
@@ -8242,8 +8236,7 @@ class TownsSeeder extends Seeder
             'grain' => 'spelt',
             'vine' => 'grapes',
             'pottery' => 'clay',
-            'timber' => 'beech', 
-            
+            'timber' => 'beech',      
 			'xcoord' => '1425',
             'ycoord' => '1073',
             'region' => '25',
@@ -8510,8 +8503,7 @@ class TownsSeeder extends Seeder
             'grain' => 'rye',
             'vine' => 'grapes',
             'pottery' => 'clay',
-            'timber' => 'pine', 
-            
+            'timber' => 'pine',         
 			'xcoord' => '1686',
             'ycoord' => '1138',
             'region' => '26',
@@ -9016,8 +9008,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
-            'sculpture' => 'marble',
-            
+            'sculpture' => 'marble',      
 			'xcoord' => '1989',
             'ycoord' => '1631',
             'region' => '31',
@@ -9514,8 +9505,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay', 
-            'timber' => 'juniper', 
-            
+            'timber' => 'juniper',           
 			'xcoord' => '2088',
             'ycoord' => '1603',
             'region' => '31',
@@ -9576,8 +9566,7 @@ class TownsSeeder extends Seeder
             'vine' => 'grapes',
             'sweetener' => 'honey',
             'pottery' => 'clay', 
-            'timber' => 'juniper',
-            
+            'timber' => 'juniper',          
 			'xcoord' => '2094',
             'ycoord' => '1562',
             'region' => '31',
@@ -9638,8 +9627,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'pottery' => 'clay', 
             'timber' => 'juniper',
-            'defenses' => '800',
-            
+            'defenses' => '800',         
 			'xcoord' => '2172',
             'ycoord' => '1506',
             'region' => '31',
@@ -9703,8 +9691,7 @@ class TownsSeeder extends Seeder
             'gold' => 'gold',
             'silver' => 'silver',
             'timber' => 'oak',
-            'sculpture' => 'marble',
-            
+            'sculpture' => 'marble',           
 			'xcoord' => '1992',
             'ycoord' => '1477',
             'region' => '31',
@@ -9723,8 +9710,7 @@ class TownsSeeder extends Seeder
             'grain' => 'barley',
             'vine' => 'grapes',
             'timber' => 'juniper',
-            'defenses' => '800',
-            
+            'defenses' => '800',       
 			'xcoord' => '2193',
             'ycoord' => '1616',
             'region' => '31',
