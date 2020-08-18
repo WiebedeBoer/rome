@@ -938,11 +938,47 @@ class BuildingSeeder extends Seeder
             'location' => '354',
             'god' => '141'
         ]);
+        //Bindus, Pola
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '358',
+            'god' => '135'
+        ]);
+        //Sabazios, Sirmium
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '361',
+            'god' => '138'
+        ]);
+        //Semele, Siscia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '367',
+            'god' => '139'
+        ]);
+        //Kotys, Gorsium
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '371',
+            'god' => '137'
+        ]);
         //Sabazios, Sarmizegetusa
         DB::table('buildings')->insert([
             'buildingtype' => '4',
             'location' => '376',
             'god' => '138'
+        ]);
+        //Apollo, Olbia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '395',
+            'god' => '49'
+        ]);
+        //Ares, Tanais
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '396',
+            'god' => '51'
         ]);
         //Apollo, ephesus
         DB::table('buildings')->insert([
@@ -1836,25 +1872,29 @@ class BuildingSeeder extends Seeder
             'location' => '354',
             'god' => '141'
         ]);
-        //Pola
+        //Bindus, Pola
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '358'
+            'location' => '358',
+            'god' => '135'
         ]);
-        //Sirmium
+        //Sabazios, Sirmium
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '361'
+            'location' => '361',
+            'god' => '138'
         ]);
-        //Siscia
+        //Semele, Siscia
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '367'
+            'location' => '367',
+            'god' => '139'
         ]);
-        //Gorsium
+        //Kotys, Gorsium
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '371'
+            'location' => '371',
+            'god' => '137'
         ]);
         //Sabazios, Sarmizegetusa
         DB::table('buildings')->insert([
@@ -1862,25 +1902,29 @@ class BuildingSeeder extends Seeder
             'location' => '376',
             'god' => '138'
         ]);
-        //Olbia
+        //Apollo, Olbia
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '395'
+            'location' => '395',
+            'god' => '49'
         ]);
-        //Tanais
+        //Ares, Tanais
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '396'
+            'location' => '396',
+            'god' => '51'
         ]);
-        //Halicarnassus
+        //asclepius, Halicarnassus
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '404'
+            'location' => '404',
+            'god' => '53'
         ]);
-        //Pergamum
+        //asclepius, Pergamum
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '408'
+            'location' => '408',
+            'god' => '53'
         ]);
         //Nicomedia
         DB::table('buildings')->insert([
