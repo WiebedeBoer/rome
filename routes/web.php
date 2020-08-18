@@ -82,6 +82,8 @@ Route::get('maproad','TownController@maproad');
 Route::get('maparchitecture','TownController@maparchitecture');
 //buildings maps
 Route::get('maptemple','TownController@maptemple');
+Route::get('maporacle','TownController@maporacle');
+Route::get('maptomb','TownController@maptomb');
 Route::get('mapbath','TownController@mapbath');
 Route::get('maplibrary','TownController@maplibrary');
 Route::get('maptheatre','TownController@maptheatre');

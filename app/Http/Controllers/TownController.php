@@ -343,6 +343,7 @@ class TownController extends Controller
     {            
         $towns = Town::all();
         
+        /*
         //collect the realm and culture
         foreach($towns as $town)
         {
@@ -354,6 +355,7 @@ class TownController extends Controller
             $religion = Religion::where('religion_id', $town_religion)->get();
 
         } 
+        */
         
         //building count	
         foreach($towns as $town)
@@ -370,7 +372,7 @@ class TownController extends Controller
             $town->god_healing_count = Building::where('location', $town->town_id)->where('buildingtype',8)->count();
             $town->god_hunting_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();
             */
-            $town->temple_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[1,10])->count();
+            $town->temple_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[1,6])->count();
 
             /*
             $town_realm = $town->realm;
@@ -390,17 +392,48 @@ class TownController extends Controller
             $town->god_hunting = $religion[0]->hunting;            
             */
 
-            /*
+            
             //grove count
             $town->grove_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();
             //oracle count
-            $town->oracle_count = Building::where('location', $town->town_id)->where('buildingtype',10)->count();
-            */
+            //$town->oracle_count = Building::where('location', $town->town_id)->where('buildingtype',10)->count();
+            
 
         } 
 
         //return view
         return view('towns.maptemple', compact('towns'));	   
+    }
+
+
+    //map view
+    public function maporacle()
+    {            
+        $towns = Town::all();
+                
+        //building count	
+        foreach($towns as $town)
+        {
+            $town->oracle_count = Building::where('location', $town->town_id)->where('buildingtype',10)->count();
+        }
+        //return view
+        return view('towns.maporacle', compact('towns'));
+        	
+    }
+
+    //map view
+    public function maptomb()
+    {            
+        $towns = Town::all();
+                
+        //building count	
+        foreach($towns as $town)
+        {
+            $town->tomb_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[7,8])->count();
+        }
+        //return view
+        return view('towns.maptomb', compact('towns'));
+        	
     }
 
     //map view

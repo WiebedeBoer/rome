@@ -12,17 +12,9 @@ Game
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
 	@foreach($towns as $town)
-			@if($town->temple_count >=1 && $town->grove_count >=1)
+			@if($town->oracle_count >=1)
 				<g z-index="2">
-				<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (temple and sacred grove)</title>
-				<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(160,192,128)" stroke="rgb(192,0,192)" stroke-width="4" /></a></g>
-			@elseif($town->temple_count ==0 && $town->grove_count >=1)
-				<g z-index="2">
-				<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (sacred grove)</title>
-				<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(160,192,128)" stroke="black" stroke-width="4" /></a></g>
-			@elseif($town->temple_count >=1 && $town->grove_count ==0)
-				<g z-index="2">
-				<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (temple)</title>
+				<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (oracle)</title>
 				<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,0,192)" stroke="black" stroke-width="4" /></a></g>
 			@else
 				<g z-index="2">

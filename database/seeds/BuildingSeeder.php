@@ -742,13 +742,13 @@ class BuildingSeeder extends Seeder
         ]); 
         //Isis, Volubilis
         DB::table('buildings')->insert([
-            'buildingtype' => '11',
+            'buildingtype' => '4',
             'location' => '237',
             'god' => '83'
         ]);
         //Amun, Cirta
         DB::table('buildings')->insert([
-            'buildingtype' => '11',
+            'buildingtype' => '4',
             'location' => '252',
             'god' => '78'
         ]);
@@ -760,7 +760,7 @@ class BuildingSeeder extends Seeder
         ]);
         //Anqet, Germa
         DB::table('buildings')->insert([
-            'buildingtype' => '11',
+            'buildingtype' => '4',
             'location' => '277',
             'god' => '80'
         ]);
@@ -1028,6 +1028,66 @@ class BuildingSeeder extends Seeder
             'location' => '408',
             'god' => '53'
         ]);
+        //Demeter, Nicomedia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '415',
+            'god' => '55'
+        ]);
+        //Hades, Sinope
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '420',
+            'god' => '58'
+        ]);
+        //Gaia, Ancyra
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '443',
+            'god' => '57'
+        ]);
+        //Gaia, Mazaca
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '446',
+            'god' => '57'
+        ]);
+        //Zeus, Tarsus
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '457',
+            'god' => '69'
+        ]);
+        //anahita, Artaxata
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '467',
+            'god' => '156'
+        ]);
+        //Thagimasidas, Phasis
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '479',
+            'god' => '130'
+        ]);
+        //Papaios, Armazi
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '480',
+            'god' => '126'
+        ]);
+        //Faelvaera, Gabala
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '482',
+            'god' => '123'
+        ]);
+        //Pirkusha, Ganzak
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '486',
+            'god' => '149'
+        ]);
         //hormazd, susa
         DB::table('buildings')->insert([
             'buildingtype' => '4',
@@ -1082,6 +1142,12 @@ class BuildingSeeder extends Seeder
             'location' => '551',
             'god' => '49'
         ]); 
+        //abgal, palmyra
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '555',
+            'god' => '1'
+        ]);
         //allat, palmyra
         DB::table('buildings')->insert([
             'buildingtype' => '4',
@@ -1106,6 +1172,36 @@ class BuildingSeeder extends Seeder
             'location' => '567',
             'god' => '157'
         ]);
+        //allat, bostra
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '575',
+            'god' => '2'
+        ]);
+        //Astarte, Petra
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '579',
+            'god' => '6'
+        ]);
+        //Dushara, Petra
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '579',
+            'god' => '8'
+        ]);
+        //Almaqah, Dedan
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '583',
+            'god' => '3'
+        ]);
+        //Ninurta, Hajr
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '593',
+            'god' => '12'
+        ]);
         //aluzza, makkah
         DB::table('buildings')->insert([
             'buildingtype' => '4',
@@ -1118,6 +1214,24 @@ class BuildingSeeder extends Seeder
             'location' => '591',
             'god' => '2'
         ]); 
+        //allat, Gerrha
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '595',
+            'god' => '2'
+        ]);
+        //Almaqah, Marib
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '598',
+            'god' => '3'
+        ]);
+        //talab, Sanaa
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '599',
+            'god' => '13'
+        ]);
 
         //mausoleum
         //halicarnassus
@@ -1224,6 +1338,12 @@ class BuildingSeeder extends Seeder
             'buildingtype' => '10',
             'location' => '401',
             'god' => '49'
+        ]);
+        //talab, Sanaa
+        DB::table('buildings')->insert([
+            'buildingtype' => '10',
+            'location' => '599',
+            'god' => '13'
         ]);
 
         //treasuries
@@ -1926,57 +2046,67 @@ class BuildingSeeder extends Seeder
             'location' => '408',
             'god' => '53'
         ]);
-        //Nicomedia
+        //Demeter, Nicomedia
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '415'
+            'location' => '415',
+            'god' => '55'
         ]);
-        //Sinope
+        //Hades, Sinope
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '420'
+            'location' => '420',
+            'god' => '58'
         ]);
-        //Ancyra
+        //Gaia, Ancyra
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '443'
+            'location' => '443',
+            'god' => '57'
         ]);
-        //Mazaca
+        //Gaia, Mazaca
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '446'
+            'location' => '446',
+            'god' => '57'
         ]);
-        //Tarsus
+        //Zeus, Tarsus
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '457'
+            'location' => '457',
+            'god' => '69'
         ]);
-        //Artaxata
+        //anahita, Artaxata
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '467'
+            'location' => '467',
+            'god' => '156'
         ]);
-        //Phasis
+        //Thagimasidas, Phasis
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '479'
+            'location' => '479',
+            'god' => '130'
         ]);
-        //Armazi
+        //Papaios, Armazi
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '480'
+            'location' => '480',
+            'god' => '126'
         ]);
-        //Gabala
+        //Faelvaera, Gabala
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '482'
+            'location' => '482',
+            'god' => '123'
         ]);
-        //Ganzak
+        //Pirkusha, Ganzak
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '486'
+            'location' => '486',
+            'god' => '149'
         ]);
-        //Susa
+        //hormazd, Susa
         DB::table('buildings')->insert([
             'buildingtype' => '11',
             'location' => '495',
@@ -2000,35 +2130,41 @@ class BuildingSeeder extends Seeder
             'location' => '567',
             'god' => '157'
         ]);
-        //Petra
+        //Astarte, Petra
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '579'
+            'location' => '579',
+            'god' => '6'
         ]);
-        //Dedan
+        //Almaqah, Dedan
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '583'
+            'location' => '583',
+            'god' => '3'
         ]);
-        //Hajr
+        //Ninurta, Hajr
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '593'
+            'location' => '593',
+            'god' => '12'
         ]);
-        //Gerrha
+        //allat, Gerrha
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '595'
+            'location' => '595',
+            'god' => '2'
         ]);
-        //Marib
+        //Almaqah, Marib
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '598'
+            'location' => '598',
+            'god' => '3'
         ]);
-        //Sanaa
+        //talab, Sanaa
         DB::table('buildings')->insert([
             'buildingtype' => '11',
-            'location' => '599'
+            'location' => '599',
+            'god' => '13'
         ]);
  
         //baths no. 2
