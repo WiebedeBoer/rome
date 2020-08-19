@@ -223,6 +223,6 @@ Game
     <option value="{{ $town->town_id }}">{{ $town->town_name }}</option>
 @endforeach
 </select>
-<input type="submit" name="submit" value="Register">
+<input type="submit" name="submit" value="Register Character">
 </form>
 @endsection

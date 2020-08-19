@@ -34,8 +34,11 @@ class PersonController extends Controller
     public function show($id)
     {       
         $user = auth()->user();
-		$user_audio = $user->audio;
-		return view('persons.show', compact('user_audio'));	     
+        $user_audio = $user->audio;
+        $person = Person::where('person_id', $id)->firstOrFail();  
+        $stat = Statistic::where('person', $id)->firstOrFail();  
+        $skill = Skill::where('person', $id)->firstOrFail();  
+		return view('persons.show', compact('user_audio','person','stat','skill'));	     
     }
 	
 	//edit form
