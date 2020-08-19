@@ -12,6 +12,7 @@ use App\Realm;
 use App\Town;
 use App\User;
 use App\Skill;
+use App\Statistic;
 use App\Villa;
 
 class PersonController extends Controller
@@ -79,6 +80,24 @@ class PersonController extends Controller
             'person_name' => 'required|min:2',
             'gender' => 'required',
 
+            'judgement' => 'required|integer',
+            'engineer' => 'required|integer',
+            'commerce' => 'required|integer',
+            'agriculture' => 'required|integer',
+            'tactics' => 'required|integer',
+            'leadership' => 'required|integer',
+            'charisma' => 'required|integer',
+            'brawn' => 'required|integer',
+            'strength' => 'required|integer',
+            'agility' => 'required|integer',
+            'polearms' => 'required|integer',
+            'swordsmanship' => 'required|integer',
+            'archery' => 'required|integer',
+            'riding' => 'required|integer',
+            'sailing' => 'required|integer',
+            'raiding' => 'required|integer',
+            'tracking' => 'required|integer',
+
             'adm' => 'required|integer',
             'arc' => 'required|integer',
             'art' => 'required|integer',
@@ -102,6 +121,7 @@ class PersonController extends Controller
         $gender = request('gender');
         if ($gender =="male" || $gender =="female"){
 
+            //skills
             $adm = request('adm'); 
             $arc = request('arc'); 
             $art = request('art'); 
@@ -117,51 +137,105 @@ class PersonController extends Controller
             $nav = request('nav'); 
             $phi = request('phi'); 
             $poe = request('poe');  
-            $total = $adm + $arc + $art + $bal + $car + $eng + $far + $her + $lit + $mac + $mas + $med + $nav + $phi + $poe;
+            $skill_total = $adm + $arc + $art + $bal + $car + $eng + $far + $her + $lit + $mac + $mas + $med + $nav + $phi + $poe;
 
-            if ($total >30){
-                return redirect('/persons/create')->with('message', 'Too many points allocated');
+            //stats
+            $judgement = request('judgement'); 
+            $engineer = request('engineer'); 
+            $commerce = request('commerce'); 
+
+            $agriculture = request('agriculture'); 
+            $tactics = request('tactics');
+            $leadership = request('leadership'); 
+
+            $charisma = request('charisma'); 
+            $brawn = request('brawn'); 
+            $strength = request('strength'); 
+
+            $agility = request('agility'); 
+            $polearms = request('polearms'); 
+            $swordsmanship = request('swordsmanship'); 
+
+            $archery = request('archery'); 
+            $riding = request('riding'); 
+            $sailing = request('sailing');  
+            $raiding = request('raiding'); 
+            $tracking = request('tracking');
+            $stat_total = $judgement + $engineer + $commerce + $agriculture + $tactics + $leadership + $charisma + $brawn + $strength + $agility + $polearms + $swordsmanship + $archery + $riding + $sailing + $raiding + $tracking;
+
+            if ($skill_total >2){
+                return redirect('/persons/create')->with('message', 'Too many skills chosen');
             }
-            elseif ($total <30){
-                return redirect('/persons/create')->with('message', 'Insufficient points allocated');
+            elseif ($skill_total <2){
+                return redirect('/persons/create')->with('message', 'Insufficient skills chosen');
             }
             else{
-                $person = new Person();       
-                $person->person_name = request('person_name');
-                $person->gender = request('gender'); 
-                $person->save();
-        
-                $user = auth()->user();
-                $user_id = $user->id;	
-                $character = Person::where('owner', $user_id)->get();
-                $person_id = $character->person_id;
-        
-                $skill = new Skill();
-                $skill->person = $person_id;
-                $skill->adm = request('adm'); 
-                $skill->arc = request('arc'); 
-                $skill->art = request('art'); 
-                $skill->bal = request('bal'); 
-                $skill->car = request('car');
-                $skill->eng = request('eng'); 
-                $skill->far = request('far'); 
-                $skill->her = request('her'); 
-                $skill->lit = request('lit'); 
-                $skill->mac = request('mac'); 
-                $skill->mas = request('mas'); 
-                $skill->med = request('med'); 
-                $skill->nav = request('nav'); 
-                $skill->phi = request('phi'); 
-                $skill->poe = request('poe'); 
-                $skill->save();
-        
-                $villa = new Villa();
-                $villa->villa_name = request('villa');
-                $villa->owner = $person_id;
-                $villa->town = request('town');  
-                $villa->save();
-        
-                return view('/home')->with('message', 'Successfully registered your character'); 
+
+                if ($stat_total >34){
+                    return redirect('/persons/create')->with('message', 'Too many points allocated');
+                }
+                elseif ($stat_total <34){
+                    return redirect('/persons/create')->with('message', 'Insufficient points allocated');
+                }
+                else {
+                    $person = new Person();       
+                    $person->person_name = request('person_name');
+                    $person->gender = request('gender'); 
+                    $person->save();
+            
+                    $user = auth()->user();
+                    $user_id = $user->id;	
+                    $character = Person::where('owner', $user_id)->get();
+                    $person_id = $character->person_id;
+
+                    $statistic = new Statistic();
+                    $statistic->jud = request('judgement'); 
+                    $statistic->eng = request('engineer'); 
+                    $statistic->com = request('commerce'); 
+                    $statistic->agr = request('agriculture'); 
+                    $statistic->tac = request('tactics');
+                    $statistic->lea = request('leadership'); 
+                    $statistic->cha = request('charisma'); 
+                    $statistic->bra = request('brawn'); 
+                    $statistic->str = request('strength'); 
+                    $statistic->agi = request('agility'); 
+                    $statistic->pol = request('polearms'); 
+                    $statistic->swo = request('swordsmanship'); 
+                    $statistic->arc = request('archery'); 
+                    $statistic->rid = request('riding'); 
+                    $statistic->sai = request('sailing');  
+                    $statistic->rai = request('raiding'); 
+                    $statistic->tra = request('tracking'); 
+                    $statistic->save();
+            
+                    $skill = new Skill();
+                    $skill->person = $person_id;
+                    $skill->adm = request('adm'); 
+                    $skill->arc = request('arc'); 
+                    $skill->art = request('art'); 
+                    $skill->bal = request('bal'); 
+                    $skill->car = request('car');
+                    $skill->eng = request('eng'); 
+                    $skill->far = request('far'); 
+                    $skill->her = request('her'); 
+                    $skill->lit = request('lit'); 
+                    $skill->mac = request('mac'); 
+                    $skill->mas = request('mas'); 
+                    $skill->med = request('med'); 
+                    $skill->nav = request('nav'); 
+                    $skill->phi = request('phi'); 
+                    $skill->poe = request('poe'); 
+                    $skill->save();
+            
+                    $villa = new Villa();
+                    $villa->villa_name = request('villa');
+                    $villa->owner = $person_id;
+                    $villa->town = request('town');  
+                    $villa->save();
+            
+                    return view('/home')->with('message', 'Successfully registered your character'); 
+                }
+
             }
 
         }
