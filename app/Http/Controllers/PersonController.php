@@ -14,6 +14,7 @@ use App\User;
 use App\Skill;
 use App\Statistic;
 use App\Villa;
+use App\Citizen;
 
 class PersonController extends Controller
 {
@@ -239,6 +240,15 @@ class PersonController extends Controller
                     $villa->owner = $person_id;
                     $villa->town = request('town');  
                     $villa->save();
+
+                    $town = Town::where('town_id', $villa->town)->firstOrFail();
+                    $town_realm = $town->realm;
+                    $realm = Realm::where('realm_id', $town_realm)->firstOrFail();
+
+                    $citizen = new Citizen();
+                    $citizen->person = $person_id;
+                    $citizen->realm = $realm->realm_id; 
+                    $citizen->save();
             
                     return view('/home')->with('message', 'Successfully registered your character'); 
                 }

@@ -726,5 +726,35 @@ class MythologySeeder extends Seeder
             'religion' => '13'
         ]);
 
+        //armenian polytheism
+        DB::table('mythologies')->insert([
+            'god' => '158',
+            'religion' => '14'
+        ]);
+        DB::table('mythologies')->insert([
+            'god' => '159',
+            'religion' => '14'
+        ]);
+        DB::table('mythologies')->insert([
+            'god' => '160',
+            'religion' => '14'
+        ]);
+        DB::table('mythologies')->insert([
+            'god' => '161',
+            'religion' => '14'
+        ]);
+        DB::table('mythologies')->insert([
+            'god' => '162',
+            'religion' => '14'
+        ]);
+        DB::table('mythologies')->insert([
+            'god' => '163',
+            'religion' => '14'
+        ]);
+        DB::table('mythologies')->insert([
+            'god' => '164',
+            'religion' => '14'
+        ]);
+
     }
 }

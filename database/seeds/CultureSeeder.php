@@ -129,7 +129,7 @@ class CultureSeeder extends Seeder
             'culture_language' => 'Armenian',
             'culture_military' => 'Hellenic',
             'culture_construction' => '9',
-            'culture_religion' => '3'
+            'culture_religion' => '14'
         ]);
         //16
         DB::table('cultures')->insert([

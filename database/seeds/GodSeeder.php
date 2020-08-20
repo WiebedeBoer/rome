@@ -1327,5 +1327,59 @@ class GodSeeder extends Seeder
             'state' => 'creator'
         ]);
 
+        //Armenian Polytheism
+        //158
+        DB::table('gods')->insert([
+            'god_name' => 'Areg',
+            'god_gender' => 'male',
+            'state' => 'light'
+        ]);
+        //159
+        DB::table('gods')->insert([
+            'god_name' => 'Astlik',
+            'god_gender' => 'female',
+            'state' => 'judge',
+            'war' => 'war',
+            'love' => 'sex'
+        ]);
+        //160
+        DB::table('gods')->insert([
+            'god_name' => 'Amanor',
+            'god_gender' => 'male',
+            'agriculture' => 'crops',
+            'fruit' => 'fruit'
+        ]);
+        //161
+        DB::table('gods')->insert([
+            'god_name' => 'Angel',
+            'god_gender' => 'male',
+            'god_realm' => 'chthonic',
+            'state' => 'death'
+        ]);
+        //162
+        DB::table('gods')->insert([
+            'god_name' => 'Vanatur',
+            'god_gender' => 'male',
+            'state' => 'king',
+            'fruit' => 'fruit'
+        ]);
+        //163
+        DB::table('gods')->insert([
+            'god_name' => 'Nvard',
+            'god_gender' => 'male',
+            'agriculture' => 'crops',
+            'sea' => 'waters',
+            'horses' => 'horse',
+            'cattle' => 'cattle',
+            'sheep' => 'sheep',
+            'goats' => 'goat'
+        ]);
+        //163
+        DB::table('gods')->insert([
+            'god_name' => 'Tsovinar',
+            'god_gender' => 'female',
+            'sea' => 'seas'
+        ]);
+
     }
 }

@@ -76,6 +76,11 @@ class ReligionSeeder extends Seeder
             'religion_name' => 'Hellenic Judaism',
             'religion_category' => 'monotheism'
         ]);
+        //14
+        DB::table('religions')->insert([
+            'religion_name' => 'Armenian Polytheism',
+            'religion_category' => 'polytheism'
+        ]);
 
     }
 }

@@ -14,17 +14,47 @@ class BuildingSeeder extends Seeder
  
         //religious no. 1
         //temples
+        //diana, roma
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '1',
+            'god' => '101'
+        ]);
+        //juno, roma
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '1',
+            'god' => '103'
+        ]);
         //jupiter, roma
         DB::table('buildings')->insert([
             'buildingtype' => '4',
             'location' => '1',
             'god' => '104'
         ]);
+        //minerva, roma
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '1',
+            'god' => '107'
+        ]);
         ////saturnus, roma
         DB::table('buildings')->insert([
             'buildingtype' => '4',
             'location' => '1',
             'god' => '112'
+        ]);
+        ////vesta, roma
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '1',
+            'god' => '115'
+        ]);
+        //bellona, ostia
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '2',
+            'god' => '99'
         ]);
         //diana, lanuvium
         DB::table('buildings')->insert([
@@ -751,6 +781,30 @@ class BuildingSeeder extends Seeder
             'buildingtype' => '4',
             'location' => '252',
             'god' => '78'
+        ]);
+        //Kothar, thugga
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '262',
+            'god' => '19'
+        ]);
+        //Nikkal, thugga
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '262',
+            'god' => '24'
+        ]);
+        //Qetesh, thugga
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '262',
+            'god' => '25'
+        ]);
+        //eshmun, utica
+        DB::table('buildings')->insert([
+            'buildingtype' => '4',
+            'location' => '264',
+            'god' => '17'
         ]);
         //baal, carthago
         DB::table('buildings')->insert([
