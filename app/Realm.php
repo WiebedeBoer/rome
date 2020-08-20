@@ -40,4 +40,10 @@ class Realm extends Model
         return $this->hasMany('App\Trade','trade_id');
     }
 
+	//threads
+	public function threads()
+    {
+        return $this->hasMany('App\Thread','thread_id');
+    }		
+
 }

@@ -44,8 +44,12 @@ class PersonController extends Controller
 	//edit form
     public function edit($id)
     {       
+        $user = auth()->user();
+        $user_audio = $user->audio;
         $person = Person::where('person_id', $id)->firstOrFail();  
-        return view('persons.edit', compact('person'));	 
+        $stat = Statistic::where('person', $id)->firstOrFail();  
+        $skill = Skill::where('person', $id)->firstOrFail();  
+        return view('persons.edit', compact('user_audio','person','stat','skill'));	 
     }
 	
 	//create form

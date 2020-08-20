@@ -9,12 +9,12 @@ Game
 <div class="row">
 <div class="col-12 d-flex justify-content-center pt-3">
 <div class="forum-nav-menu">
-<a href="/forum">Forum</a> -> <a href="/forum/region">Region</a>
+<a href="/forum">Forum</a> -> <a href="/forum/realm">Realm</a>
 </div>
 </div>
 </div>
 					
-<h1>Region</h1>
+<h1>Realm</h1>
 
 <div class="threads">
 @if ($threadcount >=1)

@@ -125,8 +125,15 @@ class TownController extends Controller
             $seaconnections =[];
         } 
 
+        $town_realm = $town->realm;
+        $realm = Realm::where('realm_id', $town_realm)->get();
+        $town_culture = $realm[0]->culture; //culture id
+        $culture = Culture::where('culture_id', $town_culture)->get();
+        $town_religion = $culture[0]->culture_religion; //religion id
+        $religion = Religion::where('religion_id', $town_religion)->get();
+
 		//return
-        return view('towns.show', compact('towns',
+        return view('towns.show', compact('towns','realm','culture','religion',
         'sametowns_count','sameregion','sametowns','connections_count','connections',
         'sameseatowns_count','samesea','sameseatowns','seaconnections_count','seaconnections'));	
     }
@@ -342,62 +349,15 @@ class TownController extends Controller
     public function maptemple()
     {            
         $towns = Town::all();
-        
-        /*
-        //collect the realm and culture
-        foreach($towns as $town)
-        {
-            $town_realm = $town->realm;
-            $realm = Realm::where('realm_id', $town_realm)->get();
-            $town_culture = $realm[0]->culture; //culture id
-            $culture = Culture::where('culture_id', $town_culture)->get();
-            $town_religion = $culture[0]->culture_religion; //religion id
-            $religion = Religion::where('religion_id', $town_religion)->get();
-
-        } 
-        */
-        
+                
         //building count	
         foreach($towns as $town)
         {
             //temple counts
-            /*
-            $town->god_state_count = Building::where('location', $town->town_id)->where('buildingtype',1)->count(); 
-            $town->god_agriculture_count = Building::where('location', $town->town_id)->where('buildingtype',2)->count(); 
-            $town->god_war_count = Building::where('location', $town->town_id)->where('buildingtype',3)->count(); 
-            $town->god_love_count = Building::where('location', $town->town_id)->where('buildingtype',4)->count(); 
-            $town->god_commerce_count = Building::where('location', $town->town_id)->where('buildingtype',5)->count(); 
-            $town->god_arts_count = Building::where('location', $town->town_id)->where('buildingtype',6)->count(); 
-            $town->god_sea_count = Building::where('location', $town->town_id)->where('buildingtype',7)->count(); 
-            $town->god_healing_count = Building::where('location', $town->town_id)->where('buildingtype',8)->count();
-            $town->god_hunting_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();
-            */
-            $town->temple_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[1,6])->count();
-
-            /*
-            $town_realm = $town->realm;
-            $realm = Realm::where('realm_id', $town_realm)->get();
-            $town_culture = $realm[0]->culture; //culture id
-            $culture = Culture::where('culture_id', $town_culture)->get();
-            $town_religion = $culture[0]->culture_religion; //religion id
-            $religion = Religion::where('religion_id', $town_religion)->get();
-            $town->god_state = $religion[0]->state;
-            $town->god_agriculture = $religion[0]->agriculture;
-            $town->god_war = $religion[0]->war;
-            $town->god_love = $religion[0]->love;
-            $town->god_commerce = $religion[0]->commerce;
-            $town->god_arts = $religion[0]->arts;
-            $town->god_sea = $religion[0]->sea;
-            $town->god_healing = $religion[0]->healing;
-            $town->god_hunting = $religion[0]->hunting;            
-            */
-
+            $town->temple_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[2,6])->count();
             
             //grove count
-            $town->grove_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();
-            //oracle count
-            //$town->oracle_count = Building::where('location', $town->town_id)->where('buildingtype',10)->count();
-            
+            $town->grove_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();           
 
         } 
 

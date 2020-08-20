@@ -4,6 +4,8 @@ Game
 @endsection
 @section('content')
 
+<h2>{{$towns->town_name}}</h2>
+
     
     @if($sametowns_count >=1 || $connections_count >=1)
         <h2>Land Routes</h2>

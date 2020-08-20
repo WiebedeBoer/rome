@@ -63,6 +63,22 @@ class ForeignKeySeeder extends Seeder
 {
     public function run()
     {
+		//forum
+		//threads
+		Schema::table('threads', function (Blueprint $table) {        
+			$table->foreign('creator')->references('id')->on('users');
+			$table->foreign('region')->references('region_id')->on('regions');
+			$table->foreign('realm')->references('realm_id')->on('realms');
+			$table->foreign('belligerent')->references('realm_id')->on('realms');
+        }); 
+		
+		//posts
+		Schema::table('posts', function (Blueprint $table) {
+            $table->foreign('thread')->references('thread_id')->on('threads');
+			$table->foreign('creator')->references('id')->on('users');
+			$table->foreign('editor')->references('id')->on('users');
+        }); 
+
         //geography
         Schema::table('regions', function (Blueprint $table) {
             $table->foreign('architecture')->references('architecture_id')->on('architectures');

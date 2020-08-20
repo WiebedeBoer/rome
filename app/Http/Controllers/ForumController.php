@@ -64,7 +64,16 @@ class ForumController extends Controller
     //delete function
     public function destroy($id)
     {
-
+        $user = auth()->user();
+        $user_admin = $user->admin;	
+        if($user_admin ==1){
+            $post = Post::findOrFail($id);
+            $post->delete();
+            return redirect('/forum')->with('message', 'Successfully removed');
+        }
+        else {
+            return redirect('/forum')->with('message', 'Not allowed');
+        }   
     }
 	
 	//threads
