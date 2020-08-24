@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Caravan extends Model
 {
     //table
-    protected $table = 'villas';
-    protected $primaryKey = 'villa_id';
+    protected $table = 'caravans';
+    protected $primaryKey = 'caravan_id';
 	
     //fk
     public function tradegoods()

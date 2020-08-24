@@ -131,22 +131,76 @@ h2.m {
 	text-align: center;
 }
 
-/*worldmap*/
+/*worldmap breakpoints*/
 .worldmap {
     width: 100%;
 	height: auto;
 }
 
-.worldmapimg {
-	margin-left:auto; 
-	margin-right:auto; 
-	width:1204px; 
-	height:auto;
-	border-width:2px;
-	border-style:solid;
-	border-color:#636b6f;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1920px) {
+	.worldmapimg {
+		margin-left:auto; 
+		margin-right:auto; 
+		width:1604px; 
+		height:auto;
+		border-width:2px;
+		border-style:solid;
+		border-color:#636b6f;
+	}
 }
 
+@media only screen and (max-width: 1200px) {
+	.worldmapimg {
+		margin-left:auto; 
+		margin-right:auto; 
+		width:1184px; 
+		height:auto;
+		border-width:2px;
+		border-style:solid;
+		border-color:#636b6f;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.worldmapimg {
+		margin-left:auto; 
+		margin-right:auto; 
+		width:974px; 
+		height:auto;
+		border-width:2px;
+		border-style:solid;
+		border-color:#636b6f;
+	}	
+}
+
+@media only screen and (max-width: 768px) {
+	.worldmapimg {
+		margin-left:auto; 
+		margin-right:auto; 
+		width:754px; 
+		height:auto;
+		border-width:2px;
+		border-style:solid;
+		border-color:#636b6f;
+	}	
+}
+
+@media only screen and (max-width: 600px) {
+	.worldmapimg {
+		margin-left:auto; 
+		margin-right:auto; 
+		width:584px; 
+		height:auto;
+		border-width:2px;
+		border-style:solid;
+		border-color:#636b6f;
+	}	
+}
+
+
+
+/*worldmap*/
 .mlinks > a {
     color: #e3dbd1;
     padding: 0 25px;
@@ -154,7 +208,8 @@ h2.m {
     font-weight: 600;
     letter-spacing: .1rem;
     text-decoration: none;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	min-width: 320px;
 }
 
 .wmin {

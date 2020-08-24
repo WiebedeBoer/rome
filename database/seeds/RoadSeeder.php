@@ -2095,7 +2095,7 @@ class MilestoneSeeder extends Seeder
             'town' => '284'
         ]);
 
-        //Via Numidia, 12
+        //Via Numidia, 13
         //Carthago
         DB::table('milestones')->insert([
             'milestone' => '1',
@@ -2153,11 +2153,16 @@ class MilestoneSeeder extends Seeder
         DB::table('milestones')->insert([
             'milestone' => '11',
             'road' => '31',
+            'town' => '615'
+        ]);
+        DB::table('milestones')->insert([
+            'milestone' => '12',
+            'road' => '31',
             'town' => '254'
         ]);
         //Hadrumetum
         DB::table('milestones')->insert([
-            'milestone' => '12',
+            'milestone' => '13',
             'road' => '31',
             'town' => '266'
         ]);

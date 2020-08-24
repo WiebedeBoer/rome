@@ -20,6 +20,7 @@ use App\Seaconnection;
 use App\Road;
 use App\Milestone;
 use App\Army;
+use App\Caravan;
 use App\Capital;
 use App\Building;
 
@@ -337,6 +338,20 @@ class TownController extends Controller
     }
 
 	//map view
+    public function mapcaravan()
+    {            
+        //towns
+        $towns = Town::all();
+        foreach($towns as $town)
+        {
+            $town->caravan_count = Caravan::where('location', $town->town_id)->count();
+        }     
+        
+        //return view
+        return view('towns.mapcaravan', compact('towns'));	   
+    }
+
+	//map view
     public function mapclimate()
     {            
 		$towns = Town::all();	   
@@ -464,6 +479,20 @@ class TownController extends Controller
         } 	   
         //return view
         return view('towns.maprace', compact('towns'));	   
+    }
+
+    //map view
+    public function maptavern()
+    {            
+        $towns = Town::all();
+        //building count	
+        foreach($towns as $town)
+        {
+            $town_realm = $town->realm;
+            $town->building_count = Building::where('location', $town->town_id)->where('buildingtype',36)->count(); 
+        } 	   
+        //return view
+        return view('towns.maptavern', compact('towns'));	   
     }
     
     //maps food

@@ -36,30 +36,18 @@ Game
 	<g z-index="5"><text x="1340" y="1150" font-size="30" fill="rgb(0,64,0)" stroke="black" stroke-width="2">Illyricum</text></g>
 	<g z-index="5"><text x="1920" y="1510" font-size="30" fill="rgb(0,64,0)" stroke="black" stroke-width="2">Asia</text></g>
 	@foreach($towns as $town)
-		@if($town->milestone_count >=1)	
+		@if($town->caravan_count >=1)	
 			<g z-index="3">
 			<a xlink:href="/towns/{{$town->town_id}}">
-			<title>{{$town->town_name}}</title>
+			<title>{{$town->town_name}} (caravan)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="10" fill="rgb(128,0,192)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
 			<g z-index="3">
 			<a xlink:href="/towns/{{$town->town_id}}">
 			<title>{{$town->town_name}}</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="10" fill="rgb(192,0,0)" stroke="black" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="10" fill="rgb(64,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
-		@endif
-	@endforeach
-
-	@foreach($roads as $road)	
-		@if($road->milestone_count >=1)
-	    	@foreach($road->milestones as $milestone)
-            	@if($milestone->marker > 1 && $milestone->marker <= $road->milestone_count)
-                	<g z-index="4">
-                	<line x1="{{$milestone->xpre}}" y1="{{$milestone->ypre}}" x2="{{$milestone->xco}}" y2="{{$milestone->yco}}" style="stroke:rgb(192,128,0);stroke-width:3" />
-                	</g>
-            	@endif	
-	    	@endforeach
 		@endif
 	@endforeach
 	</svg>

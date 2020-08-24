@@ -89,6 +89,7 @@ Route::get('maplibrary','TownController@maplibrary');
 Route::get('maptheatre','TownController@maptheatre');
 Route::get('mapamphitheatre','TownController@mapamphitheatre');
 Route::get('maprace','TownController@maprace');
+Route::get('maptavern','TownController@maptavern');
 //maps food
 Route::get('mapstaples','TownController@mapstaples');
 Route::get('mapfruit','TownController@mapfruit');
@@ -128,6 +129,8 @@ Route::get('mapivory','TownController@mapivory');
 Route::get('mapslave','TownController@mapslave');
 //maps military
 Route::get('maparmy','TownController@maparmy');
+//maps trade
+Route::get('mapcaravan','TownController@mapcaravan');
 //maps towns stats
 Route::get('mapdefenses','TownController@mapdefenses');
 Route::get('mapjustice','TownController@mapjustice');
