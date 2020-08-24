@@ -85,6 +85,8 @@ Route::get('maptemple','TownController@maptemple');
 Route::get('maporacle','TownController@maporacle');
 Route::get('maptomb','TownController@maptomb');
 Route::get('mapbath','TownController@mapbath');
+Route::get('mapbarracks','TownController@mapbarracks');
+Route::get('maphospital','TownController@maphospital');
 Route::get('maplibrary','TownController@maplibrary');
 Route::get('maptheatre','TownController@maptheatre');
 Route::get('mapamphitheatre','TownController@mapamphitheatre');
@@ -96,6 +98,7 @@ Route::get('mapfruit','TownController@mapfruit');
 Route::get('mapgrapes','TownController@mapgrapes');
 Route::get('mapolives','TownController@mapolives');
 Route::get('maphoney','TownController@maphoney');
+Route::get('mapfiber','TownController@mapfiber');
 //maps animals
 Route::get('mappack','TownController@mappack');
 Route::get('mapcattle','TownController@mapcattle');
@@ -131,6 +134,7 @@ Route::get('mapslave','TownController@mapslave');
 Route::get('maparmy','TownController@maparmy');
 //maps trade
 Route::get('mapcaravan','TownController@mapcaravan');
+Route::get('mapfleet','TownController@mapfleet');
 //maps towns stats
 Route::get('mapdefenses','TownController@mapdefenses');
 Route::get('mapjustice','TownController@mapjustice');

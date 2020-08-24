@@ -22,19 +22,19 @@ Game
 			<g z-index="3">
 			<a xlink:href="/towns/{{$town->town_id}}">
 			<title>{{$town->town_name}} (pallisade)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(192,92,0)" stroke="black" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(192,92,0)" stroke="black" stroke-width="5" /></a>
             </g>
         @elseif($town->defenses >=600)	
 			<g z-index="3">
 			<a xlink:href="/towns/{{$town->town_id}}">
 			<title>{{$town->town_name}} (stone wall)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(192,192,192)" stroke="black" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(192,192,192)" stroke="black" stroke-width="6" /></a>
 			</g>
 		@else
 			<g z-index="3">
 			<a xlink:href="/towns/{{$town->town_id}}">
 			<title>{{$town->town_name}}</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="10" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="10" fill="rgb(0,0,0)" stroke="black" stroke-width="2" /></a>
 			</g>
 		@endif
 	@endforeach

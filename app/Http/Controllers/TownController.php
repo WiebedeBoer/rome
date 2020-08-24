@@ -21,6 +21,7 @@ use App\Road;
 use App\Milestone;
 use App\Army;
 use App\Caravan;
+use App\Fleet;
 use App\Capital;
 use App\Building;
 
@@ -338,6 +339,20 @@ class TownController extends Controller
     }
 
 	//map view
+    public function mapfleet()
+    {            
+        //towns
+        $towns = Town::all();
+        foreach($towns as $town)
+        {
+            $town->fleet_count = Fleet::where('location', $town->town_id)->count();
+        }     
+        
+        //return view
+        return view('towns.mapfleet', compact('towns'));	   
+    }
+
+	//map view
     public function mapcaravan()
     {            
         //towns
@@ -412,6 +427,21 @@ class TownController extends Controller
     }
 
     //map view
+    public function mapbarracks()
+    {            
+        $towns = Town::all();
+                
+        //building count	
+        foreach($towns as $town)
+        {
+            $town->tomb_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[26,31])->count();
+        }
+        //return view
+        return view('towns.mapbarracks', compact('towns'));
+        	
+    }
+
+    //map view
     public function mapbath()
     {            
         $towns = Town::all();
@@ -423,6 +453,20 @@ class TownController extends Controller
         }       
         //return view
         return view('towns.mapbath', compact('towns'));	   
+    }
+
+    //map view
+    public function maphospital()
+    {            
+        $towns = Town::all();
+        //building count	
+        foreach($towns as $town)
+        {
+            $town_realm = $town->realm;
+            $town->building_count = Building::where('location', $town->town_id)->where('buildingtype',13)->count(); 
+        }       
+        //return view
+        return view('towns.maphospital', compact('towns'));	   
     }
 
     //map view
@@ -534,6 +578,14 @@ class TownController extends Controller
 		$towns = Town::all();	   
         //return view
         return view('towns.maphoney', compact('towns'));	   
+    }
+
+	//map view
+    public function mapfiber()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapfiber', compact('towns'));	   
     }
 
     //maps animals
