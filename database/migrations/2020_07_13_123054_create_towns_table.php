@@ -50,10 +50,10 @@ class CreateTownsTable extends Migration
             $table->string('paper')->default('none'); // 13 papyrus, 4 parchment
             $table->string('sculpture')->default('none'); //26 marble, 15 ivory   
             $table->string('glass')->default('none'); //22 glass
-            $table->string('spice')->default('none'); //28 spice, 5 saffron, 2 silphium
-            $table->string('fabric')->default('none'); //36 silk
-            $table->string('scent')->default('none'); //30 incense, 8 cedar
-            $table->string('chattel')->default('none'); //13 slave
+            $table->string('spice')->default('none'); //28 spice caravan, 5 saffron, 2 silphium
+            $table->string('fabric')->default('none'); //36 silk caravan
+            $table->string('scent')->default('none'); //30 incense, incense caravan, 8 cedar, mastic
+            $table->string('chattel')->default('none'); //13 slave market
 			//statistics
 			$table->integer('defenses')->default(25); //1 - 999, ruin 1, oppida 100, castra 300, city wall 600
 			$table->integer('justice')->default(900); //1 - 999, wicked 1, unlawful 100, fair 700, virtuous 900

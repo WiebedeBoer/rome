@@ -114,6 +114,7 @@ Route::get('mapcopper','TownController@mapcopper');
 Route::get('mapiron','TownController@mapiron');
 Route::get('mapgold','TownController@mapgold');
 Route::get('mapsilver','TownController@mapsilver');
+Route::get('mapsalt','TownController@mapsalt');
 //maps products
 Route::get('mapdye','TownController@mapdye');
 Route::get('mappapyrus','TownController@mappapyrus');

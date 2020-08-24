@@ -65,6 +65,14 @@ class MythologySeeder extends Seeder
             'god' => '13',
             'religion' => '1'
         ]);
+        DB::table('mythologies')->insert([
+            'god' => '15',
+            'religion' => '1'
+        ]);
+        DB::table('mythologies')->insert([
+            'god' => '20',
+            'religion' => '1'
+        ]);
 
         //celtic
         DB::table('mythologies')->insert([
@@ -289,6 +297,10 @@ class MythologySeeder extends Seeder
         ]);  
 
         //libyan
+        DB::table('mythologies')->insert([
+            'god' => '22',
+            'religion' => '5'
+        ]);
         DB::table('mythologies')->insert([
             'god' => '77',
             'religion' => '5'

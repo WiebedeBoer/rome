@@ -12,9 +12,17 @@ Game
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
 	@foreach($towns as $town) 
-		@if($town->scent =="incense")
+		@if($town->scent =="incense caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (incense)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(89,72,69)" stroke="rgb(92,0,0)" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (incense caravan)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(89,72,69)" stroke="rgb(92,0,0)" stroke-width="4" /></a>
+			</g>
+		@elseif($town->scent =="incense")
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (incense)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(89,72,69)" stroke="rgb(192,0,0)" stroke-width="4" /></a>
+			</g>
+		@elseif($town->scent =="mastic")
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (mastic)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(163,169,97)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->scent =="cedar")
 			<g z-index="2">

@@ -997,5 +997,33 @@ class ProvinceSeeder extends Seeder
             'province_name' => 'Arabia Felix',
             'region' => '36'
         ]);
+        //aksum
+        //191
+        DB::table('provinces')->insert([
+            'province_name' => 'Aksum',
+            'region' => '37'
+        ]);
+        //kush
+        //192
+        DB::table('provinces')->insert([
+            'province_name' => 'Kush',
+            'region' => '38'
+        ]);
+        //193
+        DB::table('provinces')->insert([
+            'province_name' => 'Kerma',
+            'region' => '38'
+        ]);
+        //194
+        DB::table('provinces')->insert([
+            'province_name' => 'Meroe',
+            'region' => '38'
+        ]);
+        //Scythia Indica
+        //195
+        DB::table('provinces')->insert([
+            'province_name' => 'Sindica',
+            'region' => '29'
+        ]);
     }
 }

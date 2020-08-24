@@ -49,6 +49,7 @@
 		<a href="/mapiron" class="btn btn-dark">Iron</a>
 		<a href="/mapgold" class="btn btn-dark">Gold</a>
 		<a href="/mapsilver" class="btn btn-dark">Silver</a>
+		<a href="/mapsalt" class="btn btn-dark">Salt</a>
 	</div>
 	<div class="mlinks m-1">		
 		<a href="/mapdye" class="btn btn-dark">Dyes</a>

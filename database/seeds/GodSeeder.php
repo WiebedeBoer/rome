@@ -121,7 +121,7 @@ class GodSeeder extends Seeder
             'god_gender' => 'female',
             'war' => 'war'
         ]);
-        //15
+        //15 (arabic)
         DB::table('gods')->insert([
             'god_name' => 'Baal',
             'god_gender' => 'male',
@@ -158,7 +158,7 @@ class GodSeeder extends Seeder
             'arts' => 'crafts',
             'timber' => 'cedar'
         ]);
-        //20
+        //20 (arabic)
         DB::table('gods')->insert([
             'god_name' => 'Marqod',
             'god_gender' => 'male',
@@ -176,7 +176,7 @@ class GodSeeder extends Seeder
             'arts' => 'gold',
             'timber' => 'cedar'
         ]);
-        //22
+        //22 (Libyan)
         DB::table('gods')->insert([
             'god_name' => 'Mot',
             'god_gender' => 'male',
@@ -1291,6 +1291,7 @@ class GodSeeder extends Seeder
             'god_gender' => 'male',
             'god_category' => 'henotheistic',
             'state' => 'creator',
+            'arts' => 'wisdom',
             'horses' => 'chariot'      
         ]);
         //155
@@ -1311,7 +1312,9 @@ class GodSeeder extends Seeder
             'god_category' => 'henotheistic',
             'god_status' => 'spirit',
             'agriculture' => 'crops',
+            'arts' => 'wisdom',            
             'sea' => 'waters',
+            'healing' => 'medicine',
             'horses' => 'horse',
             'cattle' => 'cattle',
             'sheep' => 'sheep',

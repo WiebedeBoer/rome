@@ -638,6 +638,15 @@ class TownController extends Controller
         return view('towns.mapsilver', compact('towns'));	   
     }
 
+	//map view
+    public function mapsalt()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapsalt', compact('towns'));	   
+    }
+
+
     //maps products
 	//map view
     public function mapdye()

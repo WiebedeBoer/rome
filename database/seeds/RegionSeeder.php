@@ -191,6 +191,16 @@ class RegionSeeder extends Seeder
             'region_name' => 'Arabia',
             'architecture' => '8'
         ]);
+        //37
+        DB::table('regions')->insert([
+            'region_name' => 'Aksum',
+            'architecture' => '8'
+        ]);
+        //38
+        DB::table('regions')->insert([
+            'region_name' => 'Kush',
+            'architecture' => '8'
+        ]);
 
     }
 }

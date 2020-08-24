@@ -718,7 +718,55 @@ class CapitalSeeder extends Seeder
         DB::table('capitals')->insert([
             'realm' => '136',
             'town' => '396'
-        ]);        
-    
+        ]); 
+        //aksumite
+        //aksum, aksum
+        DB::table('capitals')->insert([
+            'realm' => '137',
+            'town' => '604'
+        ]);   
+        //kushite
+        //kush, napata
+        DB::table('capitals')->insert([
+            'realm' => '138',
+            'town' => '609'
+        ]);    
+        //numidian
+        //altava, altava   
+        DB::table('capitals')->insert([
+            'realm' => '139',
+            'town' => '614'
+        ]);  
+        //gaetulia, fallaba   
+        DB::table('capitals')->insert([
+            'realm' => '140',
+            'town' => '243'
+        ]); 
+        //musulamia, theveste   
+        DB::table('capitals')->insert([
+            'realm' => '141',
+            'town' => '253'
+        ]); 
+        //indo scythian
+        //Saka, urgench
+        DB::table('capitals')->insert([
+            'realm' => '142',
+            'town' => '513'
+        ]);   
+        //Tahaggart, Abalessa
+        DB::table('capitals')->insert([
+            'realm' => '143',
+            'town' => '631'
+        ]); 
+        //massagetae, parab
+        DB::table('capitals')->insert([
+            'realm' => '144',
+            'town' => '634'
+        ]); 
+        //sindica, Phanagoria
+        DB::table('capitals')->insert([
+            'realm' => '145',
+            'town' => '635'
+        ]); 
     }
 }

@@ -326,6 +326,23 @@ class LandconnectionSeeder extends Seeder
             'to' => '36',
             'from' => '35'
         ]);
-
+        //Aksum, Kush
+		DB::table('landconnections')->insert([
+            'to' => '37',
+            'from' => '38'
+        ]);
+		DB::table('landconnections')->insert([
+            'to' => '38',
+            'from' => '37'
+        ]);
+        //Kush, Aegyptus
+		DB::table('landconnections')->insert([
+            'to' => '38',
+            'from' => '16'
+        ]);
+		DB::table('landconnections')->insert([
+            'to' => '16',
+            'from' => '38'
+        ]);
     }
 }

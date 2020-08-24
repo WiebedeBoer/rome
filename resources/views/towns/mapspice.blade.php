@@ -12,9 +12,9 @@ Game
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
 	@foreach($towns as $town) 
-		@if($town->spice =="spice")
+		@if($town->spice =="spice caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spices)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(121,56,2)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spices caravan)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(121,56,2)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->spice =="saffron")
 			<g z-index="2">

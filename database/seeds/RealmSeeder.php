@@ -711,7 +711,56 @@ class RealmSeeder extends Seeder
             'realm_name' => 'Scythia',
             'culture' => '21'
         ]);
-
-
+        //aksum
+        //137
+        DB::table('realms')->insert([
+            'realm_name' => 'Aksum',
+            'culture' => '20'
+        ]);
+        //kush
+        //138
+        DB::table('realms')->insert([
+            'realm_name' => 'Kush',
+            'culture' => '13'
+        ]);
+        //numidian
+        //139
+        DB::table('realms')->insert([
+            'realm_name' => 'Altava',
+            'culture' => '13'
+        ]);
+        //140
+        DB::table('realms')->insert([
+            'realm_name' => 'Gaetulia',
+            'culture' => '13'
+        ]);
+        //141
+        DB::table('realms')->insert([
+            'realm_name' => 'Musulamia',
+            'culture' => '13'
+        ]);
+        //indo scythian
+        //142
+        DB::table('realms')->insert([
+            'realm_name' => 'Saka',
+            'culture' => '21'
+        ]);
+        //tuareg
+        //143
+        DB::table('realms')->insert([
+            'realm_name' => 'Tahaggart',
+            'culture' => '13'
+        ]);
+        //indo scythian
+        //144
+        DB::table('realms')->insert([
+            'realm_name' => 'Massagetae',
+            'culture' => '21'
+        ]);
+        //145
+        DB::table('realms')->insert([
+            'realm_name' => 'Sindica',
+            'culture' => '21'
+        ]);
     }
 }

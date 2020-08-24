@@ -56,7 +56,7 @@ Game
 	    	@foreach($road->milestones as $milestone)
             	@if($milestone->marker > 1 && $milestone->marker <= $road->milestone_count)
                 	<g z-index="4">
-                	<line x1="{{$milestone->xpre}}" y1="{{$milestone->ypre}}" x2="{{$milestone->xco}}" y2="{{$milestone->yco}}" style="stroke:rgb(192,192,0);stroke-width:3" />
+                	<line x1="{{$milestone->xpre}}" y1="{{$milestone->ypre}}" x2="{{$milestone->xco}}" y2="{{$milestone->yco}}" style="stroke:rgb(192,128,0);stroke-width:3" />
                 	</g>
             	@endif	
 	    	@endforeach
