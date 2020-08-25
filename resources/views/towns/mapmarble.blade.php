@@ -11,11 +11,15 @@ Game
 	<g z-index="1">
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
-	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Marble</text></g>
+	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Marble &amp; Stone</text></g>
 	@foreach($towns as $town) 
 		@if($town->sculpture =="marble")
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (marble)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(172,88,96)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->sculpture =="stone")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (marble)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(230,210,185)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
 		    <g z-index="2">

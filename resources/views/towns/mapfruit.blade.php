@@ -43,6 +43,11 @@ Game
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(210,181,82)" stroke="rgb(188,38,55)" stroke-width="4" /></a>
 			</g>
+		@elseif($town->fruit =="plum")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(163,106,125)" stroke="rgb(106,78,101)" stroke-width="4" /></a>
+			</g>
 		@elseif($town->fruit =="quinces")
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->fruit}})</title>

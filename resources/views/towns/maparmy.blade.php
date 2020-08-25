@@ -43,7 +43,7 @@ Game
 			<g z-index="3">
 			<a xlink:href="/towns/{{$town->town_id}}">
 			<title>{{$town->town_name}} (army)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="10" fill="rgb(128,0,192)" stroke="black" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(128,0,192)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
 			<g z-index="3">

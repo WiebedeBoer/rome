@@ -4,6 +4,7 @@
 
 		<a href="/mapclimate" class="btn btn-dark">Climate &#x26C5;</a>
 		<a href="/mapculture" class="btn btn-dark">Cultures &amp; Realms &#x1F451;</a>
+		<a href="/mapreligion" class="btn btn-dark">Religion</a>
 		<a href="/mappopulation" class="btn btn-dark">Population</a>
 		<a href="/maproad" class="btn btn-dark">Roads</a>
 		<a href="/maparchitecture" class="btn btn-dark">Vernacular Architecture</a>
@@ -37,7 +38,7 @@
 		<a href="/mapgrapes" class="btn btn-dark">Wine &#x1F347;</a>
 		<a href="/mapolives" class="btn btn-dark">Olive Oil &#x1F3FA;</a>
 		<a href="/maphoney" class="btn btn-dark">Honey &#x1F36F;</a>
-		<a href="/mapfiber" class="btn btn-dark">Flax</a>
+		<a href="/mapfiber" class="btn btn-dark">Fabrics &amp; Silk Caravans &#x1F42A;</a>
 
 		<a href="/mappack" class="btn btn-dark">Pack &amp; Draught Animals &#x1F40E;</a>
 		<a href="/mapcattle" class="btn btn-dark">Cattle &#x1F404;</a>
@@ -50,7 +51,7 @@
 
 		<a href="/mappottery" class="btn btn-dark">Clay &#x1F9F1;</a>
 		<a href="/maptimber" class="btn btn-dark">Timber &#x1F332;</a>
-		<a href="/mapmarble" class="btn btn-dark">Marble &block;</a>
+		<a href="/mapmarble" class="btn btn-dark">Marble &amp; Stone &block;</a>
 		<a href="/maptin" class="btn btn-dark">Tin &#x26CF;</a>
 		<a href="/mapcopper" class="btn btn-dark">Copper &#x26CF;</a>
 		<a href="/mapiron" class="btn btn-dark">Iron &#x26CF;</a>
@@ -63,8 +64,7 @@
 		<a href="/mappapyrus" class="btn btn-dark">Papyrus &amp; Parchment &#x1F4DC;</a>
 		<a href="/mapglass" class="btn btn-dark">Glass</a>
 	
-		<a href="/mapsilk" class="btn btn-dark">Silk Caravans &#x1F42A;</a>
-		<a href="/mapspice" class="btn btn-dark">Spices &amp; Medicine &#x2695;</a>
+		<a href="/mapspice" class="btn btn-dark">Spices &amp; Medicinal Herbs &#x2695;</a>
 		<a href="/mapincense" class="btn btn-dark">Incense &amp; Cedar &#x1F332;</a>
 		<a href="/mapivory" class="btn btn-dark">Ivory Caravans &#x1F418;</a>
 		<a href="/mapslave" class="btn btn-dark">Slave Markets &#x26D3;</a>

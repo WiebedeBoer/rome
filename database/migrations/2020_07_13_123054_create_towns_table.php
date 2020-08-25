@@ -30,7 +30,7 @@ class CreateTownsTable extends Migration
             $table->string('rabbit')->default('none'); //55 rabbit
             $table->string('game')->default('none'); //245 boar, 259 deer, 82 hare, 8 pheasant, 8 elephant, 7 lion, bear, duck
             //crops
-            $table->string('fruit')->default('none'); //147 figs, 119 dates, 33 pomegranates, 72 grapes, 25 olives, 175 apples, 31 quinces
+            $table->string('fruit')->default('none'); //147 figs, 119 dates, 33 pomegranates, 72 grapes, 25 olives, 175 apples, 31 quinces, plum
             $table->string('grain')->default('none'); //53 durum, 224 barley, 39 rye, 85 oats, 29 einkorn, 12 spelt, 160 emmer
             $table->string('vine')->default('none'); //389 grapes
             $table->string('sweetener')->default('none'); //86 honey
@@ -44,12 +44,12 @@ class CreateTownsTable extends Migration
             $table->string('gems')->default('none'); //2 Sapphire, 11 Emerald, 1 Ruby, 3 amber
             $table->string('salt')->default('none'); //30 salt
             //resources  
-            $table->string('fiber')->default('none'); //29 flax
+            $table->string('fiber')->default('none'); //29 flax, cotton
             $table->string('pottery')->default('none'); //315 clay
             $table->string('dye')->default('none'); //80 woad, 18 madder, 21 indigo, 5 saffron
             $table->string('timber')->default('none'); //168 oak, 70 cypress, 43 yew, 39 beech, 110 juniper, 8 cedar, 33 pine, 118 palm
             $table->string('paper')->default('none'); // 13 papyrus, 4 parchment
-            $table->string('sculpture')->default('none'); //26 marble, 15 ivory   
+            $table->string('sculpture')->default('none'); //26 marble, stone, 15 ivory   
             $table->string('glass')->default('none'); //22 glass
             $table->string('spice')->default('none'); //28 spice caravan, 5 saffron, 2 silphium, laurel
             $table->string('fabric')->default('none'); //36 silk caravan

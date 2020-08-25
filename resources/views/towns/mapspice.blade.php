@@ -11,7 +11,7 @@ Game
 	<g z-index="1">
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
-	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Spices &amp; Medicine</text></g>
+	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Spices &amp; Medicinal Herbs</text></g>
 	@foreach($towns as $town) 
 		@if($town->spice =="spice caravan")
 			<g z-index="2">
@@ -32,6 +32,21 @@ Game
 			<g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (laurel)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(75,128,49)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->spice =="thyme")
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (thyme)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(214,210,207)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->spice =="sage")
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (sage)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(202,161,247)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->spice =="marjoram")
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (marjoram)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(72,14,39)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
 			<g z-index="2">

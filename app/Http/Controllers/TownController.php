@@ -261,6 +261,26 @@ class TownController extends Controller
         return view('towns.mapculture', compact('towns'));	   
     }
 
+    //map view
+    public function mapreligion()
+    {            
+        $towns = Town::all();
+        
+        //collect the realm and culture
+        foreach($towns as $town)
+        {
+            $town_realm = $town->realm;
+            $realm = Realm::where('realm_id', $town_realm)->get();
+            $town_culture = $realm[0]->culture; //culture id
+            $culture = Culture::where('culture_id', $town_culture)->get();
+            $town_religion = $culture[0]->culture_religion; //religion id
+            $town->religion = Religion::where('religion_id', $town_religion)->get();
+        }       
+
+        //return view
+        return view('towns.mapreligion', compact('towns'));	   
+    }
+
 	//map view
     public function maparchitecture()
     {            
@@ -806,14 +826,6 @@ class TownController extends Controller
     }
     
     //maps caravans
-	//map view
-    public function mapsilk()
-    {            
-		$towns = Town::all();	   
-        //return view
-        return view('towns.mapsilk', compact('towns'));	   
-    }
-
 	//map view
     public function mapspice()
     {            

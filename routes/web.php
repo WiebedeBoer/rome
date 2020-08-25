@@ -77,6 +77,7 @@ Route::patch('towns/{towns}', 'TownController@update');
 //town maps
 Route::get('mappopulation','TownController@mappopulation');
 Route::get('mapculture','TownController@mapculture');
+Route::get('mapreligion','TownController@mapreligion');
 Route::get('mapclimate','TownController@mapclimate');
 Route::get('maproad','TownController@maproad');
 Route::get('maparchitecture','TownController@maparchitecture');
@@ -127,7 +128,6 @@ Route::get('mapdye','TownController@mapdye');
 Route::get('mappapyrus','TownController@mappapyrus');
 Route::get('mapglass','TownController@mapglass');
 //maps caravans
-Route::get('mapsilk','TownController@mapsilk');
 Route::get('mapspice','TownController@mapspice');
 Route::get('mapincense','TownController@mapincense');
 Route::get('mapivory','TownController@mapivory');
