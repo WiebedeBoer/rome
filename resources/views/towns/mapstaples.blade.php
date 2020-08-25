@@ -11,6 +11,7 @@ Game
 	<g z-index="1">
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
+	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Grains</text></g>
 	@foreach($towns as $town) 
 		@if($town->grain =="rye")
 			<g z-index="2">

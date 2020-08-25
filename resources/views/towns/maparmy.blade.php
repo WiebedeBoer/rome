@@ -11,6 +11,9 @@ Game
 	<g z-index="1">
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
+
+	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Armies</text></g>
+
 	<g z-index="5"><text x="640" y="300" font-size="30" fill="blue" stroke="black" stroke-width="2">Mare Germanicum</text></g>
 	<g z-index="5"><text x="200" y="1080" font-size="30" fill="blue" stroke="black" stroke-width="2">Mare Cantabricum</text></g>
 	<g z-index="5"><text x="2100" y="1220" font-size="30" fill="blue" stroke="black" stroke-width="2">Pontus Euxinus</text></g>

@@ -198,18 +198,17 @@ h2.m {
 	}	
 }
 
-
-
 /*worldmap*/
 .mlinks > a {
     color: #e3dbd1;
     padding: 0 25px;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: .1rem;
     text-decoration: none;
 	text-transform: uppercase;
-	min-width: 320px;
+	min-width: 420px;
+	margin:2px;
 }
 
 .wmin {

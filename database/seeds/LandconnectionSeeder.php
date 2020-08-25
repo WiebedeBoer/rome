@@ -344,5 +344,59 @@ class LandconnectionSeeder extends Seeder
             'to' => '16',
             'from' => '38'
         ]);
+        //Garamantia, Africa
+		DB::table('landconnections')->insert([
+            'to' => '40',
+            'from' => '15'
+        ]);
+		DB::table('landconnections')->insert([
+            'to' => '15',
+            'from' => '40'
+        ]);
+        //Garamantia, Numidia
+		DB::table('landconnections')->insert([
+            'to' => '40',
+            'from' => '14'
+        ]);
+		DB::table('landconnections')->insert([
+            'to' => '14',
+            'from' => '40'
+        ]);
+        //Garamantia, Aegyptus
+		DB::table('landconnections')->insert([
+            'to' => '40',
+            'from' => '16'
+        ]);
+		DB::table('landconnections')->insert([
+            'to' => '16',
+            'from' => '40'
+        ]);
+        //Garamantia, Tahaggart
+		DB::table('landconnections')->insert([
+            'to' => '40',
+            'from' => '39'
+        ]);
+		DB::table('landconnections')->insert([
+            'to' => '39',
+            'from' => '40'
+        ]);
+        //Tahaggart, Mauretania
+		DB::table('landconnections')->insert([
+            'to' => '39',
+            'from' => '13'
+        ]);
+		DB::table('landconnections')->insert([
+            'to' => '13',
+            'from' => '39'
+        ]);
+        //Tahaggart, Aegyptus
+		DB::table('landconnections')->insert([
+            'to' => '39',
+            'from' => '16'
+        ]);
+		DB::table('landconnections')->insert([
+            'to' => '16',
+            'from' => '39'
+        ]);
     }
 }

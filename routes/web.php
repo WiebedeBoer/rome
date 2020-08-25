@@ -82,8 +82,10 @@ Route::get('maproad','TownController@maproad');
 Route::get('maparchitecture','TownController@maparchitecture');
 //buildings maps
 Route::get('maptemple','TownController@maptemple');
+Route::get('mapgrove','TownController@mapgrove');
 Route::get('maporacle','TownController@maporacle');
 Route::get('maptomb','TownController@maptomb');
+Route::get('mapgrave','TownController@mapgrave');
 Route::get('mapbath','TownController@mapbath');
 Route::get('mapbarracks','TownController@mapbarracks');
 Route::get('maphospital','TownController@maphospital');
@@ -118,6 +120,7 @@ Route::get('mapcopper','TownController@mapcopper');
 Route::get('mapiron','TownController@mapiron');
 Route::get('mapgold','TownController@mapgold');
 Route::get('mapsilver','TownController@mapsilver');
+Route::get('mapgems','TownController@mapgems');
 Route::get('mapsalt','TownController@mapsalt');
 //maps products
 Route::get('mapdye','TownController@mapdye');
@@ -135,6 +138,8 @@ Route::get('maparmy','TownController@maparmy');
 //maps trade
 Route::get('mapcaravan','TownController@mapcaravan');
 Route::get('mapfleet','TownController@mapfleet');
+//maps persons
+Route::get('mapperson','TownController@mapperson');
 //maps towns stats
 Route::get('mapdefenses','TownController@mapdefenses');
 Route::get('mapjustice','TownController@mapjustice');

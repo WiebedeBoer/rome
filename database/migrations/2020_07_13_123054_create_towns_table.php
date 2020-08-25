@@ -41,6 +41,7 @@ class CreateTownsTable extends Migration
             $table->string('iron')->default('none'); //67 iron
             $table->string('gold')->default('none'); //69 gold
             $table->string('silver')->default('none'); //55 silver
+            $table->string('gems')->default('none'); //2 Sapphire, 11 Emerald, 1 Ruby, 3 amber
             $table->string('salt')->default('none'); //30 salt
             //resources  
             $table->string('fiber')->default('none'); //29 flax
@@ -50,7 +51,7 @@ class CreateTownsTable extends Migration
             $table->string('paper')->default('none'); // 13 papyrus, 4 parchment
             $table->string('sculpture')->default('none'); //26 marble, 15 ivory   
             $table->string('glass')->default('none'); //22 glass
-            $table->string('spice')->default('none'); //28 spice caravan, 5 saffron, 2 silphium
+            $table->string('spice')->default('none'); //28 spice caravan, 5 saffron, 2 silphium, laurel
             $table->string('fabric')->default('none'); //36 silk caravan
             $table->string('scent')->default('none'); //30 incense, incense caravan, 8 cedar, mastic
             $table->string('chattel')->default('none'); //13 slave market
@@ -64,7 +65,13 @@ class CreateTownsTable extends Migration
 			$table->integer('training')->default(100);
 			//soldiers
 			$table->integer('guards')->default(1);
-			//stored resources
+            //stored construction resources
+            $table->integer('stored_tatch')->default(0);
+            $table->integer('stored_timber')->default(0);
+            $table->integer('stored_stone')->default(0);
+            $table->integer('stored_marble')->default(0);
+            $table->integer('stored_bronze')->default(0);
+            $table->integer('stored_hardware')->default(0);
             //stored foodstuff
             $table->integer('stored_meat')->default(0); 
             $table->integer('stored_cheese')->default(0); 

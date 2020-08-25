@@ -87,7 +87,10 @@ class SeaSeeder extends Seeder
         DB::table('seas')->insert([
             'sea_name' => 'Sinus Arabicus'
         ]);
-
+        //20
+        DB::table('seas')->insert([
+            'sea_name' => 'Mare Caspium'
+        ]);
     }
 }
 

@@ -127,7 +127,7 @@ class TownController extends Controller
             $seaconnections =[];
         } 
 
-        $town_realm = $town->realm;
+        $town_realm = $towns->realm;
         $realm = Realm::where('realm_id', $town_realm)->get();
         $town_culture = $realm[0]->culture; //culture id
         $culture = Culture::where('culture_id', $town_culture)->get();
@@ -367,6 +367,20 @@ class TownController extends Controller
     }
 
 	//map view
+    public function mapperson()
+    {            
+        //towns
+        $towns = Town::all();
+        foreach($towns as $town)
+        {
+            $town->person_count = Person::where('location', $town->town_id)->count();
+        }     
+        
+        //return view
+        return view('towns.mapperson', compact('towns'));	   
+    }
+
+	//map view
     public function mapclimate()
     {            
 		$towns = Town::all();	   
@@ -385,14 +399,26 @@ class TownController extends Controller
         {
             //temple counts
             $town->temple_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[2,6])->count();
-            
-            //grove count
-            $town->grove_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();           
-
+            $town->sacred_count = Building::where('location', $town->town_id)->where('buildingtype',5)->count();           
+            $town->idol_count = Building::where('location', $town->town_id)->where('buildingtype',6)->count(); 
         } 
 
         //return view
         return view('towns.maptemple', compact('towns'));	   
+    }
+
+    //map view
+    public function mapgrove()
+    {            
+        $towns = Town::all();         
+        //building count	
+        foreach($towns as $town)
+        {           
+            //grove count
+            $town->grove_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();           
+        } 
+        //return view
+        return view('towns.mapgrove', compact('towns'));	   
     }
 
 
@@ -419,10 +445,27 @@ class TownController extends Controller
         //building count	
         foreach($towns as $town)
         {
-            $town->tomb_count = Building::where('location', $town->town_id)->whereBetween('buildingtype',[7,8])->count();
+            $town->burial_mound_count = Building::where('location', $town->town_id)->where('tomb','tumulus')->whereBetween('buildingtype',[7,8])->count();
+            $town->tomb_count = Building::where('location', $town->town_id)->where('tomb','mausoleum')->whereBetween('buildingtype',[7,8])->count();
+            $town->pyramid_count = Building::where('location', $town->town_id)->where('tomb','pyramid')->whereBetween('buildingtype',[7,8])->count();
         }
         //return view
         return view('towns.maptomb', compact('towns'));
+        	
+    }
+
+    //map view
+    public function mapgrave()
+    {            
+        $towns = Town::all();
+                
+        //building count	
+        foreach($towns as $town)
+        {
+            $town->grave_count = Building::where('location', $town->town_id)->where('tomb','pyramid')->where('buildingtype',7)->count();
+        }
+        //return view
+        return view('towns.mapgrave', compact('towns'));
         	
     }
 
@@ -477,7 +520,8 @@ class TownController extends Controller
         foreach($towns as $town)
         {
             $town_realm = $town->realm;
-            $town->building_count = Building::where('location', $town->town_id)->where('buildingtype',14)->count(); 
+            $town->library_count = Building::where('location', $town->town_id)->where('buildingtype',14)->count(); 
+            $town->academy_count = Building::where('location', $town->town_id)->where('buildingtype',15)->count(); 
         } 	   
         //return view
         return view('towns.maplibrary', compact('towns'));	   
@@ -717,6 +761,14 @@ class TownController extends Controller
 		$towns = Town::all();	   
         //return view
         return view('towns.mapsilver', compact('towns'));	   
+    }
+
+	//map view
+    public function mapgems()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapgems', compact('towns'));	   
     }
 
 	//map view

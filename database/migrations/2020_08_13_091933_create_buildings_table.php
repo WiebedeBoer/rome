@@ -18,6 +18,8 @@ class CreateBuildingsTable extends Migration
             $table->string('building_name')->nullable();
             //stats
             $table->integer('state')->default(100);
+            //tomb type
+            $table->string('tomb')->default('none');
             //fk
             $table->unsignedBigInteger('buildingtype');
             $table->unsignedBigInteger('location');

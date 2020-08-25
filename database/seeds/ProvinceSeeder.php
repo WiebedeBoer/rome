@@ -1025,5 +1025,18 @@ class ProvinceSeeder extends Seeder
             'province_name' => 'Sindica',
             'region' => '29'
         ]);
+        //sahara
+        //196
+        DB::table('provinces')->insert([
+            'province_name' => 'Tahaggart',
+            'region' => '39'
+        ]);
+        //197
+        DB::table('provinces')->insert([
+            'province_name' => 'Garamantia',
+            'region' => '40'
+        ]);
+
+
     }
 }

@@ -1456,30 +1456,179 @@ class BuildingSeeder extends Seeder
         ]);
 
         //mausoleum
+        //alcimoennis
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '67'
+        ]);
+        //agathe
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '111'
+        ]); 
+        //durocorturum
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '136'
+        ]); 
+        //treva
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '154'
+        ]);
+        //portus adurni
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '168'
+        ]);   
+        //eboracum
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '175'
+        ]);  
+        //portus cale
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '221'
+        ]);  
+        //ebora
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '228'
+        ]);    
         //tingarta
         DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
             'buildingtype' => '8',
             'location' => '242'
         ]); 
+        //caesarea mauretaniae
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '244'
+        ]); 
         //memphis
         DB::table('buildings')->insert([
+            'tomb' => 'pyramid',
             'buildingtype' => '8',
             'location' => '288'
         ]); 
+        //heracleapolis
+        DB::table('buildings')->insert([
+            'tomb' => 'pyramid',
+            'buildingtype' => '8',
+            'location' => '292'
+        ]); 
+        //lycopolis
+        DB::table('buildings')->insert([
+            'tomb' => 'pyramid',
+            'buildingtype' => '8',
+            'location' => '294'
+        ]); 
+        //ptolemais
+        DB::table('buildings')->insert([
+            'tomb' => 'pyramid',
+            'buildingtype' => '8',
+            'location' => '295'
+        ]);
+        //argos
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '314'
+        ]);
+        //pella
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '329'
+        ]);
+        //philippopolis
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '338'
+        ]); 
         //tanais
         DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
             'buildingtype' => '8',
             'location' => '396'
         ]);
         //halicarnassus
         DB::table('buildings')->insert([
+            'tomb' => 'mausoleum',
             'buildingtype' => '8',
             'location' => '404'
         ]); 
+        //dorylaeum
+        DB::table('buildings')->insert([
+            'tomb' => 'mausoleum',
+            'buildingtype' => '8',
+            'location' => '429'
+        ]); 
+        //Pasargadae
+        DB::table('buildings')->insert([
+            'tomb' => 'mausoleum',
+            'buildingtype' => '8',
+            'location' => '501'
+        ]); 
+        //Persepolis
+        DB::table('buildings')->insert([
+            'tomb' => 'mausoleum',
+            'buildingtype' => '8',
+            'location' => '502'
+        ]); 
+        //Petra
+        DB::table('buildings')->insert([
+            'tomb' => 'mausoleum',
+            'buildingtype' => '8',
+            'location' => '579'
+        ]); 
+        //napata
+        DB::table('buildings')->insert([
+            'tomb' => 'pyramid',
+            'buildingtype' => '8',
+            'location' => '609'
+        ]);
         //meroe
         DB::table('buildings')->insert([
+            'tomb' => 'pyramid',
             'buildingtype' => '8',
             'location' => '610'
+        ]);
+        //kerma
+        DB::table('buildings')->insert([
+            'tomb' => 'pyramid',
+            'buildingtype' => '8',
+            'location' => '611'
+        ]); 
+        //abalessa
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '631'
+        ]); 
+        //samur
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '637'
+        ]); 
+        //atil
+        DB::table('buildings')->insert([
+            'tomb' => 'tumulus',
+            'buildingtype' => '8',
+            'location' => '638'
         ]); 
 
         //groves
@@ -3562,6 +3711,10 @@ class BuildingSeeder extends Seeder
             'location' => '479'
             ]);
             DB::table('buildings')->insert([
+                'buildingtype' => '21',
+                'location' => '488'
+            ]);
+            DB::table('buildings')->insert([
             'buildingtype' => '21',
             'location' => '552'
             ]);
@@ -3621,6 +3774,18 @@ class BuildingSeeder extends Seeder
                 'buildingtype' => '21',
                 'location' => '603'
             ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '21',
+                'location' => '638'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '21',
+                'location' => '639'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '21',
+                'location' => '640'
+            ]);
         //fortification no. 8
         //gates
         DB::table('buildings')->insert([
@@ -6167,6 +6332,22 @@ class BuildingSeeder extends Seeder
             'buildingtype' => '23',
             'location' => '636'
             ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '23',
+                'location' => '637'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '23',
+                'location' => '638'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '23',
+                'location' => '639'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '23',
+                'location' => '640'
+            ]);   
         //commerce no. 11
         //mansio
         DB::table('buildings')->insert([
@@ -6723,6 +6904,2567 @@ class BuildingSeeder extends Seeder
                 'location' => '636'
             ]); 
         //trade ground (addition) no.13
+        //food markets
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '1'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '2'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '3'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '4'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '5'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '6'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '7'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '8'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '9'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '10'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '11'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '12'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '13'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '14'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '15'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '16'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '17'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '18'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '19'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '20'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '21'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '22'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '23'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '24'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '25'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '26'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '27'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '28'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '29'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '30'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '31'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '32'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '33'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '34'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '35'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '36'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '37'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '38'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '39'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '40'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '41'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '42'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '43'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '44'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '45'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '46'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '47'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '48'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '49'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '50'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '51'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '52'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '53'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '54'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '55'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '56'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '57'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '58'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '59'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '60'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '61'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '62'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '63'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '64'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '65'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '66'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '67'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '68'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '69'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '70'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '71'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '72'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '73'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '74'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '75'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '76'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '77'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '78'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '79'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '80'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '81'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '82'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '83'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '84'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '85'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '86'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '87'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '88'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '89'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '90'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '91'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '92'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '93'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '94'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '95'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '96'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '97'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '98'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '99'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '100'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '101'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '102'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '103'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '104'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '105'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '106'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '107'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '108'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '109'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '110'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '111'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '112'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '113'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '114'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '115'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '116'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '117'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '118'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '119'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '120'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '121'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '122'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '123'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '124'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '125'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '126'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '127'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '128'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '129'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '130'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '131'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '132'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '133'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '134'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '135'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '136'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '137'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '138'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '139'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '140'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '141'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '142'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '143'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '144'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '145'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '146'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '147'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '148'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '149'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '150'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '151'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '152'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '153'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '154'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '155'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '156'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '157'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '158'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '159'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '160'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '161'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '162'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '163'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '164'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '165'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '166'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '167'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '168'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '169'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '170'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '171'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '172'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '173'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '174'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '175'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '176'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '177'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '178'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '179'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '180'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '181'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '182'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '183'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '184'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '185'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '186'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '187'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '188'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '189'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '190'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '191'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '192'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '193'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '194'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '195'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '196'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '197'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '198'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '199'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '200'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '201'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '202'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '203'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '204'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '205'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '206'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '207'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '208'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '209'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '210'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '211'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '212'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '213'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '214'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '215'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '216'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '217'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '218'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '219'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '220'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '221'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '222'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '223'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '224'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '225'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '226'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '227'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '228'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '229'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '230'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '231'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '232'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '233'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '234'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '235'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '236'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '237'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '238'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '239'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '240'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '241'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '242'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '243'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '244'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '245'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '246'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '247'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '248'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '249'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '250'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '251'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '252'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '253'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '254'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '255'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '256'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '257'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '258'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '259'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '260'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '261'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '262'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '263'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '264'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '265'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '266'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '267'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '268'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '269'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '270'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '271'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '272'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '273'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '274'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '275'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '276'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '277'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '278'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '279'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '280'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '281'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '282'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '283'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '284'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '285'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '286'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '287'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '288'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '289'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '290'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '291'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '292'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '293'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '294'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '295'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '296'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '297'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '298'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '299'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '300'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '301'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '302'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '303'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '304'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '305'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '306'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '307'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '308'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '309'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '310'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '311'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '312'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '313'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '314'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '315'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '316'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '317'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '318'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '319'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '320'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '321'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '322'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '323'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '324'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '325'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '326'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '327'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '328'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '329'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '330'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '331'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '332'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '333'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '334'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '335'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '336'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '337'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '338'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '339'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '340'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '341'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '342'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '343'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '344'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '345'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '346'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '347'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '348'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '349'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '350'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '351'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '352'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '353'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '354'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '355'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '356'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '357'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '358'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '359'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '360'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '361'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '362'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '363'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '364'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '365'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '366'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '367'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '368'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '369'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '370'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '371'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '372'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '373'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '374'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '375'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '376'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '377'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '378'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '379'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '380'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '381'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '382'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '383'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '384'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '385'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '386'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '387'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '388'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '389'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '390'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '391'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '392'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '393'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '394'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '395'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '396'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '397'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '398'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '399'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '400'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '401'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '402'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '403'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '404'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '405'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '406'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '407'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '408'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '409'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '410'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '411'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '412'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '413'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '414'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '415'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '416'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '417'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '418'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '419'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '420'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '421'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '422'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '423'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '424'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '425'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '426'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '427'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '428'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '429'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '430'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '431'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '432'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '433'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '434'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '435'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '436'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '437'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '438'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '439'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '440'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '441'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '442'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '443'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '444'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '445'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '446'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '447'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '448'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '449'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '450'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '451'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '452'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '453'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '454'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '455'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '456'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '457'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '458'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '459'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '460'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '461'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '462'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '463'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '464'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '465'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '466'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '467'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '468'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '469'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '470'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '471'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '472'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '473'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '474'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '475'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '476'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '477'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '478'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '479'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '480'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '481'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '482'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '483'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '484'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '485'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '486'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '487'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '488'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '489'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '490'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '491'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '492'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '493'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '494'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '495'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '496'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '497'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '498'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '499'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '500'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '501'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '502'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '503'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '504'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '505'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '506'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '507'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '508'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '509'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '510'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '511'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '512'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '513'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '514'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '515'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '516'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '517'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '518'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '519'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '520'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '521'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '522'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '523'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '524'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '525'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '526'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '527'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '528'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '529'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '530'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '531'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '532'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '533'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '534'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '535'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '536'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '537'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '538'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '539'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '540'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '541'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '542'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '543'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '544'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '545'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '546'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '547'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '548'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '549'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '550'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '551'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '552'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '553'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '554'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '555'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '556'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '557'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '558'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '559'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '560'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '561'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '562'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '563'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '564'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '565'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '566'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '567'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '568'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '569'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '570'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '571'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '572'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '573'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '574'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '575'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '576'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '577'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '578'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '579'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '580'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '581'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '582'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '583'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '584'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '585'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '586'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '587'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '588'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '589'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '590'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '591'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '592'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '593'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '594'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '595'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '596'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '597'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '598'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '599'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '600'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '601'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '602'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '603'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '604'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '605'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '606'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '607'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '608'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '609'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '610'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '611'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '612'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '613'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '614'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '615'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '616'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '617'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '618'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '619'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '620'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '621'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '622'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '623'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '624'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '625'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '626'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '627'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '628'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '629'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '630'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '631'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '632'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '633'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '634'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '635'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '46',
+            'location' => '636'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '46',
+                'location' => '637'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '46',
+                'location' => '638'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '46',
+                'location' => '639'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '46',
+                'location' => '640'
+            ]);  
         //slave markets
             DB::table('buildings')->insert([
             'buildingtype' => '47',
@@ -6787,8 +9529,2569 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
                 'buildingtype' => '47',
                 'location' => '629'
+            ]);            
+        //goods markets  
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '1'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '2'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '3'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '4'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '5'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '6'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '7'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '8'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '9'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '10'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '11'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '12'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '13'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '14'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '15'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '16'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '17'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '18'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '19'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '20'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '21'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '22'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '23'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '24'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '25'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '26'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '27'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '28'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '29'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '30'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '31'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '32'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '33'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '34'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '35'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '36'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '37'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '38'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '39'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '40'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '41'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '42'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '43'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '44'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '45'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '46'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '47'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '48'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '49'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '50'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '51'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '52'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '53'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '54'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '55'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '56'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '57'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '58'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '59'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '60'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '61'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '62'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '63'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '64'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '65'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '66'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '67'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '68'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '69'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '70'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '71'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '72'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '73'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '74'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '75'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '76'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '77'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '78'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '79'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '80'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '81'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '82'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '83'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '84'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '85'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '86'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '87'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '88'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '89'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '90'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '91'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '92'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '93'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '94'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '95'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '96'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '97'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '98'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '99'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '100'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '101'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '102'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '103'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '104'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '105'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '106'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '107'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '108'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '109'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '110'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '111'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '112'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '113'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '114'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '115'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '116'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '117'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '118'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '119'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '120'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '121'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '122'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '123'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '124'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '125'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '126'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '127'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '128'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '129'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '130'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '131'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '132'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '133'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '134'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '135'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '136'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '137'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '138'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '139'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '140'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '141'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '142'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '143'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '144'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '145'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '146'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '147'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '148'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '149'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '150'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '151'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '152'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '153'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '154'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '155'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '156'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '157'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '158'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '159'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '160'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '161'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '162'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '163'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '164'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '165'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '166'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '167'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '168'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '169'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '170'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '171'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '172'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '173'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '174'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '175'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '176'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '177'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '178'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '179'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '180'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '181'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '182'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '183'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '184'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '185'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '186'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '187'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '188'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '189'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '190'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '191'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '192'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '193'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '194'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '195'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '196'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '197'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '198'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '199'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '200'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '201'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '202'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '203'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '204'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '205'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '206'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '207'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '208'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '209'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '210'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '211'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '212'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '213'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '214'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '215'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '216'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '217'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '218'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '219'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '220'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '221'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '222'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '223'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '224'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '225'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '226'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '227'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '228'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '229'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '230'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '231'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '232'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '233'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '234'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '235'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '236'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '237'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '238'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '239'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '240'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '241'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '242'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '243'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '244'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '245'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '246'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '247'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '248'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '249'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '250'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '251'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '252'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '253'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '254'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '255'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '256'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '257'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '258'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '259'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '260'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '261'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '262'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '263'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '264'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '265'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '266'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '267'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '268'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '269'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '270'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '271'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '272'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '273'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '274'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '275'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '276'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '277'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '278'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '279'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '280'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '281'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '282'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '283'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '284'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '285'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '286'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '287'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '288'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '289'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '290'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '291'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '292'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '293'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '294'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '295'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '296'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '297'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '298'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '299'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '300'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '301'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '302'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '303'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '304'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '305'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '306'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '307'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '308'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '309'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '310'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '311'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '312'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '313'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '314'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '315'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '316'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '317'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '318'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '319'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '320'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '321'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '322'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '323'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '324'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '325'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '326'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '327'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '328'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '329'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '330'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '331'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '332'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '333'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '334'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '335'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '336'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '337'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '338'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '339'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '340'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '341'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '342'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '343'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '344'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '345'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '346'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '347'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '348'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '349'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '350'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '351'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '352'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '353'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '354'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '355'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '356'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '357'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '358'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '359'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '360'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '361'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '362'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '363'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '364'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '365'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '366'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '367'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '368'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '369'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '370'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '371'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '372'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '373'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '374'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '375'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '376'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '377'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '378'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '379'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '380'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '381'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '382'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '383'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '384'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '385'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '386'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '387'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '388'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '389'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '390'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '391'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '392'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '393'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '394'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '395'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '396'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '397'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '398'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '399'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '400'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '401'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '402'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '403'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '404'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '405'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '406'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '407'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '408'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '409'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '410'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '411'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '412'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '413'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '414'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '415'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '416'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '417'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '418'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '419'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '420'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '421'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '422'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '423'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '424'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '425'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '426'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '427'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '428'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '429'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '430'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '431'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '432'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '433'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '434'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '435'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '436'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '437'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '438'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '439'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '440'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '441'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '442'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '443'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '444'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '445'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '446'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '447'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '448'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '449'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '450'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '451'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '452'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '453'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '454'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '455'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '456'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '457'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '458'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '459'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '460'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '461'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '462'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '463'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '464'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '465'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '466'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '467'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '468'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '469'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '470'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '471'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '472'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '473'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '474'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '475'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '476'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '477'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '478'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '479'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '480'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '481'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '482'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '483'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '484'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '485'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '486'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '487'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '488'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '489'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '490'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '491'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '492'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '493'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '494'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '495'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '496'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '497'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '498'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '499'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '500'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '501'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '502'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '503'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '504'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '505'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '506'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '507'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '508'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '509'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '510'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '511'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '512'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '513'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '514'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '515'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '516'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '517'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '518'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '519'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '520'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '521'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '522'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '523'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '524'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '525'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '526'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '527'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '528'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '529'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '530'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '531'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '532'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '533'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '534'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '535'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '536'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '537'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '538'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '539'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '540'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '541'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '542'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '543'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '544'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '545'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '546'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '547'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '548'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '549'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '550'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '551'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '552'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '553'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '554'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '555'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '556'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '557'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '558'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '559'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '560'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '561'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '562'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '563'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '564'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '565'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '566'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '567'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '568'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '569'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '570'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '571'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '572'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '573'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '574'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '575'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '576'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '577'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '578'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '579'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '580'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '581'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '582'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '583'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '584'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '585'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '586'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '587'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '588'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '589'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '590'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '591'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '592'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '593'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '594'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '595'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '596'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '597'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '598'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '599'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '600'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '601'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '602'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '603'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '604'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '605'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '606'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '607'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '608'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '609'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '610'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '611'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '612'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '613'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '614'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '615'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '616'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '617'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '618'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '619'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '620'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '621'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '622'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '623'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '624'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '625'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '626'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '627'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '628'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '629'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '630'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '631'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '632'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '633'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '634'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '635'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '48',
+            'location' => '636'
             ]); 
-        //markets
+            DB::table('buildings')->insert([
+                'buildingtype' => '48',
+                'location' => '637'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '48',
+                'location' => '638'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '48',
+                'location' => '639'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '48',
+                'location' => '640'
+            ]);  
+        //civil forums
             DB::table('buildings')->insert([
             'buildingtype' => '49',
             'location' => '1'
@@ -9332,7 +14635,23 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
                 'buildingtype' => '49',
                 'location' => '636'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '49',
+                'location' => '637'
             ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '49',
+                'location' => '638'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '49',
+                'location' => '639'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '49',
+                'location' => '640'
+            ]);   
         //municipal no. 14
         //records office (realm capital)
             DB::table('buildings')->insert([
@@ -10515,6 +15834,10 @@ class BuildingSeeder extends Seeder
             'location' => '33'
             ]);
             DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '34'
+            ]); 
+            DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '36'
             ]);
@@ -10587,9 +15910,21 @@ class BuildingSeeder extends Seeder
             'location' => '74'
             ]);
             DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '75'
+            ]);
+            DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '77'
             ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '84'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '85'
+            ]); 
             DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '86'
@@ -10623,12 +15958,32 @@ class BuildingSeeder extends Seeder
             'location' => '113'
             ]);
             DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '115'
+            ]);
+            DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '116'
             ]);
             DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '120'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '121'
+            ]);
+            DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '122'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '124'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '125'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '52',
@@ -10657,6 +16012,18 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '147'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '154'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '157'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '158'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '52',
@@ -10943,6 +16310,10 @@ class BuildingSeeder extends Seeder
             'location' => '305'
             ]);
             DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '306'
+            ]);
+            DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '307'
             ]);
@@ -11017,6 +16388,10 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '356'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '359'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '52',
@@ -11215,6 +16590,10 @@ class BuildingSeeder extends Seeder
             'location' => '487'
             ]);
             DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '488'
+            ]);
+            DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '495'
             ]);
@@ -11231,6 +16610,10 @@ class BuildingSeeder extends Seeder
             'location' => '512'
             ]);
             DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '514'
+            ]);
+            DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '515'
             ]);
@@ -11238,6 +16621,14 @@ class BuildingSeeder extends Seeder
             'buildingtype' => '52',
             'location' => '516'
             ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '518'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '524'
+            ]); 
             DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '526'
@@ -11273,6 +16664,10 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
             'buildingtype' => '52',
             'location' => '556'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '561'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '52',
@@ -11313,6 +16708,10 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
                 'buildingtype' => '52',
                 'location' => '605'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '607'
             ]); 
             DB::table('buildings')->insert([
                 'buildingtype' => '52',
@@ -11389,7 +16788,11 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
                 'buildingtype' => '52',
                 'location' => '636'
-            ]);       
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '52',
+                'location' => '637'
+            ]);      
         //claypits
             DB::table('buildings')->insert([
             'buildingtype' => '53',
@@ -12714,6 +18117,18 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
                 'buildingtype' => '53',
                 'location' => '634'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '53',
+                'location' => '637'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '53',
+                'location' => '638'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '53',
+                'location' => '640'
             ]);  
         //quarries
             DB::table('buildings')->insert([
@@ -15364,6 +20779,22 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
                 'buildingtype' => '55',
                 'location' => '636'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '55',
+                'location' => '637'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '55',
+                'location' => '638'
+            ]);  
+            DB::table('buildings')->insert([
+                'buildingtype' => '55',
+                'location' => '639'
+            ]); 
+            DB::table('buildings')->insert([
+                'buildingtype' => '55',
+                'location' => '640'
             ]);          
     }
 }
