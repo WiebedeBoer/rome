@@ -18,6 +18,11 @@ Game
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}})</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,148,67)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
 			</g>
+		@elseif($town->thatching =="heather")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}})</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(100,20,81)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
+			</g>
 		@elseif($town->thatching =="rushes")
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}})</title>

@@ -47,7 +47,7 @@ class CreateTownsTable extends Migration
             $table->string('fiber')->default('none'); //29 flax, cotton
             $table->string('pottery')->default('none'); //315 clay
             $table->string('dye')->default('none'); //80 woad, 18 madder, 21 indigo, 5 saffron
-            $table->string('thatching')->default('straw'); //straw (grains), rushes (cold wetland), reeds (warm wetland), sedges (papyrus), palm branches (oasis)
+            $table->string('thatching')->default('straw'); //straw (grains), heather, rushes (cold wetland), reeds (warm wetland), sedges (papyrus), palm branches (oasis)
             $table->string('timber')->default('none'); //168 oak, 70 cypress, 43 yew, 39 beech, 110 juniper, 8 cedar, 33 pine, 118 palm
             $table->string('paper')->default('none'); // 13 papyrus, 4 parchment
             $table->string('sculpture')->default('bricks'); //26 marble, stone, 15 ivory, bricks, adobe   

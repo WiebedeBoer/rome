@@ -41,6 +41,11 @@ Game
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->climate}})</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(125,124,78)" stroke="black" stroke-width="5" /></a>
 			</g>
+		@elseif($town->climate =="cold steppe wetland")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->climate}})</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(125,124,78)" stroke="cyan" stroke-width="5" /></a>
+			</g>
         @elseif($town->climate =="hot steppe")
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->climate}})</title>
@@ -103,6 +108,11 @@ Game
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->climate}})</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(86,125,70)" stroke="black" stroke-width="5" /></a>
+			</g>
+		@elseif($town->climate =="hot continental wetland")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->climate}})</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(86,125,70)" stroke="cyan" stroke-width="5" /></a>
 			</g>
 
 			<!--alphine-->
