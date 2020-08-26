@@ -115,6 +115,7 @@ Route::get('mapgame','TownController@mapgame');
 Route::get('mappottery','TownController@mappottery');
 Route::get('maptimber','TownController@maptimber');
 Route::get('mapmarble','TownController@mapmarble');
+Route::get('mapthatching','TownController@mapthatching');
 //maps metals
 Route::get('maptin','TownController@maptin');
 Route::get('mapcopper','TownController@mapcopper');

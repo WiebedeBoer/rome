@@ -69,6 +69,10 @@ class GoodtypeSeeder extends Seeder
             'good_name' => 'lion',
             'good_category' => 'wild'
         ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'elephant',
+            'good_category' => 'wild'
+        ]);
         //wild game
 		DB::table('goodtypes')->insert([
             'good_name' => 'boar',
@@ -109,6 +113,14 @@ class GoodtypeSeeder extends Seeder
         ]);
 		DB::table('goodtypes')->insert([
             'good_name' => 'pomegranates',
+            'good_category' => 'fruit'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'plum',
+            'good_category' => 'fruit'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'quinces',
             'good_category' => 'fruit'
         ]);
         //grains
@@ -210,23 +222,45 @@ class GoodtypeSeeder extends Seeder
             'good_name' => 'wool',
             'good_category' => 'wool'
         ]);
-        //flax
+        //fibers
 		DB::table('goodtypes')->insert([
             'good_name' => 'flax',
             'good_category' => 'flax'
         ]);
-        //flax
+		DB::table('goodtypes')->insert([
+            'good_name' => 'cotton',
+            'good_category' => 'fiber'
+        ]);
+        //fabrics
+		DB::table('goodtypes')->insert([
+            'good_name' => 'carpet',
+            'good_category' => 'carpet'
+        ]);
+        //hides
 		DB::table('goodtypes')->insert([
             'good_name' => 'hides',
-            'good_category' => 'hides'
+            'good_category' => 'skins'
         ]);
-        //clothing
+		DB::table('goodtypes')->insert([
+            'good_name' => 'pelts',
+            'good_category' => 'fur'
+        ]);
 		DB::table('goodtypes')->insert([
             'good_name' => 'leather',
-            'good_category' => 'clothing'
+            'good_category' => 'rawhides'
+        ]);
+        //fabrics
+		DB::table('goodtypes')->insert([
+            'good_name' => 'linen',
+            'good_category' => 'fabric'
         ]);
 		DB::table('goodtypes')->insert([
             'good_name' => 'cloth',
+            'good_category' => 'fabric'
+        ]);
+        //clothing
+		DB::table('goodtypes')->insert([
+            'good_name' => 'garment',
             'good_category' => 'clothing'
         ]);
         //finished products
@@ -264,11 +298,11 @@ class GoodtypeSeeder extends Seeder
             'good_category' => 'products'
         ]);
 		DB::table('goodtypes')->insert([
-            'good_name' => 'furniture',
+            'good_name' => 'silverware',
             'good_category' => 'products'
         ]);
 		DB::table('goodtypes')->insert([
-            'good_name' => 'jewelry',
+            'good_name' => 'tinware',
             'good_category' => 'products'
         ]);
         //construction materials
@@ -297,11 +331,19 @@ class GoodtypeSeeder extends Seeder
             'good_category' => 'construction'
         ]);
 		DB::table('goodtypes')->insert([
-            'good_name' => 'bricks',
+            'good_name' => 'tiles',
             'good_category' => 'construction'
         ]);
 		DB::table('goodtypes')->insert([
-            'good_name' => 'tiles',
+            'good_name' => 'fired bricks',
+            'good_category' => 'construction'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'adobe bricks',
+            'good_category' => 'construction'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'stone',
             'good_category' => 'construction'
         ]);
         //carvings
@@ -358,10 +400,26 @@ class GoodtypeSeeder extends Seeder
             'good_name' => 'spices',
             'good_category' => 'spice'
         ]);
-        //silphium
+        //medicine
 		DB::table('goodtypes')->insert([
             'good_name' => 'silphium',
-            'good_category' => 'silphium'
+            'good_category' => 'medicine'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'laurel',
+            'good_category' => 'medicine'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'marjoram',
+            'good_category' => 'medicine'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'thyme',
+            'good_category' => 'medicine'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'sage',
+            'good_category' => 'medicine'
         ]);
         //saffron
 		DB::table('goodtypes')->insert([
@@ -401,6 +459,23 @@ class GoodtypeSeeder extends Seeder
 		DB::table('goodtypes')->insert([
             'good_name' => 'silver',
             'good_category' => 'metal'
+        ]);
+        //gems
+		DB::table('goodtypes')->insert([
+            'good_name' => 'amber',
+            'good_category' => 'gems'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'emerald',
+            'good_category' => 'gems'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'ruby',
+            'good_category' => 'gems'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'sapphire',
+            'good_category' => 'gems'
         ]);
         //paper
 		DB::table('goodtypes')->insert([
@@ -455,6 +530,19 @@ class GoodtypeSeeder extends Seeder
 		DB::table('goodtypes')->insert([
             'good_name' => 'plate armor',
             'good_category' => 'armor'
+        ]);
+        //storage
+		DB::table('goodtypes')->insert([
+            'good_name' => 'amphora',
+            'good_category' => 'storage'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'basket',
+            'good_category' => 'storage'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'barrel',
+            'good_category' => 'storage'
         ]);
 
     }

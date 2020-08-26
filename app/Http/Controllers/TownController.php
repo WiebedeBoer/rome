@@ -734,6 +734,14 @@ class TownController extends Controller
         return view('towns.maptimber', compact('towns'));	   
     }
 
+    //map view
+    public function mapthatching()
+    {            
+        $towns = Town::all();	   
+        //return view
+        return view('towns.mapthatching', compact('towns'));	   
+    }
+
 	//map view
     public function mapmarble()
     {            

@@ -51,6 +51,7 @@
 
 		<a href="/mappottery" class="btn btn-dark">Clay &#x1F9F1;</a>
 		<a href="/maptimber" class="btn btn-dark">Timber &#x1F332;</a>
+		<a href="/mapthatching" class="btn btn-dark">Thatching</a>
 		<a href="/mapmarble" class="btn btn-dark">Marble &amp; Stone &block;</a>
 		<a href="/maptin" class="btn btn-dark">Tin &#x26CF;</a>
 		<a href="/mapcopper" class="btn btn-dark">Copper &#x26CF;</a>

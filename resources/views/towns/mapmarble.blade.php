@@ -15,15 +15,33 @@ Game
 	@foreach($towns as $town) 
 		@if($town->sculpture =="marble")
 		    <g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (marble)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(172,88,96)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (marble quarry)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(172,88,96)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
 			</g>
-		@elseif($town->sculpture =="stone")
+		@elseif($town->sculpture =="limestone")
 		    <g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (marble)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(230,210,185)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (stone quarry)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(230,210,185)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
+			</g>
+		@elseif($town->sculpture =="bricks")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (brick killn)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(118,66,52)" stroke="rgb(192,0,0)" stroke-width="4" /></a>
+			</g>
+		@elseif($town->sculpture =="adobe")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (adobe)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(157,123,77)" stroke="rgb(0,192,192)" stroke-width="4" /></a>
+			</g>
+		@elseif($town->sculpture =="ivory caravan")
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (adobe)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(157,123,77)" stroke="rgb(0,192,192)" stroke-width="4" /></a>
 			</g>
 		@else
 		    <g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,0)" stroke="black" stroke-width="3" /></a>
 			</g>
 		@endif
 	@endforeach
