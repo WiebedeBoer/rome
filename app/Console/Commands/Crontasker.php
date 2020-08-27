@@ -140,7 +140,7 @@ class Crontasker extends Command
         return $birthyear;
     }
 
-    //update disasters
+    //update towns
     private function updatetowns()
     {
         $currentyear = 280;
@@ -152,10 +152,12 @@ class Crontasker extends Command
         {
             $id = $town->town_id;
             $climate = $town->climate;
-            $agriculture = $town->agriculture;
+            $defenses = $town->defenses;
             $justice = $town->justice;
+            $commerce = $town->commerce;
+            $agriculture = $town->agriculture;            
 
-            //create type 
+            //create disaster type 
             $seismictype = $this->seismicdisaster($currentyear,$currentera,$id);
             if($seismictype =="normal"){
                 $plaguetype = $this->plaguedisaster($currentyear,$currentera,$id);
@@ -174,49 +176,41 @@ class Crontasker extends Command
             }
             else {
                 $disastertype = $seismictype;
-            }  
+            }
+            //rebel status
+            $new_status = $this->rebelstatus($justice);  
             //population
-            $new_population = $this->calculatepopulation($disastertype,$id,$agriculture,$commerce,$town->population,$town->rebel);
+            $new_population = $this->calculatepopulation($disastertype,$id,$agriculture,$commerce,$town->population,$new_status);
+            //defenses decay
+            $new_defenses = $this->defensesdecay($disastertype,$defenses); 
+            //justice decay
+            $new_justice = $this->agriculturedecay($new_status,$justice); 
+            //commerce decay
+            $new_commerce = $this->commercedecay($disastertype,$new_status,$commerce); 
             //agricultural decay   
-            $new_agri = $this->agriculturedecay($disastertype,$agriculture);            
-                     
-            //destruction and decay
-            if ($disastertype =="fire" || $disastertype =="earthquake" || $disastertype =="volcano"  || $disastertype =="avalanche"){
-                //destroy buildings
+            $new_agri = $this->agriculturedecay($disastertype,$agriculture); 
+            //population growth and urban decay
+            Town::where('town_id',$town->town_id)->update(array('population' => $new_population,
+                'disaster' => $disastertype,
+                'defenses' => $new_defenses,
+                'justice' => $new_justice,
+                'commerce' => $new_commerce,
+                'agriculture' => $new_agri,
+                'rebel_status' => $new_status));                      
+            //destroy buildings
+            if ($disastertype =="fire" || $disastertype =="earthquake" || $disastertype =="volcano"  || $disastertype =="avalanche" || $disastertype =="floods"){
 
-                //update disasters 
-                Town::where('town_id',$town->town_id)->update(array('population' => $new_population,'disaster' => $disastertype,'rebel_status' => 'rebellious'));
             }
-            elseif($disastertype =="floods"){
-                //destroy buildings
-
-                //update disasters and destroy crops
-                Town::where('town_id',$town->town_id)->update(array('population' => $new_population,'disaster' => $disastertype,'agriculture' => $new_agri,'rebel_status' => 'rebellious'));
-            }          
-            elseif($disastertype =="locusts"){
-                //update disasters and destroy crops
-                Town::where('town_id',$town->town_id)->update(array('population' => $new_population,'disaster' => $disastertype,'agriculture' => $new_agri,'rebel_status' => 'rebellious'));
-            }
+            //destroy livestock
             elseif($disastertype =="drought" || $disastertype =="blizzard"){
-                //destroy livestock
-
-                //update disasters and destroy crops
-                Town::where('town_id',$town->town_id)->update(array('population' => $new_population,'disaster' => $disastertype,'agriculture' => $new_agri,'rebel_status' => 'rebellious'));                
+               
             }
-            else {
-                Town::where('town_id',$town->town_id)->update(array('population' => $new_population,'agriculture' => $new_agri,'rebel_status' => 'rebellious'));
-            }
-
         }         
-
     }
-
-
 
     //earthquake or volcano disaster
     private function seismicdisaster($currentyear,$currentera,$id)
     {
-
         //rhodes earthquake
         if($currentyear ==226 && $currentera ="BCE" && $id ==307){
             $disastertype ="earthquake";
@@ -281,7 +275,6 @@ class Crontasker extends Command
     //plague disaster
     private function plaguedisaster($currentyear,$currentera,$id)
     {
-
         //antonine plague
         if(($currentyear >=165 && $currentyear <181) && $currentera ="CE"){
             $random_plague = rand(1,100);
@@ -327,14 +320,12 @@ class Crontasker extends Command
         else {
             $disastertype ="normal";
         }
-
         return $disastertype;
     }
 
     //weather disaster
     private function weatherdisaster($climate,$agriculture)
-    {
- 
+    { 
         //weather randomness
         $random_weather = rand(1,1000);
         //weather chance
@@ -525,15 +516,72 @@ class Crontasker extends Command
     }
 
     //agriculture decay
-    private function agriculturedecay($disaster,$agriculture){
-
-        if($disaster){
-            //agriculture decay
-            $randcrop = rand(5,20);
-
+    private function defensesdecay($disaster,$defenses){
+        if($disaster =="earthquake" || $disaster =="volcano" || $disaster =="floods" || $disaster =="avalanche" || $disaster =="fire"){       
+            $randcrop = rand(20,50);           
         }
-        else{
-            $randcrop = rand(20,50);
+        else{  
+            $randcrop = rand(5,20);
+        }
+        $raw_defenses = $defenses - $rand_crop;
+        if ($raw_defenses <10){
+            $new_defenses =10;
+        }
+        else {
+            $new_defenses = $raw_defenses;
+        }
+        return $new_defenses;
+    }
+
+    //justice decay
+    private function justicedecay($rebel,$justice){
+        if($rebel =="rebellious"){       
+            $randcrop = rand(20,50);           
+        }
+        else{  
+            $randcrop = rand(5,20);
+        }
+        $raw_justice = $agriculture - $rand_crop;
+        if ($raw_justice <1){
+            $new_justice =1;
+        }
+        else {
+            $new_justice = $raw_justice;
+        }
+        return $new_justice;
+    }
+
+    //commerce decay
+    private function commercedecay($disaster,$rebel,$commerce){
+        if($disaster =="plague" && $rebel =="loyal"){       
+            $randcrop = rand(50,75);           
+        }
+        elseif($disaster =="plague" && $rebel !="loyal"){       
+            $randcrop = rand(20,50);           
+        }
+        elseif($disaster !="plague" && $rebel =="loyal"){       
+            $randcrop = rand(20,50);           
+        }
+        else{  
+            $randcrop = rand(5,20);
+        }
+        $raw_commerce = $commerce - $rand_crop;
+        if ($raw_commerce <1){
+            $new_commerce =1;
+        }
+        else {
+            $new_commerce = $raw_commerce;
+        }
+        return $new_commerce;
+    }
+
+    //agriculture decay
+    private function agriculturedecay($disaster,$agriculture){
+        if($disaster =="floods" || $disaster =="drought" || $disaster =="locusts"){       
+            $randcrop = rand(20,50);           
+        }
+        else{  
+            $randcrop = rand(5,20);
         }
         $raw_agri = $agriculture - $rand_crop;
         if ($raw_agri <1){
@@ -542,7 +590,6 @@ class Crontasker extends Command
         else {
             $new_agri = $raw_agri;
         }
-
         return $new_agri;
     }
 
@@ -601,10 +648,8 @@ class Crontasker extends Command
         else {
             $decay_rate = 0;
         }
-
         //between 24 to 98
         $raw_rate = $base_rate + $health_bonus + $commerce_bonus + $agriculture_bonus - $decay_rate;
-
         //plague
         if($disaster =="plague"){
             $disasterrate = 42 - $health_bonus;
