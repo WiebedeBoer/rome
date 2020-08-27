@@ -20,6 +20,7 @@ class CreateTownsTable extends Migration
             $table->integer('population')->default(10000); //vicus (39) 2000, castrum (58) 5000, municipium (466) 10000, (29) 20000, (7) 50000, (3) 100000
             //climate
             $table->string('climate')->default('mediterranean'); //223 mediterranean, 74 oceanic, 42 pontic, 81 continental, 25 alpine, 14 hot steppe, 37 cold steppe,  72 desert oasis,  36 desert wetland
+            $table->string('weather')->default('normal');
             //animals
             $table->string('pack')->default('none'); //105 horse, 114 camel, oxen, donkey, dog
             $table->string('cattle')->default('none'); //162 cattle
@@ -54,7 +55,7 @@ class CreateTownsTable extends Migration
             $table->string('glass')->default('none'); //22 glass
             $table->string('spice')->default('none'); //28 spice caravan, 5 saffron, 2 silphium, laurel, thyme, marjoram, sage
             $table->string('fabric')->default('none'); //36 silk caravan
-            $table->string('scent')->default('none'); //30 incense, incense caravan, 8 cedar, mastic
+            $table->string('scent')->default('none'); //30 incense, incense caravan, 8 cedar, mastic, storax
             $table->string('chattel')->default('none'); //13 slave market
 			//statistics
 			$table->integer('defenses')->default(25); //1 - 999, ruin 1, oppida 100, castra 300, city wall 600

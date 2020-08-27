@@ -31,6 +31,12 @@ class Town extends Model
         return $this->belongsTo('App\Sea','sea');
     } 
 
+    //slaves
+    public function slaves()
+    {
+        return $this->hasMany('App\Slave','slave_id');
+    }
+
     //milestones
     public function milestones()
     {

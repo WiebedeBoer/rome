@@ -156,6 +156,14 @@ Route::get('persons/{person}', 'PersonController@show');
 Route::get('persons/{person}/edit', 'PersonController@edit');
 Route::delete('persons/{person}', 'PersonController@destroy');
 Route::patch('persons/{person}', 'PersonController@update');
+//slaves
+Route::get('slaves', 'SlaveController@index');
+Route::get('slaves/create','SlaveController@create');
+Route::post('slaves','SlaveController@store');
+Route::get('slaves/{person}', 'SlaveController@show');
+Route::get('slaves/{person}/edit', 'SlaveController@edit');
+Route::delete('slaves/{person}', 'SlaveController@destroy');
+Route::patch('slaves/{person}', 'SlaveController@update');
 
 //agricultural organization
 //villas

@@ -6364,6 +6364,10 @@ class BuildingSeeder extends Seeder
         //mansio
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '1'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '2'
         ]);
         DB::table('buildings')->insert([
@@ -6376,7 +6380,59 @@ class BuildingSeeder extends Seeder
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '14'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '16'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '39'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '41'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '54'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '56'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '73'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '77'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '80'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '87'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '91'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '92'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '94'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '99'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
@@ -6384,11 +6440,79 @@ class BuildingSeeder extends Seeder
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '107'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '113'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '127'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '132'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '135'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '146'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '149'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '161'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '164'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '166'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '169'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '174'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '175'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '182'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '184'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '185'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '187'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '188'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '191'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
@@ -6400,7 +6524,83 @@ class BuildingSeeder extends Seeder
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '204'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '206'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '209'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '212'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '216'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '217'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '218'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '220'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '224'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '226'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '234'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '237'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '245'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '258'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '265'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '272'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '274'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '284'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '288'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '296'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
@@ -6408,7 +6608,27 @@ class BuildingSeeder extends Seeder
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '313'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '315'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '316'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '334'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '337'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '339'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
@@ -6416,7 +6636,27 @@ class BuildingSeeder extends Seeder
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '346'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '347'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '349'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '352'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '361'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '367'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
@@ -6428,7 +6668,55 @@ class BuildingSeeder extends Seeder
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '374'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '387'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '388'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '390'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '399'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '405'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '408'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '420'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '424'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '432'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '434'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '440'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '443'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
@@ -6436,7 +6724,27 @@ class BuildingSeeder extends Seeder
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '470'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '487'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '490'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '491'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '495'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '497'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
@@ -6448,11 +6756,35 @@ class BuildingSeeder extends Seeder
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '551'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '555'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '556'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '36',
+            'location' => '560'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
             'location' => '561'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '567'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '570'
+        ]);
+        DB::table('buildings')->insert([
+            'buildingtype' => '36',
+            'location' => '579'
         ]);
         //importers (silk, incense, spices, ivory)
             DB::table('buildings')->insert([
@@ -17113,6 +17445,10 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
             'buildingtype' => '53',
             'location' => '107'
+            ]);
+            DB::table('buildings')->insert([
+                'buildingtype' => '53',
+                'location' => '108'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '53',

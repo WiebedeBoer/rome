@@ -559,6 +559,7 @@ class ComposerStaticInitf37bbadeedfb9fa5cfed2981b2a30435
         'App\\Sea' => __DIR__ . '/../..' . '/app/Sea.php',
         'App\\Seaconnection' => __DIR__ . '/../..' . '/app/Seaconnection.php',
         'App\\Skill' => __DIR__ . '/../..' . '/app/Skill.php',
+        'App\\Slave' => __DIR__ . '/../..' . '/app/Slave.php',
         'App\\Spouse' => __DIR__ . '/../..' . '/app/Spouse.php',
         'App\\Statistic' => __DIR__ . '/../..' . '/app/Statistic.php',
         'App\\Stock' => __DIR__ . '/../..' . '/app/Stock.php',

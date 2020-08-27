@@ -80,6 +80,7 @@ return array(
     'App\\Sea' => $baseDir . '/app/Sea.php',
     'App\\Seaconnection' => $baseDir . '/app/Seaconnection.php',
     'App\\Skill' => $baseDir . '/app/Skill.php',
+    'App\\Slave' => $baseDir . '/app/Slave.php',
     'App\\Spouse' => $baseDir . '/app/Spouse.php',
     'App\\Statistic' => $baseDir . '/app/Statistic.php',
     'App\\Stock' => $baseDir . '/app/Stock.php',

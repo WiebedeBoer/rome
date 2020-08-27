@@ -25,6 +25,12 @@ class Person extends Model
 
     //skills
 
+    //slaves
+    public function slaves()
+    {
+        return $this->hasMany('App\Slave','slave_id');
+    }
+
     //towns
     public function provinces()
     {

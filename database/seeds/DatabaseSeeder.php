@@ -156,6 +156,10 @@ class ForeignKeySeeder extends Seeder
         });	
         Schema::table('skills', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');
+        });	
+		Schema::table('slaves', function (Blueprint $table) {
+            $table->foreign('owner')->references('person_id')->on('people');
+            $table->foreign('location')->references('town_id')->on('towns');
         });		
         //cultures
         Schema::table('mythologies', function (Blueprint $table) {
