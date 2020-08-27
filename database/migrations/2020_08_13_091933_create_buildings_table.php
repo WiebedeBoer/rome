@@ -20,6 +20,8 @@ class CreateBuildingsTable extends Migration
             $table->integer('state')->default(100);
             //tomb type
             $table->string('tomb')->default('none');
+            //category
+            $table->string('category')->default('none'); //none, health, education, government, forum
             //fk
             $table->unsignedBigInteger('buildingtype');
             $table->unsignedBigInteger('location');

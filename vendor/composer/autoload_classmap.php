@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Architecture' => $baseDir . '/app/Architecture.php',
     'App\\Army' => $baseDir . '/app/Army.php',
+    'App\\Blessing' => $baseDir . '/app/Blessing.php',
     'App\\Building' => $baseDir . '/app/Building.php',
     'App\\Buildingtype' => $baseDir . '/app/Buildingtype.php',
     'App\\Capital' => $baseDir . '/app/Capital.php',
@@ -15,6 +16,7 @@ return array(
     'App\\Cargo' => $baseDir . '/app/Cargo.php',
     'App\\Chronicle' => $baseDir . '/app/Chronicle.php',
     'App\\Citizen' => $baseDir . '/app/Citizen.php',
+    'App\\Console\\Commands\\Crontasker' => $baseDir . '/app/Console/Commands/Crontasker.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Culture' => $baseDir . '/app/Culture.php',
     'App\\Equipment' => $baseDir . '/app/Equipment.php',
@@ -44,6 +46,7 @@ return array(
     'App\\Http\\Controllers\\NewsController' => $baseDir . '/app/Http/Controllers/NewsController.php',
     'App\\Http\\Controllers\\PersonController' => $baseDir . '/app/Http/Controllers/PersonController.php',
     'App\\Http\\Controllers\\RealmController' => $baseDir . '/app/Http/Controllers/RealmController.php',
+    'App\\Http\\Controllers\\SlaveController' => $baseDir . '/app/Http/Controllers/SlaveController.php',
     'App\\Http\\Controllers\\TownController' => $baseDir . '/app/Http/Controllers/TownController.php',
     'App\\Http\\Controllers\\TradeController' => $baseDir . '/app/Http/Controllers/TradeController.php',
     'App\\Http\\Controllers\\UserController' => $baseDir . '/app/Http/Controllers/UserController.php',

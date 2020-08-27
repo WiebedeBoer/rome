@@ -487,6 +487,7 @@ class ComposerStaticInitf37bbadeedfb9fa5cfed2981b2a30435
     public static $classMap = array (
         'App\\Architecture' => __DIR__ . '/../..' . '/app/Architecture.php',
         'App\\Army' => __DIR__ . '/../..' . '/app/Army.php',
+        'App\\Blessing' => __DIR__ . '/../..' . '/app/Blessing.php',
         'App\\Building' => __DIR__ . '/../..' . '/app/Building.php',
         'App\\Buildingtype' => __DIR__ . '/../..' . '/app/Buildingtype.php',
         'App\\Capital' => __DIR__ . '/../..' . '/app/Capital.php',
@@ -494,6 +495,7 @@ class ComposerStaticInitf37bbadeedfb9fa5cfed2981b2a30435
         'App\\Cargo' => __DIR__ . '/../..' . '/app/Cargo.php',
         'App\\Chronicle' => __DIR__ . '/../..' . '/app/Chronicle.php',
         'App\\Citizen' => __DIR__ . '/../..' . '/app/Citizen.php',
+        'App\\Console\\Commands\\Crontasker' => __DIR__ . '/../..' . '/app/Console/Commands/Crontasker.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Culture' => __DIR__ . '/../..' . '/app/Culture.php',
         'App\\Equipment' => __DIR__ . '/../..' . '/app/Equipment.php',
@@ -523,6 +525,7 @@ class ComposerStaticInitf37bbadeedfb9fa5cfed2981b2a30435
         'App\\Http\\Controllers\\NewsController' => __DIR__ . '/../..' . '/app/Http/Controllers/NewsController.php',
         'App\\Http\\Controllers\\PersonController' => __DIR__ . '/../..' . '/app/Http/Controllers/PersonController.php',
         'App\\Http\\Controllers\\RealmController' => __DIR__ . '/../..' . '/app/Http/Controllers/RealmController.php',
+        'App\\Http\\Controllers\\SlaveController' => __DIR__ . '/../..' . '/app/Http/Controllers/SlaveController.php',
         'App\\Http\\Controllers\\TownController' => __DIR__ . '/../..' . '/app/Http/Controllers/TownController.php',
         'App\\Http\\Controllers\\TradeController' => __DIR__ . '/../..' . '/app/Http/Controllers/TradeController.php',
         'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',

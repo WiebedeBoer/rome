@@ -2645,194 +2645,241 @@ class BuildingSeeder extends Seeder
         //baths no. 2
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '38'
+            'location' => '38',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '39'
+            'location' => '39',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '42'
+            'location' => '42',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '82'
+            'location' => '82',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '96'
+            'location' => '96',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '127'
+            'location' => '127',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '128'
+            'location' => '128',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '132'
+            'location' => '132',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '138'
+            'location' => '138',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '160'
+            'location' => '160',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '167'
+            'location' => '167',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '173'
+            'location' => '173',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '183'
+            'location' => '183',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '184'
+            'location' => '184',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '219'
+            'location' => '219',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '257'
+            'location' => '257',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '262'
+            'location' => '262',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '265'
+            'location' => '265',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '310'
+            'location' => '310',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '314'
+            'location' => '314',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '316'
+            'location' => '316',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '329'
+            'location' => '329',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '332'
+            'location' => '332',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '341'
+            'location' => '341',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '342'
+            'location' => '342',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '353'
+            'location' => '353',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '365'
+            'location' => '365',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '366'
+            'location' => '366',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '379'
+            'location' => '379',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '398'
+            'location' => '398',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '565'
+            'location' => '565',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '569'
+            'location' => '569',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '570'
+            'location' => '570',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '572'
+            'location' => '572',
+            'category' => 'health'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '12',
-            'location' => '578'
+            'location' => '578',
+            'category' => 'health'
         ]); 
         //education no. 3
         //libraries
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '258'
+            'location' => '258',
+            'category' => 'education'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '284'
+            'location' => '284',
+            'category' => 'education'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '307'
+            'location' => '307',
+            'category' => 'education'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '316'
+            'location' => '316',
+            'category' => 'education'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '399'
+            'location' => '399',
+            'category' => 'education'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '408'
+            'location' => '408',
+            'category' => 'education'
         ]);
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '496'
+            'location' => '496',
+            'category' => 'education'
         ]); 
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '530'
+            'location' => '530',
+            'category' => 'education'
         ]); 
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '547'
+            'location' => '547',
+            'category' => 'education'
         ]); 
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '551'
+            'location' => '551',
+            'category' => 'education'
         ]); 
         DB::table('buildings')->insert([
             'buildingtype' => '14',
-            'location' => '604'
+            'location' => '604',
+            'category' => 'education'
         ]); 
         //academies
         DB::table('buildings')->insert([
             'buildingtype' => '15',
-            'location' => '316'
+            'location' => '316',
+            'category' => 'education'
         ]);
         //theatres no. 4
         DB::table('buildings')->insert([
@@ -15000,7 +15047,8 @@ class BuildingSeeder extends Seeder
         //records office (realm capital)
             DB::table('buildings')->insert([
             'buildingtype' => '50',
-            'location' => '1'
+            'location' => '1',
+            'category' => 'government'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '50',
