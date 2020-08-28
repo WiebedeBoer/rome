@@ -83,7 +83,6 @@ Route::get('maproad','TownController@maproad');
 Route::get('maparchitecture','TownController@maparchitecture');
 //buildings maps
 Route::get('maptemple','TownController@maptemple');
-Route::get('mapgrove','TownController@mapgrove');
 Route::get('maporacle','TownController@maporacle');
 Route::get('maptomb','TownController@maptomb');
 Route::get('mapgrave','TownController@mapgrave');
@@ -128,6 +127,7 @@ Route::get('mapsalt','TownController@mapsalt');
 Route::get('mapdye','TownController@mapdye');
 Route::get('mappapyrus','TownController@mappapyrus');
 Route::get('mapglass','TownController@mapglass');
+Route::get('mapleather','TownController@mapleather');
 //maps caravans
 Route::get('mapspice','TownController@mapspice');
 Route::get('mapincense','TownController@mapincense');

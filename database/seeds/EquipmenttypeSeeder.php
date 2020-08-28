@@ -151,5 +151,56 @@ class EquipmenttypeSeeder extends Seeder
             'equipment_name' => 'Scorpio',
             'equipment_category' => 'siege'
         ]);
+        //war animals
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'War Dog',
+            'equipment_category' => 'war'
+        ]);
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'War Elephant',
+            'equipment_category' => 'war'
+        ]); 
+        //hunt
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Hunting Dog',
+            'equipment_category' => 'hunting'
+        ]);      
+        //travel
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Sumpter Dog',
+            'equipment_category' => 'trade'
+        ]);
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Sumpter Goat',
+            'equipment_category' => 'trade'
+        ]);
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Sumpter Buffalo',
+            'equipment_category' => 'trade'
+        ]);
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Sumpter Donkey',
+            'equipment_category' => 'trade'
+        ]);
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Sumpter Camel',
+            'equipment_category' => 'trade'
+        ]);
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Sumpter Horse',
+            'equipment_category' => 'trade'
+        ]);
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Dog Carriage',
+            'equipment_category' => 'trade'
+        ]);
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Oxen Cart',
+            'equipment_category' => 'trade'
+        ]);
+		DB::table('equipmenttypes')->insert([
+            'equipment_name' => 'Horse Cart',
+            'equipment_category' => 'trade'
+        ]);
     }
 }

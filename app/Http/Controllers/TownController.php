@@ -428,19 +428,12 @@ class TownController extends Controller
     }
 
     //map view
-    public function mapgrove()
+    public function mapleather()
     {            
         $towns = Town::all();         
-        //building count	
-        foreach($towns as $town)
-        {           
-            //grove count
-            $town->grove_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();           
-        } 
         //return view
-        return view('towns.mapgrove', compact('towns'));	   
+        return view('towns.mapleather', compact('towns'));	   
     }
-
 
     //map view
     public function maporacle()
@@ -450,6 +443,7 @@ class TownController extends Controller
         //building count	
         foreach($towns as $town)
         {
+            $town->grove_count = Building::where('location', $town->town_id)->where('buildingtype',9)->count();  
             $town->oracle_count = Building::where('location', $town->town_id)->where('buildingtype',10)->count();
         }
         //return view

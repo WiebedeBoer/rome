@@ -30,6 +30,10 @@ class GoodtypeSeeder extends Seeder
             'good_category' => 'livestock'
         ]);
 		DB::table('goodtypes')->insert([
+            'good_name' => 'buffalo',
+            'good_category' => 'livestock'
+        ]);
+		DB::table('goodtypes')->insert([
             'good_name' => 'sheep',
             'good_category' => 'livestock'
         ]);
@@ -88,7 +92,7 @@ class GoodtypeSeeder extends Seeder
         ]);
 		DB::table('goodtypes')->insert([
             'good_name' => 'pheasants',
-            'good_category' => 'poultry'
+            'good_category' => 'game'
         ]);
         //fruit
 		DB::table('goodtypes')->insert([
@@ -388,6 +392,14 @@ class GoodtypeSeeder extends Seeder
         //scents
 		DB::table('goodtypes')->insert([
             'good_name' => 'incense',
+            'good_category' => 'scent'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'mastic',
+            'good_category' => 'scent'
+        ]);
+		DB::table('goodtypes')->insert([
+            'good_name' => 'storax',
             'good_category' => 'scent'
         ]);
         //silk imports

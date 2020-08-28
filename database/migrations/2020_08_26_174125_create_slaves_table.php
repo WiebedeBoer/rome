@@ -21,7 +21,11 @@ class CreateSlavesTable extends Migration
             $table->string('era')->default('BCE');
             $table->integer('generation')->default(1);
 			//gender
-			$table->string('gender')->default('male');
+            $table->string('gender')->default('male');
+            //slave role
+            $table->string('role')->default('none');
+            //slave category
+            $table->string('category')->default('none');
 			//development stats
 			$table->integer('jud')->default(0);
 			$table->integer('eng')->default(0);

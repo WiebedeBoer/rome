@@ -20,8 +20,8 @@
 		<a href="/mapcommerce" class="btn btn-dark">Commerce &#x1F4B0;</a>
 				
 		<a href="/maptemple" class="btn btn-dark">Temples</a>
-		<a href="/mapgrove" class="btn btn-dark">Sacred Groves &#x1F333;</a>
-		<a href="/maporacle" class="btn btn-dark">Oracles</a>
+		<a href="/maporacle" class="btn btn-dark">Oracles &amp; Sacred Groves &#x1F333;</a>
+	
 		<a href="/mapgrave" class="btn btn-dark">Graves &#x2620;</a>
 		<a href="/maptomb" class="btn btn-dark">Tombs &#x2620;</a>
 		<a href="/mapbath" class="btn btn-dark">Baths</a>
@@ -64,6 +64,7 @@
 		<a href="/mapdye" class="btn btn-dark">Dyes</a>
 		<a href="/mappapyrus" class="btn btn-dark">Papyrus &amp; Parchment &#x1F4DC;</a>
 		<a href="/mapglass" class="btn btn-dark">Glass</a>
+		<a href="/mapleather" class="btn btn-dark">Leatherworks</a>
 	
 		<a href="/mapspice" class="btn btn-dark">Spices &amp; Medicinal Herbs &#x2695;</a>
 		<a href="/mapincense" class="btn btn-dark">Incense &amp; Cedar &#x1F332;</a>

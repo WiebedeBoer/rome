@@ -23,7 +23,7 @@ class CreateTownsTable extends Migration
             $table->string('disaster')->default('normal');
             //animals
             $table->string('pack')->default('none'); //105 horse, 114 camel, oxen, donkey, dog
-            $table->string('cattle')->default('none'); //162 cattle
+            $table->string('cattle')->default('none'); //162 cattle, buffalo
             $table->string('wool')->default('none'); //238 sheep, 118 goat
             $table->string('pig')->default('none'); //307 pig
             $table->string('fish')->default('none'); // mackerel, sturgeon, anchovy, tuna, sardine, herring
