@@ -15,9 +15,10 @@ class CreateBlessingsTable extends Migration
     {
         Schema::create('blessings', function (Blueprint $table) {
             $table->bigIncrements('blessing_id');
-            //
+            //blessing
             $table->string('blessing');
             //fk
+            $table->unsignedBigInteger('god')->nullable();
             $table->unsignedBigInteger('location')->nullable();
             //timestamps
             $table->timestamps();

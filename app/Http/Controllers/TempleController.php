@@ -76,6 +76,7 @@ class TempleController extends Controller
         if($god->god_realm =="chthonic"){
             $blessingchthonic = new Blessing();  
             $blessingchthonic->blessing = "underworld";
+            $blessingchthonic->god = $temple->god;
             $blessingchthonic->location = $id;
             $blessingchthonic->save();    
         }
@@ -83,6 +84,7 @@ class TempleController extends Controller
         if($god->state =="judge"){
             $blessingjudge = new Blessing();  
             $blessingjudge->blessing = "justice";
+            $blessingjudge->god = $temple->god;
             $blessingjudge->location = $id;
             $blessingjudge->save();    
         }
@@ -90,6 +92,7 @@ class TempleController extends Controller
         if($god->agriculture =="crops"){
             $blessingagriculture = new Blessing();  
             $blessingagriculture->blessing = "agriculture";
+            $blessingagriculture->god = $temple->god;
             $blessingagriculture->location = $id;
             $blessingagriculture->save();    
         }
@@ -97,6 +100,7 @@ class TempleController extends Controller
         if($god->war =="war"){
             $blessingwar = new Blessing();  
             $blessingwar->blessing = "war";
+            $blessingwar->god = $temple->god;
             $blessingwar->location = $id;
             $blessingwar->save();    
         }
@@ -104,6 +108,7 @@ class TempleController extends Controller
         if($god->love =="sex"){
             $blessinglove = new Blessing();  
             $blessinglove->blessing = "love";
+            $blessinglove->god = $temple->god;
             $blessinglove->location = $id;
             $blessinglove->save();    
         }
@@ -111,6 +116,7 @@ class TempleController extends Controller
         if($god->commerce =="prosperity"){
             $blessingcommerce = new Blessing();  
             $blessingcommerce->blessing = "commerce";
+            $blessingcommerce->god = $temple->god;
             $blessingcommerce->location = $id;
             $blessingcommerce->save();    
         }
@@ -118,6 +124,7 @@ class TempleController extends Controller
         if($god->arts =="wisdom"){
             $blessingarts = new Blessing();  
             $blessingarts->blessing = "wisdom";
+            $blessingarts->god = $temple->god;
             $blessingarts->location = $id;
             $blessingarts->save();    
         }
@@ -125,23 +132,27 @@ class TempleController extends Controller
         if($god->sea =="seas"){
             $blessingaqua = new Blessing();  
             $blessingaqua->blessing = "sea";
+            $blessingaqua->god = $temple->god;
             $blessingaqua->location = $id;
             $blessingaqua->save();  
 
             $blessingquake = new Blessing();  
             $blessingquake->blessing = "earthquake";
+            $blessingquake->god = $temple->god;
             $blessingquake->location = $id;
             $blessingquake->save();   
         }
         elseif($god->sea =="waters"){
             $blessingaqua = new Blessing();  
             $blessingaqua->blessing = "weather";
+            $blessingaqua->god = $temple->god;
             $blessingaqua->location = $id;
             $blessingaqua->save();    
         }
         elseif($god->sea =="storm"){
             $blessingaqua = new Blessing();  
             $blessingaqua->blessing = "storm";
+            $blessingaqua->god = $temple->god;
             $blessingaqua->location = $id;
             $blessingaqua->save();    
         }
@@ -149,12 +160,14 @@ class TempleController extends Controller
         if($god->healing =="medicine"){
             $blessingheal = new Blessing();  
             $blessingheal->blessing = "health";
+            $blessingheal->god = $temple->god;
             $blessingheal->location = $id;
             $blessingheal->save();    
         }
         elseif($god->healing =="pestilence"){
             $blessingheal = new Blessing();  
             $blessingheal->blessing = "pestilence";
+            $blessingheal->god = $temple->god;
             $blessingheal->location = $id;
             $blessingheal->save();    
         }
@@ -162,6 +175,7 @@ class TempleController extends Controller
         if($god->hunting =="hunt"){
             $blessinghunt = new Blessing();  
             $blessinghunt->blessing = "hunt";
+            $blessinghunt->god = $temple->god;
             $blessinghunt->location = $id;
             $blessinghunt->save();    
         }

@@ -141,6 +141,11 @@ class ForeignKeySeeder extends Seeder
 		Schema::table('stocks', function (Blueprint $table) {
             $table->foreign('tradegoods')->references('good_id')->on('goodtypes');
             $table->foreign('villa')->references('villa_id')->on('villas');
+        });	
+        //religious organization
+		Schema::table('blessings', function (Blueprint $table) {
+            $table->foreign('god')->references('god_id')->on('gods');
+            $table->foreign('location')->references('town_id')->on('towns');
         });		
         //people
 		Schema::table('people', function (Blueprint $table) {

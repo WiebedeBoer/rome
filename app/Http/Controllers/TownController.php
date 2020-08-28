@@ -894,9 +894,10 @@ class TownController extends Controller
 	//map view
     public function mapcommerce()
     {            
-		$towns = Town::all();	   
+        $towns = Town::all();  
         //return view
-        return view('towns.mapcommerce', compact('towns'));	   
+        return view('towns.mapcommerce', compact('towns'));       
+        
     }
 	
 }

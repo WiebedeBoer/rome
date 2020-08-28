@@ -313,24 +313,154 @@ class BuildingtypeSeeder extends Seeder
             'building_name' => 'sawmill',
             'building_category' => 'industrial'
         ]);
-
-        //health ground (addition) no. 2 (extra)
         //56
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'thatcher',
+            'building_category' => 'industrial'
+        ]);
+        //57
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'hunter',
+            'building_category' => 'industrial'
+        ]);
+        //58
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'reed gatherer',
+            'building_category' => 'industrial'
+        ]);
+        //59 (woad, madder, indigo, saffron)
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'dyer',
+            'building_category' => 'industrial'
+        ]);
+        //60
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'fishing wharf',
+            'building_category' => 'industrial'
+        ]);
+        //61
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'tannery',
+            'building_category' => 'industrial'
+        ]);
+        //agricultural ground (fixed) no. 15
+        //62
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'grain field',
+            'building_category' => 'agricultural'
+        ]);
+        //63
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'flax field',
+            'building_category' => 'agricultural'
+        ]);
+        //64
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'cotton field',
+            'building_category' => 'agricultural'
+        ]);
+        //65
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'dates plantation',
+            'building_category' => 'agricultural'
+        ]);
+        //66 (figs, dates, pomegranates, apples, quinces, plum)
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'orchard',
+            'building_category' => 'agricultural'
+        ]);
+        //67
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'olive grove',
+            'building_category' => 'agricultural'
+        ]);
+        //68
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'vineyard',
+            'building_category' => 'agricultural'
+        ]);
+        //69
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'apiary',
+            'building_category' => 'agricultural'
+        ]);
+        //70
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'chicken coop',
+            'building_category' => 'agricultural'
+        ]);
+        //71
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'duck pond',
+            'building_category' => 'agricultural'
+        ]);
+        //72
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'cattle meadow',
+            'building_category' => 'agricultural'
+        ]);
+        //73
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'donkey farm',
+            'building_category' => 'agricultural'
+        ]);
+        //74
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'camel caravan',
+            'building_category' => 'agricultural'
+        ]);
+        //75
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'horse paddock',
+            'building_category' => 'agricultural'
+        ]);
+        //76
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'dog kennel',
+            'building_category' => 'agricultural'
+        ]);
+        //77
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'oxen farm',
+            'building_category' => 'agricultural'
+        ]);
+        //78
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'sheep meadow',
+            'building_category' => 'agricultural'
+        ]);
+        //79
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'goat meadow',
+            'building_category' => 'agricultural'
+        ]);
+        //80
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'pigsty',
+            'building_category' => 'agricultural'
+        ]);
+        //81
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'rabbit pen',
+            'building_category' => 'agricultural'
+        ]);
+        //health ground (addition) no. 2 (extra)
+        //82
         DB::table('buildingtypes')->insert([
             'building_name' => 'gymnasium',
             'building_category' => 'health'
         ]);
-        //57
+        //83
         DB::table('buildingtypes')->insert([
             'building_name' => 'aquaduct',
             'building_category' => 'health'
         ]);
-        //58
+        //84
         DB::table('buildingtypes')->insert([
             'building_name' => 'fonticulus',
             'building_category' => 'health'
         ]);
-        //59
+        //85
         DB::table('buildingtypes')->insert([
             'building_name' => 'fons',
             'building_category' => 'health'
