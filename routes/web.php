@@ -165,6 +165,16 @@ Route::get('slaves/{person}/edit', 'SlaveController@edit');
 Route::delete('slaves/{person}', 'SlaveController@destroy');
 Route::patch('slaves/{person}', 'SlaveController@update');
 
+//religious organization
+//temples
+Route::get('temples', 'TempleController@index');
+Route::get('temples/create','TempleController@create');
+Route::post('temples','TempleController@store');
+Route::get('temples/{person}', 'TempleController@show');
+Route::get('temples/{person}/edit', 'TempleController@edit');
+Route::delete('temples/{person}', 'TempleController@destroy');
+Route::patch('temples/{person}', 'TempleController@update');
+
 //agricultural organization
 //villas
 Route::get('villas', 'VillaController@index');
