@@ -3,15 +3,17 @@
 		<a href="/towns" class="btn btn-dark">Worldmap &#x1F30D;</a>
 		<a href="/mapclimate" class="btn btn-dark">Climate &#x26C5;</a>
 		<a href="/mapdisaster" class="btn btn-dark">Disasters &#127755;</a>
-		<a href="/mapculture" class="btn btn-dark">Cultures &amp; Realms &#x1F451;</a>
+		<a href="/maparchitecture" class="btn btn-dark">Vernacular Architecture</a>
+		
 
 		<a href="/mapreligion" class="btn btn-dark">Religion &#x269A;</a>
+		<a href="/mapgovernment" class="btn btn-dark">Government Forms &#x1F451;</a>
 		<a href="/mappopulation" class="btn btn-dark">Population</a>
-		<a href="/maproad" class="btn btn-dark">Roads</a>
-		<a href="/maparchitecture" class="btn btn-dark">Vernacular Architecture</a>
+		<a href="/mapculture" class="btn btn-dark">Cultures &amp; Realms &#x1F451;</a>
+		
 
 		<a href="/maparmy" class="btn btn-dark">Armies &#x2694;</a>	
-		<a href="/mapcaravan" class="btn btn-dark">Caravans &#x1F4B0;</a>
+		<a href="/mapcaravan" class="btn btn-dark">Trade Caravans &#x1F4B0;</a>
 		<a href="/mapfleet" class="btn btn-dark">Ports &amp; Fleets &#x26F5;</a>
 		<a href="/mapperson" class="btn btn-dark">Persons</a>
 
@@ -31,8 +33,8 @@
 		<a href="/maprace" class="btn btn-dark">Racetracks &#x1F40E;</a>
 
 		<a href="/mapbarracks" class="btn btn-dark">Barracks &#x2694;</a>
-		<a href="/mapbath" class="btn btn-dark">Baths</a>
-		<a href="/maphospital" class="btn btn-dark">Hospitals &#x2695;</a>		
+		<a href="/mapbarrel" class="btn btn-dark">Coopers &amp; Potterers &#x1F3FA;</a>	
+		<a href="/maphospital" class="btn btn-dark">Baths &amp; Hospitals &#x2695;</a>			
 		<a href="/mapstaples" class="btn btn-dark">Grains &fork;</a>
 
 		<a href="/mapfruit" class="btn btn-dark">Fruit &#x1F34E;</a>
@@ -55,15 +57,15 @@
 		<a href="/mappottery" class="btn btn-dark">Clay &#x1F9F1;</a>
 		<a href="/maptimber" class="btn btn-dark">Timber &#x1F332;</a>		
 
-		<a href="/mapmarble" class="btn btn-dark">Marble &amp; Stone &block;</a>
-		<a href="/maptin" class="btn btn-dark">Tin &#x26CF;</a>
-		<a href="/mapcopper" class="btn btn-dark">Copper &#x26CF;</a>
+		<a href="/mapmarble" class="btn btn-dark">Marble &amp; Stone &block;</a>		
+		<a href="/mapcopper" class="btn btn-dark">Copper &amp; Tin &#x26CF;</a>
 		<a href="/mapiron" class="btn btn-dark">Iron &#x26CF;</a>
+		<a href="/mapgold" class="btn btn-dark">Gold &amp; Silver &#x1F48D;</a>
 
-		<a href="/mapgold" class="btn btn-dark">Gold &#x1F48D;</a>
-		<a href="/mapsilver" class="btn btn-dark">Silver &#x1F48D;</a>
 		<a href="/mapgems" class="btn btn-dark">Gems &#x1F48E;</a>
 		<a href="/mapsalt" class="btn btn-dark">Salt</a>
+		<a href="/mapimport" class="btn btn-dark">Imports &#x1F42A;</a>
+		<a href="/maproad" class="btn btn-dark">Roads &#x1F40E;</a>
 		
 		<a href="/mapdye" class="btn btn-dark">Dyes</a>
 		<a href="/mapleather" class="btn btn-dark">Leatherworks</a>

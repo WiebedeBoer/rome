@@ -22,8 +22,8 @@ use App\Milestone;
 use App\Army;
 use App\Caravan;
 use App\Fleet;
-use App\Capital;
 use App\Building;
+use App\Government;
 
 class TownController extends Controller
 {
@@ -301,6 +301,24 @@ class TownController extends Controller
     }
 
 	//map view
+    public function mapgovernment()
+    {            
+        $towns = Town::all();	
+        //collect the realm and government
+        foreach($towns as $town)
+        {
+                    $realm = Realm::where('realm_id', $town->realm)->get();
+                    $town_government = $realm[0]->government; //government id
+                    $government = Government::where('government_id', $town_government)->get();
+                    $town->government = $government[0]->government_name; 
+                    //treasury count
+                    $town->treasury_count = Building::where('location', $town->town_id)->where('category','treasury')->count();
+        }    
+        //return view
+        return view('towns.mapgovernment', compact('towns'));	   
+    }
+
+	//map view
     public function maproad()
     {            
         //towns
@@ -488,17 +506,18 @@ class TownController extends Controller
     }
 
     //map view
-    public function mapbath()
+    public function mapbarrel()
     {            
         $towns = Town::all();
         //building count	
         foreach($towns as $town)
         {
-            $town_realm = $town->realm;
-            $town->building_count = Building::where('location', $town->town_id)->where('category','health')->where('subtype','bath')->count(); 
+            $town->basket_count = Building::where('location', $town->town_id)->where('category','container')->where('subtype','basket weaver')->count(); 
+            $town->cooper_count = Building::where('location', $town->town_id)->where('category','container')->where('subtype','cooper')->count(); 
+            $town->potter_count = Building::where('location', $town->town_id)->where('category','container')->where('subtype','potterer')->count(); 
         }       
         //return view
-        return view('towns.mapbath', compact('towns'));	   
+        return view('towns.mapbarrel', compact('towns'));	   
     }
 
     //map view
@@ -508,8 +527,8 @@ class TownController extends Controller
         //building count	
         foreach($towns as $town)
         {
-            $town_realm = $town->realm;
-            $town->building_count = Building::where('location', $town->town_id)->where('category','health')->where('subtype','hospital')->count(); 
+            $town->bath_count = Building::where('location', $town->town_id)->where('category','health')->where('subtype','bath')->count(); 
+            $town->hospital_count = Building::where('location', $town->town_id)->where('category','health')->where('subtype','hospital')->count(); 
         }       
         //return view
         return view('towns.maphospital', compact('towns'));	   
@@ -735,14 +754,6 @@ class TownController extends Controller
 
     //maps metals
 	//map view
-    public function maptin()
-    {            
-		$towns = Town::all();	   
-        //return view
-        return view('towns.maptin', compact('towns'));	   
-    }
-
-	//map view
     public function mapcopper()
     {            
 		$towns = Town::all();	   
@@ -764,14 +775,6 @@ class TownController extends Controller
 		$towns = Town::all();	   
         //return view
         return view('towns.mapgold', compact('towns'));	   
-    }
-
-	//map view
-    public function mapsilver()
-    {            
-		$towns = Town::all();	   
-        //return view
-        return view('towns.mapsilver', compact('towns'));	   
     }
 
 	//map view
@@ -855,6 +858,14 @@ class TownController extends Controller
 		$towns = Town::all();	   
         //return view
         return view('towns.mapslave', compact('towns'));	   
+    }
+
+	//map view
+    public function mapimport()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapimport', compact('towns'));	   
     }
 
     //maps towns stats

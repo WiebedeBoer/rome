@@ -501,15 +501,13 @@ class BuildingtypeSeeder extends Seeder
             'building_name' => 'potterer',
             'building_category' => 'container'
         ]);
-        /*
-        //wonders
-
-        //
+        //scents
+        //93
         DB::table('buildingtypes')->insert([
-            'building_name' => 'lighthouse',
-            'building_category' => 'wonder'
+            'building_name' => 'perfumer',
+            'building_category' => 'perfumer'
         ]);
-        */
+        
 
     }
 }

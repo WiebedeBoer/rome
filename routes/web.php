@@ -83,11 +83,12 @@ Route::get('mapclimate','TownController@mapclimate');
 Route::get('mapdisaster','TownController@mapdisaster');
 Route::get('maproad','TownController@maproad');
 Route::get('maparchitecture','TownController@maparchitecture');
+Route::get('mapgovernment','TownController@mapgovernment');
 //buildings maps
 Route::get('maptemple','TownController@maptemple');
 Route::get('maporacle','TownController@maporacle');
 Route::get('maptomb','TownController@maptomb');
-Route::get('mapbath','TownController@mapbath');
+Route::get('mapbarrel','TownController@mapbarrel');
 Route::get('mapbarracks','TownController@mapbarracks');
 Route::get('maphospital','TownController@maphospital');
 Route::get('maplibrary','TownController@maplibrary');
@@ -117,11 +118,9 @@ Route::get('maptimber','TownController@maptimber');
 Route::get('mapmarble','TownController@mapmarble');
 Route::get('mapthatching','TownController@mapthatching');
 //maps metals
-Route::get('maptin','TownController@maptin');
 Route::get('mapcopper','TownController@mapcopper');
 Route::get('mapiron','TownController@mapiron');
 Route::get('mapgold','TownController@mapgold');
-Route::get('mapsilver','TownController@mapsilver');
 Route::get('mapgems','TownController@mapgems');
 Route::get('mapsalt','TownController@mapsalt');
 //maps products
@@ -130,6 +129,7 @@ Route::get('mappapyrus','TownController@mappapyrus');
 Route::get('mapglass','TownController@mapglass');
 Route::get('mapleather','TownController@mapleather');
 //maps caravans
+Route::get('mapimport','TownController@mapimport');
 Route::get('mapspice','TownController@mapspice');
 Route::get('mapincense','TownController@mapincense');
 Route::get('mapivory','TownController@mapivory');

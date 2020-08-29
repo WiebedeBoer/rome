@@ -27,6 +27,8 @@ class DatabaseSeeder extends Seeder
         $this->call('ArchitectureSeeder');
         //cultures
         $this->call('CultureSeeder');
+        //government
+        $this->call('GovernmentSeeder');
         //realms
         $this->call('RealmSeeder');
         //regions
@@ -177,6 +179,7 @@ class ForeignKeySeeder extends Seeder
         });	
         //territorial organization
         Schema::table('realms', function (Blueprint $table) {
+            $table->foreign('government')->references('government_id')->on('governments');
             $table->foreign('culture')->references('culture_id')->on('cultures');
         });	
 		Schema::table('prefectures', function (Blueprint $table) {

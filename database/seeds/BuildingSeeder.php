@@ -8671,6 +8671,1216 @@ class BuildingSeeder extends Seeder
             'category' => 'commerce'
         ]);
         //importers (silk, incense, spices, ivory)
+        DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '1',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '2',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '3',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '4',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '5',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '6',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '7',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '8',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '9',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '10',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '11',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '12',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '13',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '14',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '15',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '16',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '17',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '18',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '19',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '20',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '21',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '22',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '23',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '24',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '25',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '26',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '27',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '28',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '29',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '30',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '31',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '32',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '33',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '34',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '35',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '36',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '37',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '38',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '39',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '40',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '41',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '42',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '43',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '44',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '45',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '46',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '47',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '48',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '49',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '50',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '51',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '52',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '53',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '54',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '55',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '56',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '57',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '58',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '59',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '60',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '61',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '62',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '63',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '64',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '65',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '66',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '67',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '68',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '69',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '70',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '71',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '72',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '73',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '74',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '75',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '76',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '77',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '78',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '79',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '80',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '81',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '82',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '83',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '84',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '85',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '86',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '87',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '88',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '89',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '90',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '91',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '92',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '93',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '94',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '95',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '96',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '97',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '98',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '99',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '100',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '101',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '102',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '103',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '104',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '105',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '106',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '107',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '108',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '109',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '110',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '111',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '112',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '113',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '114',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '115',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '116',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '117',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '118',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '119',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '120',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '121',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '122',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '123',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '124',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '125',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '126',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '127',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '128',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '129',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '130',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '131',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '132',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '133',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '134',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '135',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '136',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '137',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '138',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '139',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '140',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '141',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '142',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '143',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '144',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '145',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '146',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '147',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '148',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '149',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '150',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '151',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '152',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '153',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '154',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '155',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '156',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '157',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '158',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '159',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '160',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '161',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '162',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '163',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '164',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '165',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '166',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '167',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '168',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '169',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '170',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '171',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '172',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '173',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '174',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '175',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '176',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '177',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '178',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '179',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '180',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '181',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '182',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '183',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '184',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '185',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '186',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '187',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '188',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '189',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '190',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '191',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '192',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '193',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '194',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '195',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '196',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '197',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '198',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '199',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '200',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '201',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '202',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '203',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '204',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '205',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '206',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '207',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '208',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '209',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '210',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '211',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '212',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '213',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '214',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '215',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '216',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '217',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '218',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '219',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '220',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '221',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '222',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '223',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '224',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '225',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '226',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '227',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '228',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '229',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '230',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '231',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '232',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '233',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '234',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '235',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '236',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '237',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '238',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '239',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '240',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '241',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '242',
+            'category' => 'importer'
+            ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
             'location' => '243',
@@ -8678,7 +9888,162 @@ class BuildingSeeder extends Seeder
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
+            'location' => '244',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '245',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '246',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '247',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '248',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '249',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '250',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '251',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '252',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '253',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '254',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '255',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '256',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '257',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '258',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '259',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
             'location' => '260',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '261',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '262',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '263',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '264',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '265',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '266',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '267',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '268',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '269',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '270',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '271',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '272',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '273',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '274',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '275',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
@@ -8698,7 +10063,87 @@ class BuildingSeeder extends Seeder
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
+            'location' => '279',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '280',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '281',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '282',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
             'location' => '283',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '284',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '285',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '286',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '287',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '288',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '289',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '290',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '291',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '292',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '293',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '294',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '295',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
@@ -8733,6 +10178,16 @@ class BuildingSeeder extends Seeder
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
+            'location' => '302',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '303',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
             'location' => '304',
             'category' => 'importer'
             ]);
@@ -8743,7 +10198,877 @@ class BuildingSeeder extends Seeder
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
+            'location' => '306',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '307',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '308',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '309',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '310',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '311',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '312',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '313',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '314',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '315',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '316',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '317',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '318',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '319',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '320',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '321',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '322',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '323',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '324',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '325',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '326',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '327',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '328',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '329',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '330',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '331',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '332',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '333',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '334',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '335',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '336',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '337',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '338',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '339',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '340',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '341',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '342',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '343',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '344',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '345',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '346',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '347',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '348',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '349',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '350',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '351',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '352',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '353',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '354',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '355',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '356',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '357',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '358',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '359',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '360',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '361',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '362',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '363',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '364',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '365',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '366',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '367',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '368',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '369',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '370',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '371',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '372',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '373',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '374',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '375',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '376',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '377',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '378',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '379',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '380',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '381',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '382',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '383',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '384',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '385',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '386',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '387',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '388',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '389',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '390',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '391',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '392',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '393',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '394',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '395',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '396',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
             'location' => '397',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '398',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '399',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '400',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '401',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '402',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '403',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '404',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '405',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '406',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '407',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '408',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '409',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '410',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '411',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '412',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '413',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '414',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '415',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '416',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '417',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '418',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '419',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '420',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '421',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '422',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '423',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '424',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '425',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '426',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '427',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '428',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '429',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '430',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '431',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '432',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '433',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '434',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '435',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '436',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '437',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '438',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '439',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '440',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '441',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '442',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '443',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '444',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '445',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '446',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '447',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '448',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '449',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '450',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '451',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '452',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '453',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '454',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '455',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '456',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '457',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '458',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '459',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '460',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '461',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '462',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '463',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '464',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '465',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '466',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '467',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '468',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '469',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '470',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '471',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '472',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '473',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '474',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '475',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '476',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '477',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '478',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '479',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '480',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
@@ -8754,6 +11079,26 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
             'buildingtype' => '40',
             'location' => '482',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '483',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '484',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '485',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '486',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
@@ -8858,7 +11203,8 @@ class BuildingSeeder extends Seeder
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
-            'location' => '507'
+            'location' => '507',
+            'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
@@ -8926,13 +11272,173 @@ class BuildingSeeder extends Seeder
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '539',
-                'category' => 'importer'
+            'buildingtype' => '40',
+            'location' => '521',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '522',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '523',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '524',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '525',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '526',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '527',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '528',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '529',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '530',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '531',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '532',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '533',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '534',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '535',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '536',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '537',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '538',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '539',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '540',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '541',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '542',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '543',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '544',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '545',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '546',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '547',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '548',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '549',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '550',
+            'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
             'location' => '551',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '552',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '553',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '554',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
@@ -8942,12 +11448,87 @@ class BuildingSeeder extends Seeder
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
-            'location' => '564',
+            'location' => '556',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
-            'location' => '565',
+            'location' => '557',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '558',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '559',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '560',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '561',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '562',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '563',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '566',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '567',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '568',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '569',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '570',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '571',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '572',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '573',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '574',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
@@ -8962,27 +11543,7 @@ class BuildingSeeder extends Seeder
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
-            'location' => '577',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
-            'location' => '578',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
             'location' => '579',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
-            'location' => '580',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
-            'location' => '581',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
@@ -8997,42 +11558,12 @@ class BuildingSeeder extends Seeder
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
-            'location' => '584',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
-            'location' => '585',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
-            'location' => '586',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
-            'location' => '587',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
             'location' => '588',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
             'buildingtype' => '40',
-            'location' => '589',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
             'location' => '590',
-            'category' => 'importer'
-            ]);
-            DB::table('buildings')->insert([
-            'buildingtype' => '40',
-            'location' => '591',
             'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
@@ -9089,161 +11620,196 @@ class BuildingSeeder extends Seeder
             'buildingtype' => '40',
             'location' => '602',
             'category' => 'importer'
-            ]);   
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '603',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '604',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '605',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '606',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '607',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '608',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '609',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '610',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '611',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '612',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '613',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '614',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '616',
-                'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '617',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '618',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '619',
-                'category' => 'importer'
+            'buildingtype' => '40',
+            'location' => '603',
+            'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '620',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '622',
-                'category' => 'importer'
-            ]);   
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '623',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '624',
-                'category' => 'importer'
+            'buildingtype' => '40',
+            'location' => '604',
+            'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '625',
-                'category' => 'importer'
-            ]);  
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '626',
-                'category' => 'importer'
-            ]);   
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '627',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '628',
-                'category' => 'importer'
+            'buildingtype' => '40',
+            'location' => '605',
+            'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '629',
-                'category' => 'importer'
-            ]); 
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '630',
-                'category' => 'importer'
-            ]);  
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '631',
-                'category' => 'importer'
-            ]);  
-            DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '632',
-                'category' => 'importer'
+            'buildingtype' => '40',
+            'location' => '606',
+            'category' => 'importer'
             ]);
             DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '633',
-                'category' => 'importer'
-            ]); 
+            'buildingtype' => '40',
+            'location' => '607',
+            'category' => 'importer'
+            ]);
             DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '634',
-                'category' => 'importer'
-            ]); 
+            'buildingtype' => '40',
+            'location' => '608',
+            'category' => 'importer'
+            ]);
             DB::table('buildings')->insert([
-                'buildingtype' => '40',
-                'location' => '636',
-                'category' => 'importer'
+            'buildingtype' => '40',
+            'location' => '609',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '610',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '611',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '612',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '613',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '614',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '615',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '616',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '617',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '618',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '619',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '620',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '621',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '622',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '623',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '624',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '625',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '626',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '627',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '628',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '629',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '630',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '631',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '632',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '633',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '634',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '635',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '636',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '637',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '638',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '639',
+            'category' => 'importer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '40',
+            'location' => '640',
+            'category' => 'importer'
             ]); 
         //trade ground (addition) no.13
         //food markets
@@ -62893,6 +65459,3769 @@ class BuildingSeeder extends Seeder
             'buildingtype' => '85',
             'location' => '230',
             'category' => 'agricultural'
+            ]); 
+        //carrying
+        //basket weavers, cooper, potterer
+        DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '1',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '2',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '3',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '4',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '5',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '6',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '7',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '8',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '9',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '10',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '11',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '12',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '13',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '14',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '15',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '16',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '17',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '18',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '19',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '20',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '21',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '22',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '23',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '24',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '25',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '26',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '27',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '28',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '29',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '30',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '31',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '32',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '33',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '34',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '35',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '36',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '37',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '38',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '39',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '40',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '41',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '42',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '43',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '44',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '45',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '46',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '47',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '48',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '49',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '50',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '51',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '52',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '53',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '54',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '55',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '56',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '57',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '58',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '65',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '66',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '67',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '68',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '69',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '70',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '75',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '76',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '77',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '78',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '79',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '80',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '82',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '89',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '90',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '91',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '92',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '93',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '95',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '98',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '99',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '100',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '101',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '102',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '103',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '104',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '105',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '106',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '107',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '108',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '109',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '110',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '111',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '112',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '113',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '114',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '115',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '116',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '117',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '118',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '119',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '120',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '121',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '122',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '123',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '124',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '125',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '126',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '127',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '128',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '129',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '130',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '131',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '132',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '133',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '134',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '135',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '136',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '138',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '139',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '140',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '141',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '142',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '143',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '144',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '145',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '146',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'cooper',
+            'buildingtype' => '91',
+            'location' => '147',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '150',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '151',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '152',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '153',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '154',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '155',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '156',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '157',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '158',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '159',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '160',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '161',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '162',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '163',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '164',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '165',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '166',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '169',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '170',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '171',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '174',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '175',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '176',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '177',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '178',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '181',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '182',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '183',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '184',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '185',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '186',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '187',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '188',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '189',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '190',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '191',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '192',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '193',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '194',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '195',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '196',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '197',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '198',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '199',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '200',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '201',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '202',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '203',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '204',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '205',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '206',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '207',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '208',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '209',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '210',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '211',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '212',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '213',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '214',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '215',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '216',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '217',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '218',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '219',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '220',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '221',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '222',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '223',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '224',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '225',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '226',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '227',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '228',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '229',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '230',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '231',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '232',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '233',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '234',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '235',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '236',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '237',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '238',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '239',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '240',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '241',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '242',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '243',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '244',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '245',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '246',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '247',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '248',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '249',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '250',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '251',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '252',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '253',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '254',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '255',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '256',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '257',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '258',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '259',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '260',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '261',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '262',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '263',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '264',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '265',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '266',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '267',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '268',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '269',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '270',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '271',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '272',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '273',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '274',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '275',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '276',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '277',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '278',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '279',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '280',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '281',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '282',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '283',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '284',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '285',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '286',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '287',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '288',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '289',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '290',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '291',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '292',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '293',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '294',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '295',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '296',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '297',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '298',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '299',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '300',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '301',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '302',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '303',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '304',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '305',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '306',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '307',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '308',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '309',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '310',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '311',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '312',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '313',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '314',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '315',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '316',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '317',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '318',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '319',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '320',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '321',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '322',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '323',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '324',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '325',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '326',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '327',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '328',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '329',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '330',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '331',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '332',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '333',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '334',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '335',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '336',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '337',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '338',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '339',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '340',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '341',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '342',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '343',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '344',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '345',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '346',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '347',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '348',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '349',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '350',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '351',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '354',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '355',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '356',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '357',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '358',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '359',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '360',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '361',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '362',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '363',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '364',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '365',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '366',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '367',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '368',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '369',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '370',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '371',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '372',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '373',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '374',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '375',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '376',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '377',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '378',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '379',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '380',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '381',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '382',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '383',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '384',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '385',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '386',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '387',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '388',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '389',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '390',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '391',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '392',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '393',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '394',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '395',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '396',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '397',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '398',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '399',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '400',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '401',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '402',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '403',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '404',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '405',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '406',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '407',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '408',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '409',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '410',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '411',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '412',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '413',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '414',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '415',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '416',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '417',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '418',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '419',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '420',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '421',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '422',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '423',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '424',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '425',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '426',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '427',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '428',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '429',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '430',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '431',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '432',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '433',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '434',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '435',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '436',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '437',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '438',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '439',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '440',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '441',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '442',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '443',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '444',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '445',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '446',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '447',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '448',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '449',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '450',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '451',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '452',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '453',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '454',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '455',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '456',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '457',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '458',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '459',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '460',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '461',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '462',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '463',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '464',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '465',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '466',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '467',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '468',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '469',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '470',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '471',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '472',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '473',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '474',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '475',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '476',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '477',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '478',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '479',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '480',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '481',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '482',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '483',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '484',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '485',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '486',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '487',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '488',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '489',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '490',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '491',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '492',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '493',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '494',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '495',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '496',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '497',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '498',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '499',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '500',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '501',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '502',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '503',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '504',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '505',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '506',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '507',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '508',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '509',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '510',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '511',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '512',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '513',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '514',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '515',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '516',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '517',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '518',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '519',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '520',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '521',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '522',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '523',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '524',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '525',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '526',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '527',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '528',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '529',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '530',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '531',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '532',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '533',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '534',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '535',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '536',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '537',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '538',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '539',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '540',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '541',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '542',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '543',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '544',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '545',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '546',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '547',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '548',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '549',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '550',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '551',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '552',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '553',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '554',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '555',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '556',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '557',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '558',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '559',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '560',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '561',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '562',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '563',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '564',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '565',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '566',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '567',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '568',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '569',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '570',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '571',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '572',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '573',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '574',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '575',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '576',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '577',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '578',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '579',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '580',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '581',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '582',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '583',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '584',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '585',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '586',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '587',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '588',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '589',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '590',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '591',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '592',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '593',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '594',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '595',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '596',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '597',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '598',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '599',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '600',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '601',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '602',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '603',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '604',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '605',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '606',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '607',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '608',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '609',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '610',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '611',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '612',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '613',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '614',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '615',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '616',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '617',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '618',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '619',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '620',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'potterer',
+            'buildingtype' => '92',
+            'location' => '621',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '622',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '623',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '624',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '625',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '626',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '627',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '628',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '629',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '630',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '631',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '632',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '633',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '634',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '635',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '636',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '637',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '638',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '639',
+            'category' => 'container'
+            ]);
+            DB::table('buildings')->insert([
+            'subtype' => 'basket weaver',
+            'buildingtype' => '90',
+            'location' => '640',
+            'category' => 'container'
+            ]); 
+        //commerce scents
+        //perfumers
+        DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '307',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '397',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '404',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '410',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '411',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '412',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '553',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '554',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '557',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '558',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '559',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '560',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '561',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '562',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '596',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '597',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '598',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '599',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '600',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '601',
+            'category' => 'perfumer'
+            ]);
+            DB::table('buildings')->insert([
+            'buildingtype' => '93',
+            'location' => '602',
+            'category' => 'perfumer'
             ]); 
     }
 }

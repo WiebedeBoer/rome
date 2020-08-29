@@ -19,6 +19,7 @@ class CreateRealmsTable extends Migration
             //treasury
             $table->integer('treasury')->default(100);
             //fk
+            $table->unsignedBigInteger('government')->nullable();
             $table->unsignedBigInteger('culture')->nullable();
             //timestamps
             $table->timestamps();

@@ -16,6 +16,11 @@ class Realm extends Model
         return $this->belongsTo('App\Culture','culture');
     } 
 
+    public function governments()
+    {
+        return $this->belongsTo('App\Government','government');
+    } 
+
     //citizens
     public function citizens()
     {

@@ -11,15 +11,27 @@ Game
 	<g z-index="1">
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
-	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Hospitals</text></g>
+	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Baths &amp; Hospitals</text></g>
 	@foreach($towns as $town) 
-		@if($town->building_count >=1)
-		<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (valetudinarium)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,255,255)" stroke="black" stroke-width="4" /></a>
+		@if($town->hospital_count >=1 && $town->bath_count ==0)
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (valetudinarium)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(255,255,0)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->hospital_count ==0 && $town->bath_count >=1)
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (thermae)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,255,255)" stroke="black" stroke-width="4" /></a>
+			</g>
+		@elseif($town->hospital_count >=1 && $town->bath_count >=1)
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (thermae and valetudinarium)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(255,255,0)" stroke="rgb(0,255,255)" stroke-width="5" /></a>
 			</g>
 		@else
-		<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@endif
 	@endforeach
