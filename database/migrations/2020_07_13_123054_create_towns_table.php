@@ -20,7 +20,7 @@ class CreateTownsTable extends Migration
             $table->integer('population')->default(10000); //vicus (39) 2000, castrum (58) 5000, municipium (466) 10000, (29) 20000, (7) 50000, (3) 100000
             //climate
             $table->string('climate')->default('mediterranean'); //223 mediterranean, 74 oceanic, 42 pontic, 81 continental, 25 alpine, 14 hot steppe, 37 cold steppe,  72 desert oasis,  36 desert wetland
-            $table->string('disaster')->default('normal');
+            $table->string('disaster')->default('normal'); //normal, plague, floods, drought, locusts, blizzard, avalanche, fire, earthquake, volcano
             //animals
             $table->string('pack')->default('none'); //105 horse, 114 camel, oxen, donkey, dog
             $table->string('cattle')->default('none'); //162 cattle, buffalo

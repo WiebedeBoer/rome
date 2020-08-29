@@ -59,7 +59,7 @@ class BuildingtypeSeeder extends Seeder
         DB::table('buildingtypes')->insert([
             'building_name' => 'mausoleum',
             'building_category' => 'religious',
-            'religious_category' => 'shrine'
+            'religious_category' => 'tomb'
         ]);
         //9 sacred grove (grove, hanging gardens)
         DB::table('buildingtypes')->insert([
@@ -353,7 +353,7 @@ class BuildingtypeSeeder extends Seeder
             'building_name' => 'fishing wharf',
             'building_category' => 'industrial'
         ]);
-        //64 ...
+        //64
         DB::table('buildingtypes')->insert([
             'building_name' => 'tannery',
             'building_category' => 'industrial'
@@ -404,7 +404,7 @@ class BuildingtypeSeeder extends Seeder
             'building_name' => 'apiary',
             'building_category' => 'agricultural'
         ]);
-        //74 (poultry = chicken) 
+        //74 (poultry = chicken)
         DB::table('buildingtypes')->insert([
             'building_name' => 'chicken coop',
             'building_category' => 'agricultural'
@@ -414,7 +414,7 @@ class BuildingtypeSeeder extends Seeder
             'building_name' => 'duck pond',
             'building_category' => 'agricultural'
         ]);
-        //76 (cattle, buffalo)..
+        //76 (cattle, buffalo)
         DB::table('buildingtypes')->insert([
             'building_name' => 'cattle meadow',
             'building_category' => 'agricultural'
@@ -444,17 +444,17 @@ class BuildingtypeSeeder extends Seeder
             'building_name' => 'oxen farm',
             'building_category' => 'agricultural'
         ]);
-        //82 (wool = sheep) ..
+        //82 (wool = sheep) 
         DB::table('buildingtypes')->insert([
             'building_name' => 'sheep meadow',
             'building_category' => 'agricultural'
         ]);
-        //83 (wool = goat) ..
+        //83 (wool = goat) 
         DB::table('buildingtypes')->insert([
             'building_name' => 'goat meadow',
             'building_category' => 'agricultural'
         ]);
-        //84
+        //84 
         DB::table('buildingtypes')->insert([
             'building_name' => 'pigsty',
             'building_category' => 'agricultural'
@@ -484,6 +484,22 @@ class BuildingtypeSeeder extends Seeder
         DB::table('buildingtypes')->insert([
             'building_name' => 'fons',
             'building_category' => 'health'
+        ]);
+        //carrying
+        //90
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'basket weaver',
+            'building_category' => 'container'
+        ]);
+        //91
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'cooper',
+            'building_category' => 'container'
+        ]);
+        //92
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'potterer',
+            'building_category' => 'container'
         ]);
         /*
         //wonders

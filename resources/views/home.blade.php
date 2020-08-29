@@ -24,7 +24,7 @@ Dashboard
 						<div class="py-3">
                             <div class="col-sm-3">
                                 <h3>One more registration step!</h3>
-                                <p><a href="/person/create" class="btn btn-primary">Create</a> a character and villa.</p>
+                                <p><a href="/persons/create" class="btn btn-primary">Create</a> a character and villa.</p>
                             </div>
                         </div>
 					@endif						

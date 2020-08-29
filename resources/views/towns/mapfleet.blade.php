@@ -39,11 +39,23 @@ Game
 	<g z-index="5"><text x="1920" y="1510" font-size="30" fill="rgb(0,64,0)" stroke="black" stroke-width="2">Asia</text></g>
 	@foreach($towns as $town)
         @if($town->fish !="none")
-            @if($town->fleet_count >=1)	
+            @if($town->fleet_count >=1 && $town->lighthouse_count >=1)	
+			    <g z-index="3">
+			    <a xlink:href="/towns/{{$town->town_id}}">
+			    <title>{{$town->town_name}} (port and fleet and lighthouse)</title>
+			    <circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(224,224,0)" stroke="rgb(192,0,192)" stroke-width="6" /></a>
+			    </g>
+			@elseif($town->fleet_count >=1 && $town->lighthouse_count ==0)	
 			    <g z-index="3">
 			    <a xlink:href="/towns/{{$town->town_id}}">
 			    <title>{{$town->town_name}} (port and fleet)</title>
-			    <circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(0,0,128)" stroke="pink" stroke-width="5" /></a>
+			    <circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,0,128)" stroke="rgb(192,0,192)" stroke-width="5" /></a>
+			    </g>
+			@elseif($town->fleet_count ==0 && $town->lighthouse_count >=1)	
+			    <g z-index="3">
+			    <a xlink:href="/towns/{{$town->town_id}}">
+			    <title>{{$town->town_name}} (port and lighthouse)</title>
+			    <circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,0,128)" stroke="rgb(224,224,0)" stroke-width="5" /></a>
 			    </g>
 		    @else
 			    <g z-index="3">

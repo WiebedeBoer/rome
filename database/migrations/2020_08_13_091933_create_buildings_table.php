@@ -18,10 +18,10 @@ class CreateBuildingsTable extends Migration
             $table->string('building_name')->nullable();
             //stats
             $table->integer('state')->default(100);
-            //tomb type
-            $table->string('tomb')->default('none');
+            //subtype
+            $table->string('subtype')->default('none'); //tumulus, tomb, pyramid, lighthouse, grove, hanging garden
             //category
-            $table->string('category')->default('none'); //none, health, education, government, forum, wall, importer, industrial
+            $table->string('category')->default('none'); //none, health, education, government, forum, wall, importer, industrial, grove, oracle, tomb
             //fk
             $table->unsignedBigInteger('buildingtype');
             $table->unsignedBigInteger('location');

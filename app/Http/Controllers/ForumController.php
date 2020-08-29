@@ -3,6 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Support\Collection;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Arr;
+//models
+use App\Thread;
+use App\Post;
 
 class ForumController extends Controller
 {
@@ -133,6 +139,21 @@ class ForumController extends Controller
 		return view('forum.tavern', compact('threadcount','threaddata'));  
 	}
 
+	//bath view
+	public function bath()
+	{
+		$sub ="bath";
+		$threadcount = Thread::where('subforum', $sub)->count();
+		if ($threadcount >=1)
+		{
+			$threaddata = Thread::where('subforum', $sub)->get();
+		}
+		else {
+			$threaddata =[];
+		}
+		return view('forum.bath', compact('threadcount','threaddata'));  
+	}
+
 	//intro view
 	public function intro()
 	{
@@ -149,9 +170,9 @@ class ForumController extends Controller
 	}
 	
 	//kingdom view
-	public function kingdom()
+	public function realm()
 	{
-		$sub ="kingdom";
+		$sub ="realm";
 		$threadcount = Thread::where('subforum', $sub)->count();
 		if ($threadcount >=1)
 		{
@@ -160,7 +181,7 @@ class ForumController extends Controller
 		else {
 			$threaddata =[];
 		}
-		return view('forum.kingdom', compact('threadcount','threaddata'));  
+		return view('forum.realm', compact('threadcount','threaddata'));  
 	}
 	
 	//region view

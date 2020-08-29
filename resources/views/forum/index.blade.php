@@ -17,6 +17,11 @@ Three Kingdoms - Forum
 </div>
 
 <div class="py-3">
+<h2 class="c">Baths</h2>
+<p class="c">a place to chat according to the local <a href="/forum/bath">bath</a> at the place one inhabits</p>
+</div>
+
+<div class="py-3">
 <h2 class="c">Introductions</h2>
 <p class="c">a place to <a href="/forum/intro">introduce</a> oneself to the public</p>
 </div>

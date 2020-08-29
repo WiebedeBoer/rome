@@ -49,8 +49,9 @@ Route::patch('forum/{forum}', 'ForumController@update');
 //subforum
 Route::get('forum/open','ForumController@open');
 Route::get('forum/tavern','ForumController@tavern');
+Route::get('forum/bath','ForumController@bath');
 Route::get('forum/intro','ForumController@intro');
-Route::get('forum/faction','ForumController@faction');
+Route::get('forum/realm','ForumController@realm');
 Route::get('forum/region','ForumController@region');
 Route::get('forum/war','ForumController@war');
 
@@ -79,13 +80,13 @@ Route::get('mappopulation','TownController@mappopulation');
 Route::get('mapculture','TownController@mapculture');
 Route::get('mapreligion','TownController@mapreligion');
 Route::get('mapclimate','TownController@mapclimate');
+Route::get('mapdisaster','TownController@mapdisaster');
 Route::get('maproad','TownController@maproad');
 Route::get('maparchitecture','TownController@maparchitecture');
 //buildings maps
 Route::get('maptemple','TownController@maptemple');
 Route::get('maporacle','TownController@maporacle');
 Route::get('maptomb','TownController@maptomb');
-Route::get('mapgrave','TownController@mapgrave');
 Route::get('mapbath','TownController@mapbath');
 Route::get('mapbarracks','TownController@mapbarracks');
 Route::get('maphospital','TownController@maphospital');
