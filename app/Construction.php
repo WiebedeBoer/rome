@@ -21,8 +21,8 @@ class Construction extends Model
         return $this->belongsTo('App\Town','city');
     }  
 
-    public function buildings()
+    public function types()
     {
-        return $this->belongsTo('App\Building','building');
+        return $this->belongsTo('App\Constructiontype','construction');
     }  
 }

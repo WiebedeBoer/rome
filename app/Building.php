@@ -34,7 +34,7 @@ class Building extends Model
     //constructions
     public function constructions()
     {
-        return $this->hasMany('App\Construction','construction_id');
+        return $this->hasMany('App\Constructiontype','construction_id');
     }
 
 }
