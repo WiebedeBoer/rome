@@ -17,8 +17,8 @@ class CreateConstructiontypesTable extends Migration
             $table->bigIncrements('construction_id');
             //government
             $table->string('construction_name');
-            $table->string('category')->default('municipal'); //municipal, urban, rustic, fort, temple
-            $table->string('subtype')->default('none'); //none, workshop, rustic, shrine
+            $table->string('class_structure')->default('municipal'); //state, temple, municipal, fort, urban, rustic
+            $table->string('place')->default('urban'); //urban, treasury, shrine, altar, wall, workshop, fort, camp, strigae, factory, cemetery, residence, apartment, household, estate, farm, rustic
             //fk
             $table->unsignedBigInteger('building')->nullable();
             //timestamps

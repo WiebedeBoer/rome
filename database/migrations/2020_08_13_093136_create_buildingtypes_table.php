@@ -19,6 +19,7 @@ class CreateBuildingtypesTable extends Migration
             $table->string('building_name');
             $table->string('building_category');
             $table->string('religious_category')->default('none');
+            $table->string('place_category')->default('construction');
             //timestamps
             $table->timestamps();
         });

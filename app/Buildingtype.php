@@ -15,4 +15,10 @@ class Buildingtype extends Model
     {
         return $this->hasMany('App\Building','building_id');
     }
+
+    //construction types
+    public function constructions()
+    {
+        return $this->hasMany('App\Constructiontype','construction_id');
+    }
 }

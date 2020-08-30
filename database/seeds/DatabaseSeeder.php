@@ -56,7 +56,9 @@ class DatabaseSeeder extends Seeder
         //building types
         $this->call('BuildingtypeSeeder');  
         //buildings
-        $this->call('BuildingSeeder');       
+        $this->call('BuildingSeeder');  
+        //construction types   
+        $this->call('ConstructiontypeSeeder');   
     }
 }
 
@@ -103,7 +105,7 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('god')->references('god_id')->on('gods');
         });	
         Schema::table('constructiontypes', function (Blueprint $table) {
-            $table->foreign('building')->references('building_id')->on('buildings');          
+            $table->foreign('building')->references('building_id')->on('buildingtypes');          
         });	
         Schema::table('constructions', function (Blueprint $table) {
             $table->foreign('villa')->references('villa_id')->on('villas');
