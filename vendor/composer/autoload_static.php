@@ -497,6 +497,7 @@ class ComposerStaticInitf37bbadeedfb9fa5cfed2981b2a30435
         'App\\Citizen' => __DIR__ . '/../..' . '/app/Citizen.php',
         'App\\Console\\Commands\\Crontasker' => __DIR__ . '/../..' . '/app/Console/Commands/Crontasker.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\Construction' => __DIR__ . '/../..' . '/app/Construction.php',
         'App\\Culture' => __DIR__ . '/../..' . '/app/Culture.php',
         'App\\Equipment' => __DIR__ . '/../..' . '/app/Equipment.php',
         'App\\Equipmenttype' => __DIR__ . '/../..' . '/app/Equipmenttype.php',

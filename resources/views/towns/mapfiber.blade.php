@@ -15,12 +15,12 @@ Game
 	@foreach($towns as $town) 
 		@if($town->fiber =="flax" && $town->fabric =="silk caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (flax and silk)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (flax and silk caravan)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(183,169,155)" stroke="rgb(137,146,239)" stroke-width="5" /></a>
 			</g>
 		@elseif($town->fiber =="cotton" && $town->fabric =="silk caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (cotton and silk)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (cotton and silk caravan)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(183,169,155)" stroke="rgb(116,54,22)" stroke-width="5" /></a>
 			</g>
 		@elseif($town->fiber =="flax" && $town->fabric =="none")
@@ -35,7 +35,7 @@ Game
 			</g>
 		@elseif($town->fiber =="none" && $town->fabric =="silk caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (silk)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (silk caravan)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(183,169,155)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else

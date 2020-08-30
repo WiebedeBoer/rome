@@ -102,6 +102,11 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('owner')->references('person_id')->on('people');
             $table->foreign('god')->references('god_id')->on('gods');
         });	
+        Schema::table('constructions', function (Blueprint $table) {
+            $table->foreign('villa')->references('villa_id')->on('villas');
+            $table->foreign('city')->references('town_id')->on('towns');
+            $table->foreign('building')->references('building_id')->on('buildings');          
+        });	
         //travel organization
         Schema::table('landconnections', function (Blueprint $table) {
             $table->foreign('to')->references('region_id')->on('regions');

@@ -16,40 +16,40 @@ Game
 
 		@if($town->spice =="spice caravan" && $town->fabric !="silk caravan" && $town->scent !="incense caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spices)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spices caravan)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,0,0)" stroke="black" stroke-width="3" /></a>
 			</g>
 		@elseif($town->spice !="spice caravan" && $town->fabric =="silk caravan" && $town->scent !="incense caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (silk)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (silk caravan)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(224,0,224)" stroke="black" stroke-width="3" /></a>
 			</g>
 		@elseif($town->spice !="spice caravan" && $town->fabric !="silk caravan" && $town->scent =="incense caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (incense)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (incense caravan)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(224,224,0)" stroke="black" stroke-width="3" /></a>
 			</g>
 
 		@elseif($town->spice =="spice caravan" && $town->fabric =="silk caravan" && $town->scent !="incense caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spice and silk)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spice and silk caravans)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(192,0,0)" stroke="rgb(224,0,224)" stroke-width="4" /></a>
 			</g>
 		@elseif($town->spice =="spice caravan" && $town->fabric !="silk caravan" && $town->scent =="incense caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spice and incense)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spice and incense caravans)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(224,224,0)" stroke="rgb(192,0,0)" stroke-width="4" /></a>
 			</g>
 
 		@elseif($town->spice !="spice caravan" && $town->fabric =="silk caravan" && $town->scent =="incense caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (silk and incense)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (silk and incense caravans)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(224,224,0)" stroke="rgb(224,0,224)" stroke-width="4" /></a>
 			</g>
 
 		@elseif($town->spice =="spice caravan" && $town->fabric =="silk caravan" && $town->scent =="incense caravan")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spice and silk and incense)</title>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (spice and silk and incense caravans)</title>
 			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(0,192,192)" stroke="rgb(0,128,128)" stroke-width="5" /></a>
 			</g>
 

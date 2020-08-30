@@ -31,4 +31,10 @@ class Building extends Model
         return $this->belongsTo('App\God','god');
     }
 
+    //constructions
+    public function constructions()
+    {
+        return $this->hasMany('App\Construction','construction_id');
+    }
+
 }

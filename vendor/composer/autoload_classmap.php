@@ -18,6 +18,7 @@ return array(
     'App\\Citizen' => $baseDir . '/app/Citizen.php',
     'App\\Console\\Commands\\Crontasker' => $baseDir . '/app/Console/Commands/Crontasker.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
+    'App\\Construction' => $baseDir . '/app/Construction.php',
     'App\\Culture' => $baseDir . '/app/Culture.php',
     'App\\Equipment' => $baseDir . '/app/Equipment.php',
     'App\\Equipmenttype' => $baseDir . '/app/Equipmenttype.php',

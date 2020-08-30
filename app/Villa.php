@@ -26,4 +26,11 @@ class Villa extends Model
     {
         return $this->hasMany('App\Sale','sale_id');
     }
+
+    //constructions
+    public function constructions()
+    {
+        return $this->hasMany('App\Construction','construction_id');
+    }
+    
 }

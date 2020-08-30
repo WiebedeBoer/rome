@@ -11,38 +11,70 @@ Game
 	<g z-index="1">
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
-	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Thatching</text></g>
+	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Baskets &amp; Thatching</text></g>
 	@foreach($towns as $town) 
-		@if($town->thatching =="straw")
+		@if($town->thatching =="straw" && $town->basket_count >=1)
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}} and basket weaver)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(192,148,67)" stroke="rgb(0,0,0)" stroke-width="5" /></a>
+			</g>
+		@elseif($town->thatching =="heather" && $town->basket_count >=1)
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}} and basket weaver)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(100,20,81)" stroke="rgb(0,0,0)" stroke-width="5" /></a>
+			</g>
+		@elseif($town->thatching =="rushes" && $town->basket_count >=1)
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}} and basket weaver)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(72,23,2)" stroke="rgb(0,224,224)" stroke-width="5" /></a>
+			</g>
+		@elseif($town->thatching =="reeds" && $town->basket_count >=1)
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}} and basket weaver)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(172,91,29)" stroke="rgb(0,224,224)" stroke-width="5" /></a>
+			</g>
+		@elseif($town->thatching =="sedges" && $town->basket_count >=1)
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}} and basket weaver)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(100,164,46)" stroke="rgb(0,224,224)" stroke-width="5" /></a>
+			</g>
+		@elseif($town->thatching =="palm branches" && $town->basket_count >=1)
+		    <g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}} and basket weaver)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(201,205,83)" stroke="rgb(192,0,0)" stroke-width="5" /></a>
+			</g>
+
+		@elseif($town->thatching =="straw" && $town->basket_count ==0)
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}})</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,148,67)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(192,148,67)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
 			</g>
-		@elseif($town->thatching =="heather")
+		@elseif($town->thatching =="heather" && $town->basket_count ==0)
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}})</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(100,20,81)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(100,20,81)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
 			</g>
-		@elseif($town->thatching =="rushes")
+		@elseif($town->thatching =="rushes" && $town->basket_count ==0)
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}})</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(72,23,2)" stroke="rgb(0,224,224)" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(72,23,2)" stroke="rgb(0,224,224)" stroke-width="4" /></a>
 			</g>
-		@elseif($town->thatching =="reeds")
+		@elseif($town->thatching =="reeds" && $town->basket_count ==0)
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}})</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(172,91,29)" stroke="rgb(0,224,224)" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(172,91,29)" stroke="rgb(0,224,224)" stroke-width="4" /></a>
 			</g>
-		@elseif($town->thatching =="sedges")
+		@elseif($town->thatching =="sedges" && $town->basket_count ==0)
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}})</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(100,164,46)" stroke="rgb(0,224,224)" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(100,164,46)" stroke="rgb(0,224,224)" stroke-width="4" /></a>
 			</g>
-		@elseif($town->thatching =="palm branches")
+		@elseif($town->thatching =="palm branches" && $town->basket_count ==0)
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} ({{$town->thatching}})</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(201,205,83)" stroke="rgb(192,0,0)" stroke-width="4" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(201,205,83)" stroke="rgb(192,0,0)" stroke-width="4" /></a>
 			</g>
+
 		@else
 		    <g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title>

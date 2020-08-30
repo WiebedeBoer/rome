@@ -11,54 +11,55 @@ Game
 	<g z-index="1">
 	<image xlink:href="img/rome.png" x="0" y="0" width="4000" height="4000">
 	</g>
-	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Coopers &amp; Potterers</text></g>
+	<g z-index="6"><text x="1800" y="120" font-size="120" fill="black" stroke="rgb(128,128,128)" stroke-width="2">Packaging &amp; Storage</text></g>
 	@foreach($towns as $town) 
 
-		@if($town->basket_count >=1 && $town->cooper_count ==0 && $town->potter_count ==0)
+		@if($town->lard_count >=1 && $town->granary_count >=1 && $town->packaging_count >=1)
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (basket)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,192,0)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (carnarium and horreum and pithos)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(192,0,0)" stroke="rgb(64,32,0)" stroke-width="6" /></a>
 			</g>
-		@elseif($town->basket_count >=1 && $town->cooper_count >=1 && $town->potter_count ==0)
+		@elseif($town->lard_count >=1 && $town->granary_count >=1 && $town->packaging_count ==0)
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (basket and barrel)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(192,192,0)" stroke="rgb(128,64,0)" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (carnarium and horreum)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,0,0)" stroke="rgb(64,32,0)" stroke-width="5" /></a>
 			</g>
-		@elseif($town->basket_count >=1 && $town->cooper_count ==0 && $town->potter_count >=1)
+		@elseif($town->lard_count >=1 && $town->granary_count ==0 && $town->packaging_count >=1)
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (basket and amphora)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(192,192,0)" stroke="rgb(192,128,0)" stroke-width="4" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (carnarium and pithos)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,0,0)" stroke="rgb(0,0,0)" stroke-width="5" /></a>
 			</g>
-		@elseif($town->basket_count >=1 && $town->cooper_count >=1 && $town->potter_count >=1)
+		@elseif($town->lard_count >=1 && $town->granary_count ==0 && $town->packaging_count ==0)
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (basket and barrel and amphora)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(0,224,224)" stroke="rgb(192,0,192)" stroke-width="5" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (carnarium)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(192,0,0)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
+			</g>
+		@elseif($town->lard_count ==0 && $town->granary_count >=1 && $town->packaging_count >=1)
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (horreum and pithos)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(224,224,0)" stroke="rgb(0,0,0)" stroke-width="5" /></a>
+			</g>
+		@elseif($town->lard_count ==0 && $town->granary_count >=1 && $town->packaging_count ==0)
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (horreum)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(224,224,0)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
+			</g>
+		@elseif($town->lard_count ==0 && $town->granary_count ==0 && $town->packaging_count >=1)
+			<g z-index="2">
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (pithos)</title>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="11" fill="rgb(52,46,72)" stroke="rgb(0,0,0)" stroke-width="4" /></a>
 			</g>
 
-		@elseif($town->basket_count ==0 && $town->cooper_count >=1 && $town->potter_count ==0)
-			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (barrel)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(128,64,0)" stroke="black" stroke-width="3" /></a>
-			</g>
-		@elseif($town->basket_count ==0 && $town->cooper_count >=1 && $town->potter_count >=1)
-			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (barrel and amphora)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(128,64,0)" stroke="rgb(192,128,0)" stroke-width="4" /></a>
-			</g>
-
-		@elseif($town->basket_count ==0 && $town->cooper_count ==0 && $town->potter_count >=1)
-			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (amphora)</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(192,128,0)" stroke="black" stroke-width="3" /></a>
-			</g>
 		@else
 			<g z-index="2">
 			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title>
-			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,0)" stroke="black" stroke-width="2" /></a>
+			<circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="black" stroke="black" stroke-width="2" /></a>
 			</g>
 		@endif
+
 	@endforeach
 	</svg>
     </div>
 </div>
+
 @endsection

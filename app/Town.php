@@ -85,4 +85,10 @@ class Town extends Model
         return $this->hasMany('App\Building','building_id');
     }
 
+    //constructions
+    public function constructions()
+    {
+        return $this->hasMany('App\Construction','construction_id');
+    }
+
 }

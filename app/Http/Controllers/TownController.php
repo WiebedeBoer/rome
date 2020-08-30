@@ -512,9 +512,9 @@ class TownController extends Controller
         //building count	
         foreach($towns as $town)
         {
-            $town->basket_count = Building::where('location', $town->town_id)->where('category','container')->where('subtype','basket weaver')->count(); 
-            $town->cooper_count = Building::where('location', $town->town_id)->where('category','container')->where('subtype','cooper')->count(); 
-            $town->potter_count = Building::where('location', $town->town_id)->where('category','container')->where('subtype','potterer')->count(); 
+            $town->packaging_count = Building::where('location', $town->town_id)->where('category','packaging')->count(); 
+            $town->granary_count = Building::where('location', $town->town_id)->where('category','storage')->where('subtype','granary')->count(); 
+            $town->lard_count = Building::where('location', $town->town_id)->where('category','storage')->where('subtype','larder')->count();            
         }       
         //return view
         return view('towns.mapbarrel', compact('towns'));	   
@@ -598,7 +598,6 @@ class TownController extends Controller
         //building count	
         foreach($towns as $town)
         {
-            $town_realm = $town->realm;
             $town->building_count = Building::where('location', $town->town_id)->where('subtype','inn')->where('category','commerce')->count(); 
         } 	   
         //return view
@@ -723,7 +722,12 @@ class TownController extends Controller
     //map view
     public function mappottery()
     {            
-        $towns = Town::all();	   
+        $towns = Town::all();
+        //building count	
+        foreach($towns as $town)
+        {
+            $town->potter_count = Building::where('location', $town->town_id)->where('category','packaging')->where('subtype','amphora kiln')->count(); 
+        } 	   
         //return view
         return view('towns.mappottery', compact('towns'));	   
     }
@@ -731,7 +735,13 @@ class TownController extends Controller
     //map view
     public function maptimber()
     {            
-        $towns = Town::all();	   
+        $towns = Town::all();
+        //building count	
+        foreach($towns as $town)
+        {
+            $town->cooper_count = Building::where('location', $town->town_id)->where('category','packaging')->where('subtype','cooper')->count(); 
+            $town->chest_count = Building::where('location', $town->town_id)->where('category','packaging')->where('subtype','cabinetmaker')->count();
+        } 		   
         //return view
         return view('towns.maptimber', compact('towns'));	   
     }
@@ -739,7 +749,12 @@ class TownController extends Controller
     //map view
     public function mapthatching()
     {            
-        $towns = Town::all();	   
+        $towns = Town::all();
+        //building count	
+        foreach($towns as $town)
+        {
+            $town->basket_count = Building::where('location', $town->town_id)->where('category','packaging')->where('subtype','basket weaver')->count(); 
+        } 	   
         //return view
         return view('towns.mapthatching', compact('towns'));	   
     }

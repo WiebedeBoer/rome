@@ -298,7 +298,7 @@ class BuildingtypeSeeder extends Seeder
             'building_name' => 'mine',
             'building_category' => 'industrial'
         ]);
-        //53
+        //53 
         DB::table('buildingtypes')->insert([
             'building_name' => 'claypit',
             'building_category' => 'industrial'
@@ -488,26 +488,36 @@ class BuildingtypeSeeder extends Seeder
         //carrying
         //90
         DB::table('buildingtypes')->insert([
-            'building_name' => 'basket weaver',
-            'building_category' => 'container'
+            'building_name' => 'amphora kiln',
+            'building_category' => 'packaging'
         ]);
         //91
         DB::table('buildingtypes')->insert([
             'building_name' => 'cooper',
-            'building_category' => 'container'
+            'building_category' => 'packaging'
         ]);
-        //92
+        //92 
         DB::table('buildingtypes')->insert([
-            'building_name' => 'potterer',
-            'building_category' => 'container'
+            'building_name' => 'cabinetmaker',
+            'building_category' => 'packaging'
+        ]);
+        //93
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'basket weaver',
+            'building_category' => 'packaging'
         ]);
         //scents
-        //93
+        //94
         DB::table('buildingtypes')->insert([
             'building_name' => 'perfumer',
             'building_category' => 'perfumer'
         ]);
-        
+        //herbs
+        //95
+        DB::table('buildingtypes')->insert([
+            'building_name' => 'herbalist',
+            'building_category' => 'herbalist'
+        ]);       
 
     }
 }

@@ -73,6 +73,14 @@ Route::get('towns', 'TownController@index');
 Route::get('towns/{towns}', 'TownController@show');
 Route::get('towns/{towns}/edit', 'TownController@edit');
 Route::patch('towns/{towns}', 'TownController@update');
+//constructions
+Route::get('constructions', 'ConstructionController@index');
+Route::get('constructions/create','ConstructionController@create');
+Route::post('constructions','ConstructionController@store');
+Route::get('constructions/{constructions}', 'ConstructionController@show');
+Route::get('constructions/{constructions}/edit', 'ConstructionController@edit');
+Route::delete('constructions/{constructions}', 'ConstructionController@destroy');
+Route::patch('constructions/{constructions}', 'ConstructionController@update');
 
 //maps
 //town maps

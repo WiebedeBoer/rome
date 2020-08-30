@@ -33,7 +33,7 @@
 		<a href="/maprace" class="btn btn-dark">Racetracks &#x1F40E;</a>
 
 		<a href="/mapbarracks" class="btn btn-dark">Barracks &#x2694;</a>
-		<a href="/mapbarrel" class="btn btn-dark">Coopers &amp; Potterers &#x1F3FA;</a>	
+		<a href="/mapbarrel" class="btn btn-dark">Packaging &amp; Storage &#x1F3FA;</a>	
 		<a href="/maphospital" class="btn btn-dark">Baths &amp; Hospitals &#x2695;</a>			
 		<a href="/mapstaples" class="btn btn-dark">Grains &fork;</a>
 
@@ -53,9 +53,9 @@
 		<a href="/mapfish" class="btn btn-dark">Fish &#x1f41f;</a>
 			
 		<a href="/mapfiber" class="btn btn-dark">Fabrics &amp; Silk Caravans &#x1F42A;</a>
-		<a href="/mapthatching" class="btn btn-dark">Thatching</a>
-		<a href="/mappottery" class="btn btn-dark">Clay &#x1F9F1;</a>
-		<a href="/maptimber" class="btn btn-dark">Timber &#x1F332;</a>		
+		<a href="/mapthatching" class="btn btn-dark">Baskets &amp; Thatching</a>
+		<a href="/mappottery" class="btn btn-dark">Amphora Kilns &amp; Claypits &#x1F9F1;</a>
+		<a href="/maptimber" class="btn btn-dark">Carpentry &amp; Timber &#x1F332;</a>		
 
 		<a href="/mapmarble" class="btn btn-dark">Marble &amp; Stone &block;</a>		
 		<a href="/mapcopper" class="btn btn-dark">Copper &amp; Tin &#x26CF;</a>
