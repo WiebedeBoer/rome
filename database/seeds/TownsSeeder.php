@@ -851,6 +851,7 @@ class TownsSeeder extends Seeder
             'seasoning' => 'olives',
             'pottery' => 'clay',
             'timber' => 'cypress',
+            'paper' => 'parchment',
             'sculpture' => 'limestone', 
             'defenses' => '800',
             'agriculture' => '450',  
