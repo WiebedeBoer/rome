@@ -67368,6 +67368,12 @@ class BuildingSeeder extends Seeder
             DB::table('buildings')->insert([
                 'subtype' => 'amphora kiln',
                 'buildingtype' => '90',
+                'location' => '290',
+                'category' => 'packaging'
+            ]);
+            DB::table('buildings')->insert([
+                'subtype' => 'amphora kiln',
+                'buildingtype' => '90',
                 'location' => '291',
                 'category' => 'packaging'
             ]);

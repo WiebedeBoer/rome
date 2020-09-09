@@ -200,6 +200,11 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('town')->references('town_id')->on('towns');
             $table->foreign('realm')->references('realm_id')->on('realms');
         });	
+        //diplomacy
+        Schema::table('diplomacies', function (Blueprint $table) {
+            $table->foreign('to')->references('realm_id')->on('realms');
+            $table->foreign('from')->references('realm_id')->on('realms');
+        });	
         //political organization
 		Schema::table('rulers', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');

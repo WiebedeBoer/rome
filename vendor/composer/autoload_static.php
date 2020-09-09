@@ -500,6 +500,7 @@ class ComposerStaticInitf37bbadeedfb9fa5cfed2981b2a30435
         'App\\Construction' => __DIR__ . '/../..' . '/app/Construction.php',
         'App\\Constructiontype' => __DIR__ . '/../..' . '/app/Constructiontype.php',
         'App\\Culture' => __DIR__ . '/../..' . '/app/Culture.php',
+        'App\\Diplomacy' => __DIR__ . '/../..' . '/app/Diplomacy.php',
         'App\\Equipment' => __DIR__ . '/../..' . '/app/Equipment.php',
         'App\\Equipmenttype' => __DIR__ . '/../..' . '/app/Equipmenttype.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',

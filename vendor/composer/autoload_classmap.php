@@ -21,6 +21,7 @@ return array(
     'App\\Construction' => $baseDir . '/app/Construction.php',
     'App\\Constructiontype' => $baseDir . '/app/Constructiontype.php',
     'App\\Culture' => $baseDir . '/app/Culture.php',
+    'App\\Diplomacy' => $baseDir . '/app/Diplomacy.php',
     'App\\Equipment' => $baseDir . '/app/Equipment.php',
     'App\\Equipmenttype' => $baseDir . '/app/Equipmenttype.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
